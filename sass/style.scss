@@ -1,0 +1,219 @@
+@import "../node_modules/bootstrap/scss/mixins/banner";
+//@import "../node_modules/bootstrap/scss/vendor/rfs";
+@include bsBanner("");
+
+
+// scss-docs-start import-stack
+// Configuration
+@import "../node_modules/bootstrap/scss/functions";
+
+@import "variables";
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/utilities";
+
+#owl-person .owl-nav button {
+    background-color: #430087;
+    font-size: 50px;
+    border-radius: 50px;
+    height: 35px;
+    width: 35px;
+    padding: 0 !important;
+    vertical-align: middle;
+    display: inline-grid;
+    line-height: 0px;
+}
+
+#owl-person .owl-nav button span{
+    color: white;
+    padding-top: 31%;
+}
+
+#owl-person .owl-nav{
+    position: absolute;
+    top: 50%;
+    justify-content: space-between;
+    display: flex;
+    width: 112%;
+    left: -8%;
+    right: 0;
+    margin: auto;
+}
+
+.background-img {
+    background-image: url(../image/index-section-6-carousel-persona-backgraound.svg);
+    background-repeat: no-repeat;
+    background-position: 40.5% 4%;
+    background-size: 27%;
+}
+#index-item-6{
+    padding-bottom: 27rem;
+}
+#index-item-7 {
+    background: #b698fb;
+}
+
+small{
+    font-size: .75em;
+}
+
+#top-footer {
+    background: #43008a;
+}
+
+@include media-breakpoint-up(xs) { }
+
+@include media-breakpoint-up(sm) { }
+
+@include media-breakpoint-up(md){
+    #index-item{
+        margin-top: 22rem;
+    }
+    #index-item-7 img{
+        margin-top: -21px;
+    }
+}
+
+@include media-breakpoint-up(lg){
+    .img-index-element-1-lg {
+        -webkit-transform: scale(1.4);
+        transform: scale(1);
+        margin-top: -13rem;
+        right: 2rem;
+        position: absolute;
+        width: 80%;
+        height: 137ch;
+    }
+}
+
+@include media-breakpoint-up(xxl){
+    .img-index-element-1-xxl {
+        -webkit-transform: scale(1.4);
+        transform: scale(1);
+        margin-top: -8rem;
+        right: 5rem;
+        position: absolute;
+        width: 80%;
+        height: 137ch;
+    }
+    #index-item-7 img{
+        margin-top: -30px;
+    }
+}
+
+@for $i from 1 to 100 {
+
+    @include media-breakpoint-up(xs) {
+        .font-#{$i}-em{
+            font-size: #{$i}em;
+        }
+    }
+
+    @include media-breakpoint-up(sm) {
+        .font-#{$i}-em-sm{
+            font-size: #{$i}em;
+        }
+    }
+
+    @include media-breakpoint-up(md) {
+        .font-#{$i}-em-md{
+            font-size: #{$i}em;
+        }
+    }
+
+    @include media-breakpoint-up(lg) {
+        .font-#{$i}-em-lg{
+            font-size: #{$i}em;
+        }
+    }
+
+    @include media-breakpoint-up(xl) {
+        .font-#{$i}-em-xl{
+            font-size: #{$i}em;
+        }
+    }
+
+    @include media-breakpoint-up(xxl) {
+        .font-#{$i}-em-xxl{
+            font-size: #{$i}em;
+        }
+    }
+    
+    @for $o from 1 to 10 {
+        @include media-breakpoint-up(xs) {
+            .font-#{$i}-#{$o}-em{
+                font-size: #{$i}#{$punto}#{$o}em;
+            }
+        }
+    
+        @include media-breakpoint-up(sm) {
+            .font-#{$i}-#{$o}-em-sm{
+                font-size: #{$i}#{$punto}#{$o}em;
+            }
+        }
+    
+        @include media-breakpoint-up(md) {
+            .font-#{$i}-#{$o}-em-md{
+                font-size: #{$i}#{$punto}#{$o}em;
+            }
+        }
+    
+        @include media-breakpoint-up(lg) {
+            .font-#{$i}-#{$o}-em-lg{
+                font-size: #{$i}#{$punto}#{$o}em;
+            }
+        }
+    
+        @include media-breakpoint-up(xl) {
+            .font-#{$i}-#{$o}-em-xl{
+                font-size: #{$i}#{$punto}#{$o}em;
+            }
+        }
+    
+        @include media-breakpoint-up(xxl) {
+            .font-#{$i}-#{$o}-em-xxl{
+                font-size: #{$i}#{$punto}#{$o}em;
+            }
+        }
+
+        @for $u from 1 to 10 {
+            @include media-breakpoint-up(xs) {
+                .font-#{$i}-#{$o}#{$u}-em{
+                    font-size: #{$i}#{$punto}#{$o}#{$u}em;
+                }
+            }
+        
+            @include media-breakpoint-up(sm) {
+                .font-#{$i}-#{$o}#{$u}-em-sm{
+                    font-size: #{$i}#{$punto}#{$o}#{$u}em;
+                }
+            }
+        
+            @include media-breakpoint-up(md) {
+                .font-#{$i}-#{$o}#{$u}-em-md{
+                    font-size: #{$i}#{$punto}#{$o}#{$u}em;
+                }
+            }
+        
+            @include media-breakpoint-up(lg) {
+                .font-#{$i}-#{$o}#{$u}-em-lg{
+                    font-size: #{$i}#{$punto}#{$o}#{$u}em;
+                }
+            }
+        
+            @include media-breakpoint-up(xl) {
+                .font-#{$i}-#{$o}#{$u}-em-xl{
+                    font-size: #{$i}#{$punto}#{$o}#{$u}em;
+                }
+            }
+        
+            @include media-breakpoint-up(xxl) {
+                .font-#{$i}-#{$o}#{$u}-em-xxl{
+                    font-size: #{$i}#{$punto}#{$o}#{$u}em;
+                }
+            }
+            
+        }  
+    }
+    
+}
