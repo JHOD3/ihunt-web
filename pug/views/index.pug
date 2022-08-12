@@ -2,7 +2,7 @@ extends ../layouts/_main
 block variables 
     - 
         var page = {
-            title: 'iHunt - Inicio',
+            title: 'iHunt - Home',
             description: 'En cuentra candidatos de valor de forma simple, economica y efectiva. Conoce el sistema que esta revolucionando la atracción de talento en toda la región.',
             keywords: "cuentra, economica, candidatos, efectiva, sistema, revolucionando, atracción, región",
             author: 'iHunt develop team'
@@ -15,96 +15,101 @@ block style
 block content 
     section#index-init.container
         .row
-            div.col-12.col-md-5.pt-md-5.px-md-0
-                h1.text-primary.font-2-6-em-lg.font-2-8-em-xxl.pt-md-5.mt-md-5 Encuentra candidatos de #[br.d-md-block.d-none]valor de forma simple,#[br.d-md-block.d-none] económica y efectiva
-                p.py-md-4 Conoce el sistema que esta revolucionando la #[br.d-md-block.d-none] atracción de talento en toda la región.
-                button.btn.btn-primary.px-5.px-md-4  Quiero una demo 
-            div.col-12.col-md-7.pt-md-5.px-md-0.justify-content-end.d-flex
-                //img(src="image/index-element-1.svg", alt="", srcset="").img-index-element-1
-                lottie-player(src="image/animacion-1/data.json"  background="transparent"  speed="1"  hover loop  autoplay).img-index-element-1-lg.img-index-element-1-xxl
+            div.col-12.col-md-5.pt-md-5.px-md-0.pt-5
+                h1.text-primary.font-2-5-em-lg.font-2-5-em-xxl.font-1-75-em.pt-md-5.mt-md-5.pt-5.mt-5.py-5.pb-md-0 Encuentra #[strong.fw-bold candidatos de #[br]valor ] de forma simple,#[br] económica y efectiva
+                p.py-md-4.py-xxl-0.py-5.font-1-15-em-md Conoce el sistema que esta revolucionando la #[br.d-md-block.d-none] atracción de talento en toda la región.
+                button.btn.btn-primary.px-5.px-md-4.mt-4.mt-md-4  Quiero una demo 
+            div.col-12.col-md-7.pt-md-5.px-md-0.justify-content-end.d-flex.position-absolute-xs
+                lottie-player(src="image/animaciones/animacion-1/data.json"  background="transparent"  speed="1"  hover loop  autoplay).img-index-element-1-lg.img-index-element-1-xxl.d-md-flex.d-none
+                lottie-player(src="image/animaciones/animacion-1-m/data.json"  background="transparent"  speed="1"  hover loop  autoplay).img-index-element-1-lg.img-index-element-1-xxl.d-md-none.d-flex
+
     section#index-item.container
         .row
             .col-12.col-md-4.pt-md-5
-                .card.px-md-5.pb-md-4.section-2-card-h
+                .card.px-md-5.pb-md-4.section-2-card-h.px-5
                     div.card-img-content-section-2
-                        img(src="image/index-section-2-icono-1.png", alt="", srcset="")
+                        lottie-player(src="image/animaciones/lf20_d2xg1ucd.json" background="transparent"  speed="1"  hover loop  autoplay).animation-section-2
                     div
-                        h2.text-primary 10x más rápido
-                        p.pt-md-3 Nuestro sistema que combina IA para el filtrado de currículums permite preseleccionar candidatos en solo 5 días hábiles.
+                        h2.text-primary 10x más #[b.fw-bold rápido]
+                        p.pt-md-3.pt-3  Nuestro sistema que combina IA para el filtrado de currículums permite preseleccionar candidatos en solo 5 días hábiles.
             .col-12.col-md-4.pt-md-5
                 .card.px-md-5.pb-md-4.section-2-card-h
                     div.card-img-content-section-2
-                        img(src="image/index-section-2-icono-2.png", alt="", srcset="")
+                        lottie-player(src="image/animaciones/lf20_br3hefsj.json" background="transparent"  speed="1"  hover loop  autoplay).animation-section-2
                     div 
-                        h2.text-primary 10x más económico
+                        h2.text-primary 10x más #[b.fw-bold económico]
                         p.pt-md-3 Nuestra herramienta es hasta 10 veces más económica que cualquier servicio de consultoría.
             .col-12.col-md-4.pt-md-5
                 .card.px-md-5.pb-md-4.section-2-card-h
                     div.card-img-content-section-2
-                        img(src="image/index-section-2-icono-3.png", alt="", srcset="")
+                        lottie-player(src="image/animaciones/lf20_eu8fi5g3.json" background="transparent"  speed="1"  hover loop  autoplay).animation-section-2
                     div    
-                        h2.text-primary 10x más efectivo
+                        h2.text-primary 10x más #[b.fw-bold efectivo]
                         p.pt-md-3 Con alcance a más de 31 países, aseguramos una shortlist de talento a medida de tus necesidades.
     section#index-item-2.mt-md-5.pt-md-5.container.pb-md-1
-        .col-md-10.mx-auto.card.my-md-5
-            .row.row-cols-4.p-5
+        .col-md-10.mx-auto.card.my-md-5.my-5
+            .row.row-cols-md-4.row.row-cols-2.p-5
                 .justify-content-center.d-grid
                     img(src="image/index-section-3-icono-1.png", alt="", srcset="").mx-auto
                     div.text-center.mt-md-3 
                         h2.fw-bold.text-primary 2.700
-                        p.mt-n3   iHunters
+                        p.mt-md-n3   iHunters
                 .justify-content-center.d-grid 
                     img(src="image/index-section-3-icono-2.png", alt="", srcset="").mx-auto
                     div.text-center.mt-md-3 
                         h2.fw-bold.text-primary 15.890
-                        p.mt-n3   Vacantes resueltas
+                        p.mt-md-n3   Vacantes resueltas
                 .justify-content-center.d-grid 
                     img(src="image/index-section-3-icono-3.png", alt="", srcset="").mx-auto
                     div.text-center.mt-md-3 
                         h2.fw-bold.text-primary 213
-                        p.mt-n3   Clientes
+                        p.mt-md-n3   Clientes
                 .justify-content-center.d-grid 
                     img(src="image/index-section-3-icono-4.png", alt="", srcset="").mx-auto
                     div.text-center.mt-md-3 
                         h2.fw-bold.text-primary 10
-                        p.mt-n3   Países
-    section#index-item-3.mt-md-5.pt-md-5.d-inline-flex.align-items-center.justify-content-center
+                        p.mt-md-n3   Países
+    section#index-item-3.mt-md-5.d-inline-flex.align-items-center.justify-content-center
         .container.px-md-0
-            img(src="image/index-elemento-41.svg", alt="", srcset="").col-md-12.px-md-0
+            img(src="image/index-elemento-41.svg", alt="", srcset="").col-md-12.px-md-0.d-md-block.d-none
+            img(src="image/index-elemento-4-m.svg", alt="", srcset="").col-md-12.px-md-0.d-md-none.d-block
         .container.position-absolute.mx-auto.absolute-center
-            .row.row-cols-2.col-md-10.mx-auto
-                .col 
-                    h2.text-white El mejor aliado de los#[br.d-md-block.d-none] departamentos de #[br.d-md-block.d-none] Recursos Humanos
+            .row.row-cols-md-2.col-md-10.mx-auto.row-cols-1
+                .col.align-items-md-center.d-md-grid
+                    h2.text-white.font-1-7-em-lg.font-1-75-em El mejor aliado de los#[br.d-md-block.d-none] departamentos de #[br.d-md-block.d-none] Recursos Humanos
                 .col
                     p.text-white Cumple con tus objetivos de selección de personal #[br.d-md-block.d-none] en tiempo y forma.
                     p.text-white iHunt te ayuda a hacer match con candidatos de #[br.d-md-block.d-none] alto potencial para tus vacantes.
-                    a.btn.btn-outline-light.mt-md-5    Quiero una demo
+                    a.btn.btn-outline-light.mt-md-4    Quiero una demo
     section#index-item-5.mt-md-5.pt-md-5.container.contain-layout
-        .row.row-cols-md-2.row-cols-1.align-items-center.mt-md-5.pt-md-5
-            .col
-                img(src="image/index-section-5-img-1.png", alt="", srcset="", loading="lazy") 
-            .col
+        .row.row-cols-md-3.row-cols-1.align-items-center.mt-md-5.pt-md-5
+            .col-md-5.col.order-3.order-md-1
+                lottie-player(src="image/animaciones/lf20_qwxjwzkp.json"  background="transparent"  speed="1" autoplay)
+            .col-md-1.d-md-flex.d-none.order-md-2.order-2 
+            .col-md-6.col.order-1.order-md-3
                 h2.text-primary  Resolvemos lo más importante
                 p.mt-md-4.pt-md-2   Nos hacemos cargo del #[b sourcing:] lo mas difícil y a la vez lo #[br.d-md-block.d-none] mas importante de la atracción de talento.
         .row.row-cols-md-2.row-cols-1.align-items-center.mt-md-5.pt-md-5
             .col
-                .col-md-11.ms-md-auto
+                .col-md-10.ms-md-auto
                     h2.text-primary  Sourcing Activo
                     p.mt-md-4.pt-md-2   Multiplica la calidad de tus procesos de selección a #[br.d-md-block.d-none] través de nuestro sistema de Sourcing Activo.
                     p   Combinamos algoritmos de #[b Inteligencia Artificial y#[br.d-md-block.d-none] Economías Colaborativas,] para que puedas obtener #[br.d-md-block.d-none] una lista de candidatos de valor hasta 10 veces más #[br.d-md-block.d-none] rápida y efectiva.
             .col
-                .col-md-11.ms-md-auto
-                    img(src="image/index-section-5-img-2.png", alt="", srcset="", loading="lazy")
+                .col-md-10.ms-md-auto.ps-md-5
+                    lottie-player(src="image/animaciones/animacion-red-perfil/data.json"  background="transparent"  speed="1" autoplay)#index-item-5-animation-2
+
         .row.row-cols-md-2.row-cols-1.align-items-center.mt-md-5.pt-md-5
-            .col
-                img(src="image/index-section-5-img-3.png", alt="", srcset="", loading="lazy") 
-            .col
+            .col-md-5.col.order-3.order-md-1
+                lottie-player(src="image/animaciones/animacion-planeta/data.json"  background="transparent"  speed="1"  autoplay)#index-item-5-animation-3
+            .col-md-1.d-md-flex.d-none.order-md-2.order-2 
+            .col-md-6.col.order-1.order-md-3
                 h2.text-primary  Alcance regional
                 p.mt-md-4.pt-md-2   Encuentra el mejor talento para tus ofertas de empleo #[br.d-md-block.d-none] #[b sin importar] dónde.
                 p   Tenemos cobertura efectiva en toda la región.    
         .row.row-cols-md-2.row-cols-1.align-items-center.mt-md-5.pt-md-5
             .col 
-                .col-md-11.ms-md-auto
+                .col-md-10.ms-md-auto
                     h2.text-primary  Filtrado inteligente
                     p.mt-md-4.pt-md-2   Nuestros algoritmos permiten acelerar el proceso #[br.d-md-block.d-none] de preselección de candidatos de manera #[br.d-md-block.d-none] exponencial.
                     p   #[b Tu empresa ahorrará hasta 30x de tiempo] en #[br.d-md-block.d-none] identificar candidatos de valor.
@@ -113,17 +118,18 @@ block content
         .justify-content-center.d-flex.mt-md-5
             a.btn.btn-primary.mx-auto Quiero una demo    
     section#index-item-6.mt-md-5.pt-md-5.d-flex.justify-content-center
-        img(src="image/index-elemento-6.svg", alt="", srcset="").col-md-12.px-md-0.mx-auto
+        img(src="image/index-elemento-6.svg", alt="", srcset="").col-md-12.px-md-0.mx-auto.d-md-block.d-none
+        img(src="image/index-elemento-6-m.svg", alt="", srcset="").col-md-12.px-md-0.mx-auto.d-md-none.d-block
         .container.position-absolute.mx-auto.absolute-center.mt-md-5.pt-md-5
-            h2.text-center.text-primary.mt-md-5.pt-md-2 Impactando en la productividad de#[br] #[strong  +200 compañías]
-            div#owl-logos.owl-carousel.col-md-10.mx-auto.mt-md-5.pt-md-5 
+            h2.text-center.text-primary.mt-md-5.pt-md-2.font-2-5-em-lg Impactando en la productividad de#[br] #[strong  +200 compañías]
+            div#owl-logos.owl-carousel.col-md-8.mx-auto.mt-md-5.pt-md-5.mx-md-auto 
                 img(src="image/index-logo-1.svg", alt="").col  
                 img(src="image/index-logo-2.svg", alt="").col
                 img(src="image/index-logo-3.svg", alt="").col
                 img(src="image/index-logo-4.svg", alt="").col
                 img(src="image/index-logo-5.svg", alt="").col
                 img(src="image/index-logo-6.svg", alt="").col
-            div#owl-logos-2.owl-carousel.col-md-10.mx-auto.my-md-5.py-md-3 
+            div#owl-logos-2.owl-carousel.col-md-8.mx-auto.my-md-5.py-md-3.mx-md-auto 
                 img(src="image/index-logo-1.svg", alt="").col  
                 img(src="image/index-logo-2.svg", alt="").col
                 img(src="image/index-logo-3.svg", alt="").col
@@ -162,48 +168,72 @@ block content
                             p #[i Director de RRHH, Mach Electronics]
     section#index-item-7.mt-md-5.d-flex.justify-content-center.align-items-center
         .container.px-md-0.mt-md-n3
-            img(src="image/index-elemento-7.png", alt="", srcset="").col-md-12.px-md-0
+            img(src="image/index-elemento-7.png", alt="", srcset="").col-md-12.px-md-0.d-md-block.d-none
+            img(src="image/index-elemento-7-m.png", alt="", srcset="").col-md-12.px-md-0.d-md-none.d-block
         .container.position-absolute.mx-auto.absolute-center
-            .row.row-cols-2.col-md-10.mx-auto
-                .col-5
-                .col.ps-md-4
-                    h2.text-primary El talento superior es hasta #[br.d-md-block.d-none]
-                        | #[span.fw-bold 8X más productivo]
-                    p.text-primary.my-md-4.fw-bold McKinney, 2021
-                    p.text-white Publicando tus ofertas de empleo en nuestra plataforma permitirá que #[br.d-md-block.d-none] encuentres #[strong.fw-bold candidatos de valor en tiempo y forma.  en tiempo y forma.]
-                    a.btn.btn-primary.mt-md-5    Quiero una demo 
+            .row.row-cols-md-2.col-md-10.mx-auto
+                .col-md-5.d-md-block.d-none
+                .col-md.ps-md-5
+                    div 
+                        h2.text-primary El talento superior es hasta #[br.d-md-block.d-none]
+                            | #[span.fw-bold 8X más productivo]
+                        p.text-primary.my-md-4.fw-bold McKinney, 2021
+                    div
+                        p.text-white Publicando tus ofertas de empleo en nuestra plataforma permitirá que #[br.d-md-none.d-none] encuentres #[strong.fw-bold candidatos de valor en tiempo y forma.  en tiempo y forma.]
+                        a.btn.btn-primary.mt-md-5    Quiero una demo 
     section#index-item-8.mt-md-5.pt-md-5.pb-md-5
         .container
             .pb-md-4
-                h2.text-primary.text-center    #iHuntBlog
+                h2.text-primary.text-center.font-2-3-em-md   #iHuntBlog
                 p.text-center.md-md-5.mt-md-4   Todos los meses nuevos artículos sobre las temáticas más #[br.d-md-block.d-none] relevantes del mundo de los RRHH y la atracción de talento.
-            .row.row-cols-3.mt-md-5
-                .px-md-3.col
-                    .card
-                        img(src='image/example-img-card.png' alt='image/example-img-card.png')
-                        .card-body.p-md-5
-                            small.card-title 30 de Junio de 2022
-                            p.card-text.mt-md-3
-                                | 5 formas en que la cultura de una empresa incide en las contrataciones
-                .px-md-3.col
-                    .card
-                        img(src='image/example-img-card.png' alt='image/example-img-card.png')
-                        .card-body.p-md-5
-                            small.card-title 30 de Junio de 2022
-                            p.card-text.mt-md-3
-                                | 5 formas en que la cultura de una empresa incide en las contrataciones
-                .px-md-3.col
-                    .card
-                        img(src='image/example-img-card.png' alt='image/example-img-card.png')
-                        .card-body.p-md-5
-                            small.card-title 30 de Junio de 2022
-                            p.card-text.mt-md-3
-                                | 5 formas en que la cultura de una empresa incide en las contrataciones
+            .owl-carousel#owl-card-blog
+                a(href="http://", target="_blank", rel="noopener noreferrer").card.card-blog-a
+                    img(src='image/example-img-card.png' alt='example-img-card.png')
+                    .card-body.card-body-blog.px-md-5.px-xxl-4.pb-md-5
+                        small.card-title 30 de Junio de 2022
+                        p.card-text.mt-md-3.mt-5
+                            | 5 formas en que la cultura de una empresa incide en las contrataciones
+                a(href="http://", target="_blank", rel="noopener noreferrer").card.card-blog-a
+                    img(src='image/example-img-card.png' alt='example-img-card.png')
+                    .card-body.card-body-blog.px-md-5.px-xxl-4.pb-md-5
+                        small.card-title 30 de Junio de 2022
+                        p.card-text.mt-md-3.mt-5
+                            | 5 formas en que la cultura de una empresa incide en las contrataciones
+                a(href="http://", target="_blank", rel="noopener noreferrer").card.card-blog-a
+                    img(src='image/example-img-card.png' alt='example-img-card.png')
+                    .card-body.card-body-blog.px-md-5.px-xxl-4.pb-md-5
+                        small.card-title 30 de Junio de 2022
+                        p.card-text.mt-md-3.mt-4
+                            | 5 formas en que la cultura de una empresa incide en las contrataciones
 
 
 
 block script
 
     script(src="js/jquery.min-dist.js") 
-    script(src="js/owl.carousel.min-dist.js")
-    script(src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js") 
+    script(src="js/owl.carousel.min-dist.js") 
+    script(src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js") 
+    script. 
+        LottieInteractivity.create({
+            player: '.repeatPlayer',
+            mode: 'scroll',
+            actions: [
+                {   
+                    visibility:[0, 1.0],
+                    type: "seek",
+                    frames: [0, 291]
+                }
+            ]
+        });
+
+        LottieInteractivity.create({
+            player: '.repeatPlayer1',
+            mode: 'scroll',
+            actions: [
+                {   
+                    visibility:[0, 1.0],
+                    type: "seek",
+                    frames: [0, 592]
+                }
+            ]
+        });

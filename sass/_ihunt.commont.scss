@@ -5,10 +5,7 @@ body{
     font-size: 16px;
 }
 
-h1, h2 {
-    font-family: 'Ubuntu', sans-serif;
-    font-weight:normal;
-}
+
 
 .nav-link{
     contain: layout;
@@ -18,19 +15,49 @@ h1, h2 {
 .contain-layout{
     contain: layout;
 }
-a.nav-link.active::after {
-    content: "";
-    position: absolute;
-    width: -webkit-fill-available;
-    height: .21rem;
-    margin-top: 3.2rem;
-    margin-right: var(--#{$prefix}navbar-nav-link-padding-x);
-    margin-left: var(--#{$prefix}navbar-nav-link-padding-x);
-    background: $primary;
+
+@include media-breakpoint-up(xs) {
+    .navbar-nav {
+        justify-content: left;
+        display: block;
+        margin-top: 1.5rem;
+        .nav-item{
+            text-align: start;
+            display: flex;
+        }
+    }
+    nav .container{
+        padding: 1.5rem;
+    }
 }
-.nav-item.active.nav-link {
-    color: $primary;
+
+@include media-breakpoint-up(md){
+    
+    a.nav-link.active::after {
+        content: "";
+        position: absolute;
+        width: -webkit-fill-available;
+        height: 0.31rem;
+        margin-top: 3.9rem;
+        margin-right: var(--ihunt-navbar-nav-link-padding-x);
+        margin-left: var(--ihunt-navbar-nav-link-padding-x);
+        background: #430087;
+    }
+    .nav-item.active.nav-link {
+        color: $primary;
+    }
+
+    .navbar-nav {
+        display: flex;
+        margin-top: initial;
+        
+    }
+    nav .container{
+        padding: initial;
+    }
 }
+
+
 .navbar-expand-lg .navbar-nav .dropdown-menu.lang-list{
     position: absolute;
     border-radius: 10px;

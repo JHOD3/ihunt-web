@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="428" height="541" viewBox="0 0 428 541">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="428" height="541" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectángulo_43" data-name="Rectángulo 43" width="204.456" height="204.456" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect id="Rectángulo_44" data-name="Rectángulo 44" width="266" height="266" transform="translate(0.412 0.417)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <rect id="Rectángulo_45" data-name="Rectángulo 45" width="340" height="340" transform="translate(0 0.005)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-5">
+      <rect id="Rectángulo_46" data-name="Rectángulo 46" width="157.369" height="157.369" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-6">
+      <rect id="Rectángulo_47" data-name="Rectángulo 47" width="101.675" height="101.675" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_918" data-name="Grupo 918" transform="translate(0 -2648.995)">
+    <g id="Cuadrícula_de_repetición_1" data-name="Cuadrícula de repetición 1" transform="translate(0 2648.995)" clip-path="url(#clip-path)">
+      <g transform="translate(0 -2648.995)">
+        <rect id="Rectángulo_302" data-name="Rectángulo 302" width="428" height="541" transform="translate(0 2648.995)" fill="#430087"/>
+      </g>
+    </g>
+    <g id="Grupo_559" data-name="Grupo 559" transform="translate(127.415 2893.495)" opacity="0.442">
+      <path id="Trazado_90" data-name="Trazado 90" d="M250.056,0H147.611C137.6,0,128.62,7.494,128.1,17.5a18.487,18.487,0,0,0,18.463,19.483l57.018.005a1.5,1.5,0,0,1,1.061,2.562l-91.2,91.2c-7.084,7.085-8.124,18.729-1.422,26.178a18.5,18.5,0,0,0,26.841.724L230.8,65.712a1.5,1.5,0,0,1,2.561,1.061l.005,55.972c0,10.01,7.5,18.987,17.5,19.509a18.5,18.5,0,0,0,19.491-18.464V20.3A20.3,20.3,0,0,0,250.056,0" transform="translate(2.228 0.001)" fill="#5b3fc0"/>
+      <path id="Trazado_91" data-name="Trazado 91" d="M65.54,176.408,50.469,191.479a18.5,18.5,0,0,0,26.159,26.16L91.7,202.567A18.5,18.5,0,0,0,65.54,176.408" transform="translate(0.933 3.545)" fill="#5b3fc0"/>
+      <path id="Trazado_92" data-name="Trazado 92" d="M6.823,234.849l-1.409,1.409a18.5,18.5,0,0,0,26.159,26.16l1.409-1.41A18.5,18.5,0,0,0,6.823,234.849" transform="translate(0 4.756)" fill="#5b3fc0"/>
+    </g>
+    <g id="Grupo_558" data-name="Grupo 558" transform="translate(0.44 2649.065)">
+      <g id="Grupo_71" data-name="Grupo 71" transform="translate(67.539 67.627)" opacity="0.196">
+        <g id="Grupo_70" data-name="Grupo 70">
+          <g id="Grupo_69" data-name="Grupo 69" clip-path="url(#clip-path-2)">
+            <circle id="Elipse_2" data-name="Elipse 2" cx="102" cy="102" r="102" transform="translate(0.021 0.308)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+        </g>
+      </g>
+      <g id="Grupo_74" data-name="Grupo 74" transform="translate(36.148 36.517)" opacity="0.101">
+        <g id="Grupo_73" data-name="Grupo 73" transform="translate(0 0)">
+          <g id="Grupo_72" data-name="Grupo 72" transform="translate(0 0)" clip-path="url(#clip-path-3)">
+            <circle id="Elipse_3" data-name="Elipse 3" cx="133.143" cy="133.143" r="133.143" transform="translate(0.476 0.194)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+        </g>
+      </g>
+      <g id="Grupo_77" data-name="Grupo 77" transform="translate(-0.44 -0.071)" opacity="0.051">
+        <g id="Grupo_76" data-name="Grupo 76" transform="translate(0 0)">
+          <g id="Grupo_75" data-name="Grupo 75" clip-path="url(#clip-path-4)">
+            <circle id="Elipse_4" data-name="Elipse 4" cx="169.418" cy="169.418" r="169.418" transform="translate(0.789 0.507)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+        </g>
+      </g>
+      <g id="Grupo_80" data-name="Grupo 80" transform="translate(91.083 91.17)" opacity="0.25">
+        <g id="Grupo_79" data-name="Grupo 79" transform="translate(0 0)">
+          <g id="Grupo_78" data-name="Grupo 78" clip-path="url(#clip-path-5)">
+            <circle id="Elipse_5" data-name="Elipse 5" cx="78.478" cy="78.478" r="78.478" transform="translate(0.206 0.206)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+        </g>
+      </g>
+      <g id="Grupo_83" data-name="Grupo 83" transform="translate(118.93 119.017)" opacity="0.297">
+        <g id="Grupo_82" data-name="Grupo 82" transform="translate(0 0)">
+          <g id="Grupo_81" data-name="Grupo 81" clip-path="url(#clip-path-6)">
+            <circle id="Elipse_6" data-name="Elipse 6" cx="50.631" cy="50.631" r="50.631" transform="translate(0.206 0.206)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          </g>
+        </g>
+      </g>
+      <path id="Trazado_87" data-name="Trazado 87" d="M402.011,379.733a22.278,22.278,0,1,1-22.278-22.278A22.278,22.278,0,0,1,402.011,379.733Z" transform="translate(-209.966 -209.879)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" opacity="0.351"/>
+    </g>
+  </g>
+</svg>

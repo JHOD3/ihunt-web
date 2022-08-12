@@ -38,15 +38,25 @@ $grays: (
 
 // scss-docs-start color-variables
 $blue:    #430087 !default;
-$indigo:  #6610f2 !default;
-$purple:  #6f42c1 !default;
+$indigo:  #8C7BD1 !default;
+$purple:  #43008A !default;
 $pink:    #d63384 !default;
 $red:     #dc3545 !default;
 $orange:  #fd7e14 !default;
 $yellow:  #ffc107 !default;
-$green:   #198754 !default;
+$green:   #28C3A0 !default;
 $teal:    #20c997 !default;
 $cyan:    #0dcaf0 !default;
+
+$color-1:  #8C7BD1 !default;
+$color-2:  #28C3A0 !default;
+$color-3:  #347ED3 !default;
+$color-4:  #43008A !default;
+
+
+$rubicon-color-2: #03886A !default;
+$rubicon-color-3: #185FB1 !default;
+$rubicon-color-4: #300965 !default;
 // scss-docs-end color-variables
 
 // scss-docs-start colors-map
@@ -64,7 +74,11 @@ $colors: (
   "black":      $black,
   "white":      $white,
   "gray":       $gray-600,
-  "gray-dark":  $gray-800
+  "gray-dark":  $gray-800,
+  "color-1":     $color-1,
+  "color-2":     $color-2,
+  "color-3":     $color-3,
+  "color-4":     $color-4
 ) !default;
 // scss-docs-end colors-map
 
@@ -318,7 +332,11 @@ $theme-colors: (
   "warning":    $warning,
   "danger":     $danger,
   "light":      $light,
-  "dark":       $dark
+  "dark":       $dark,
+  "color-1":    $color-1,
+  "color-2":    $color-2,
+  "color-3":    $color-3,
+  "color-4":    $color-4
 ) !default;
 // scss-docs-end theme-colors-map
 
@@ -452,8 +470,8 @@ $container-max-widths: (
   sm: 540px,
   md: 720px,
   lg: 960px,
-  xl: 1140px,
-  xxl: 1320px
+  xl: 1180px,
+  xxl: 1134px
 ) !default;
 // scss-docs-end container-max-widths
 
@@ -716,7 +734,7 @@ $table-variants: (
 // Shared variables that are reassigned to `$input-` and `$btn-` specific variables.
 
 // scss-docs-start input-btn-variables
-$input-btn-padding-y:         0.813rem !default;
+$input-btn-padding-y:         0.613rem !default;
 $input-btn-padding-x:         1.375rem !default;
 $input-btn-font-family:       null !default;
 $input-btn-font-size:         $font-size-base !default;
@@ -1258,7 +1276,7 @@ $card-group-margin:                 $grid-gutter-width * .5 !default;
 // scss-docs-start accordion-variables
 $accordion-padding-y:                     0.938rem !default;
 $accordion-padding-x:                     1.25rem !default;
-$accordion-color:                         var(--#{$prefix}body-color) !default;
+$accordion-color:                         #636D90 !default;
 $accordion-bg:                            $body-bg !default;
 $accordion-border-width:                  $border-width !default;
 $accordion-border-color:                  var(--#{$prefix}border-color) !default;
@@ -1279,14 +1297,14 @@ $accordion-button-active-color:           shade-color($primary, 10%) !default;
 $accordion-button-focus-border-color:     $input-focus-border-color !default;
 $accordion-button-focus-box-shadow:       $btn-focus-box-shadow !default;
 
-$accordion-icon-width:                    1.25rem !default;
+$accordion-icon-width:                    2rem !default;
 $accordion-icon-color:                    $accordion-button-color !default;
 $accordion-icon-active-color:             $accordion-button-active-color !default;
 $accordion-icon-transition:               transform .2s ease-in-out !default;
 $accordion-icon-transform:                rotate(-180deg) !default;
 
-$accordion-button-icon:         url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$accordion-icon-color}'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !default;
-$accordion-button-active-icon:  url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$accordion-icon-active-color}'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !default;
+$accordion-button-icon:         url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNSIgaGVpZ2h0PSIzNSIgdmlld0JveD0iMCAwIDM1IDM1Ij4KICA8ZyBpZD0iR3J1cG9fNDU3IiBkYXRhLW5hbWU9IkdydXBvIDQ1NyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTExMDggLTEzNDYpIj4KICAgIDxnIGlkPSJFbGlwc2VfMzMiIGRhdGEtbmFtZT0iRWxpcHNlIDMzIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMTA4IDEzNDYpIiBmaWxsPSIjZmZmIiBzdHJva2U9IiNkOWQ5ZDkiIHN0cm9rZS13aWR0aD0iMSI+CiAgICAgIDxjaXJjbGUgY3g9IjE3LjUiIGN5PSIxNy41IiByPSIxNy41IiBzdHJva2U9Im5vbmUiLz4KICAgICAgPGNpcmNsZSBjeD0iMTcuNSIgY3k9IjE3LjUiIHI9IjE3IiBmaWxsPSJub25lIi8+CiAgICA8L2c+CiAgICA8cGF0aCBpZD0iVHJhemFkb180NDY0IiBkYXRhLW5hbWU9IlRyYXphZG8gNDQ2NCIgZD0iTS05MDguNSwxMzU3LjQ1OHYxMS42MjkiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIwMzQgMC4yMjgpIiBmaWxsPSJub25lIiBzdHJva2U9IiNjZWRiZGIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIyIi8+CiAgICA8cGF0aCBpZD0iVHJhemFkb180NDY1IiBkYXRhLW5hbWU9IlRyYXphZG8gNDQ2NSIgZD0iTS05MDguNSwxMzU3LjQ1OHYxMS42MjkiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDI0ODguNzcyIDIyNzIpIHJvdGF0ZSg5MCkiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2NlZGJkYiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2Utd2lkdGg9IjIiLz4KICA8L2c+Cjwvc3ZnPgo=") !default;
+$accordion-button-active-icon:  url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNSIgaGVpZ2h0PSIzNSIgdmlld0JveD0iMCAwIDM1IDM1Ij4KICA8ZyBpZD0iR3J1cG9fNDU2IiBkYXRhLW5hbWU9IkdydXBvIDQ1NiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTExMDggLTEzNDYpIj4KICAgIDxnIGlkPSJFbGlwc2VfMzMiIGRhdGEtbmFtZT0iRWxpcHNlIDMzIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMTA4IDEzNDYpIiBmaWxsPSIjZmZmIiBzdHJva2U9IiNkOWQ5ZDkiIHN0cm9rZS13aWR0aD0iMSI+CiAgICAgIDxjaXJjbGUgY3g9IjE3LjUiIGN5PSIxNy41IiByPSIxNy41IiBzdHJva2U9Im5vbmUiLz4KICAgICAgPGNpcmNsZSBjeD0iMTcuNSIgY3k9IjE3LjUiIHI9IjE3IiBmaWxsPSJub25lIi8+CiAgICA8L2c+CiAgICA8cGF0aCBpZD0iVHJhemFkb180NDY1IiBkYXRhLW5hbWU9IlRyYXphZG8gNDQ2NSIgZD0iTS05MDguNSwxMzU3LjQ1OHYxMS42MjkiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDI0ODguNzcyIDIyNzIpIHJvdGF0ZSg5MCkiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2NlZGJkYiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2Utd2lkdGg9IjIiLz4KICA8L2c+Cjwvc3ZnPgo=") !default;
 // scss-docs-end accordion-variables
 
 // Tooltips
