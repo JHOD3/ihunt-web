@@ -1,0 +1,134 @@
+extends ../layouts/_main   
+block variables 
+    - 
+        var page = {
+            title: 'iHunt - Ser ihunter',
+            description: 'En iHunt puedes ser parte de la mayor red de reclutamiento colaborativo, junto a más de 2500 reclutadores independientes que día a día están cambiando el paradigma del sourcing y el futuro de los Recursos Humanos.',
+            keywords: "cuentra, economica, candidatos, efectiva, sistema, revolucionando, atracción, región",
+            author: 'iHunt develop team'
+        }; 
+
+block style
+    link(rel="stylesheet", href="css/owl.carousel-dist.css")
+    link(rel="stylesheet", href="css/owl.theme.default-dist.css")
+    link(rel="stylesheet", href="css/owl.theme.green-dist.css")
+block content 
+    section#join-ihunt-section-init.d-flex
+        img(src="image/join-ihunt-section-init-img.svg", alt="").d-md-block.d-none
+        .container.position-absolute.mx-auto.absolute-center
+            .card.p-md-5.col-md-8.mx-md-auto
+                h1.text-center.text-primary(data-aos="fade-down", data-aos-duration="1000") ¡Súmate como iHunter!
+                p.text-center(data-aos="fade-up", data-aos-duration="2000") Por favor te solicitamos completar todos los datos #[br.d-md-block.d-none] y nos podremos en contacto.
+                form(action="").mt-md-5.pt-md-3#join-ihunt-form
+                    div(data-aos="fade-left", data-aos-duration="2000") 
+                        div.justify-content-between.d-flex     
+                            label(for="").ps-md-4.ps-3.col-md-6  #[small EMAIL]
+                        input.form-control(type="email" name="email" placeholder="juanprueba@gmail.com")
+                    div.mt-md-5(data-aos="fade-left", data-aos-duration="2000") 
+                        div.justify-content-between.d-flex 
+                            label(for="").ps-md-4.ps-3.col-md-6 #[small CONFIRMA TU EMAIL]
+                        input.form-control(type="email" name="email_confirm" placeholder="juanprueba@gmail.com") 
+                    div.mt-md-5(data-aos="fade-left", data-aos-duration="2000") 
+                        div.justify-content-between.d-flex 
+                            //- label(for="").ps-md-4.ps-3.col-md-6  #[small Nombre y apellido]
+                        input.form-control(type="text" name="full_name" placeholder="Nombre y apellido")
+                    div.mt-md-5(data-aos="fade-left", data-aos-duration="2000")
+                        div.justify-content-between.d-flex 
+                            //-label(for="").ps-md-4.ps-3.col-md-6  #[small Teléfono] 
+                        input.form-control(type="text" name="phone" placeholder="Teléfono con código país")
+                    div.mt-md-5(data-aos="fade-left", data-aos-duration="2000")
+                        div.justify-content-between.d-flex 
+                            //-label(for="").ps-md-4.ps-3.col-md-6  #[small Linkedin]  
+                        input.form-control(type="text" name="linkeding" placeholder="Linkedin (URL perfil)")
+                    div.mt-md-5(data-aos="fade-left", data-aos-duration="2000")
+                        div.justify-content-between.d-flex 
+                            //-label(for="").ps-md-4.ps-3.col-md-6  #[small País]  
+                        input.form-control(type="text" name="country" placeholder="Pais")
+                    div.mt-md-5(data-aos="fade-left", data-aos-duration="2000").input-password
+                        div.justify-content-between.d-flex 
+                            //-label(for="").ps-md-4.ps-3.col-md-6  #[small Contraseña]   
+                        input.form-control(type="password" name="password" placeholder="Contraseña")
+                        img(src="image/eyes-icon.png", alt="").view-password
+                    div.mt-md-5(data-aos="fade-left", data-aos-duration="2000").input-password 
+                        div.justify-content-between.d-flex
+                            //- label(for="").ps-md-4.ps-3.col-md-6  #[small Repetir contraseña] 
+                        input.form-control(type="password" name="password_confirm" placeholder="Repetir contraseña")
+                        img(src="image/eyes-icon.png", alt="").view-password
+                    .form-check.mt-md-5(data-aos="fade-left", data-aos-duration="2000") 
+                        input#flexCheckDefault.form-check-input(type='checkbox' value='')
+                        label.form-check-label(for='flexCheckDefault')
+                            | Acepto los #[a(href="./terms-conditions.html") términos y condiciones]
+                    div.mt-md-5(data-aos="fade-left", data-aos-duration="2000") 
+                        button(type="submit", disabled).btn.btn-primary.send ¡Enviar ahora!
+
+
+    
+    section#join-ihunt-section-2.pb-md-5
+        .container.pb-md-5
+            h2.text-primary.text-md-center.font-2-2-em-md.font-1-8-em ¿Cómo funciona?
+            .row.row-cols-md-3.row-cols-1.grid-como-funciona.pb-md-5 
+                .col.my-md-3
+                    .card
+                        h3.fw-bold.text-primary 01
+                        .row.mt-md-4 
+                            .col-md-5.col-5
+                                .lozad(data-src="image/animaciones/lf20_j6nswavh.json" , data-type="lottiefiles").animation-icon-ser-ihunter-section-3
+                            .col-md-7.col-7 
+                                h5 Sign-in
+                                p Te registras en la plataforma de iHunt
+                .col.my-md-3
+                    .card
+                        h3.fw-bold.text-primary 02
+                        .row.mt-md-4 
+                            .col-md-5.col-5
+                                .lozad(data-src="image/animaciones/lf20_rhvdwf12.json" , data-type="lottiefiles").animation-icon-ser-ihunter-section-3
+                            .col-md-7.col-7 
+                                h5 Capacitación
+                                p Participas de una capacitación online sin costo
+
+                .col.my-md-3
+                    .card
+                        h3.fw-bold.text-primary 03
+                        .row.mt-md-4 
+                            .col-md-5.col-5
+                                .lozad(data-src="image/animaciones/lf20_mr0tq8qh.json" , data-type="lottiefiles").animation-icon-ser-ihunter-section-3
+                            .col-md-7.col-7 
+                                h5 Acceso
+                                p Recibes el acceso a nuestra plataforma
+
+                .col.my-md-3
+                    .card
+                        h3.fw-bold.text-primary 04
+                        .row.mt-md-4 
+                            .col-md-5.col-5
+                                .lozad(data-src="image/animaciones/lf20_bbqhtya5.json" , data-type="lottiefiles").animation-icon-ser-ihunter-section-3
+                            .col-md-7.col-7 
+                                h5 Activas
+                                p Revisas, compartes y activas las búsquedas de tu interés
+
+                .col.my-md-3
+                    .card
+                        h3.fw-bold.text-primary 05
+                        .row.mt-md-4 
+                            .col-md-5.col-5
+                                .lozad(data-src="image/animaciones/lf20_wbm4zsdg.json" , data-type="lottiefiles").animation-icon-ser-ihunter-section-3
+                            .col-md-7.col-7 
+                                h5 Vinculado
+                                p Cada candidato queda vinculado a tu código en cada búsqueda
+
+                .col.my-md-3
+                    .card
+                        h3.fw-bold.text-primary 06
+                        .row.mt-md-4 
+                            .col-md-5.col-5
+                                .lozad(data-src="image/animaciones/lf20_2bznhvsj.json" , data-type="lottiefiles").animation-icon-ser-ihunter-section-3
+                            .col-md-7.col-7 
+                                h5 Cobras!
+                                p Recibes ingresos cada vez que el cliente selecciona tu candidato
+  
+block script
+
+    script(src="js/jquery.min-dist.js") 
+    script(src="js/owl.carousel.min-dist.js")
+    script(src="js/jquery.validate.min-dist.js") 
+    script(src="js/validate-ihunter.js")

@@ -13,7 +13,7 @@ $gray-200: #e9ecef !default;
 $gray-300: #dee2e6 !default;
 $gray-400: #ced4da !default;
 $gray-500: #adb5bd !default;
-$gray-600: #6c757d !default;
+$gray-600: #6c757d6e !default;
 $gray-700: #495057 !default;
 $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
@@ -52,7 +52,7 @@ $color-1:  #8C7BD1 !default;
 $color-2:  #28C3A0 !default;
 $color-3:  #347ED3 !default;
 $color-4:  #43008A !default;
-
+$color-5:  #5B3FC0 !default;
 
 $rubicon-color-2: #03886A !default;
 $rubicon-color-3: #185FB1 !default;
@@ -78,7 +78,8 @@ $colors: (
   "color-1":     $color-1,
   "color-2":     $color-2,
   "color-3":     $color-3,
-  "color-4":     $color-4
+  "color-4":     $color-4,
+  "color-5":     $color-5
 ) !default;
 // scss-docs-end colors-map
 
@@ -1246,7 +1247,7 @@ $pagination-border-radius-lg:       $border-radius-lg !default;
 
 // scss-docs-start placeholders
 $placeholder-opacity-max:           .5 !default;
-$placeholder-opacity-min:           .2 !default;
+$placeholder-opacity-min:           .5 !default;
 // scss-docs-end placeholders
 
 // Cards

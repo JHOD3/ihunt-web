@@ -9,16 +9,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>iHunt - Services</title>
     <link rel="stylesheet" href="css/ihunt.css">
+    <link rel="stylesheet" href="css/aos-dist.css">
     <link rel="stylesheet" href="css/toggle-menu.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/lottie-player-dist.js"> </script>
   </head>
   <link rel="stylesheet" href="css/owl.carousel-dist.css">
   <link rel="stylesheet" href="css/owl.theme.default-dist.css">
   <link rel="stylesheet" href="css/owl.theme.green-dist.css">
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom py-md-3">
-      <div class="container px-md-0"><a class="navbar-brand" href="#">
+      <div class="container px-md-0"><a class="navbar-brand" href="/">
           <image src="image/logo.svg"></image></a>
         <button class="menu navbar-toggler border-0 button-toggle d-md-none d-block" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))" aria-label="Main Menu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText">
           <svg width="35" height="35" viewBox="0 0 100 100">
@@ -29,11 +29,11 @@
         </button>
         <div class="collapse navbar-collapse ps-md-2" id="navbarText">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-md-5 ps-md-4">
-            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Servicios</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">La Plataforma</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Blog </a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Ser iHunter</a></li>
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="/">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="./services.html">Servicios</a></li>
+            <li class="nav-item"><a class="nav-link" href="./platform.html">La Plataforma</a></li>
+            <li class="nav-item"><a class="nav-link" href="/blog.html">Blog </a></li>
+            <li class="nav-item"><a class="nav-link" href="./ihunter.html">Ser iHunter</a></li>
             <li class="nav-item pt-4 d-md-none pb-5"><a type="button" data-bs-toggle="dropdown" aria-expanded="false" style="z-index:1"><img src="image/icono-globo-m.svg" alt="" srcset=""><span class="ms-3">Español</span></a></li>
             <li class="nav-item d-md-none border-top border-bottom mt-5 py-5"><a class="btn btn-primary my-5" href="#">Empezar ahora</a></li>
             <li class="nav-item d-md-none mt-5 py-5"><a class="pe-5" href="http://" target="_blank" rel="noopener noreferrer"><img class="icono-social" src="image/icono-linkedin-c.png" data-src="image/icono-linkedin-hover.png" alt="" srcset=""></a><a class="px-5 mx-5" href="http://" target="_blank" rel="noopener noreferrer"><img class="icono-social" src="image/icono-instagram-c.png" data-src="image/icono-instagram-hover.png" alt="" srcset=""></a><a class="ps-5" href="http://" target="_blank" rel="noopener noreferrer"><img class="icono-social" src="image/icono-facebook-c.png" data-src="image/icono-facebook-hover.png" alt="" srcset=""></a></li>
@@ -51,8 +51,8 @@
                 <div class="dropdown align-items-center d-flex"><a class="dropdown-toggle position-absolute after-none" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" style="z-index:1"><img src="image/icono-globo.svg" alt="" srcset=""><span class="ms-2"></span></a>
                   <ul class="dropdown-menu lang-list" aria-labelledby="dropdownMenuButton1" style="z-index:0">
                     <li class="justify-content-end d-flex pe-3 py-3"></li>
-                    <li class="ps-4 active"><a class="dropdown-item" href="#">ES</a></li>
-                    <li class="ps-4"><a class="dropdown-item" href="#">EN</a></li>
+                    <li class="ps-4"><a class="dropdown-item changeLang" href="#" data-lang="es">ES</a></li>
+                    <li class="ps-4"><a class="dropdown-item changeLang" href="#" data-lang="en">EN</a></li>
                   </ul>
                 </div>
               </li>
@@ -63,12 +63,12 @@
     <main class="pb-md-5">
       <section id="services-init"><img class="position-absolute mx-auto absolute-center" src="image/sevices-img-init.svg">
         <div class="container pt-md-5 mt-md-5 px-md-0">
-          <div class="pb-md-4">
-            <h2 class="text-primary text-center font-2-3-em-md">  Servicios</h2>
-            <p class="text-center md-md-5 mt-md-4">  Somos la alternativa más costo-efectiva para atraer talento​. <br class="d-md-block d-none">Escoge el plan que mejor se adapte a tus necesidades:</p>
+          <div class="pb-md-4 mt-md-5">
+            <h2 class="text-primary text-center font-2-3-em-md" data-aos="fade-down" data-aos-duration="2000">  Servicios</h2>
+            <p class="text-center md-md-5 mt-md-4" data-aos="fade-up" data-aos-duration="2000">  Somos la alternativa más costo-efectiva para atraer talento​. <br class="d-md-block d-none">Escoge el plan que mejor se adapte a tus necesidades:</p>
           </div>
-          <div class="row row-cols-md-4 row-cols-1 mt-md-5 pt-md-5">
-            <div class="col">
+          <div class="row row-cols-md-2 row-cols-1 pt-md-5 flex-md-nowrap mt-md-5 justify-content-center">
+            <div class="col-md-3 px-md-0" data-aos="flip-down" data-aos-duration="2000">
               <div class="card mb-4 box-shadow">
                 <div class="card-header bg-color-1 text-white">
                   <h2 class="my-0 font-weight-normal">On-demand</h2>
@@ -87,69 +87,73 @@
                 </div>
               </div>
             </div>
-            <div class="col pe-md-1">
-              <div class="card mb-4 box-shadow border-radius-card-r-none">
-                <div class="card-header bg-color-2 text-white border-card-header-r">
-                  <div class="ribbon-wrapper">
-                    <div class="ribbon-color-2 ribbon">Save 25%</div>
+            <div class="col-md-9" data-aos="flip-down" data-aos-duration="2000">
+              <div class="card d-md-flex d-block row-cols-md-2 row-cols-lg-3 row-cols-1 p-md-0 flex-row ms-md-3 mb-4">   
+                <div class="col p-md-0 m-md-0">
+                  <div class="box-shadow border-radius-card-r-none">
+                    <div class="card-header bg-color-2 text-white border-card-header-r position-relative">
+                      <div class="ribbon-wrapper">
+                        <div class="ribbon-color-2 ribbon">Save 25%</div>
+                      </div>
+                      <h2 class="my-0 font-weight-normal">Early</h2>
+                      <p>Suscripción mensual</p>
+                    </div>
+                    <div class="card-body">
+                      <ul class="list-unstyled mt-3 mb-4 border-bottom pb-md-3">
+                        <li> <img class="me-md-2 img-check-list" src="image/check-list-color-2.svg"><strong class="fw-bold">  2 vacante</strong></li>
+                        <li> <img class="me-md-2 img-check-list" src="image/check-list-color-2.svg">  Soporte helpdesk</li>
+                        <li> <img class="me-md-2 img-check-list" src="image/check-list-color-2.svg">  Onboarding personalizado</li>
+                        <li> <img class="me-md-2 img-check-list" src="image/check-list-color-gris.svg">  Asistencia en publicaciones</li>
+                        <li> <img class="me-md-2 img-check-list" src="image/check-list-color-gris.svg">  Junta directiva semanal</li>
+                      </ul>
+                      <h1 class="card-title pricing-card-title text-color-2 text-center my-md-3"><small>u$d</small>2.250<small>p/m</small></h1>
+                      <div class="justify-content-center d-flex pb-md-4"> <a class="col-md-10 col-10 mx-md-auto btn btn-color-2 text-white" type="button">¡Empezar ahora!</a></div>
+                    </div>
                   </div>
-                  <h2 class="my-0 font-weight-normal">Early</h2>
-                  <p>Suscripción mensual</p>
                 </div>
-                <div class="card-body">
-                  <ul class="list-unstyled mt-3 mb-4 border-bottom pb-md-3">
-                    <li> <img class="me-md-2 img-check-list" src="image/check-list-color-2.svg"><strong class="fw-bold">  2 vacante</strong></li>
-                    <li> <img class="me-md-2 img-check-list" src="image/check-list-color-2.svg">  Soporte helpdesk</li>
-                    <li> <img class="me-md-2 img-check-list" src="image/check-list-color-2.svg">  Onboarding personalizado</li>
-                    <li> <img class="me-md-2 img-check-list" src="image/check-list-color-gris.svg">  Asistencia en publicaciones</li>
-                    <li> <img class="me-md-2 img-check-list" src="image/check-list-color-gris.svg">  Junta directiva semanal</li>
-                  </ul>
-                  <h1 class="card-title pricing-card-title text-color-2 text-center my-md-3"><small>u$d</small>2.250<small>p/m</small></h1>
-                  <div class="justify-content-center d-flex pb-md-4"> <a class="col-md-10 col-10 mx-md-auto btn btn-color-2 text-white" type="button">¡Empezar ahora!</a></div>
-                </div>
-              </div>
-            </div>
-            <div class="col mx-md-0 px-md-0">
-              <div class="card mb-4 box-shadow border-radius-card-none">
-                <div class="card-header bg-color-3 text-white border-radius-card-none">
-                  <div class="ribbon-wrapper">
-                    <div class="ribbon-color-3 ribbon">Save 30%</div>
+                <div class="col p-md-0">
+                  <div class="box-shadow border-radius-card-none mx-md-1">
+                    <div class="card-header bg-color-3 text-white border-radius-card-none position-relative">
+                      <div class="ribbon-wrapper">
+                        <div class="ribbon-color-3 ribbon">Save 30%</div>
+                      </div>
+                      <h2 class="my-0 font-weight-normal">Grow</h2>
+                      <p>Suscripción mensual</p>
+                    </div>
+                    <div class="card-body">
+                      <ul class="list-unstyled mt-3 mb-4 border-bottom pb-md-3">
+                        <li> <img class="me-md-2 img-check-list" src="image/check-list-color-3.svg"><strong class="fw-bold">  3 vacante</strong></li>
+                        <li> <img class="me-md-2 img-check-list" src="image/check-list-color-3.svg">  Soporte helpdesk</li>
+                        <li> <img class="me-md-2 img-check-list" src="image/check-list-color-3.svg">  Onboarding personalizado</li>
+                        <li> <img class="me-md-2 img-check-list" src="image/check-list-color-3.svg">  Asistencia en publicaciones</li>
+                        <li> <img class="me-md-2 img-check-list" src="image/check-list-color-gris.svg">  Junta directiva semanal</li>
+                      </ul>
+                      <h1 class="card-title pricing-card-title text-color-3 text-center my-md-3"><small>u$d</small>3.500<small>p/m</small></h1>
+                      <div class="justify-content-center d-flex pb-md-4">   <a class="col-md-10 col-10 mx-md-auto btn btn-color-3 text-white mx-auto" type="button">¡Empezar ahora!</a></div>
+                    </div>
                   </div>
-                  <h2 class="my-0 font-weight-normal">Grow</h2>
-                  <p>Suscripción mensual</p>
                 </div>
-                <div class="card-body">
-                  <ul class="list-unstyled mt-3 mb-4 border-bottom pb-md-3">
-                    <li> <img class="me-md-2 img-check-list" src="image/check-list-color-3.svg"><strong class="fw-bold">  3 vacante</strong></li>
-                    <li> <img class="me-md-2 img-check-list" src="image/check-list-color-3.svg">  Soporte helpdesk</li>
-                    <li> <img class="me-md-2 img-check-list" src="image/check-list-color-3.svg">  Onboarding personalizado</li>
-                    <li> <img class="me-md-2 img-check-list" src="image/check-list-color-3.svg">  Asistencia en publicaciones</li>
-                    <li> <img class="me-md-2 img-check-list" src="image/check-list-color-gris.svg">  Junta directiva semanal</li>
-                  </ul>
-                  <h1 class="card-title pricing-card-title text-color-3 text-center my-md-3"><small>u$d</small>3.500<small>p/m</small></h1>
-                  <div class="justify-content-center d-flex pb-md-4">   <a class="col-md-10 col-10 mx-md-auto btn btn-color-3 text-white mx-auto" type="button">¡Empezar ahora!</a></div>
-                </div>
-              </div>
-            </div>
-            <div class="col ps-md-1">
-              <div class="card mb-4 box-shadow border-radius-card-l-none">
-                <div class="card-header bg-color-4 text-white border-card-header-l">
-                  <div class="ribbon-wrapper">
-                    <div class="ribbon-color-4 ribbon">Save 35%</div>
+                <div class="col p-md-0 m-md-0"> 
+                  <div class="box-shadow border-radius-card-l-none">
+                    <div class="card-header bg-color-4 text-white border-card-header-l position-relative">
+                      <div class="ribbon-wrapper">
+                        <div class="ribbon-color-4 ribbon">Save 35%</div>
+                      </div>
+                      <h2 class="my-0 font-weight-normal">Scale</h2>
+                      <p>Suscripción mensual</p>
+                    </div>
+                    <div class="card-body">
+                      <ul class="list-unstyled mt-3 mb-4 border-bottom pb-md-3">
+                        <li> <img class="me-md-2 img-check-list" src="image/check-list-color-4.svg"><strong class="fw-bold">4 vacante</strong></li>
+                        <li> <img class="me-md-2 img-check-list" src="image/check-list-color-4.svg">  Soporte helpdesk</li>
+                        <li> <img class="me-md-2 img-check-list" src="image/check-list-color-4.svg">  Onboarding personalizado</li>
+                        <li> <img class="me-md-2 img-check-list" src="image/check-list-color-4.svg">  Asistencia en publicaciones</li>
+                        <li> <img class="me-md-2 img-check-list" src="image/check-list-color-4.svg">  Junta directiva semanal</li>
+                      </ul>
+                      <h1 class="card-title pricing-card-title text-color-4 text-center my-md-3"><small>u$d</small>6.500<small>p/m</small></h1>
+                      <div class="justify-content-center d-flex pb-md-4"> <a class="col-md-10 col-10 mx-md-auto btn btn-color-4 text-white" type="button">¡Empezar ahora!</a></div>
+                    </div>
                   </div>
-                  <h2 class="my-0 font-weight-normal">Scale</h2>
-                  <p>Suscripción mensual</p>
-                </div>
-                <div class="card-body">
-                  <ul class="list-unstyled mt-3 mb-4 border-bottom pb-md-3">
-                    <li> <img class="me-md-2 img-check-list" src="image/check-list-color-4.svg"><strong class="fw-bold">4 vacante</strong></li>
-                    <li> <img class="me-md-2 img-check-list" src="image/check-list-color-4.svg">  Soporte helpdesk</li>
-                    <li> <img class="me-md-2 img-check-list" src="image/check-list-color-4.svg">  Onboarding personalizado</li>
-                    <li> <img class="me-md-2 img-check-list" src="image/check-list-color-4.svg">  Asistencia en publicaciones</li>
-                    <li> <img class="me-md-2 img-check-list" src="image/check-list-color-4.svg">  Junta directiva semanal</li>
-                  </ul>
-                  <h1 class="card-title pricing-card-title text-color-4 text-center my-md-3"><small>u$d</small>6.500<small>p/m</small></h1>
-                  <div class="justify-content-center d-flex pb-md-4"> <a class="col-md-10 col-10 mx-md-auto btn btn-color-4 text-white" type="button">¡Empezar ahora!</a></div>
                 </div>
               </div>
             </div>
@@ -159,10 +163,10 @@
       <section id="services-section-2">
         <div class="container pt-md-5 mt-md-5 px-md-0 pt-5 mt-5">
           <div class="pb-md-4">
-            <h2 class="text-primary text-center font-2-3-em-md">  Preguntas frecuentes</h2>
+            <h2 class="text-primary text-center font-2-3-em-md" data-aos="fade-down" data-aos-duration="2000">  Preguntas frecuentes</h2>
           </div>
           <div class="accordion pt-md-5 mt-md-2 col-md-10 mx-md-auto pt-md-5 mt-md-2" id="preguntas-frecuentes">
-            <div class="accordion-item">
+            <div class="accordion-item" data-aos="fade-right" data-aos-duration="2000">
               <h2 class="accordion-header" id="headingOne">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">¿Qué métodos de pago acepta iHunt?</button>
               </h2>
@@ -170,7 +174,7 @@
                 <div class="accordion-body">Aceptamos las principales tarjetas de crédito, PayPal y (en algunos países) débito directo. También admitimos las transacciones en diversas monedas.</div>
               </div>
             </div>
-            <div class="accordion-item">
+            <div class="accordion-item" data-aos="fade-right" data-aos-duration="2000">
               <h2 class="accordion-header" id="headingTwo">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">¿Cómo puedo cambiar de plan?</button>
               </h2>
@@ -178,7 +182,7 @@
                 <div class="accordion-body"> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the </div>
               </div>
             </div>
-            <div class="accordion-item">
+            <div class="accordion-item" data-aos="fade-right" data-aos-duration="2000">
               <h2 class="accordion-header" id="headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">¿Se especializan en algún tipo de perfil?</button>
               </h2>
@@ -186,7 +190,7 @@
                 <div class="accordion-body"> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the </div>
               </div>
             </div>
-            <div class="accordion-item">
+            <div class="accordion-item" data-aos="fade-right" data-aos-duration="2000">
               <h2 class="accordion-header" id="headingFour">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">¿Cuál es el entregable?</button>
               </h2>
@@ -218,17 +222,21 @@
       <div class="container row mx-auto justify-content-between">
         <div class="col-md-3 order-md-1 order-2"><small class="text-white">© 2022 iHunt </small></div>
         <div class="col-md-5 order-md-2 order-1">
-          <div class="d-flex justify-content-md-end"><a href="http://" target="_blank" rel="noopener noreferrer"><small class="text-white">
-                <u>Terminos y Condiciones</u></small></a><a class="ms-md-4 ms-5" href="http://" target="_blank" rel="noopener noreferrer"><small class="text-white">
+          <div class="d-flex justify-content-md-end"><a href="./terms-conditions.html" target="_blank" rel="noopener noreferrer"><small class="text-white">
+                <u>Terminos y Condiciones</u></small></a><a class="ms-md-4 ms-5" href="./privacy-policy.html" target="_blank" rel="noopener noreferrer"><small class="text-white">
                 <u>Política de privacidad</u></small></a></div>
         </div>
       </div>
     </footer>
     <script src="js/popper-dist.js"></script>
     <script src="js/bootstrap.bundle-dist.js"></script>
+    <script src="js/lottie-player-dist.js"> </script>
+    <script src="js/aos-dist.js"> </script>
+    <script src="js/lottie.min-dist.js"></script>
+    <script src="js/lozad.min-dist.js">   </script>
+    <script src="js/multilang-dist.js"> </script>
     <script src="js/jquery.min-dist.js"> </script>
-    <script src="js/owl.carousel.min-dist.js"> </script>
-    <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
+    <script src="js/owl.carousel.min-dist.js"></script>
     <script src="js/main.js">  </script>
   </body>
 </html>

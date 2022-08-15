@@ -9,16 +9,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>iHunt - Home</title>
     <link rel="stylesheet" href="css/ihunt.css">
+    <link rel="stylesheet" href="css/aos-dist.css">
     <link rel="stylesheet" href="css/toggle-menu.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/lottie-player-dist.js"> </script>
   </head>
   <link rel="stylesheet" href="css/owl.carousel-dist.css">
   <link rel="stylesheet" href="css/owl.theme.default-dist.css">
   <link rel="stylesheet" href="css/owl.theme.green-dist.css">
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom py-md-3">
-      <div class="container px-md-0"><a class="navbar-brand" href="#">
+      <div class="container px-md-0"><a class="navbar-brand" href="/">
           <image src="image/logo.svg"></image></a>
         <button class="menu navbar-toggler border-0 button-toggle d-md-none d-block" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))" aria-label="Main Menu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText">
           <svg width="35" height="35" viewBox="0 0 100 100">
@@ -29,11 +29,11 @@
         </button>
         <div class="collapse navbar-collapse ps-md-2" id="navbarText">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-md-5 ps-md-4">
-            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Servicios</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">La Plataforma</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Blog </a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Ser iHunter</a></li>
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="/">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="./services.html">Servicios</a></li>
+            <li class="nav-item"><a class="nav-link" href="./platform.html">La Plataforma</a></li>
+            <li class="nav-item"><a class="nav-link" href="/blog.html">Blog </a></li>
+            <li class="nav-item"><a class="nav-link" href="./ihunter.html">Ser iHunter</a></li>
             <li class="nav-item pt-4 d-md-none pb-5"><a type="button" data-bs-toggle="dropdown" aria-expanded="false" style="z-index:1"><img src="image/icono-globo-m.svg" alt="" srcset=""><span class="ms-3">Español</span></a></li>
             <li class="nav-item d-md-none border-top border-bottom mt-5 py-5"><a class="btn btn-primary my-5" href="#">Empezar ahora</a></li>
             <li class="nav-item d-md-none mt-5 py-5"><a class="pe-5" href="http://" target="_blank" rel="noopener noreferrer"><img class="icono-social" src="image/icono-linkedin-c.png" data-src="image/icono-linkedin-hover.png" alt="" srcset=""></a><a class="px-5 mx-5" href="http://" target="_blank" rel="noopener noreferrer"><img class="icono-social" src="image/icono-instagram-c.png" data-src="image/icono-instagram-hover.png" alt="" srcset=""></a><a class="ps-5" href="http://" target="_blank" rel="noopener noreferrer"><img class="icono-social" src="image/icono-facebook-c.png" data-src="image/icono-facebook-hover.png" alt="" srcset=""></a></li>
@@ -51,8 +51,8 @@
                 <div class="dropdown align-items-center d-flex"><a class="dropdown-toggle position-absolute after-none" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" style="z-index:1"><img src="image/icono-globo.svg" alt="" srcset=""><span class="ms-2"></span></a>
                   <ul class="dropdown-menu lang-list" aria-labelledby="dropdownMenuButton1" style="z-index:0">
                     <li class="justify-content-end d-flex pe-3 py-3"></li>
-                    <li class="ps-4 active"><a class="dropdown-item" href="#">ES</a></li>
-                    <li class="ps-4"><a class="dropdown-item" href="#">EN</a></li>
+                    <li class="ps-4"><a class="dropdown-item changeLang" href="#" data-lang="es">ES</a></li>
+                    <li class="ps-4"><a class="dropdown-item changeLang" href="#" data-lang="en">EN</a></li>
                   </ul>
                 </div>
               </li>
@@ -64,22 +64,22 @@
       <section class="container" id="index-init">
         <div class="row">
           <div class="col-12 col-md-5 pt-md-5 px-md-0 pt-5">
-            <h1 class="text-primary font-2-5-em-lg font-2-5-em-xxl font-1-75-em pt-md-5 mt-md-5 pt-5 mt-5 py-5 pb-md-0">Encuentra <strong class="fw-bold">candidatos de <br>valor </strong> de forma simple,<br> económica y efectiva</h1>
-            <p class="py-md-4 py-xxl-0 py-5 font-1-15-em-md">Conoce el sistema que esta revolucionando la <br class="d-md-block d-none"> atracción de talento en toda la región.</p>
-            <button class="btn btn-primary px-5 px-md-4 mt-4 mt-md-4"> Quiero una demo </button>
+            <h1 class="text-primary font-2-5-em-lg font-2-5-em-xxl font-1-75-em pt-md-5 mt-md-5 pt-5 mt-5 py-5 pb-md-0" data-aos="fade-down" data-aos-duration="1000">Encuentra <strong class="fw-bold">candidatos de <br>valor </strong> de forma simple,<br> económica y efectiva</h1>
+            <p class="py-md-4 py-xxl-0 py-5 font-1-15-em-md" data-aos="fade-up" data-aos-duration="3000">Conoce el sistema que esta revolucionando la <br class="d-md-block d-none"> atracción de talento en toda la región.</p>
+            <button class="btn btn-primary px-5 px-md-4 mt-4 mt-md-4" data-aos="fade-up" data-aos-duration="3000"> Quiero una demo </button>
           </div>
           <div class="col-12 col-md-7 pt-md-5 px-md-0 justify-content-end d-flex position-absolute-xs">
-            <lottie-player class="img-index-element-1-lg img-index-element-1-xxl d-md-flex d-none" src="image/animaciones/animacion-1/data.json" background="transparent" speed="1" hover loop autoplay></lottie-player>
-            <lottie-player class="img-index-element-1-lg img-index-element-1-xxl d-md-none d-flex" src="image/animaciones/animacion-1-m/data.json" background="transparent" speed="1" hover loop autoplay></lottie-player>
+            <div class="lottie-player img-index-element-1-lg img-index-element-1-xxl d-md-flex d-none" data-animation-path="image/animaciones/animacion-1/data.json" data-loop-start="42" data-loop-end="450"></div>
+            <lottie-player class="img-index-element-1-lg img-index-element-1-xxl d-md-none d-flex" src="image/animaciones/animacion-1-m/data.json" background="transparent" speed="1" loop autoplay></lottie-player>
           </div>
         </div>
       </section>
       <section class="container" id="index-item">
         <div class="row">
-          <div class="col-12 col-md-4 pt-md-5">
+          <div class="col-12 col-md-4 pt-md-5" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
             <div class="card px-md-5 pb-md-4 section-2-card-h px-5">
               <div class="card-img-content-section-2">
-                <lottie-player class="animation-section-2" src="image/animaciones/lf20_d2xg1ucd.json" background="transparent" speed="1" hover loop autoplay></lottie-player>
+                <lottie-player class="animation-section-2" src="image/animaciones/lf20_d2xg1ucd.json" background="transparent" speed="1" loop autoplay></lottie-player>
               </div>
               <div>
                 <h2 class="text-primary">10x más <b class="fw-bold">rápido</b></h2>
@@ -87,10 +87,10 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-4 pt-md-5">
+          <div class="col-12 col-md-4 pt-md-5" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
             <div class="card px-md-5 pb-md-4 section-2-card-h">
               <div class="card-img-content-section-2">
-                <lottie-player class="animation-section-2" src="image/animaciones/lf20_br3hefsj.json" background="transparent" speed="1" hover loop autoplay></lottie-player>
+                <lottie-player class="animation-section-2" src="image/animaciones/lf20_br3hefsj.json" background="transparent" speed="1" loop autoplay></lottie-player>
               </div>
               <div> 
                 <h2 class="text-primary">10x más <b class="fw-bold">económico</b></h2>
@@ -98,10 +98,10 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-4 pt-md-5">
+          <div class="col-12 col-md-4 pt-md-5" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
             <div class="card px-md-5 pb-md-4 section-2-card-h">
               <div class="card-img-content-section-2">
-                <lottie-player class="animation-section-2" src="image/animaciones/lf20_eu8fi5g3.json" background="transparent" speed="1" hover loop autoplay></lottie-player>
+                <lottie-player class="animation-section-2" src="image/animaciones/lf20_eu8fi5g3.json" background="transparent" speed="1" loop autoplay></lottie-player>
               </div>
               <div>   
                 <h2 class="text-primary">10x más <b class="fw-bold">efectivo</b></h2>
@@ -112,27 +112,27 @@
         </div>
       </section>
       <section class="mt-md-5 pt-md-5 container pb-md-1" id="index-item-2">
-        <div class="col-md-10 mx-auto card my-md-5 my-5">
+        <div class="col-md-10 mx-auto card my-md-5 my-5" data-aos="flip-up" data-aos-duration="1000">
           <div class="row row-cols-md-4 row row-cols-2 p-5">
-            <div class="justify-content-center d-grid"><img class="mx-auto" src="image/index-section-3-icono-1.png" alt="" srcset="">
+            <div class="justify-content-center d-grid" data-aos="fade-down" data-aos-duration="1300"><img class="mx-auto" src="image/index-section-3-icono-1.png" alt="" srcset="">
               <div class="text-center mt-md-3"> 
                 <h2 class="fw-bold text-primary">2.700</h2>
                 <p class="mt-md-n3">  iHunters</p>
               </div>
             </div>
-            <div class="justify-content-center d-grid"> <img class="mx-auto" src="image/index-section-3-icono-2.png" alt="" srcset="">
+            <div class="justify-content-center d-grid" data-aos="fade-down" data-aos-duration="1600"> <img class="mx-auto" src="image/index-section-3-icono-2.png" alt="" srcset="">
               <div class="text-center mt-md-3"> 
                 <h2 class="fw-bold text-primary">15.890</h2>
                 <p class="mt-md-n3">  Vacantes resueltas</p>
               </div>
             </div>
-            <div class="justify-content-center d-grid"> <img class="mx-auto" src="image/index-section-3-icono-3.png" alt="" srcset="">
+            <div class="justify-content-center d-grid" data-aos="fade-down" data-aos-duration="1900"> <img class="mx-auto" src="image/index-section-3-icono-3.png" alt="" srcset="">
               <div class="text-center mt-md-3"> 
                 <h2 class="fw-bold text-primary">213</h2>
                 <p class="mt-md-n3">  Clientes</p>
               </div>
             </div>
-            <div class="justify-content-center d-grid"> <img class="mx-auto" src="image/index-section-3-icono-4.png" alt="" srcset="">
+            <div class="justify-content-center d-grid" data-aos="fade-down" data-aos-duration="2000"> <img class="mx-auto" src="image/index-section-3-icono-4.png" alt="" srcset="">
               <div class="text-center mt-md-3"> 
                 <h2 class="fw-bold text-primary">10</h2>
                 <p class="mt-md-n3">  Países</p>
@@ -145,10 +145,10 @@
         <div class="container px-md-0"><img class="col-md-12 px-md-0 d-md-block d-none" src="image/index-elemento-41.svg" alt="" srcset=""><img class="col-md-12 px-md-0 d-md-none d-block" src="image/index-elemento-4-m.svg" alt="" srcset=""></div>
         <div class="container position-absolute mx-auto absolute-center">
           <div class="row row-cols-md-2 col-md-10 mx-auto row-cols-1">
-            <div class="col align-items-md-center d-md-grid">
+            <div class="col align-items-md-center d-md-grid" data-aos="fade-up" data-aos-duration="1000">
               <h2 class="text-white font-1-7-em-lg font-1-75-em">El mejor aliado de los<br class="d-md-block d-none"> departamentos de <br class="d-md-block d-none"> Recursos Humanos</h2>
             </div>
-            <div class="col">
+            <div class="col" data-aos="fade-up" data-aos-duration="1000">
               <p class="text-white">Cumple con tus objetivos de selección de personal <br class="d-md-block d-none"> en tiempo y forma.</p>
               <p class="text-white">iHunt te ayuda a hacer match con candidatos de <br class="d-md-block d-none"> alto potencial para tus vacantes.</p><a class="btn btn-outline-light mt-md-4">   Quiero una demo</a>
             </div>
@@ -158,16 +158,16 @@
       <section class="mt-md-5 pt-md-5 container contain-layout" id="index-item-5">
         <div class="row row-cols-md-3 row-cols-1 align-items-center mt-md-5 pt-md-5">
           <div class="col-md-5 col order-3 order-md-1">
-            <lottie-player src="image/animaciones/lf20_qwxjwzkp.json" background="transparent" speed="1" autoplay></lottie-player>
+            <div class="lozad" data-src="image/animaciones/lf20_qwxjwzkp.json" data-type="lottiefiles" data-name="placa1" data-loop-start="118" data-loop-end="592"></div>
           </div>
           <div class="col-md-1 d-md-flex d-none order-md-2 order-2"> </div>
-          <div class="col-md-6 col order-1 order-md-3">
+          <div class="col-md-6 col order-1 order-md-3" data-aos="fade-up" data-aos-duration="1000">
             <h2 class="text-primary"> Resolvemos lo más importante</h2>
             <p class="mt-md-4 pt-md-2">  Nos hacemos cargo del <b>sourcing:</b> lo mas difícil y a la vez lo <br class="d-md-block d-none"> mas importante de la atracción de talento.</p>
           </div>
         </div>
         <div class="row row-cols-md-2 row-cols-1 align-items-center mt-md-5 pt-md-5">
-          <div class="col">
+          <div class="col" data-aos="fade-up" data-aos-duration="1000">
             <div class="col-md-10 ms-md-auto">
               <h2 class="text-primary"> Sourcing Activo</h2>
               <p class="mt-md-4 pt-md-2">  Multiplica la calidad de tus procesos de selección a <br class="d-md-block d-none"> través de nuestro sistema de Sourcing Activo.</p>
@@ -176,16 +176,16 @@
           </div>
           <div class="col">
             <div class="col-md-10 ms-md-auto ps-md-5">
-              <lottie-player src="image/animaciones/animacion-red-perfil/data.json" background="transparent" speed="1" autoplay id="index-item-5-animation-2"></lottie-player>
+              <div class="lozad" data-src="image/animaciones/animacion-red-perfil/data.json" data-type="lottiefiles" data-name="placa2" data-loop-start="0" data-loop-end="592"></div>
             </div>
           </div>
         </div>
         <div class="row row-cols-md-2 row-cols-1 align-items-center mt-md-5 pt-md-5">
           <div class="col-md-5 col order-3 order-md-1">
-            <lottie-player src="image/animaciones/animacion-planeta/data.json" background="transparent" speed="1" autoplay id="index-item-5-animation-3"></lottie-player>
+            <div class="lozad" data-src="image/animaciones/animacion-planeta/data.json" data-type="lottiefiles" data-name="placa3" data-loop-start="57" data-loop-end="291" id="index-item-5-animation-3"></div>
           </div>
           <div class="col-md-1 d-md-flex d-none order-md-2 order-2"> </div>
-          <div class="col-md-6 col order-1 order-md-3">
+          <div class="col-md-6 col order-1 order-md-3" data-aos="fade-up" data-aos-duration="1000">
             <h2 class="text-primary"> Alcance regional</h2>
             <p class="mt-md-4 pt-md-2">  Encuentra el mejor talento para tus ofertas de empleo <br class="d-md-block d-none"> <b>sin importar</b> dónde.</p>
             <p>  Tenemos cobertura efectiva en toda la región.    </p>
@@ -194,58 +194,42 @@
         <div class="row row-cols-md-2 row-cols-1 align-items-center mt-md-5 pt-md-5">
           <div class="col"> 
             <div class="col-md-10 ms-md-auto">
-              <h2 class="text-primary"> Filtrado inteligente</h2>
-              <p class="mt-md-4 pt-md-2">  Nuestros algoritmos permiten acelerar el proceso <br class="d-md-block d-none"> de preselección de candidatos de manera <br class="d-md-block d-none"> exponencial.</p>
+              <h2 class="text-primary" data-aos="fade-up" data-aos-duration="1000"> Filtrado inteligente</h2>
+              <p class="mt-md-4 pt-md-2" data-aos="fade-up" data-aos-duration="1000">  Nuestros algoritmos permiten acelerar el proceso <br class="d-md-block d-none"> de preselección de candidatos de manera <br class="d-md-block d-none"> exponencial.</p>
               <p>  <b>Tu empresa ahorrará hasta 30x de tiempo</b> en <br class="d-md-block d-none"> identificar candidatos de valor.</p>
             </div>
           </div>
           <div class="col"><img src="image/index-section-5-img-4.png" alt="" srcset="" loading="lazy"></div>
         </div>
-        <div class="justify-content-center d-flex mt-md-5"><a class="btn btn-primary mx-auto">Quiero una demo    </a></div>
+        <div class="justify-content-center d-flex mt-md-5" data-aos="fade-up" data-aos-duration="1000"><a class="btn btn-primary mx-auto">Quiero una demo    </a></div>
       </section>
       <section class="mt-md-5 pt-md-5 d-flex justify-content-center" id="index-item-6"><img class="col-md-12 px-md-0 mx-auto d-md-block d-none" src="image/index-elemento-6.svg" alt="" srcset=""><img class="col-md-12 px-md-0 mx-auto d-md-none d-block" src="image/index-elemento-6-m.svg" alt="" srcset="">
         <div class="container position-absolute mx-auto absolute-center mt-md-5 pt-md-5">
-          <h2 class="text-center text-primary mt-md-5 pt-md-2 font-2-5-em-lg">Impactando en la productividad de<br> <strong> +200 compañías</strong></h2>
-          <div class="owl-carousel col-md-8 mx-auto mt-md-5 pt-md-5 mx-md-auto" id="owl-logos"> <img class="col" src="image/index-logo-1.svg" alt=""><img class="col" src="image/index-logo-2.svg" alt=""><img class="col" src="image/index-logo-3.svg" alt=""><img class="col" src="image/index-logo-4.svg" alt=""><img class="col" src="image/index-logo-5.svg" alt=""><img class="col" src="image/index-logo-6.svg" alt=""></div>
-          <div class="owl-carousel col-md-8 mx-auto my-md-5 py-md-3 mx-md-auto" id="owl-logos-2"> <img class="col" src="image/index-logo-1.svg" alt=""><img class="col" src="image/index-logo-2.svg" alt=""><img class="col" src="image/index-logo-3.svg" alt=""><img class="col" src="image/index-logo-4.svg" alt=""><img class="col" src="image/index-logo-5.svg" alt=""><img class="col" src="image/index-logo-6.svg" alt=""></div><br><br>
-          <div class="owl-carousel col-md-10 mx-auto mt-md-5 pt-md-3 background-img pt-md-5 mt-md-5" id="owl-person"> 
+          <h2 class="text-center text-primary mt-md-5 pt-md-2 font-2-5-em-lg" data-aos="flip-up" data-aos-duration="2000">Impactando en la productividad de<br> <strong> +200 compañías</strong></h2>
+          <div class="owl-carousel col-md-8 mx-auto mt-md-5 pt-md-5 mx-md-auto" id="owl-logos" data-aos="flip-up" data-aos-duration="2000"><img class="col" src="image/logos-slider/Logos-01.svg" alt=""><img class="col" src="image/logos-slider/Logos-02.svg" alt=""><img class="col" src="image/logos-slider/Logos-03.svg" alt=""><img class="col" src="image/logos-slider/Logos-04.svg" alt=""><img class="col" src="image/logos-slider/Logos-05.svg" alt=""><img class="col" src="image/logos-slider/Logos-06.svg" alt=""><img class="col" src="image/logos-slider/Logos-07.svg" alt=""><img class="col" src="image/logos-slider/Logos-08.svg" alt=""><img class="col" src="image/logos-slider/Logos-09.svg" alt=""><img class="col" src="image/logos-slider/Logos-10.svg" alt=""><img class="col" src="image/logos-slider/Logos-11.svg" alt=""><img class="col" src="image/logos-slider/Logos-12.svg" alt=""></div>
+          <div class="owl-carousel col-md-8 mx-auto my-md-5 py-md-3 mx-md-auto" id="owl-logos-2" data-aos="flip-up" data-aos-duration="2000"> <img class="col" src="image/logos-slider/Logos-13.svg" alt=""><img class="col" src="image/logos-slider/Logos-14.svg" alt=""><img class="col" src="image/logos-slider/Logos-15.svg" alt=""><img class="col" src="image/logos-slider/Logos-16.svg" alt=""><img class="col" src="image/logos-slider/Logos-17.svg" alt=""><img class="col" src="image/logos-slider/Logos-18.svg" alt=""><img class="col" src="image/logos-slider/Logos-19.svg" alt=""><img class="col" src="image/logos-slider/Logos-20.svg" alt=""><img class="col" src="image/logos-slider/Logos-21.svg" alt=""><img class="col" src="image/logos-slider/Logos-22.svg" alt=""><img class="col" src="image/logos-slider/Logos-23.svg" alt=""><img class="col" src="image/logos-slider/Logos-24.svg" alt=""></div><br><br>
+          <div class="owl-carousel col-md-10 mx-auto mt-md-5 pt-md-3 background-img pt-md-5 mt-md-5" id="owl-person" data-aos="fade-left" data-aos-duration="2000"> 
             <div class="row align-items-center justify-content-between pt-md-4">
-              <div class="col-md-4"> <img src="image/index-section-6-slider-person-1.svg" alt="" srcset=""></div>
-              <div class="col-md-7"> 
-                <p>  Un antes y un después en la adquisición de talento. <br></p>
-                <p>  Hemos optimizado nuestros procesos encontrando candidatos de diversos <br> perfiles sin que sea una tarea épica.</p>
-                <div class="mt-md-5"> 
-                  <h5 class="fw-bold">Nicolás José Bloise</h5>
-                  <p><i>Director de RRHH, Mach Electronics</i></p>
+              <div class="col-md-4"> <img class="img-testimonials" src="image/isidora-valdes.jpeg" alt="" srcset=""></div>
+              <div class="col-md-7">
+                <div class="multilanguage" data-lang-key="index.testimonials.item1.description"> 
+                  <p>  Destaco los tiempos de iHunt. <br></p>
+                  <p>
+                      Hay muchos cargos para los que uno requiere una búsqueda rápida, y no  por ello "mal hecha". Destaco que operan digitalmente, sus tarifas y 
+                    diversidad de candidatos. Me ha llamado mucho la atención la cantidad 
+                    de personas idóneas que existen para EOX gracias a iHunt.
+                  </p>
                 </div>
-              </div>
-            </div>
-            <div class="row align-items-center justify-content-between">
-              <div class="col-md-4"> <img src="image/index-section-6-slider-person-1.svg" alt="" srcset=""></div>
-              <div class="col-md-7"> 
-                <p>  Un antes y un después en la adquisición de talento. <br></p>
-                <p>  Hemos optimizado nuestros procesos encontrando candidatos de diversos <br> perfiles sin que sea una tarea épica.</p>
                 <div class="mt-md-5"> 
-                  <h5 class="fw-bold">Nicolás José Bloise</h5>
-                  <p><i>Director de RRHH, Mach Electronics</i></p>
-                </div>
-              </div>
-            </div>
-            <div class="row align-items-center justify-content-between">
-              <div class="col-md-4"> <img src="image/index-section-6-slider-person-1.svg" alt="" srcset=""></div>
-              <div class="col-md-7"> 
-                <p>  Un antes y un después en la adquisición de talento. <br></p>
-                <p>  Hemos optimizado nuestros procesos encontrando candidatos de diversos <br> perfiles sin que sea una tarea épica.</p>
-                <div class="mt-md-5"> 
-                  <h5 class="fw-bold">Nicolás José Bloise</h5>
-                  <p><i>Director de RRHH, Mach Electronics</i></p>
+                  <h5 class="fw-bold multilanguage" data-lang-key="index.testimonials.item1.name"> Isidora Valdés</h5>
+                  <p><i class="multilanguage" data-lang-key="index.testimonials.item1.position">CEO - EOX Spa</i></p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="mt-md-5 d-flex justify-content-center align-items-center" id="index-item-7">
+      <section class="mt-md-5 d-flex justify-content-center align-items-center" id="index-item-7" data-aos="flip-up" data-aos-duration="2000">
         <div class="container px-md-0 mt-md-n3"><img class="col-md-12 px-md-0 d-md-block d-none" src="image/index-elemento-7.png" alt="" srcset=""><img class="col-md-12 px-md-0 d-md-none d-block" src="image/index-elemento-7-m.png" alt="" srcset=""></div>
         <div class="container position-absolute mx-auto absolute-center">
           <div class="row row-cols-md-2 col-md-10 mx-auto">
@@ -265,16 +249,16 @@
       <section class="mt-md-5 pt-md-5 pb-md-5" id="index-item-8">
         <div class="container">
           <div class="pb-md-4">
-            <h2 class="text-primary text-center font-2-3-em-md">  #iHuntBlog</h2>
+            <h2 class="text-primary text-center font-2-3-em-md font-2-18-em">  #iHuntBlog</h2>
             <p class="text-center md-md-5 mt-md-4">  Todos los meses nuevos artículos sobre las temáticas más <br class="d-md-block d-none"> relevantes del mundo de los RRHH y la atracción de talento.</p>
           </div>
-          <div class="owl-carousel" id="owl-card-blog"><a class="card card-blog-a" href="http://" target="_blank" rel="noopener noreferrer"><img src="image/example-img-card.png" alt="example-img-card.png">
+          <div class="owl-carousel" id="owl-card-blog"><a class="card card-blog-a" href="./blog-detail.html" target="_blank" rel="noopener noreferrer" data-aos="flip-right" data-aos-duration="1000"><img src="image/example-img-card.png" alt="example-img-card.png">
               <div class="card-body card-body-blog px-md-5 px-xxl-4 pb-md-5"><small class="card-title">30 de Junio de 2022</small>
                 <p class="card-text mt-md-3 mt-5">5 formas en que la cultura de una empresa incide en las contrataciones</p>
-              </div></a><a class="card card-blog-a" href="http://" target="_blank" rel="noopener noreferrer"><img src="image/example-img-card.png" alt="example-img-card.png">
+              </div></a><a class="card card-blog-a" href="./blog-detail.html" target="_blank" rel="noopener noreferrer" data-aos="flip-right" data-aos-duration="2000"><img src="image/example-img-card.png" alt="example-img-card.png">
               <div class="card-body card-body-blog px-md-5 px-xxl-4 pb-md-5"><small class="card-title">30 de Junio de 2022</small>
                 <p class="card-text mt-md-3 mt-5">5 formas en que la cultura de una empresa incide en las contrataciones</p>
-              </div></a><a class="card card-blog-a" href="http://" target="_blank" rel="noopener noreferrer"><img src="image/example-img-card.png" alt="example-img-card.png">
+              </div></a><a class="card card-blog-a" href="./blog-detail.html" target="_blank" rel="noopener noreferrer" data-aos="flip-right" data-aos-duration="3000"><img src="image/example-img-card.png" alt="example-img-card.png">
               <div class="card-body card-body-blog px-md-5 px-xxl-4 pb-md-5"><small class="card-title">30 de Junio de 2022</small>
                 <p class="card-text mt-md-3 mt-4">5 formas en que la cultura de una empresa incide en las contrataciones</p>
               </div></a></div>
@@ -301,42 +285,21 @@
       <div class="container row mx-auto justify-content-between">
         <div class="col-md-3 order-md-1 order-2"><small class="text-white">© 2022 iHunt </small></div>
         <div class="col-md-5 order-md-2 order-1">
-          <div class="d-flex justify-content-md-end"><a href="http://" target="_blank" rel="noopener noreferrer"><small class="text-white">
-                <u>Terminos y Condiciones</u></small></a><a class="ms-md-4 ms-5" href="http://" target="_blank" rel="noopener noreferrer"><small class="text-white">
+          <div class="d-flex justify-content-md-end"><a href="./terms-conditions.html" target="_blank" rel="noopener noreferrer"><small class="text-white">
+                <u>Terminos y Condiciones</u></small></a><a class="ms-md-4 ms-5" href="./privacy-policy.html" target="_blank" rel="noopener noreferrer"><small class="text-white">
                 <u>Política de privacidad</u></small></a></div>
         </div>
       </div>
     </footer>
     <script src="js/popper-dist.js"></script>
     <script src="js/bootstrap.bundle-dist.js"></script>
+    <script src="js/lottie-player-dist.js"> </script>
+    <script src="js/aos-dist.js"> </script>
+    <script src="js/lottie.min-dist.js"></script>
+    <script src="js/lozad.min-dist.js">   </script>
+    <script src="js/multilang-dist.js"> </script>
     <script src="js/jquery.min-dist.js"> </script>
     <script src="js/owl.carousel.min-dist.js"> </script>
-    <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"> </script>
-    <script>
-      LottieInteractivity.create({
-          player: '.repeatPlayer',
-          mode: 'scroll',
-          actions: [
-              {   
-                  visibility:[0, 1.0],
-                  type: "seek",
-                  frames: [0, 291]
-              }
-          ]
-      });
-      
-      LottieInteractivity.create({
-          player: '.repeatPlayer1',
-          mode: 'scroll',
-          actions: [
-              {   
-                  visibility:[0, 1.0],
-                  type: "seek",
-                  frames: [0, 592]
-              }
-          ]
-      });
-    </script>
     <script src="js/main.js">  </script>
   </body>
 </html>

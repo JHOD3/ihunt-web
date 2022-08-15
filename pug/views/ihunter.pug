@@ -1,0 +1,141 @@
+extends ../layouts/_main   
+block variables 
+    - 
+        var page = {
+            title: 'iHunt - Ser ihunter',
+            description: 'En iHunt puedes ser parte de la mayor red de reclutamiento colaborativo, junto a más de 2500 reclutadores independientes que día a día están cambiando el paradigma del sourcing y el futuro de los Recursos Humanos.',
+            keywords: "cuentra, economica, candidatos, efectiva, sistema, revolucionando, atracción, región",
+            author: 'iHunt develop team'
+        }; 
+
+block style
+    link(rel="stylesheet", href="css/owl.carousel-dist.css")
+    link(rel="stylesheet", href="css/owl.theme.default-dist.css")
+    link(rel="stylesheet", href="css/owl.theme.green-dist.css")
+block content 
+    section#ser-ihunter-init.container
+        .row.d-md-flex.d-block
+            div.col-12.col-md-5.pt-md-5.px-md-0.pt-5.order-md-1.order-2.pb-5.mb-5
+                h1(data-aos="fade-down", data-aos-duration="1000").text-primary.font-2-5-em-lg.font-2-5-em-xxl.font-1-75-em.pt-md-4.mt-md-5.pt-5.mt-5.py-5.pb-md-0.text-md-start.text-center  Genera ingresos como  #[br] #[strong.fw-bold reclutador independiente ] 
+                p(data-aos="fade-up", data-aos-duration="3000").py-md-4.py-xxl-0.pb-5.pt-5.font-1-1-em-md.text-md-start.text-center  En iHunt puedes ser parte de la mayor red de reclutamiento  #[br.d-md-none.d-none] colaborativo, junto a más de 2500 reclutadores independientes  #[br.d-md-none.d-none] que día a día están cambiando el paradigma del sourcing y el  #[br.d-md-none.d-none] futuro de los Recursos Humanos.
+                .mt-4.mt-md-5.input-suscribe(data-aos="flip-up", data-aos-duration="3000")
+                    label(for="suscribe") #[h2.text-primary ¡Súmate como #[strong.fw-bold iHunter!] ]
+                    input(type="text", name="suscribe" ,  placeholder="Tu email")#suscribe.form-control.mt-md-2
+                    button.btn.btn-primary.px-5.px-md-4  Empezar ahora 
+            div.col-12.col-md-7.pt-md-5.pt-5.px-md-0.justify-content-end.d-flex.position-absolute-xs.order-md-2.order-1
+                img(src="image/ser-ihunter-section-1-img.svg").d-md-flex.d-block.img.ser-ihunter-section-1-img-md
+    section#ser-ihunter-section-2.mt-md-n5.pt-md-0.pt-5.mt-5
+        .container.mt-md-5.pt-md-5.pt-5
+            .row.row-cols-md-2.row-cols-1 
+                .col.d-md-block.d-none
+                    img(data-src="image/ser-ihunter-section-2-img.svg", data-type="image" alt="", srcset="").ms-md-5.lozad
+                .col.pt-md-3
+                    .mt-md-5.pt-md-5
+                        h2.text-primary.font-1-7-em(data-aos="fade-down", data-aos-duration="1000") Ventajas de ser ihunter
+                        ul.list-ventajas.mt-md-4.py-5
+                            li(data-aos="fade-up", data-aos-duration="1000") Network
+                            li(data-aos="fade-up", data-aos-duration="1500") Independencia
+                            li(data-aos="fade-up", data-aos-duration="2000") Plataforma fácil y accesible
+                            li(data-aos="fade-up", data-aos-duration="2500") Trabajo ágil y 100% remoto
+                            li(data-aos="fade-up", data-aos-duration="3000") Apoyo y asesoramiento de nuestro equipo
+                        a(href="http://", data-aos="fade-left", data-aos-duration="3000").btn.btn-primary.mt-md-4 Coordinar una capacitación
+    section#ser-ihunter-section-3.pb-md-5
+        .container.pb-md-5
+            h2.text-primary.text-md-center.font-2-2-em-md.font-1-8-em ¿Cómo funciona?
+            .row.row-cols-md-3.row-cols-1.grid-como-funciona.pb-md-5 
+                .col.my-md-3
+                    .card
+                        h3.fw-bold.text-primary 01
+                        .row.mt-md-4 
+                            .col-md-5.col-5
+                                .lozad(data-src="image/animaciones/lf20_j6nswavh.json" data-type="lottiefiles").animation-icon-ser-ihunter-section-3
+                            .col-md-7.col-7 
+                                h5 Sign-in
+                                p Te registras en la plataforma de iHunt
+                .col.my-md-3
+                    .card
+                        h3.fw-bold.text-primary 02
+                        .row.mt-md-4 
+                            .col-md-5.col-5
+                                .lozad(data-src="image/animaciones/lf20_rhvdwf12.json" data-type="lottiefiles").animation-icon-ser-ihunter-section-3
+                            .col-md-7.col-7 
+                                h5 Capacitación
+                                p Participas de una capacitación online sin costo
+
+                .col.my-md-3
+                    .card
+                        h3.fw-bold.text-primary 03
+                        .row.mt-md-4 
+                            .col-md-5.col-5
+                                .lozad(data-src="image/animaciones/lf20_mr0tq8qh.json" data-type="lottiefiles").animation-icon-ser-ihunter-section-3
+                            .col-md-7.col-7 
+                                h5 Acceso
+                                p Recibes el acceso a nuestra plataforma
+
+                .col.my-md-3
+                    .card
+                        h3.fw-bold.text-primary 04
+                        .row.mt-md-4 
+                            .col-md-5.col-5
+                                .lozad(data-src="image/animaciones/lf20_bbqhtya5.json" data-type="lottiefiles").animation-icon-ser-ihunter-section-3
+                            .col-md-7.col-7 
+                                h5 Activas
+                                p Revisas, compartes y activas las búsquedas de tu interés
+
+                .col.my-md-3
+                    .card
+                        h3.fw-bold.text-primary 05
+                        .row.mt-md-4 
+                            .col-md-5.col-5
+                                .lozad(data-src="image/animaciones/lf20_wbm4zsdg.json" data-type="lottiefiles").animation-icon-ser-ihunter-section-3
+                            .col-md-7.col-7 
+                                h5 Vinculado
+                                p Cada candidato queda vinculado a tu código en cada búsqueda
+
+                .col.my-md-3
+                    .card
+                        h3.fw-bold.text-primary 06
+                        .row.mt-md-4 
+                            .col-md-5.col-5
+                                .lozad(data-src="image/animaciones/lf20_2bznhvsj.json" data-type="lottiefiles").animation-icon-ser-ihunter-section-3
+                            .col-md-7.col-7 
+                                h5 Cobras!
+                                p Recibes ingresos cada vez que el cliente selecciona tu candidato
+    section#ser-ihunter-section-4.d-flex.position-relative.justify-content-center(data-aos="flip-up", data-aos-duration="2000")
+        .container.px-md-0.mt-md-n3.px-0
+            img(src="image/ser-ihunter-section-4-img.png", alt="", srcset="").ser-ihunter-section-4-img.d-md-block.d-none
+            img(src="image/ser-ihunter-section-4-img-m.png", alt="", srcset="").ser-ihunter-section-4-img.d-md-none.d-block
+        .container.position-absolute.mx-auto.absolute-center
+            .row.row-cols-md-2.col-md-10.mx-auto
+                .col-md-5.text-md-end.pt-md-5
+                    h2.text-white.font-2-7-em-md.font-1-7-em En iHunt nos #[br.d-md-block.d-none] comprometemos #[br.d-md-block.d-block] con la calidad
+                .col-md-1.ps-md-5.d-md-block.d-none
+                .col-md-6.ps-md-5.align-items-center.d-md-flex
+                    .text-white 
+                        p.font-1-25-em-md Es por ello, que nuestros iHunters reciben el pago sólo cuando uno de sus candidatos es pre-seleccionado y presentado al cliente.​
+                        p.mt-md-5 #[strong.fw.bold Los procesos duran sólo 5 días,] por lo que de manera muy rápida, tendrás la notificación de cuánto ganaste. Lo que te será pagado vía transferencia bancaria, Payoneer o Paypal, dependiendo de tu ubicación.
+    section#ser-ihunter-section-5.pb-md-4(data-aos="fade-left", data-aos-duration="2000")
+        div#owl-person.owl-carousel.col-md-10.mx-auto.mt-md-5.pt-md-3.background-img.pt-md-5.mt-md-5.pb-md-5  
+                .row.align-items-center.justify-content-between.pt-md-4
+                    .col-md-4 
+                        img(src="image/samir-saavedra.png", alt="", srcset="").img-testimonials
+                    .col-md-7 
+                        h2.font-3-em-md.pb-md-5.mb-md-5.mt-md-4.text-color-1.d-md-block.d-non.multilanguage(data-lang-key="ihunter.testimonials.item1.title") Que dicen los iHunter
+                        p.font-1-15-em-md.multilanguage(data-lang-key="ihunter.testimonials.item1.description")   En esta plataforma puedes trabajar en reclutamiento TI de manera 100% remota e independiente. Me acomoda trabajar de manera remota lejos de las grandes ciudades y oficinas.
+                        div.mt-md-5.pt-md-5 
+                            h5.fw-bold.multilanguage(data-lang-key="ihunter.testimonials.item1.name")  Samir Saavedra Cisternas
+                            p #[i.multilanguage(data-lang-key="ihunter.testimonials.item1.position")  #Hiring]
+                .row.align-items-center.justify-content-between.pt-md-4
+                    .col-md-4 
+                        img(src="image/delia-loreto.jpeg", alt="", srcset="").img-testimonials
+                    .col-md-7 
+                        h2.font-3-em-md.pb-md-5.mb-md-5.mt-md-4.text-color-1.d-md-block.d-none.multilanguage(data-lang-key="ihunter.testimonials.item2.title") Que dicen los iHunter
+                        p.font-1-15-em-md.multilanguage(data-lang-key="ihunter.testimonials.item2.description")  Lo que más me apasiona es poder tener la oportunidad de ayudar a excelentes candidatos a conseguir el trabajo de sus sueños, sin dejar a un lado el maravilloso equipo iHunt y la posibilidad de manejar mis tiempos y horarios.
+                        div.mt-md-5.pt-md-5 
+                            h5.fw-bold.multilanguage(data-lang-key="ihunter.testimonials.item2.name") Delia Loreto
+                            p #[i.multilanguage(data-lang-key="ihunter.testimonials.item1.position") #Hiring]
+block script
+
+    script(src="js/jquery.min-dist.js") 
+    script(src="js/owl.carousel.min-dist.js") 
+        

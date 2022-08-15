@@ -2,7 +2,7 @@ if($('#owl-logos')){
     $('#owl-logos').owlCarousel({
         loop:true,
         margin:10,
-        nav:true,
+        autoplay:true,
         lazyLoad: true,
         stageClass:'align-items-center d-flex',
         responsive:{
@@ -14,11 +14,13 @@ if($('#owl-logos')){
                 nav:false
             },
             600:{
-                items:3
+                items:3,
+                nav:false
             },
             1000:{
-                items:6
-            }
+                items:6,
+                nav:false
+            } 
         }
     })
 }
@@ -27,7 +29,7 @@ if($('#owl-logos-2')){
     $('#owl-logos-2').owlCarousel({
         loop:true,
         margin:10,
-        nav:true,
+        autoplay:true,
         lazyLoad: true,
         stageClass:'align-items-center d-flex',
         responsive:{
@@ -39,10 +41,12 @@ if($('#owl-logos-2')){
                 nav:false
             },
             600:{
-                items:3
+                items:3,
+                nav:false
             },
             1000:{
-                items:6
+                items:6,
+                nav:false
             }
         }
     })
@@ -112,3 +116,99 @@ for(var i = 0; i < elementSelection.length; i++) {
 
 }
 
+/**
+ * Iniciando AOS
+ */
+AOS.init({
+    disableMutationObserver: true, 
+    throttleDelay: 150,
+    debounceDelay: 50, 
+    mirror: false,
+    once: true
+});
+
+/**  
+ * Funcion global para la ejecucion de las 
+ * otras animacion con lazyload.
+*/
+
+lozad('.lozad', {
+    load: function(element) {
+        if (element.dataset.type == 'lottiefiles'){
+            let paused = false;
+            let animation = lottie.loadAnimation({
+                container: element, 
+                renderer: 'svg',
+                loop: false,
+                autoplay: true,
+                path: element.dataset.src,
+                name: element.dataset.name
+            });
+            if(element.dataset.loopStart && element.dataset.loopEnd){
+                animation.addEventListener("complete", (e) =>{
+                    paused = !paused;
+                    if(paused) {
+                        animation.playSegments([parseInt(element.dataset.loopEnd), parseInt(element.dataset.loopStart)], false);
+                    } else {
+                        animation.playSegments([parseInt(element.dataset.loopStart), parseInt(element.dataset.loopEnd)], false);
+                    }
+                })
+            }
+        }
+        if(element.dataset.type == 'image'){
+            element.src = element.dataset.src;
+        }
+    }
+}).observe()
+//- data-loop-start
+//- data-loop-end
+
+
+
+/**  
+ * Funcion global para la ejecucion de las 
+ * animaciones principales de cada pagina. 
+*/
+const lottiePlayer = document.querySelector('.lottie-player')
+let pausedP = false;
+
+if(lottiePlayer != null){
+    let animationPrincipal = lottie.loadAnimation({
+        container: lottiePlayer, 
+        renderer: 'svg',
+        loop: false,
+        autoplay: true,
+        path: lottiePlayer.dataset.animationPath,
+        name: 'principal',
+        progressiveLoad:true,
+    });
+
+    animationPrincipal.addEventListener("complete", (e) =>{
+        pausedP = !pausedP;
+        if(pausedP) {
+            animationPrincipal.playSegments([parseInt(lottiePlayer.dataset.loopEnd), parseInt(lottiePlayer.dataset.loopStart)], false);
+        } else {
+            animationPrincipal.playSegments([parseInt(lottiePlayer.dataset.loopStart), parseInt(lottiePlayer.dataset.loopEnd)], false);
+        }
+    })
+}
+
+
+multilang.translate({
+    'default': 'es',
+    'classElements': 'multilanguage',
+    'btnClassChange': 'changeLang',
+    'attrKey': 'data-lang-key'
+});
+
+//  Ver y ocultar contraseña
+if($('.view-password')){
+    $(document).on('click','.view-password', function(){
+        let input = $(this).parent().find('input');
+        if(input.attr('type') == 'password'){
+            input.attr('type', 'text');
+        } else {
+            input.attr('type', 'password');
+        }
+    });
+}

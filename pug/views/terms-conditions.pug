@@ -1,0 +1,53 @@
+extends ../layouts/_main   
+block variables 
+    - 
+        var page = {
+            title: 'iHunt - Ser ihunter',
+            description: 'En iHunt puedes ser parte de la mayor red de reclutamiento colaborativo, junto a más de 2500 reclutadores independientes que día a día están cambiando el paradigma del sourcing y el futuro de los Recursos Humanos.',
+            keywords: "cuentra, economica, candidatos, efectiva, sistema, revolucionando, atracción, región",
+            author: 'iHunt develop team'
+        }; 
+
+block style
+    link(rel="stylesheet", href="css/owl.carousel-dist.css")
+    link(rel="stylesheet", href="css/owl.theme.default-dist.css")
+    link(rel="stylesheet", href="css/owl.theme.green-dist.css")
+block content 
+    section#term-condition-init
+        .container
+            .term-condition-container.col-md-9.mx-md-auto.mt-md-5.pt-md-5
+                .term-condition-header
+                    h1.text-primary.mt-md-4.text-md-center.multilanguage(data-lang-key="terms.title")  Términos y condiciones
+                .row.term-condition-body.multilanguage(data-lang-key="terms.content")
+                    h4  PRIMERO: Antecedentes
+                    p   iHunt SpA, RUT 76.580.320-9 es un servicio de crowd-hunting prestado a través de su sitio web o plataforma que permite a empresas que contraten el servicio, la búsqueda y contratación de personal en base a la búsqueda, recomendación y procesos de reclutamiento llevados a cabo por profesionales independientes inscritos en el Sitio.
+                    h4  SEGUNDO: Objeto
+                    p   Los presentes términos y condiciones tienen por objeto regular las condiciones de uso que rigen el Sitio, la Plataforma, los Servicios, la relación contractual entre iHunt y los Usuarios, como también los derechos y obligaciones que se generan entre los intervinientes de la Plataforma (en adelante los #[a(href="./terms-conditions.html") “Términos y Condiciones”]).
+                    h4  TERCERO: Definiciones
+                    p   Para los efectos de los presente Términos y Condiciones, así como en los demás contratos y anexos que actual o sucesivamente se suscriban entre las partes, las palabras listadas a continuación, usadas en singular o plural, tendrán el significado que para cada una se indica a continuación:
+                    p   1. Para los efectos de los presente Términos y Condiciones, así como en los demás contratos y anexos que actual o sucesivamente se suscriban entre las partes, las palabras listadas a continuación, usadas en singular o plural, tendrán el significado que para cada una se indica a continuación:
+                    p   2. Autenticación: significa la acción de acceder al Sitio como Usuario Registrado mediante el ingreso de su nombre de usuario y Contraseña en la sección de autentificación del Sitio.
+                    p   3. Candidato: significa aquella persona que ha sido contactada por un iHunter y que está disponible para postular a una Posición.
+                    p   4. Contraseña o Clave de Acceso: significan, indistintamente, la combinación alfanumérica, designada por el Usuario Registrado, que se encuentra registrada en las bases de datos de iHunt, la cual es requerida para la Autenticación.
+                    p   5. Cuenta: significa la instancia del Sitio a la que el Usuario accede al autentificarse, la que corresponde a la página personal del Usuario Registrado en el Sitio.
+                    p   6. Días: significan días corridos, salvo que se señale expresamente lo contrario.
+                    p   7. Empresa, Empleador o Cliente: significa toda persona natural o jurídica que contrate los Servicios ofrecidos por iHunt.
+                    p   8. Entrevista: significa la realización de un cuestionario por un iHunter a un Candidato para una posición específica.
+                    p   9. Filterer: significa aquella persona independiente de iHunt que participa en el proceso de filtro de Candidatos.
+                    p   10. iHunt: significa iHunt SpA, RUT 76.580.320-9
+                    p   11. iHunter o Reclutador: significa la persona que, a través de la Plataforma, presta servicios esporádicos de reclutamiento para la Empresa, ello, en forma independiente y sin subordinación ni dependencia de iHunt.
+                    p   12. Incentivos: Aquel monto que la Empresa asigna para promover que los iHunters realicen búsquedas de Candidatos.
+                    p   13. Lista Corta: significa la pre-selección y presentación a la Empresa de los Candidatos con mejor calce de acuerdo a la vacante publicada por la misma.
+                    p   14. Oferta: significa aquella comunicación en la que una Empresa, iHunt o un iHunter da a conocer una Posición.
+                    p   15. Perfil: significa la exposición sistematizada de la información que un Candidato ha proporcionado a iHunt y/o al iHunter, tanto, al momento de registrarse en el sitio como, posteriormente.
+                    p   16. Posición: significa una vacante o puesto de trabajo que una Empresa requiere llenar mediante el Servicio.
+                    p   17. Registro de Usuario: significa el proceso por el cual un Usuario No Registrado procede a completar satisfactoriamente el procedimiento de inscripción en el Sitio, obteniendo un nombre de usuario y una contraseña.
+                    p   18. Servicios: significa la búsqueda, recomendación y procesos de reclutamiento llevados a cabo por profesionales independientes y/o medios tecnológicos, con el objeto de poner a disposición del Empleador la información solicitada respecto de Candidatos, a fin de tomar una decisión informada respecto de la selección de un Candidato en particular.
+                    p   19. Sitio o ihunt.one o Plataforma: hace referencia al sitio web #[a(href="www.ihunt.one") www.ihunt.one], así como también la plataforma web de propiedad y bajo operación de iHunt, las demás páginas web que la conforman y los contenidos que se encuentran disponibles en sus páginas, actualmente y según se modifiquen de tiempo en tiempo.
+                    p   20. Términos y Condiciones, Términos de Uso: tiene el significado que se le da en la cláusula Segunda.
+                    p   21. Usuario: significa toda persona natural o jurídica, o representante en cualquier forma de los mismos, que utilice o que se encuentra registrado como tal en el Sitio o Plataforma, y que podrán clasificarse como: I-Hunter, Empresa, Usuario Registrado, Usuario No Registrado y Candidato. El término “Usuario” abarca todas y cualquiera de las referidas categorías.
+                    p   22. Usuario No Registrado: significa aquel Usuario que no ha completado el proceso de Registro del Usuario, y que, por tanto, no posee un Nombre de Usuario y Contraseña.
+block script
+
+    script(src="js/jquery.min-dist.js") 
+    script(src="js/owl.carousel.min-dist.js")

@@ -1,0 +1,94 @@
+extends ../layouts/_main   
+block variables 
+    - 
+        var page = {
+            title: 'iHunt - Ser ihunter',
+            description: 'En iHunt puedes ser parte de la mayor red de reclutamiento colaborativo, junto a más de 2500 reclutadores independientes que día a día están cambiando el paradigma del sourcing y el futuro de los Recursos Humanos.',
+            keywords: "cuentra, economica, candidatos, efectiva, sistema, revolucionando, atracción, región",
+            author: 'iHunt develop team'
+        }; 
+
+block style
+    link(rel="stylesheet", href="css/owl.carousel-dist.css")
+    link(rel="stylesheet", href="css/owl.theme.default-dist.css")
+    link(rel="stylesheet", href="css/owl.theme.green-dist.css")
+block content 
+    section#blog-section-init.d-flex
+        img(src="image/platform-section-init-img.svg", alt="").d-md-block.d-none.position-absolute.mx-auto.absolute-center
+        img(src="image/platform-section-init-img-m.svg", alt="").d-md-none.d-block.position-absolute.mx-auto.absolute-center
+        .container
+            .blog-header   
+                h1.text-center.text-primary #iHuntBlog
+                p.text-center Todo lo que necesitas para optimizar tus procesos de Reclutamiento y #[br.d-md-block.d-none] Selección. Aquí te entregamos algunas herramientas prácticas que pueden  #[br.d-md-block.d-none]ser útiles para tus desafíos de atracción de talento.
+            .row.row-cols-md-3.row-cols-md-1.mt-md-5.pt-md-5
+                .col-md-4.col-12.content-card-blog
+                    a(href="./blog-detail.html", rel="noopener noreferrer").card.card-blog-a.px-md-0(data-aos="flip-right",  data-aos-duration="1000")
+                        img(src='image/example-img-card.png' alt='example-img-card.png')
+                        .card-body.card-body-blog.px-md-5.px-xxl-4.pb-md-5
+                            small.card-title 30 de Junio de 2022
+                            p.card-text.mt-md-3.mt-5
+                                | 5 formas en que la cultura de una empresa incide en las contrataciones
+                .col-md-4.col-12.content-card-blog
+                    a(href="./blog-detail.html", rel="noopener noreferrer").card.card-blog-a.px-md-0(data-aos="flip-right",  data-aos-duration="2000")
+                        img(src='image/example-img-card.png' alt='example-img-card.png')
+                        .card-body.card-body-blog.px-md-5.px-xxl-4.pb-md-5
+                            small.card-title 30 de Junio de 2022
+                            p.card-text.mt-md-3.mt-5
+                                | 5 formas en que la cultura de una empresa incide en las contrataciones
+                .col-md-4.col-12.content-card-blog
+                    a(href="./blog-detail.html", rel="noopener noreferrer").card.card-blog-a.px-md-0(data-aos="flip-right",  data-aos-duration="3000")
+                        img(src='image/example-img-card.png' alt='example-img-card.png')
+                        .card-body.card-body-blog.px-md-5.px-xxl-4.pb-md-5
+                            small.card-title 30 de Junio de 2022
+                            p.card-text.mt-md-3.mt-4
+                                | 5 formas en que la cultura de una empresa incide en las contrataciones
+            .row.row-cols-md-3.row-cols-md-1.mt-md-5
+                .col-md-4.col-12.content-card-blog
+                    a(href="./blog-detail.html", rel="noopener noreferrer").card.card-blog-a.px-md-0(data-aos="flip-right",  data-aos-duration="1000")
+                        img(src='image/example-img-card.png' alt='example-img-card.png')
+                        .card-body.card-body-blog.px-md-5.px-xxl-4.pb-md-5
+                            small.card-title 30 de Junio de 2022
+                            p.card-text.mt-md-3.mt-5
+                                | 5 formas en que la cultura de una empresa incide en las contrataciones
+                .col-md-4.col-12.content-card-blog
+                    a(href="./blog-detail.html", rel="noopener noreferrer").card.card-blog-a.px-md-0(data-aos="flip-right",  data-aos-duration="2000")
+                        img(src='image/example-img-card.png' alt='example-img-card.png')
+                        .card-body.card-body-blog.px-md-5.px-xxl-4.pb-md-5
+                            small.card-title 30 de Junio de 2022
+                            p.card-text.mt-md-3.mt-5
+                                | 5 formas en que la cultura de una empresa incide en las contrataciones
+                .col-md-4.col-12.content-card-blog
+                    a(href="./blog-detail.html", rel="noopener noreferrer").card.card-blog-a.px-md-0(data-aos="flip-right",  data-aos-duration="3000")
+                        img(src='image/example-img-card.png' alt='example-img-card.png')
+                        .card-body.card-body-blog.px-md-5.px-xxl-4.pb-md-5
+                            small.card-title 30 de Junio de 2022
+                            p.card-text.mt-md-3.mt-4
+                                | 5 formas en que la cultura de una empresa incide en las contrataciones
+            .row.row-cols-md-3.row-cols-md-1.mt-md-5
+                .col-md-4.col-12.content-card-blog
+                    a(href="./blog-detail.html", rel="noopener noreferrer").card.card-blog-a.px-md-0(data-aos="flip-right",  data-aos-duration="1000")
+                        img(src='image/example-img-card.png' alt='example-img-card.png')
+                        .card-body.card-body-blog.px-md-5.px-xxl-4.pb-md-5
+                            small.card-title 30 de Junio de 2022
+                            p.card-text.mt-md-3.mt-5
+                                | 5 formas en que la cultura de una empresa incide en las contrataciones
+                .col-md-4.col-12.content-card-blog
+                    a(href="./blog-detail.html", rel="noopener noreferrer").card.card-blog-a.px-md-0(data-aos="flip-right",  data-aos-duration="2000")
+                        img(src='image/example-img-card.png' alt='example-img-card.png')
+                        .card-body.card-body-blog.px-md-5.px-xxl-4.pb-md-5
+                            small.card-title 30 de Junio de 2022
+                            p.card-text.mt-md-3.mt-5
+                                | 5 formas en que la cultura de una empresa incide en las contrataciones
+                .col-md-4.col-12.content-card-blog
+                    a(href="./blog-detail.html", rel="noopener noreferrer").card.card-blog-a.px-md-0(data-aos="flip-right",  data-aos-duration="3000")
+                        img(src='image/example-img-card.png' alt='example-img-card.png')
+                        .card-body.card-body-blog.px-md-5.px-xxl-4.pb-md-5
+                            small.card-title 30 de Junio de 2022
+                            p.card-text.mt-md-3.mt-4
+                                | 5 formas en que la cultura de una empresa incide en las contrataciones
+            .my-5.py-5.justify-content-center.d-flex    
+                a(href="").btn.btn-primary.mt-md-5.view-more  Mostrar más notas                   
+block script
+
+    script(src="js/jquery.min-dist.js") 
+    script(src="js/owl.carousel.min-dist.js")
