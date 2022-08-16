@@ -4,6 +4,8 @@ if($('#owl-logos')){
         margin:10,
         autoplay:true,
         lazyLoad: true,
+       // autoplayTimeout: 3000,
+        autoplaySpeed: 20000,
         stageClass:'align-items-center d-flex',
         responsive:{
             0:{
@@ -31,6 +33,8 @@ if($('#owl-logos-2')){
         margin:10,
         autoplay:true,
         lazyLoad: true,
+       // autoplayTimeout: 3000,
+        autoplaySpeed: 20000,
         stageClass:'align-items-center d-flex',
         responsive:{
             0:{
@@ -59,7 +63,7 @@ if($('#owl-card-blog')){
         itemClass: 'owl-item mx-5 mx-md-4 mx-xxl-3',        
         responsive:{
             0:{
-                stageClass:'align-items-center d-flex p-5 mx-md-auto',
+                stageClass:'align-items-center d-flex p-5',
                 //stageOuterClass: 'owl-stage-outer justify-content-center d-grid',
                 items:2,
                 center: true,
@@ -219,7 +223,6 @@ if($('.view-password')){
 }
 
 if($('.changeIdioma')){
-    console.log(localStorage.getItem("idioma"))
     if(localStorage.getItem("idioma") == 'es'){
         $('.changeIdioma').attr('data-lang','en');
         $('.changeIdioma').find('span').text('Español');
@@ -234,3 +237,11 @@ if($('.changeIdioma')){
         location.reload();
     })
 }
+
+$('.menu').on('click', function (e) {
+    if($(this).attr('aria-expanded') == 'false'){
+        $('.navbar').removeClass('box-shadown-menu');
+    }else{
+        $('.navbar').addClass('box-shadown-menu');
+    }    
+});

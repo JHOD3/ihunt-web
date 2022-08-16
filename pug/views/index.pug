@@ -31,7 +31,7 @@ block content
                 lottie-player(src="image/animaciones/animacion-1-m/data.json"  background="transparent"  speed="1"  loop  autoplay).img-index-element-1-lg.img-index-element-1-xxl.d-md-none.d-flex
 
     section#index-item.container
-        .d-md-flex.d-block
+        .row.row-cols-md-3
             .col-12.col-md-4.pt-md-5
                 .card.px-md-5.pb-md-4.section-2-card-h.px-5
                     div.card-img-content-section-2
@@ -46,7 +46,7 @@ block content
                     div 
                         h2.text-primary.multilanguage(data-lang-key="index.section-2.item-2.title") 10x más #[b.fw-bold económico]
                         p.pt-md-3.multilanguage(data-lang-key="index.section-2.item-2.copy") Nuestra herramienta es hasta 10 veces más económica que cualquier servicio de consultoría.
-            .col-12.col-md-4.pt-md-5
+            .col-12.col-md-4.pt-md-5 
                 .card.px-md-5.pb-md-4.section-2-card-h
                     div.card-img-content-section-2
                         lottie-player(src="image/animaciones/lf20_eu8fi5g3.json",  background="transparent"  speed="1"  loop  autoplay).animation-section-2
@@ -54,8 +54,8 @@ block content
                         h2.text-primary.multilanguage(data-lang-key="index.section-2.item-3.title") 10x más #[b.fw-bold efectivo]
                         p.pt-md-3.multilanguage(data-lang-key="index.section-2.item-3.copy") Con alcance a más de 31 países, aseguramos una shortlist de talento a medida de tus necesidades.
     section#index-item-2.mt-md-5.pt-md-5.container.pb-md-1
-        .col-md-10.mx-auto.card.my-md-5.my-5( data-aos="fade-up", data-aos-duration="1000")
-            .row.row-cols-md-4.row.row-cols-2.p-5
+        .col-md-10.mx-auto.card.my-md-5.my-5.box-shadow-none-m( data-aos="fade-up", data-aos-duration="1000")
+            .row.row-cols-md-4.row-cols-2.p-5
                 .justify-content-center.d-grid(data-aos="fade-down", data-aos-duration="1300")
                     img(src="image/index-section-3-icono-1.png", alt="", srcset="").mx-auto
                     div.text-center.mt-md-3 
@@ -121,7 +121,8 @@ block content
                     p.mt-md-4.pt-md-2(data-aos="fade-up", data-aos-duration="1000").multilanguage(data-lang-key="index.section-5.item-4.copy-1")   Nuestros algoritmos permiten acelerar el proceso #[br.d-md-block.d-none] de preselección de candidatos de manera #[br.d-md-block.d-none] exponencial.
                     p.multilanguage(data-lang-key="index.section-5.item-4.copy-2")   #[b Tu empresa ahorrará hasta 30x de tiempo] en #[br.d-md-block.d-none] identificar candidatos de valor.
             .col
-                img(src="image/index-section-5-img-4.png", alt="", srcset="", loading="lazy")
+                .lozad(data-src="image/animaciones/tarjeta-sombras/data.json"  , data-type="lottiefiles", data-name="placa4", data-loop-start="0", data-loop-end="625")#index-item-5-animation-3
+
         .justify-content-center.d-flex.mt-md-5(data-aos="fade-up", data-aos-duration="1000")
             a.btn.btn-primary.mx-auto.multilanguage(data-lang-key="index.section-5.button") Quiero una demo    
     section#index-item-6.mt-md-5.pt-md-5.d-flex.justify-content-center

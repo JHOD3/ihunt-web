@@ -316,10 +316,16 @@ small{
         .owl-item img {
             width: initial !important;
         }
+        .owl-carousel .owl-item img {
+            width: 70% !important;
+        }
     }
     #owl-logos-2{
         .owl-item img {
             width: initial !important;
+        }
+        .owl-carousel .owl-item img {
+            width: 70% !important;
         }
     }
     // body{
@@ -1035,14 +1041,40 @@ small{
             
         }
     }
-
+    
+    .box-shadow-none-m{
+        box-shadow: none;
+    }
+    main{
+        padding-top: 6rem;
+    }
+    .box-shadown-menu{
+        box-shadow: 0px 20px 0px 2200px #00000069;
+    }
+    .navbar-nav .nav-item {
+        margin-top: 1.1rem;
+    }
+    .button-start-m {
+        padding: 1.2rem 0;
+        margin-top: 1.5rem !important;
+        margin-bottom: 1rem;
+    }
+    .start-session-m{
+        margin-left: auto;
+        margin-right: 1rem;
+        font-size: .8em;
+        text-decoration: auto;
+        font-weight: 600;
+    }
 }
   
 
   
 @include media-breakpoint-up(md){
+    
     .img-login{
         height: 100vh;
+        width: 100%;
     }
 
     // Index page
@@ -1191,12 +1223,13 @@ small{
             }
         }
         .ser-ihunter-section-1-img-md{
-            transform: scale(1.1);
+            transform: scale(.9);
             z-index: -1;
             margin-right: -4rem;
             margin-top: 3rem;
         }
     }
+
     .list-ventajas {
         list-style-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3Ljk2NyIgaGVpZ2h0PSIxMi45MzUiIHZpZXdCb3g9IjAgMCA3Ljk2NyAxMi45MzUiPgogIDxwYXRoIGlkPSJUcmF6YWRvXzQ0OTAiIGRhdGEtbmFtZT0iVHJhemFkbyA0NDkwIiBkPSJNMTEyLjcxOSw5MDMuMjY2bDQuMzQ2LDQuMzQ2LTQuMzQ2LDQuMzQ2IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTEwLjU5NyAtOTAxLjE0NSkiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzQzMTA4NyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjMiLz4KPC9zdmc+Cg==);  
         li{

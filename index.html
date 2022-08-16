@@ -18,9 +18,10 @@
   <link rel="stylesheet" href="css/owl.theme.default-dist.css">
   <link rel="stylesheet" href="css/owl.theme.green-dist.css">
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom pt-md-3 pb-md-1">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom pt-md-3 pb-md-1 fixed-top">
       <div class="container px-md-0"><a class="navbar-brand" href="./index.html">
-          <image src="image/logo.svg"></image></a>
+          <image src="image/logo.svg"></image></a><a class="multilanguage start-session-m" href="./login.html'" rel="noopener noreferrer" data-lang-key="menu.login">
+           Iniciar Sesión</a>
         <button class="menu navbar-toggler border-0 button-toggle d-md-none d-block" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))" aria-label="Main Menu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText">
           <svg width="35" height="35" viewBox="0 0 100 100">
             <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"></path>
@@ -36,8 +37,8 @@
             <li class="nav-item"><a class="nav-link multilanguage" href="./blog.html" data-lang-key="menu.blog">Blog </a></li>
             <li class="nav-item"><a class="nav-link multilanguage" href="./ihunter.html" data-lang-key="menu.ihunter">Ser iHunter</a></li>
             <li class="nav-item pt-4 d-md-none pb-5"><a class="changeIdioma" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="z-index:1" data-lang=""><img src="image/icono-globo-m.svg" alt="" srcset=""><span class="ms-3">Español</span></a></li>
-            <li class="nav-item d-md-none border-top border-bottom mt-5 py-5"><a class="btn btn-primary my-5 multilanguage" href="#" data-lang-key="menu.start">Empezar ahora</a></li>
-            <li class="nav-item d-md-none mt-5 py-5"><a class="pe-5" href="http://" target="_blank" rel="noopener noreferrer"><img class="icono-social" src="image/icono-linkedin-c.png" data-src="image/icono-linkedin-hover.png" alt="" srcset=""></a><a class="px-5 mx-5" href="http://" target="_blank" rel="noopener noreferrer"><img class="icono-social" src="image/icono-instagram-c.png" data-src="image/icono-instagram-hover.png" alt="" srcset=""></a><a class="ps-5" href="http://" target="_blank" rel="noopener noreferrer"><img class="icono-social" src="image/icono-facebook-c.png" data-src="image/icono-facebook-hover.png" alt="" srcset=""></a></li>
+            <li class="nav-item d-md-none border-top border-bottom button-start-m"><a class="btn btn-primary my-5 multilanguage" href="./register.html" data-lang-key="menu.start">Empezar ahora</a></li>
+            <li class="nav-item d-md-none mt-5 py-5"><a class="pe-5" href="https://cl.linkedin.com/company/ihuntplatform" target="_blank" rel="noopener noreferrer"><img class="icono-social" src="image/icono-linkedin-c.png" data-src="image/icono-linkedin-hover.png" alt="" srcset=""></a><a class="px-5 mx-5" href="https://www.instagram.com/ihunt.one/" target="_blank" rel="noopener noreferrer"><img class="icono-social" src="image/icono-instagram-c.png" data-src="image/icono-instagram-hover.png" alt="" srcset=""></a><a class="ps-5" href="https://www.facebook.com/ihunt.one" target="_blank" rel="noopener noreferrer"><img class="icono-social" src="image/icono-facebook-c.png" data-src="image/icono-facebook-hover.png" alt="" srcset=""></a></li>
           </ul><span class="navbar-text d-none d-md-block">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-md-5 align-items-center">
               <li class="nav-item"><a class="nav-link multilanguage" aria-current="page" href="./login.html" data-lang-key="menu.login">Iniciar session</a></li>
@@ -76,7 +77,7 @@
         </div>
       </section>
       <section class="container" id="index-item">
-        <div class="d-md-flex d-block">
+        <div class="row row-cols-md-3">
           <div class="col-12 col-md-4 pt-md-5">
             <div class="card px-md-5 pb-md-4 section-2-card-h px-5">
               <div class="card-img-content-section-2">
@@ -99,7 +100,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-4 pt-md-5">
+          <div class="col-12 col-md-4 pt-md-5"> 
             <div class="card px-md-5 pb-md-4 section-2-card-h">
               <div class="card-img-content-section-2">
                 <lottie-player class="animation-section-2" src="image/animaciones/lf20_eu8fi5g3.json" background="transparent" speed="1" loop autoplay></lottie-player>
@@ -113,8 +114,8 @@
         </div>
       </section>
       <section class="mt-md-5 pt-md-5 container pb-md-1" id="index-item-2">
-        <div class="col-md-10 mx-auto card my-md-5 my-5" data-aos="fade-up" data-aos-duration="1000">
-          <div class="row row-cols-md-4 row row-cols-2 p-5">
+        <div class="col-md-10 mx-auto card my-md-5 my-5 box-shadow-none-m" data-aos="fade-up" data-aos-duration="1000">
+          <div class="row row-cols-md-4 row-cols-2 p-5">
             <div class="justify-content-center d-grid" data-aos="fade-down" data-aos-duration="1300"><img class="mx-auto" src="image/index-section-3-icono-1.png" alt="" srcset="">
               <div class="text-center mt-md-3"> 
                 <h2 class="fw-bold text-primary">2.700</h2>
@@ -200,7 +201,9 @@
               <p class="multilanguage" data-lang-key="index.section-5.item-4.copy-2">  <b>Tu empresa ahorrará hasta 30x de tiempo</b> en <br class="d-md-block d-none"> identificar candidatos de valor.</p>
             </div>
           </div>
-          <div class="col"><img src="image/index-section-5-img-4.png" alt="" srcset="" loading="lazy"></div>
+          <div class="col">
+            <div class="lozad" data-src="image/animaciones/tarjeta-sombras/data.json" data-type="lottiefiles" data-name="placa4" data-loop-start="0" data-loop-end="625" id="index-item-5-animation-3"></div>
+          </div>
         </div>
         <div class="justify-content-center d-flex mt-md-5" data-aos="fade-up" data-aos-duration="1000"><a class="btn btn-primary mx-auto multilanguage" data-lang-key="index.section-5.button">Quiero una demo    </a></div>
       </section>
@@ -271,10 +274,10 @@
       <div class="container position-absolute mx-auto absolute-center"> 
         <div class="row row-cols-md-2 row-cols-1"> 
           <div class="col order-2 order-md-1"><img class="logo-w" src="image/logo-w.svg" alt="" srcset="">
-            <p class="text-white mt-md-5">Hernando de Aguirre 268, Piso 6, Providencia <br>Santiago, Chile <br>
+            <p class="text-white mt-md-3">Hernando de Aguirre 268, Piso 6, Providencia <br>Santiago, Chile <br>
               <a class="text-white" href="mailto:contacto@ihunt.one">contacto@ihunt.one</a>
             </p>
-            <div class="d-md-none d-block"> <a class="pe-5" href="http://" target="_blank" rel="noopener noreferrer"><img class="icono-social" src="image/icono-linkedin.png" data-src="image/icono-linkedin-hover.png" alt="" srcset=""></a><a class="px-5 mx-5" href="http://" target="_blank" rel="noopener noreferrer"><img class="icono-social" src="image/icono-instagram.png" data-src="image/icono-instagram-hover.png" alt="" srcset=""></a><a class="ps-5" href="http://" target="_blank" rel="noopener noreferrer"><img class="icono-social" src="image/icono-facebook.png" data-src="image/icono-facebook-hover.png" alt="" srcset=""></a></div>
+            <div class="d-md-block d-block pt-md-3"><a class="pe-5 pe-md-3" href="https://cl.linkedin.com/company/ihuntplatform" target="_blank" rel="noopener noreferrer"><img class="icono-social" src="image/icono-linkedin.png" data-src="image/icono-linkedin-hover.png" alt="" srcset=""></a><a class="px-5 mx-5 px-md-0 mx-md-0" href="https://www.instagram.com/ihunt.one/" target="_blank" rel="noopener noreferrer"><img class="icono-social" src="image/icono-instagram.png" data-src="image/icono-instagram-hover.png" alt="" srcset=""></a><a class="ps-5 ps-md-3" href="https://www.facebook.com/ihunt.one" target="_blank" rel="noopener noreferrer"><img class="icono-social" src="image/icono-facebook.png" data-src="image/icono-facebook-hover.png" alt="" srcset=""></a></div>
           </div>
           <div class="col-md-4 col-xxl-4 ms-auto justify-content-center d-grid order-1 order-md-2">
             <h2 class="text-white text-center font-1-7-em-lg multilanguage" data-lang-key="footer.title"> ¿Quieres ser parte del mayor equipo de reclutadores independientes del mundo? </h2><a class="btn btn-outline-light mx-md-auto mt-md-5 multilanguage" data-lang-key="footer.button">   ¡Súmate como iHunter ahora!</a>

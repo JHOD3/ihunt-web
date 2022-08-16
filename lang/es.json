@@ -199,7 +199,7 @@
                 "li-3":"Onboarding personalizado",
                 "li-4":"Asistencia en publicaciones",
                 "li-5":"Junta directiva semanal",
-                "button":"!Empezar ahora¡"
+                "button":"¡Empezar ahora!"
             },
             "item-2":{
                 "title":"On-demand",
@@ -209,7 +209,7 @@
                 "li-3":"Onboarding personalizado",
                 "li-4":"Asistencia en publicaciones",
                 "li-5":"Junta directiva semanal",
-                "button":"!Empezar ahora¡"
+                "button":"¡Empezar ahora!"
             },
             "item-3":{
                 "title":"Grow",
@@ -219,7 +219,7 @@
                 "li-3":"Onboarding personalizado",
                 "li-4":"Asistencia en publicaciones",
                 "li-5":"Junta directiva semanal",
-                "button":"!Empezar ahora¡"
+                "button":"¡Empezar ahora!"
             } ,
             "item-4":{
                 "title":"Scale",
@@ -229,13 +229,13 @@
                 "li-3":"Onboarding personalizado",
                 "li-4":"Asistencia en publicaciones",
                 "li-5":"Junta directiva semanal",
-                "button":"!Empezar ahora¡"
+                "button":"¡Empezar ahora!"
             }                 
         }   
     },
     "platform":{
         "section-1":{
-            "title":"La puerta hacia un<br class=\"d-md-block d-none\"> <strong class=\"fw-bold\">nuevo sourcing de talento</strong>",
+            "title":"La puerta hacia un<br class=\"d-md-block d-none\"> <strong class=\"fw-bold\">nuevo<br class=\"d-md-none d-block\"> sourcing de talento</strong>",
             "copy":"<strong class=\"fw-bold\"> El mundo cambió y así la identificación de talento.</strong> <br class=\"d-md-block d-none\">Conoce la herramienta que puede convertirse en tu mejor aliado para tu  <br class=\"d-md-block d-none\"> próxima búsqueda de candidatos."
         },
         "section-2":{
