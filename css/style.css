@@ -326,8 +326,8 @@ h1, h2 {
     width: initial !important;
   }
 
-  body {
-    overflow-x: hidden;
+  .owl-person-100-m {
+    width: 100% !important;
   }
 
   #index-init .row .col-12.col-md-5.pt-md-5.px-md-0.pt-5 {
@@ -417,6 +417,9 @@ h1, h2 {
   #owl-person .owl-stage-outer div .owl-item .row img {
     width: 55%;
     margin: auto;
+  }
+  #owl-person .owl-nav {
+    width: 100%;
   }
 
   #index-item-6 img:nth-child(2) {
@@ -742,11 +745,12 @@ h1, h2 {
     font-weight: 700;
     color: #430087;
     margin-bottom: 5px;
+    margin-top: 1.5rem;
   }
   .grid-como-funciona .card .animation-icon-ser-ihunter-section-3 {
-    transform: scale(0.7);
-    margin-top: -5rem;
-    margin-left: -5rem;
+    transform: scale(1);
+    margin-top: 0rem;
+    margin-left: -2rem;
   }
 
   #ser-ihunter-section-3 {
@@ -844,6 +848,14 @@ h1, h2 {
     transform: scale(1.5);
     margin-top: 6rem;
     margin-bottom: 3rem;
+  }
+
+  .animacion-iman-perfiles-img {
+    width: 100%;
+  }
+
+  #platform-section-init .platform-img-background-m {
+    width: 100%;
   }
 
   #platform-section-3 {

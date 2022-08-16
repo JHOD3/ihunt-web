@@ -21,14 +21,14 @@ block style
 block content 
 
         section#services-init
-            img(src="image/sevices-img-init.svg").position-absolute.mx-auto.absolute-center
+            img(src="image/sevices-img-init.svg").position-absolute.mx-auto.absolute-center.d-md-block.d-none 
             .container.pt-md-5.mt-md-5.px-md-0
                 .pb-md-4.mt-md-5
                     h2.text-primary.text-center.font-2-3-em-md(data-aos="fade-down", data-aos-duration="2000").multilanguage(data-lang-key="services.section-1.title")   Servicios
                     p.text-center.md-md-5.mt-md-4(data-aos="fade-up", data-aos-duration="2000").multilanguage(data-lang-key="services.section-1.copy")    Somos la alternativa más costo-efectiva para atraer talento​. #[br.d-md-block.d-none]
                         | Escoge el plan que mejor se adapte a tus necesidades:
                 .row.row-cols-md-2.row-cols-1.pt-md-5.flex-md-nowrap.mt-md-5.justify-content-center
-                    .col-md-3.px-md-0(data-aos="flip-down", data-aos-duration="2000")
+                    .col-md-3.px-md-0(data-aos="fade-down", data-aos-duration="2000")
                         .card.mb-4.box-shadow
                             .card-header.bg-color-1.text-white
                                 h2.my-0.font-weight-normal.multilanguage(data-lang-key="services.section-1.item-1.title")  On-demand
@@ -55,8 +55,8 @@ block content
                                     | 990
                                     small p/m
                                 .justify-content-center.d-flex.pb-md-4 
-                                    a.col-md-10.col-10.mx-md-auto.btn.btn-color-1.text-white(type='button').multilanguage(data-lang-key="services.section-1.item-1.button")  ¡Empezar ahora!
-                    .col-md-9(data-aos="flip-down", data-aos-duration="2000")
+                                    a.col-md-10.col-10.mx-md-auto.btn.btn-color-1.text-white.multilanguage(data-lang-key="services.section-1.item-1.button")  ¡Empezar ahora!
+                    .col-md-9(data-aos="fade-down", data-aos-duration="2000")
                         .card.d-md-flex.d-block.row-cols-md-2.row-cols-lg-3.row-cols-1.p-md-0.flex-row.ms-md-3.mb-4    
                             .col.p-md-0.m-md-0
                                 .box-shadow.border-radius-card-r-none
@@ -87,7 +87,7 @@ block content
                                             | 2.250
                                             small p/m
                                         .justify-content-center.d-flex.pb-md-4 
-                                            a.col-md-10.col-10.mx-md-auto.btn.btn-color-2.text-white(type='button').multilanguage(data-lang-key="services.section-1.item-2.button")  ¡Empezar ahora!
+                                            a.col-md-10.col-10.mx-md-auto.btn.btn-color-2.text-white.multilanguage(data-lang-key="services.section-1.item-2.button")  ¡Empezar ahora!
                             .col.p-md-0
                                 .box-shadow.border-radius-card-none.mx-md-1
                                     .card-header.bg-color-3.text-white.border-radius-card-none.position-relative
@@ -117,7 +117,7 @@ block content
                                             | 3.500
                                             small p/m
                                         .justify-content-center.d-flex.pb-md-4    
-                                            a.col-md-10.col-10.mx-md-auto.btn.btn-color-3.text-white.mx-auto(type='button').multilanguage(data-lang-key="services.section-1.item-3.button") ¡Empezar ahora!
+                                            a.col-md-10.col-10.mx-md-auto.btn.btn-color-3.text-white.mx-auto.multilanguage(data-lang-key="services.section-1.item-3.button") ¡Empezar ahora!
                             .col.p-md-0.m-md-0 
                                 .box-shadow.border-radius-card-l-none
                                     .card-header.bg-color-4.text-white.border-card-header-l.position-relative
@@ -148,20 +148,20 @@ block content
                                             | 6.500
                                             small p/m
                                         .justify-content-center.d-flex.pb-md-4 
-                                            a.col-md-10.col-10.mx-md-auto.btn.btn-color-4.text-white(type='button').multilanguage(data-lang-key="services.section-1.item-4.button") ¡Empezar ahora!
+                                            a.col-md-10.col-10.mx-md-auto.btn.btn-color-4.text-white.multilanguage(data-lang-key="services.section-1.item-4.button") ¡Empezar ahora!
         section#services-section-2
             .container.pt-md-5.mt-md-5.px-md-0.pt-5.mt-5
                 .pb-md-4
                     h2.text-primary.text-center.font-2-3-em-md(data-aos="fade-down", data-aos-duration="2000")   Preguntas frecuentes
                 #preguntas-frecuentes.accordion.pt-md-5.mt-md-2.col-md-10.mx-md-auto.pt-md-5.mt-md-2
-                    .accordion-item(data-aos="fade-right", data-aos-duration="2000")
+                    .accordion-item(data-aos="fade-up", data-aos-duration="2000")
                         h2#headingOne.accordion-header
                             button.accordion-button(type='button' data-bs-toggle='collapse' data-bs-target='#collapseOne' aria-expanded='true' aria-controls='collapseOne')
                                 | ¿Qué métodos de pago aceptan?
                         #collapseOne.accordion-collapse.collapse.show(aria-labelledby='headingOne' data-bs-parent='#preguntas-frecuentes')
                             .accordion-body
                                 | Aceptamos las principales tarjetas de crédito, PayPal y (en algunos países) débito directo. También admitimos las transacciones en diversas monedas.
-                    .accordion-item(data-aos="fade-right", data-aos-duration="2000")
+                    .accordion-item(data-aos="fade-up", data-aos-duration="2000")
                         h2#headingTwo.accordion-header
                             button.accordion-button.collapsed(type='button' data-bs-toggle='collapse' data-bs-target='#collapseTwo' aria-expanded='false' aria-controls='collapseTwo')
                                 | ¿Cómo puedo cambiar de plan?
@@ -169,14 +169,14 @@ block content
                             .accordion-body
                                 |  Si has contratado un plan de suscripción mensual, podrás hacer un cambio de plan en cualquier momento desde tu cuenta de usuario y se verá aplicado al finalizar el ciclo de facturación.  
                                 |  Aún así, reconocemos nos encantan las áreas de tecnologías de la información, analytics y desarrollo de software, donde tenemos muchísima experiencia.​
-                    .accordion-item(data-aos="fade-right", data-aos-duration="2000")
+                    .accordion-item(data-aos="fade-rigupht", data-aos-duration="2000")
                         h2#headingThree.accordion-header
                             button.accordion-button.collapsed(type='button' data-bs-toggle='collapse' data-bs-target='#collapseThree' aria-expanded='false' aria-controls='collapseThree')
                                 | ¿En qué tipo de perfiles se enfocan?​
                         #collapseThree.accordion-collapse.collapse(aria-labelledby='headingThree' data-bs-parent='#preguntas-frecuentes')
                             .accordion-body
                                 |  Tenemos un equipo de atracción de talento transversal, que se compone de reclutadores expertos e industry experts provenientes de más de 25 industrias en 20 países. Lo que nos permite reclutar profesionales acuerdo a tus requerimientos. 
-                    .accordion-item(data-aos="fade-right", data-aos-duration="2000")
+                    .accordion-item(data-aos="fade-up", data-aos-duration="2000")
                         h2#headingFour.accordion-header
                             button.accordion-button.collapsed(type='button' data-bs-toggle='collapse' data-bs-target='#collapseFour' aria-expanded='false' aria-controls='collapseFour')
                                 | ¿Cuál es el entregable?

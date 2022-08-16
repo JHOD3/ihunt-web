@@ -86,6 +86,7 @@ if($('#owl-person')){
         nav:true,
         lazyLoad: true,
         stageClass:'align-items-center d-flex mx-auto',
+        navContainerClass:'owl-nav',
         responsive:{
             0:{
                 items:1
@@ -93,6 +94,10 @@ if($('#owl-person')){
         }
     })
 }
+
+
+
+
 
 let elementSelection = document.getElementsByClassName('icono-social');
 

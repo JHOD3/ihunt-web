@@ -322,8 +322,11 @@ small{
             width: initial !important;
         }
     }
-    body{
-        overflow-x: hidden;
+    // body{
+    //     overflow-x: hidden;
+    // }
+    .owl-person-100-m{
+        width: 100% !important; 
     }
     #index-init{
         .row{
@@ -421,6 +424,9 @@ small{
                     }
                 }
             }
+        }
+        .owl-nav{
+            width: 100%;
         }
     }
     #index-item-6 {
@@ -757,11 +763,12 @@ small{
                 font-weight: 700;
                 color: #430087;
                 margin-bottom: 5px;
+                margin-top: 1.5rem;
             }
             .animation-icon-ser-ihunter-section-3 {
-                transform: scale(.7);
-                margin-top: -5rem;
-                margin-left: -5rem;
+                transform: scale(1);
+                margin-top: 0rem;
+                margin-left: -2rem;
             }
         }
     }
@@ -867,7 +874,12 @@ small{
     }
     
     .animacion-iman-perfiles-img{
-
+        width: 100%;
+    }
+    #platform-section-init{
+        .platform-img-background-m{
+            width: 100%;
+        }
     }
 
     #platform-section-3{
