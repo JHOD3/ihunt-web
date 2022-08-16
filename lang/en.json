@@ -1,5 +1,80 @@
-{
+{   
+    "menu":{
+        "home": "Home",
+        "service": "Services",
+        "platform": "The platform",
+        "blog": "Blog",
+        "ihunter": "Be an iHunter",
+        "start": "Start now",
+        "login": "Log in"
+    },
     "index": {
+        "section-1":{
+            "title":"Find <strong class=\"fw-bold\">valuable candidates</strong> in a simple, economic and effective way.",
+            "copy":"Learn about the system that is revolutionizing talent <br class=\"d-md-block d-none\"> attraction throughout the region.",
+            "button":"I want a demo"
+        },
+        "section-2":{
+            "item-1":{
+                "title":"10x <b class=\"fw-bold\">faster</b>",
+                "copy":"Our system combines AI and crowd sourcing, allowing us to deliver a shortlist of candidates in only 5 business days."
+            },
+            "item-2":{
+                "title":"10x <b class=\"fw-bold\">cheaper</b>",
+                "copy":"Our tool is 10 times cheaper than any consulting service."
+            },
+            "item-3":{
+                "title":"10x more<b class=\"fw-bold\">effective</b>",
+                "copy":"With outreach to more than 31 countries, we ensure a shortlist of talent tailored to your needs."
+            }
+        },
+        "section-3":{
+            "item-1": "iHunters",
+            "item-2": "Resolved job vacancies",
+            "item-3": "Client",
+            "item-4": "Countries"
+        },
+        "section-4":{
+            "title":"The best ally for Human<br class=\"d-md-block d-none\"> Resources and Talent<br class=\"d-md-block d-none\">  Attraction needs.",
+            "copi-1":"Meet your personnel selection objectives in a timely manner.",
+            "copi-2":"iHunt helps you match high – potential candidates for your job openings.",
+            "button":"I want a demo"
+        },
+        "section-5":{
+            "item-1":{
+                "title":"We solve the most important",
+                "copy":" We take care of <b>sourcing:</b> the most difficult and at the <br class=\"d-md-block d-none\">same time the most important aspect of talent attraction. "
+            },
+            "item-2":{
+                "title":"Active Sourcing",
+                "copy-1":"Multiply the quality of your selection processes through our<br class=\"d-md-block d-none\"> Active Sourcing system.",
+                "copy-2":"We combine  <b>artificial intelligence algorithms and<br class=\"d-md-block d-none\"> collaborative economies</b>, so you can obtain<br class=\"d-md-block d-none\"> a list of valuable candidates up to 10 times faster <br class=\"d-md-block d-none\">effectively than any other solution."
+            },
+            "item-3":{
+                "title":"Regional Reach",
+                "copy-1":"Find the best talent for your job offers no matter where.",
+                "copy-2":"We have effective  coverage throughout the region."
+            },
+            "item-4":{
+                "title":"Smart Filtering",
+                "copy-1":"Our algorithms allow us to speed up the candidates<br class=\"d-md-block d-none\"> pre - selection process exponentially.  ",
+                "copy-2":"Your  company will save up to 30x time in identifying<br class=\"d-md-block d-none\"> valuable candidates."
+            },
+            "button":"I want a demo"
+        },
+        "section-6":{
+            "title": "Impacting the productivity of<br> <strong>+200 companies</strong>"
+        },
+        "section-7":{
+            "title":"Top talent is <br class=\"d-md-block d-none\"><span class=\"fw-bold\">8X times more productive.</span>",
+            "fecha":"McKinney, 2021",
+            "copy":"Publishing your job offers on our platform will allow you<br class=\"d-md-none d-none\"> to find valuable <strong class=\"fw-bold\">candidates in a timely manner.</strong>",
+            "button":"I want a demo"
+        },
+        "section-8":{
+            "title":"#iHuntBlog",
+            "copy":"Every month we post new articles dealing with the most relevant<br class=\"d-md-block d-none\"> topics in the world of HRtech and talent attraction."
+        },
         "testimonials": {
             "item1": {
                 "description": "<p> I highlight the response time of iHunt. <br></p><p> There are many positions for which one requires a quick search, and not for that reason \"badly done\". I emphasize that they operate digitally, their rates and diversity of candidates. I have been very struck by the amount of suitable people that exist for EOX thanks to iHunt. </p>",
@@ -9,6 +84,53 @@
         }
     },
     "ihunter":{
+        "section-1":{
+            "title":"Generate income as an <br> <strong class=\"fw-bold\">independent recruiter.</strong>",
+            "copy":"At iHunt you can be part of the largest collaborative recruitment network, along with more than 2,700 independent recruiters who are changing the sourcing paradigm and the future of Human Resources every day.",
+            "subtitle":"Join as an iHunter!",
+            "button":"Start now"
+        },
+        "section-2":{
+            "title":"Benefits of being an iHunter",
+            "li-1":"Network",
+            "li-2":"Independence",
+            "li-3":"Easy and accessible platform",
+            "li-4":"Agile and 100% remote work",
+            "li-5":"Support and advise from our team",
+            "button":"Coordinate a training seesion"
+        },
+        "section-3":{
+            "title":"How does it work?",
+            "item-1":{
+                "title":"Sign-in",
+                "copy":"You register on the iHunt platform"
+            },
+            "item-2":{
+                "title":"Training",
+                "copy":"Participate in free online training"
+            },
+            "item-3":{
+                "title":"Access",
+                "copy":"You receive access to our platform"
+            },
+            "item-4":{
+                "title":"Active",
+                "copy":"You review, share and activate the searches of your interest"
+            },
+            "item-5":{
+                "title":"Linked",
+                "copy":"Each candidate is linked to your code in each search"
+            },
+            "item-6":{
+                "title":"Get paid!",
+                "copy":"You receive income every time the client selects your candidate"
+            }            
+        },
+        "section-4":{
+            "title":"At iHunt we are<br class=\"d-md-block d-none\"> committed <br class=\"d-md-block d-block\"> with quality",
+            "copy-1":"That is why our iHunters get paid only when one of their candidates is selected by the client.",
+            "copy-2":"<strong class=\"fw bold\">Each search lasts only 5 days,</strong> so very quickly, you will have the notification of how much you earned. That will be paid to you via bank transfer, Payoneer or Paypal, depending on your location."
+        },
         "testimonials": {
             "item1": {
                 "title": "What the iHunters say",
@@ -24,9 +146,162 @@
             }
         }
     },
+    "join-ihunter":{
+        "section-1":{
+            "title":"Join as iHunter!",
+            "copy":"Please, we ask you to complete all the data.<br class=\"d-md-block d-none\"> and we will contact you.",
+            "email":"E-MAIL",
+            "email_confirm":"CONFIRM YOUR EMAIL",
+            "full-name":"Name and surname",
+            "phone":"Telephone with country code",
+            "linkeding":"Linkedin (url profile)",
+            "county":"Country",
+            "password":"Password",
+            "password_confirm":"Repeat password",
+            "terms":"I accept the <a href=\"./terms-conditions.html\">terms and conditions</a>",
+            "button":"Send now!"
+        },
+        "section-2":{
+            "title":"How does it work?",
+            "item-1":{
+                "title":"Sign-in",
+                "copy":"You register on the iHunt platform"
+            },
+            "item-2":{
+                "title":"Training",
+                "copy":"Participate in free online training"
+            },
+            "item-3":{
+                "title":"Access",
+                "copy":"You receive access to our platform"
+            },
+            "item-4":{
+                "title":"Active",
+                "copy":"You review, share and activate the searches of your interest"
+            },
+            "item-5":{
+                "title":"Linked",
+                "copy":"Each candidate is linked to your code in each search"
+            },
+            "item-6":{
+                "title":"Get paid!",
+                "copy":"You receive income every time the client selects your candidate"
+            }            
+        }              
+},
+    "services":{
+        "section-1":{
+            "title":"Services",
+            "copy":"We are the most cost-effective alternative to attract talent.<br class=\"d-md-block d-none\">Choose the plan that best suits your needs:            ",
+            "item-1":{
+                "title":"On-demand",
+                "copy":"For one job position",
+                "li-1":"1 vacancy",
+                "li-2":"helpdesk support",
+                "li-3":"Personalized onboarding",
+                "li-4":"Publication assistance",
+                "li-5":"Weekly board meeting",
+                "button":"¡Start now!"
+            },
+            "item-2":{
+                "title":"On-demand",
+                "copy":"monthly subscription",
+                "li-1":"2 vacancy",
+                "li-2":"helpdesk support",
+                "li-3":"Personalized onboarding",
+                "li-4":"Publication assistance",
+                "li-5":"Weekly board meeting",
+                "button":"¡Start now!"
+            },
+            "item-3":{
+                "title":"Grow",
+                "copy":"monthly subscription",
+                "li-1":"3 vacancy",
+                "li-2":"helpdesk support",
+                "li-3":"Personalized onboarding",
+                "li-4":"Publication assistance",
+                "li-5":"Weekly board meeting",
+                "button":"¡Start now!"
+            } ,
+            "item-4":{
+                "title":"Scale",
+                "copy":"monthly subscription",
+                "li-1":"4 vacancy",
+                "li-2":"helpdesk support",
+                "li-3":"Personalized onboarding",
+                "li-4":"Publication assistance",
+                "li-5":"Weekly board meeting",
+                "button":"¡Start now!"
+            }                 
+        }   
+    },
+    "platform":{
+        "section-1":{
+            "title":"The new door to <br class=\"d-md-block d-none\"> <strong class=\"fw-bold\">to talent sourcing</strong>",
+            "copy":"<strong class=\"fw-bold\"> Get to know the tool that can become.</strong> <br class=\"d-md-block d-none\">your best ally for your next search for candidates."
+        },
+        "section-2":{
+            "item-1":{
+                "title":"Fast loading and full <br class=\"d-md-block d-none\"> scontrol over all your searches.",
+                "copy-1":"With iHunt you publish your job offers on the platform in a very simple way. You have control of all your searches <br class=\"d-md-block d-none\">and the state in which they are..",
+                "copy-2":"You can also leave draft offers, and duplicate them in case of similar searches to save time in the description of the profiles."
+            },
+            "item-2":{
+                "title":"Go from a vacancy to a shortlist <br class=\"d-md-block d-none\"> of candidates in just 1 week.",
+                "copy-1":"When you activate a search for your company through our platform, an active sourcing process immediately begins where +2,700 iHunters work to find the best candidates for each vacancy.",
+                "copy-2":"Simultaneously, the intelligent filtering process is activated enabling the best match between candidates and your search profile."
+            },
+            "item-3":{
+                "title":"Transparent and effective process",
+                "copy-1":"In an average time per process of 5 business days, you will discover a before and after in talent acquisition.",
+                "copy-2":"You will be notified when the long list of candidates is activated. At that time you will be able to select your valuable candidates. Finally, you will find the short list displayed on your platform with the ideal candidates for your search."
+            },
+            "item-4":{
+                "title":"Adicionales de la plataforma",
+                "copy-1":"Se puede solicitar adicionalmente al proceso tradicional <br class=\"d-md-block d-none\"> diferentes extras como Tests Psicométricos, validaciones de <br class=\"d-md-block d-none\"> identidad y Public Background Reports.",
+                "copy-2":"Además se encuentra disponible una Garantía Extendida, <br class=\"d-md-block d-none\"> donde se reitera el proceso de selección sumando 3 nuevos <br class=\"d-md-block d-none\"> candidatos a la búsqueda que se encontraba activa."
+            }
+        },
+        "section-3":{
+            "title":"Let's revolutionize the <br class=\"d-md-block d-none\">talent attraction industry, together.",
+            "button":"I want a demo"
+        }
+    },
+    "blog":{
+        "title":"#iHuntBlog",
+        "copy":"Everything you need to optimize your Recruitment and Selection processes.<br class=\"d-md-block d-none\"> Here we give you some practical tools that can be useful for your talent attraction challenges.",
+        "button":"Show me more notes"
+    },
+    "footer":{
+        "title": "Do you want to be part of the largest team of independent recruiters in the world?",
+        "button":"Join as an iHunter now!",
+        "terms":"Terms and Conditions",
+        "politic":"Privacy Policy"
+    },
     "terms":{
         "title":"TERMS AND CONDITIONS",
         "content":"<h4>FIRST: Background</h4><p>iHunt SpA , RUT 76.580.320-9 is a crowd-hunting service provided through its website or platform that allows companies to hire the service, search and hire personnel based on the search, recommendation and processes of recruitment carried out by independent professionals registered on the Site.</p><h4>SECOND : Object</h4><p>The present s terms and conditions are intended to regulate the conditions of use governing the site , the Platform , it's Services , the contractual relationship between iHunt and Users, as well as the rights and obligations arising between the participants of the Platform (hereinafter the \"Terms and Conditions\").</p><h4>THIRD : Definitions</h4><p>For purposes of this Terms and Conditions , as well as other contracts that current or successively signed between the parties and annexes, the words listed below, used in the singular or plural, shall have the meaning for each indicated a continuation :</p><p>Authentication: means the action of accessing the Site as a Registered User by entering your username and Password in the authentication section of the Site.</p><p>Candidate : means that person who has been contacted by an iHunter and who is available to apply for a Position.</p><p>Password or Access Code: they mean, interchangeably, the alphanumeric combination, designated by the Registered User, which is registered in the iHunt databases , which is required for Authentication.</p><p>Account: means the instance of the Site that the User accesses when authenticating, which corresponds to the personal page of the Registered User on the Site.</p><p>Days: mean consecutive days, unless expressly stated otherwise. Company , Employer or Client: means any natural or legal person that contracts the Services offered by iHunt.</p><p>Interview: means the completion of a questionnaire by an iHunter to a Candidate for a specific position.</p><p>Filterer : means that person independent of iHunt who participates in the Candidate filtering process.</p><p>iHunt : means iHunt SpA , RUT 76.580.320-9</p><p>iHunter or Recruiter : means the person who, through the Platform, provides sporadic recruitment services for the Company, independently and without subordination or dependence on iHunt.</p><p>Short List: means the pre-selection and presentation to the Company of the Candidates with the best fit according to the vacancy published by it .</p><p>Offer: means that communication in which a to Company , iHunt or iHunter discloses a position.</p><p>Profile: means the systematized presentation of the information that a Candidate has provided to iHunt and / or iHunter , both at the time of registering on the site and subsequently.</p><p>Position: means a vacancy or job that a Company needs to fill through the Service.</p><p>User Registration: means the process by which an Unregistered User proceeds to successfully complete the registration procedure on the Site, obtaining a username and password.</p><p>Services: means the search, recommendation and recruitment processes carried out by independent professionals and / or technological means , in order to make the requested information regarding Candidates available to the Employer , in order to make an informed decision regarding the selection of a particular Candidate.</p><p>Site or ihunt.one or Platform : refers to the website www.ihunt.one , as well as the web platform owned and operated by iHunt , the other web pages that comprise it and the contents that are available in their pages, currently and as they change from time to time.</p><p>Terms and Conditions, Terms of Use : has the meaning given in the Second clause.</p><p>User : means any natural or legal person, or representative in any form thereof, that uses or is registered as such on the Site or Platform, and that may be classified as : I- Hunter , Company, Registered User , User No. Registered and Candidate . The term \"User\" encompasses any and all of the aforementioned categories.</p><p>Unregistered User : means that User who has not completed the User Registration process, and who, therefore, does not have a User Name and Password.</p><p>Registered User: means, indistinctly, any person, natural or legal, who has successfully completed the Registration process, both as iHunter or as a Company on the Site, and who, therefore, has a User Name and Password to authenticate in the Platform and that you have expressly accepted and consented to these Terms and Conditions.</p><h4>FOURTH: Formation of Consent and Modification to the Terms and Conditions</h4><p>By registering and / or using the Services in any way, the User declares to have read and accepted, in all its parts, these Terms and Conditions and its Privacy Policy, which establish the contractual relationship between the Users and iHunt .</p><p>iHunt reserves the right to modify, at its sole and absolute discretion, these Terms and Conditions, as well as its Privacy Policy. These modifications will be applicable only once they are published on the website www.ihunt.one or the mobile application and will govern the acts or operations that take place after their publication, without altering those held prior to said publication. In the event that the user does not accept or may not be in accordance with the aforementioned amendment should abste nerse to use the Service s, ending the relationship accordingly and mong this and iHunt .</p><p>Notwithstanding the foregoing, some Users may be subject to additional terms and conditions. In this case, the user, in addition to being subject to this s Terms and Conditions , which will be compared to additional terms and conditions are incorporated into these services. In case of disagreement, the User must refrain from using said Services in any way.</p><h4>FIFTH: Payments and Fees.</h4><p>IHunt's payment structure is intended to compensate both iHunters and Filterers and iHunt for the provision of the Services. The values and payments for each type of User will be governed by the following conditions and by those published by iHunt for each Position.</p><p>5.1 The Candidate</p><p>The Candidate will not have to pay to navigate and access the information published on the Site, neither to apply for Offers nor in the case of being hired by a Company.</p><p>5.2 The iHunter and Filterer</p><p>There are two different and independent mechanisms to achieve the Incentive by the iHunter. These mechanisms are the following:</p><p>A) The iHunter will be entitled to an Incentive , for the amount reported on the Platform, if and only if, his or her proposed Candidate / s is / are selected in the Short List, which is sent to the Company. The preselection of the candidates included in the Short List is defined by the Filterer or automated mechanisms, according to the degree of match with the published Offer (hereinafter, the “ Short List Mode ”).</p><p>B) The iHunter will be entitled to an Incentive, for the amount that is reported on the Platform, if and only if, his or her proposed Candidates are / are selected and hired to occupy the Position that has been published on the Platform of agreement with the Offer communicated by the Company (hereinafter, the \" Success Mode \").</p><p>The selection of one of the two of the aforementioned mechanisms belongs to the Company, and it will be duly communicated to iHunter in the corresponding Offer.</p><p>The Incentive to be paid to iHunter will depend on the type of Modality offered by the Company. The iHunter will receive an Incentive for each Offer in which they participate. In the same way, the Candidates that iHunter contributes for a specific Offer, will be used to earn the Incentive of said Offer, and not of other offers where said Candidates may be offered. In other words, each Bid process is unique and independent, therefore, the Candidate background provided by iHunter is valid only for the process to which it is applying.</p><p>It is expressly stated that the amounts for the reward that are reported on the Platform are gross, therefore , the corresponding tax must be deducted from said sums.</p><p>Prior to the payment of any Incentive , the iHunter or Filterer must issue and send to iHunt the respective fee slip or Invoice for the corresponding amount , which will be previously confirmed and informed by iHunt.</p><p>5.3 The Company</p><p>The rates for the subscription of the Services will be informed on the Platform in the Company option. Prior to submitting an Offer through the Platform, the Company must adhere to one of the two modalities described in Clause 5.2, that is, the Short List Mode, or the Success Mode. Once the modality has been selected, it will be informed to the iHunters as part of the Offer; Not being possible to change it without canceling or ending the Offer process.</p><p>The payment corresponding to the value for the concept of access and use of the Platform and the Services must be made according to the plans and payment methods published on the website and the Platform, as well as the amount to which the Incentives corresponding to the iHunters amount , which can vary between the Short List Mode, and the Success Mode.</p><p>In the event that the Company opts for the Success Mode, the minimum value per subscription that it must pay to iHunt may not fall below the equivalent of USD 1,000.</p><p>iHunt reserves the right to verify with the Company , the Candidate and the iHunter the fact of the eventual hiring of the Candidate.</p><p>In the event that a Candidate presented to the Company through the Platform operated by iHunt, is hired within a period of 120 days from its presentation, regardless of whether it was also presented by third parties other than iHunt, and / or the iHunters ; The Company must pay all the corresponding values in accordance with what is described in these Terms and Conditions, and the detail contained in the Platform. The Company may inform iHunt , prior to the beginning of an Offer process, the name of those people that it wishes to exempt from the quality of Candidates, as they are already part of the hiring process in question.</p><p>The payment that the Company must make for each concept, whether subscription or incentives, may be made by online payment, deposit, voucher or check. Once validated payment, iHunt send the respective f acture to the Company.</p><p>All services provided by iHunt are assigned to tax the V alue A gregado ( \"VAT\") , therefore all amounts must be added the concept.</p><p>Any change in the information regarding the prices for the Services offered by iHunt , promotions, offers or conditions will take place before receiving a request and will only refer to future operations, without affecting, in any case, rights acquired by the Users.</p><h4>SIXTH: iHunt's obligations</h4><p>iHunt agrees to:</p><p>1. Provide the Services in accordance with these Terms and Conditions and / or any other attached document that the parties subscribe.</p><p>2. To treat the User's personal data in accordance with the Privacy Policies attached to this instrument and current legislation.</p><p>3. Pay the Incentives that are defined for each search according to the percentages and amounts published for each Position.</p><h4>SEVENTH: User Obligations</h4><p>The User agrees to:</p><p>1. To use the data to which it has access according to the purposes for which they were provided, as also g ave absolute confidentiality and reservation on the data provided by other users . Likewise, the User undertakes to treat the personal data to which they have access in accordance with the Privacy Policies attached to this instrument and current legislation.</p><p>2. Safeguard your Username and Password (\"Account\") , which are your responsibility and exclusive use, and you must make correct use of them. Consequently, the Registered User will be , for all purposes, solely responsible for the damages generated by misuse by third parties of their Account . In the event of detecting misuse of their Username or Password, the User undertakes to immediately notify iHunt , by means of an email addressed to <a href=\"mailto:contact@ihunt.one\">contact@ihunt.one</a></p><p>3. N or perform any action or operation tending to hinder, evade or avoid payments that correspond to iHunt by subscription concepts, I ncentivos or any other that is generated due to the Services.</p><p>4. Q ue all information provided to iHunt , by any means, be truthful, accurate and verifiable. The User will be responsible for the damages generated in the event of inaccuracies in the information provided.</p><p>5. M aintain your personal information is always updated.</p><p>6. U sar the Site and its contents, only for purposes that fall within the legal and regulatory framework, according to morals and good customs, according to public order and in accordance with the present Terms and Conditions , and must, therefore, refrain from engaging in any type of discriminatory, threatening behavior or that may affect the dignity of a person.</p><p>7. Not to misuse passwords, either your own or those of third parties, as well as use accounts and / or personal information of third parties.</p><p>8. N or cause, cause, make, or attempt to exploit, any error, virus, bug, defect or inconsistency ( \"Error\") on the Service or the Site or platform, to achieve an advantage or disadvantage if other users . Likewise, you are obliged to inform iHunt of any Error, as soon as it comes to your knowledge.</p><p>9. Unless the law expressly authorizes the User agrees not to use under any circumstances, any name or trademark belonging to iHunt , unless it has the authorization Previ to writing , and not infringing any of trademarks, patents, trade secret, property rights, representation and copyright, being otherwise responsible for the infringement of the obligations assumed in this clause.</p><p>10. A not convert, reverse engineer, decompile, disassemble or create derivative works of materials, graphics, text, codes, images and software iHunt.</p><p>11. Do not withdraw any copyright or proprietary notices from iHunt or the materials contained therein.</p><p>12. N or frame or utilize framing techniques in connection with the Service or any of the materials contained in this;</p><p>13. Do not use, post or distribute any tag , meta, or other \"hidden text\" that uses the iHunt name or trademarks ;</p><p>14. Not to circumvent any encryption tool or other security measures used in any part of the Service and the Platform, including the theft of usernames and passwords or the use of another person's username and password in order to gain access to a restricted area of the Service or the Platform ;</p><p>15. Not to use any data mine, robots or similar tools to compile or extract data from the Platform;</p><p>16. Not to use any device, software or routine to circumvent any operational element or to interfere, or attempt to interfere, with the proper functioning of the Platform, the server or the activities carried out on them;</p><p>17. Not to take any action that imposes an unreasonable or excessive load on the Platform or its network infrastructure ;</p><p>18. Not to use the Platform in connection with the distribution of emails or unsolicited commercial advertising.</p><p>19. Strictly comply with the law applicable to its activity, including, but not limited to, environmental, labor, fiscal, tax, social security, anti-corruption and prevention and fight against money laundering, terrorist financing legislation. , bribery, bribery, as well as all the rules and all other legal and regulatory obligations applicable to their activities.</p><h4>EIGHTH: Non- Discrimination</h4><p>The Service may never be used as a means or end for the arbitrary discrimination of Candidates. For purposes of these Terms and Conditions shall mean discrimination, distinction, exclusion or preference based on race, color, sex, age, marital status, Sindica liza tion, religion, political opinion, nationality, national origin, status socioeconomic status, language, beliefs, participation in trade union organizations, sexual orientation, gender identity, affiliation, personal appearance, illness or disability or social origin, which aim to nullify or alter equal opportunities or treatment in employment and occupation.</p><p>Consequently, among others , acts of discrimination will be considered, the job offers made by a Company , directly or through third parties and by any means, that indicate as a requirement to apply to them any of the conditions referred to in the paragraph preceding.</p><p>The iHunter must refrain from carrying out any conduct that could be classified as discriminatory. The foregoing, especially in the interviews and questions they ask the Candidates, so the evaluation they carry out may not be based on any of the criteria indicated in the first paragraph.</p><p>The Company must refrain from asking questions that may be classified as discriminatory and undertakes to comply with the anti-discrimination standards set forth in the Labor Code and current regulations.</p><p>Both iHunter and the Company, in the event of engaging in arbitrary discrimination behaviors, will be personally liable for their actions, applying in any case the provisions of the following twelfth clause.</p><p>The obligations and responsibilities contained in this clause not only govern conduct within the Platform, but also in social networks or other means of communication.</p><h3>NINTH : Declarations and Special Obligations</h3><p>1. The User declares to be over 18 years of age and that he has the free administration of his assets, that is, that he can act in the sphere of law, without the ministry or authorization of third parties.</p><p>2. The User authorizes iHunt so that the latter can send him notifications and communications.</p><p>3. The User declares that, in the event of being a legal entity, he has all the legal and contractual authorizations that are necessary to sign these Terms and Conditions and assume the rights and obligations that emanate from him, as well as that acts through a duly authorized agent or agents with sufficient powers, representation and powers to contract legally binding rights and obligations for the principal or principal legal entity.</p><p>4. The User declares to know and accept that the use of the Platform, as well as the Services, is carried out at their own risk, criteria and discretion.</p><p>The User acknowledges and accepts that given the technological nature of the Site and, therefore, of the software that stores its content , it is subject to inherent failures in its operation and, therefore, is exposed to interruptions and / or unavailability , which are not necessarily under the control and responsibility of iHunt . Due to the above , and given the aforementioned nature, iHunt may, from time to time, voluntarily affect the availability of the Site, especially in those cases in which it is required ( but not limited ): a) to carry out maintenance, both preventive, as corrective ; b) update its content ; c) r esguarda r or incorporate measures to the security and integrity of the Site ; d) or for any other cause or reason . The User acknowledges and accepts that iHunt is not and will not be responsible for the temporary delay, cut or interruption of the Services if said delay, cut or interruption was caused by the performance of the maintenance described above. Due to the foregoing, the User expressly renounces any action that aims to pursue the damages or losses generated by said interruption, temporary delay or cut in the Services.</p><p>5. The User acknowledges that, in accordance with the provisions of the preceding paragraphs, iHunt does not guarantee continuous and uninterrupted access to the Site and / or sections of it . In the event of interruption, iHunt will do its best to restore the Site, without any obligation or liability for iHunt.</p><p>6. The User acknowledges and accepts that errors, omissions, inaccuracies and / or falsehoods in published content, as well as those supplied to iHunt by its Users, registered or not, are the responsibility of their authors.</p><p>7. The User declares to know and accept that any damage or loss derived from failures in the Site, iHunt software and / or its systems, which are not attributable to iHunt , will be the responsibility of whoever causes them.</p><p>8. The User declares to know and accept that iHunt has the right and not the obligation to monitor the Site, therefore, it may, from time to time, follow up on any information and / or suspicious behaviors of the Users, according to its own iHunt's criteria , to ensure the correct operation of the Site and to protect itself and other Users of the Site, with respect to conduct that could be fraudulent and / or undermining the rights of the Users.</p><p>The User declares to know and accept that in the event that iHunt detects the use of material protected by copyright, or receives a request from its owner or a competent authority, the latter will be empowered to remove said content from their systems.</p><h4>TENTH: Absence of Labor Relationship</h4><p>The contractual relationship between iHunt and the iHunters and Filterers will be governed solely by this instrument and will not give rise to a relationship of subordination or dependency, but rather to a provision of services governed by the Civil Code.</p><p>The parties leave express testimony that these terms and conditions do not create a link of subordination or dependence between them and that, consequently, the parties are not and cannot be considered an employer and worker, respectively, nor do they create any employment relationship; since the work of the provider is discontinuous. Therefore, you understand that these Terms and Conditions are not an employment contract covered by the Labor Code, but rather a civil service provision agreement.</p><h4>ELEVENTH : Liability and Indemnity</h4><p>11.1 The User undertakes to hold iHunt , as well as its directors, shareholders, managers, workers and consultants, harmless from and against any loss, claims, costs, damages, penalties, fines, including without limitation attorney's fees, civil actions is , labor is , social security and / or criminal, that third parties direct against you, or the persons indicated above, in relation to the purpose of the Services and that is originated by acts carried out with intent or gross negligence . This obligation includes reasonable defense fees at trial, costs and notifications.</p><p>11.2 Likewise, the User agrees to indemnify iHunt with respect to any claim, action, procedure, responsibility, damage, punishment, fine or expenses incurred by iHunt in any event that is related to: violation or breach of any term, condition, representation or guarantee of these Terms and Conditions , its annexes, any illegal or inappropriate use of the Services, any violation or alleged violation or transgression of any intellectual property, trademark, copyright, patent, or trade secret, or non-proprietary rights of third parties , including defamation, violation of privacy or any other misconduct</p><p>11.3 The Employer acknowledges and accepts that the purchase of the report and / or report called \" Public Background Report \" (hereinafter the \"Report\") that acompañ ará to the candidate , has been developed by the company Truora SAS (hereinafter \" Truora \") based on information obtained from sources accessible to the public (as that term is defined further below) so iHunt not deliver any guarantee regarding the accuracy or veracity of the information contained in the Report . Likewise, and considering that the vast majority of Public Accessible Sources use the name of a person as the only search parameter, the Employer declares to be aware of those errors that may occur as a result of scope or coincidence of names that do not necessarily relate with a Candidate . Due to the foregoing, every Employer must evaluate , according to their need, legal obligation and due diligence the results shown in the Report and, in turn, will be solely responsible for the use and decisions made based on the information provided. in the Report . Likewise, and especially considering that neither iHunt nor Truora manage or are responsible for managing and keeping the information updated, they will not be responsible for its quality, and, therefore, iHunt will only be responsible for communicating that information to Clients. which is available in Public Accessible Sources. The foregoing with all the limitations and errors that may occur as a result of matches in search patterns based on certain Personal Data.Due to all of the foregoing , the Employer exempts iHunt from all responsibility with respect to everything that is related to the content , quality, veracity or the use or use of the information contained in the Report.</p><h4>TWELFTH : Term of Services</h4><p>1 2 .1 By the Company<br>The Company may terminate its Subscription by entering the Site with its User Name and Password . The foregoing as long as it is up to date with its payments, be they for subscription, incentives or any other.</p><p>1 2 .2 By the i Hunter<br>The iHunter may delete your account by entering the \"My Account\" section on the Site or the Platform.</p><p>1 2 .3 By iHunt<br>iHunt may terminate a subscription, at any time, with a notice at least 5 days in advance. Notwithstanding the foregoing, iHunt may terminate the subscription early, without notice or notice and immediately, if the reason for the early termination is caused by the violation, by the User, of these Terms and Conditions or, in failing that, in unforeseeable circumstances or force majeure.</p><h4>THIRTEENTH : Various</h4><p>1 3 .1 In the event that any of the provisions of these Terms and Conditions is judicially declared as non-mandatory, such failure will not affect compliance with the rest of the provisions. If any provision of these Terms and Conditions is considered invalid, unenforceable, void by any administrative body or competent court, or if, by law, any provision becomes invalid, unenforceable, null and void, the remaining provisions will remain valid, in full force and effect and the parties will replace the invalid, null or unenforceable provision with a valid and applicable one that is as close as possible to the spirit and purpose of the replaced rule . If for any reason a court of competent jurisdiction or an arbitrator determines that any provision of these Terms and Conditions is not applicable, or is null or for any reason, ineffective, said provision will be applied to the extent permitted and the other conditions of service will continue .</p><p>1 3 .2 The User may not assign his contractual position or the rights arising from these Terms and Conditions , without the express written authorization of iHunt . However, iHunt may assign this Agreement , it being sufficient for iHunt to inform the User of the transfer. The foregoing, unless the assignment is to a related party, in which case, the information will not be necessary.</p><p>1 3 .3 The delay or non-exercise of a right or remedy shall not be considered as a waiver.</p><p>1 3 .4 N or be deemed a breach of these Terms and Conditions , a iHunter publish on their social networks or report by any means, the existence of a position.</p><h4>FOURTEENTH : Law A plicable and Jurisdiction</h4><p>15.1 These Terms and Conditions shall be governed by the s laws of the Republic of Chile.</p><p>15.2 Any dispute, controversy or dispute in connection with these Terms and Conditions or any fact related or not ést you , arising between the User and iHunt and its related parties are subject to the exclusive jurisdiction of the Ordinary Courts of Justice based in the city of Santiago de Chile.</p>"
+    },
+    "login":{
+        "title":"Log in",
+        "email":"E-mail",
+        "password":"Password",
+        "recovery":"Recover your password"
+    },
+    "register":{
+        "title":"Register",
+        "copy":"Enter the email with which you registered and we will send you <br class=\"d-md-block d-none\"> an email to recover your password.",
+        "email":"E-mail",
+        "password":"Password",
+        "password_confirm":"Repeat password",
+        "terms":"I accept the <a href=\"./terms-conditions.html\" target=\"_blank\" rel=\"noopener noreferrer\">terms and conditions</a>",
+        "register":"Register"
+    },
+    "password-recovery":{
+        "title":"Password recovery",
+        "copy":"Enter your email and we will send you an email to recover your password.",
+        "email":"E-mail",
+        "send":"Send"
     },
     "politics":{
         "title":"Privacy Policy",

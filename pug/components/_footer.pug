@@ -18,8 +18,8 @@ section#top-footer.mt-md-5.d-flex.justify-content-between.align-items-center
                     a(href="http://", target="_blank", rel="noopener noreferrer").ps-5
                         img(src="image/icono-facebook.png", data-src="image/icono-facebook-hover.png" alt="", srcset="").icono-social
             .col-md-4.col-xxl-4.ms-auto.justify-content-center.d-grid.order-1.order-md-2
-                h2.text-white.text-center.font-1-7-em-lg ¿Quieres ser parte del mayor equipo de reclutadores independientes del mundo? 
-                a.btn.btn-outline-light.mx-md-auto.mt-md-5   ¡Súmate como iHunter ahora!
+                h2.text-white.text-center.font-1-7-em-lg.multilanguage(data-lang-key="footer.title")  ¿Quieres ser parte del mayor equipo de reclutadores independientes del mundo? 
+                a.btn.btn-outline-light.mx-md-auto.mt-md-5.multilanguage(data-lang-key="footer.button")    ¡Súmate como iHunter ahora!
 footer.footer.mt-auto.py-3.bg-primary
     .container.row.mx-auto.justify-content-between
         div.col-md-3.order-md-1.order-2
@@ -27,7 +27,7 @@ footer.footer.mt-auto.py-3.bg-primary
         div.col-md-5.order-md-2.order-1
             .d-flex.justify-content-md-end
                 a(href="./terms-conditions.html", target="_blank", rel="noopener noreferrer")
-                    small.text-white #[u Terminos y Condiciones]
+                    small.text-white #[u.multilanguage(data-lang-key="footer.terms") Terminos y Condiciones]
                 a(href="./privacy-policy.html", target="_blank", rel="noopener noreferrer").ms-md-4.ms-5
-                    small.text-white #[u Política de privacidad]
+                    small.text-white #[u.multilanguage(data-lang-key="footer.politic") Política de privacidad]
         

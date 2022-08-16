@@ -1194,6 +1194,9 @@ h1, h2 {
     height: 100%;
   }
 
+  #join-ihunt-section-init img:first-child {
+    width: 100%;
+  }
   #join-ihunt-section-init .container {
     margin-top: 4rem;
   }

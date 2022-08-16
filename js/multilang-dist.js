@@ -65,8 +65,14 @@
                                     .then((t) => {
                                         document.querySelectorAll("." + e.classElements).forEach(function (n, i) {
                                             let r = n.getAttribute(e.attrKey),
-                                                a = o(t, r);
-                                            n.innerHTML = a;
+                                            a = o(t, r);
+                                            let arrayInput = ['text','password','tel','email','number','url','search','date','time','datetime','datetime-local','month','week','color'];
+                                            if(arrayInput.includes(n.getAttribute('type'))){
+                                                n.setAttribute('placeholder', a);
+                                            }else{
+                                                n.innerHTML = a;
+                                            }                                              
+                                            
                                         });
                                     }),
                                 document.querySelector('a[data-lang="'+this.idioma+'"]')?.parentElement.classList.add("active");

@@ -24,20 +24,20 @@ block content
                             img(src="image/logo.svg")
                 .login-body
                     .col-md-7.mx-md-auto
-                        h4.text-primary.mt-md-5.pt-md-3 Iniciar sesión
+                        h4.text-primary.mt-md-5.pt-md-.multilanguage(data-lang-key="login.title") Iniciar sesión
                         form(action="").mt-md-5.pt-md-3
                             div
                                 div.justify-content-between.d-flex     
-                                    label(for="").ps-md-4.ps-3.col-md-6  #[small EMAIL]
+                                    label(for="").ps-md-4.ps-3.col-md-6  #[small.multilanguage(data-lang-key="login.email") EMAIL]
                                 input.form-control(type="email" name="email" placeholder="juanprueba@gmail.com")
                             div.mt-md-5(data-aos="fade-left", data-aos-duration="2000").input-password
                                 div.justify-content-between.d-flex 
                                     //-label(for="").ps-md-4.ps-3.col-md-6  #[small Contraseña]   
-                                input.form-control(type="password" name="password" placeholder="Contraseña")
+                                input.form-control(type="password" name="password" placeholder="Contraseña").multilanguage(data-lang-key="login.password")
                                 img(src="image/eyes-icon.png", alt="").view-password 
                             button(type="submit").btn.btn-primary.mt-md-5 Ingresar
                             div.mt-md-4 
-                                a(href="")  Recuperar contraseña
+                                a(href="").multilanguage(data-lang-key="login.recovery")  Recuperar contraseña
 
 
 

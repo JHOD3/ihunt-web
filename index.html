@@ -29,21 +29,21 @@
         </button>
         <div class="collapse navbar-collapse ps-md-2" id="navbarText">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-md-5 ps-md-4">
-            <li class="nav-item"><a class="nav-link active" aria-current="page" href="/">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="./services.html">Servicios</a></li>
-            <li class="nav-item"><a class="nav-link" href="./platform.html">La Plataforma</a></li>
-            <li class="nav-item"><a class="nav-link" href="/blog.html">Blog </a></li>
-            <li class="nav-item"><a class="nav-link" href="./ihunter.html">Ser iHunter</a></li>
+            <li class="nav-item"><a class="nav-link active multilanguage" aria-current="page" href="/" data-lang-key="menu.home"> Home</a></li>
+            <li class="nav-item"><a class="nav-link multilanguage" href="./services.html" data-lang-key="menu.service"> Servicios</a></li>
+            <li class="nav-item"><a class="nav-link multilanguage" href="./platform.html" data-lang-key="menu.platform">La Plataforma</a></li>
+            <li class="nav-item"><a class="nav-link multilanguage" href="/blog.html" data-lang-key="menu.blog">Blog </a></li>
+            <li class="nav-item"><a class="nav-link multilanguage" href="./ihunter.html" data-lang-key="menu.ihunter">Ser iHunter</a></li>
             <li class="nav-item pt-4 d-md-none pb-5"><a type="button" data-bs-toggle="dropdown" aria-expanded="false" style="z-index:1"><img src="image/icono-globo-m.svg" alt="" srcset=""><span class="ms-3">Español</span></a></li>
-            <li class="nav-item d-md-none border-top border-bottom mt-5 py-5"><a class="btn btn-primary my-5" href="#">Empezar ahora</a></li>
+            <li class="nav-item d-md-none border-top border-bottom mt-5 py-5"><a class="btn btn-primary my-5 multilanguage" href="#" data-lang-key="menu.start">Empezar ahora</a></li>
             <li class="nav-item d-md-none mt-5 py-5"><a class="pe-5" href="http://" target="_blank" rel="noopener noreferrer"><img class="icono-social" src="image/icono-linkedin-c.png" data-src="image/icono-linkedin-hover.png" alt="" srcset=""></a><a class="px-5 mx-5" href="http://" target="_blank" rel="noopener noreferrer"><img class="icono-social" src="image/icono-instagram-c.png" data-src="image/icono-instagram-hover.png" alt="" srcset=""></a><a class="ps-5" href="http://" target="_blank" rel="noopener noreferrer"><img class="icono-social" src="image/icono-facebook-c.png" data-src="image/icono-facebook-hover.png" alt="" srcset=""></a></li>
           </ul><span class="navbar-text d-none d-md-block">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-md-5 align-items-center">
-              <li class="nav-item"><a class="nav-link" aria-current="page" href="#">Iniciar session</a></li>
+              <li class="nav-item"><a class="nav-link multilanguage" aria-current="page" href="./login.html" data-lang-key="menu.login">Iniciar session</a></li>
               <li class="nav-item">
-                <div class="nav-link" href="#">
-                  <form action="">
-                    <button class="btn btn-primary">Empezar ahora</button>
+                <div class="nav-link" href="./register.html">
+                  <form action="./register.html">
+                    <button class="btn btn-primary multilanguage" data-lang-key="menu.start">Empezar ahora</button>
                   </form>
                 </div>
               </li>
@@ -64,9 +64,9 @@
       <section class="container" id="index-init">
         <div class="row">
           <div class="col-12 col-md-5 pt-md-5 px-md-0 pt-5">
-            <h1 class="text-primary font-2-5-em-lg font-2-5-em-xxl font-1-75-em pt-md-5 mt-md-5 pt-5 mt-5 py-5 pb-md-0" data-aos="fade-down" data-aos-duration="1000">Encuentra <strong class="fw-bold">candidatos de <br>valor </strong> de forma simple,<br> económica y efectiva</h1>
-            <p class="py-md-4 py-xxl-0 py-5 font-1-15-em-md" data-aos="fade-up" data-aos-duration="3000">Conoce el sistema que esta revolucionando la <br class="d-md-block d-none"> atracción de talento en toda la región.</p>
-            <button class="btn btn-primary px-5 px-md-4 mt-4 mt-md-4" data-aos="fade-up" data-aos-duration="3000"> Quiero una demo </button>
+            <h1 class="text-primary font-2-5-em-lg font-2-5-em-xxl font-1-75-em pt-md-5 mt-md-5 pt-5 mt-5 py-5 pb-md-0 multilanguage" data-aos="fade-down" data-aos-duration="1000" data-lang-key="index.section-1.title">Encuentra <strong class="fw-bold">candidatos de <br>valor </strong> de forma simple,<br> económica y efectiva</h1>
+            <p class="py-md-4 py-xxl-0 py-5 font-1-15-em-md multilanguage" data-aos="fade-up" data-aos-duration="3000" data-lang-key="index.section-1.copy">Conoce el sistema que esta revolucionando la <br class="d-md-block d-none"> atracción de talento en toda la región.</p>
+            <button class="btn btn-primary px-5 px-md-4 mt-4 mt-md-4 multilanguage" data-aos="fade-up" data-aos-duration="3000" data-lang-key="index.section-1.button"> Quiero una demo </button>
           </div>
           <div class="col-12 col-md-7 pt-md-5 px-md-0 justify-content-end d-flex position-absolute-xs">
             <div class="lottie-player img-index-element-1-lg img-index-element-1-xxl d-md-flex d-none" data-animation-path="image/animaciones/animacion-1/data.json" data-loop-start="42" data-loop-end="450"></div>
@@ -82,8 +82,8 @@
                 <lottie-player class="animation-section-2" src="image/animaciones/lf20_d2xg1ucd.json" background="transparent" speed="1" loop autoplay></lottie-player>
               </div>
               <div>
-                <h2 class="text-primary">10x más <b class="fw-bold">rápido</b></h2>
-                <p class="pt-md-3 pt-3"> Nuestro sistema que combina IA para el filtrado de currículums permite preseleccionar candidatos en solo 5 días hábiles.</p>
+                <h2 class="text-primary multilanguage" data-lang-key="index.section-2.item-1.title">10x más <b class="fw-bold">rápido</b></h2>
+                <p class="pt-md-3 pt-3 multilanguage" data-lang-key="index.section-2.item-1.copy">  Nuestro sistema que combina IA para el filtrado de currículums permite preseleccionar candidatos en solo 5 días hábiles.</p>
               </div>
             </div>
           </div>
@@ -93,8 +93,8 @@
                 <lottie-player class="animation-section-2" src="image/animaciones/lf20_br3hefsj.json" background="transparent" speed="1" loop autoplay></lottie-player>
               </div>
               <div> 
-                <h2 class="text-primary">10x más <b class="fw-bold">económico</b></h2>
-                <p class="pt-md-3">Nuestra herramienta es hasta 10 veces más económica que cualquier servicio de consultoría.</p>
+                <h2 class="text-primary multilanguage" data-lang-key="index.section-2.item-2.title">10x más <b class="fw-bold">económico</b></h2>
+                <p class="pt-md-3 multilanguage" data-lang-key="index.section-2.item-2.copy">Nuestra herramienta es hasta 10 veces más económica que cualquier servicio de consultoría.</p>
               </div>
             </div>
           </div>
@@ -104,8 +104,8 @@
                 <lottie-player class="animation-section-2" src="image/animaciones/lf20_eu8fi5g3.json" background="transparent" speed="1" loop autoplay></lottie-player>
               </div>
               <div>   
-                <h2 class="text-primary">10x más <b class="fw-bold">efectivo</b></h2>
-                <p class="pt-md-3">Con alcance a más de 31 países, aseguramos una shortlist de talento a medida de tus necesidades.</p>
+                <h2 class="text-primary multilanguage" data-lang-key="index.section-2.item-3.title">10x más <b class="fw-bold">efectivo</b></h2>
+                <p class="pt-md-3 multilanguage" data-lang-key="index.section-2.item-3.copy">Con alcance a más de 31 países, aseguramos una shortlist de talento a medida de tus necesidades.</p>
               </div>
             </div>
           </div>
@@ -117,25 +117,25 @@
             <div class="justify-content-center d-grid" data-aos="fade-down" data-aos-duration="1300"><img class="mx-auto" src="image/index-section-3-icono-1.png" alt="" srcset="">
               <div class="text-center mt-md-3"> 
                 <h2 class="fw-bold text-primary">2.700</h2>
-                <p class="mt-md-n3">  iHunters</p>
+                <p class="mt-md-n3 multilanguage" data-lang-key="index.section-3.item-1">  iHunters</p>
               </div>
             </div>
             <div class="justify-content-center d-grid" data-aos="fade-down" data-aos-duration="1600"> <img class="mx-auto" src="image/index-section-3-icono-2.png" alt="" srcset="">
               <div class="text-center mt-md-3"> 
                 <h2 class="fw-bold text-primary">15.890</h2>
-                <p class="mt-md-n3">  Vacantes resueltas</p>
+                <p class="mt-md-n3 multilanguage" data-lang-key="index.section-3.item-2">   Vacantes resueltas</p>
               </div>
             </div>
             <div class="justify-content-center d-grid" data-aos="fade-down" data-aos-duration="1900"> <img class="mx-auto" src="image/index-section-3-icono-3.png" alt="" srcset="">
               <div class="text-center mt-md-3"> 
                 <h2 class="fw-bold text-primary">213</h2>
-                <p class="mt-md-n3">  Clientes</p>
+                <p class="mt-md-n3 multilanguage" data-lang-key="index.section-3.item-3">   Clientes</p>
               </div>
             </div>
             <div class="justify-content-center d-grid" data-aos="fade-down" data-aos-duration="2000"> <img class="mx-auto" src="image/index-section-3-icono-4.png" alt="" srcset="">
               <div class="text-center mt-md-3"> 
                 <h2 class="fw-bold text-primary">10</h2>
-                <p class="mt-md-n3">  Países</p>
+                <p class="mt-md-n3 multilanguage" data-lang-key="index.section-3.item-4">   Países</p>
               </div>
             </div>
           </div>
@@ -146,11 +146,11 @@
         <div class="container position-absolute mx-auto absolute-center">
           <div class="row row-cols-md-2 col-md-10 mx-auto row-cols-1">
             <div class="col align-items-md-center d-md-grid" data-aos="fade-up" data-aos-duration="1000">
-              <h2 class="text-white font-1-7-em-lg font-1-75-em">El mejor aliado de los<br class="d-md-block d-none"> departamentos de <br class="d-md-block d-none"> Recursos Humanos</h2>
+              <h2 class="text-white font-1-7-em-lg font-1-75-em multilanguage" data-lang-key="index.section-4.title">El mejor aliado de los<br class="d-md-block d-none"> departamentos de <br class="d-md-block d-none"> Recursos Humanos</h2>
             </div>
             <div class="col" data-aos="fade-up" data-aos-duration="1000">
-              <p class="text-white">Cumple con tus objetivos de selección de personal <br class="d-md-block d-none"> en tiempo y forma.</p>
-              <p class="text-white">iHunt te ayuda a hacer match con candidatos de <br class="d-md-block d-none"> alto potencial para tus vacantes.</p><a class="btn btn-outline-light mt-md-4">   Quiero una demo</a>
+              <p class="text-white multilanguage" data-lang-key="index.section-4.copi-1">Cumple con tus objetivos de selección de personal <br class="d-md-block d-none"> en tiempo y forma.</p>
+              <p class="text-white multilanguage" data-lang-key="index.section-4.copi-2">iHunt te ayuda a hacer match con candidatos de <br class="d-md-block d-none"> alto potencial para tus vacantes.</p><a class="btn btn-outline-light mt-md-4 multilanguage" data-lang-key="index.section-4.button">   Quiero una demo</a>
             </div>
           </div>
         </div>
@@ -162,16 +162,16 @@
           </div>
           <div class="col-md-1 d-md-flex d-none order-md-2 order-2"> </div>
           <div class="col-md-6 col order-1 order-md-3" data-aos="fade-up" data-aos-duration="1000">
-            <h2 class="text-primary"> Resolvemos lo más importante</h2>
-            <p class="mt-md-4 pt-md-2">  Nos hacemos cargo del <b>sourcing:</b> lo mas difícil y a la vez lo <br class="d-md-block d-none"> mas importante de la atracción de talento.</p>
+            <h2 class="text-primary multilanguage" data-lang-key="index.section-5.item-1.title"> Resolvemos lo más importante</h2>
+            <p class="mt-md-4 pt-md-2 multilanguage" data-lang-key="index.section-5.item-1.copy">  Nos hacemos cargo del <b>sourcing:</b> lo mas difícil y a la vez lo <br class="d-md-block d-none"> mas importante de la atracción de talento.</p>
           </div>
         </div>
         <div class="row row-cols-md-2 row-cols-1 align-items-center mt-md-5 pt-md-5">
           <div class="col" data-aos="fade-up" data-aos-duration="1000">
             <div class="col-md-10 ms-md-auto">
-              <h2 class="text-primary"> Sourcing Activo</h2>
-              <p class="mt-md-4 pt-md-2">  Multiplica la calidad de tus procesos de selección a <br class="d-md-block d-none"> través de nuestro sistema de Sourcing Activo.</p>
-              <p>  Combinamos algoritmos de <b>Inteligencia Artificial y<br class="d-md-block d-none"> Economías Colaborativas,</b> para que puedas obtener <br class="d-md-block d-none"> una lista de candidatos de valor hasta 10 veces más <br class="d-md-block d-none"> rápida y efectiva.</p>
+              <h2 class="text-primary multilanguage" data-lang-key="index.section-5.item-2.title"> Sourcing Activo</h2>
+              <p class="mt-md-4 pt-md-2 multilanguage" data-lang-key="index.section-5.item-2.copy-1">  Multiplica la calidad de tus procesos de selección a <br class="d-md-block d-none"> través de nuestro sistema de Sourcing Activo.</p>
+              <p class="multilanguage" data-lang-key="index.section-5.item-2.copy-2">  Combinamos algoritmos de <b>Inteligencia Artificial y<br class="d-md-block d-none"> Economías Colaborativas,</b> para que puedas obtener <br class="d-md-block d-none"> una lista de candidatos de valor hasta 10 veces más <br class="d-md-block d-none"> rápida y efectiva.</p>
             </div>
           </div>
           <div class="col">
@@ -186,26 +186,26 @@
           </div>
           <div class="col-md-1 d-md-flex d-none order-md-2 order-2"> </div>
           <div class="col-md-6 col order-1 order-md-3" data-aos="fade-up" data-aos-duration="1000">
-            <h2 class="text-primary"> Alcance regional</h2>
-            <p class="mt-md-4 pt-md-2">  Encuentra el mejor talento para tus ofertas de empleo <br class="d-md-block d-none"> <b>sin importar</b> dónde.</p>
-            <p>  Tenemos cobertura efectiva en toda la región.    </p>
+            <h2 class="text-primary multilanguage" data-lang-key="index.section-5.item-3.title">  Alcance regional</h2>
+            <p class="mt-md-4 pt-md-2 multilanguage" data-lang-key="index.section-5.item-3.copy-1">  Encuentra el mejor talento para tus ofertas de empleo <br class="d-md-block d-none"> <b>sin importar</b> dónde.</p>
+            <p class="multilanguage" data-lang-key="index.section-5.item-3.copy-2">  Tenemos cobertura efectiva en toda la región.    </p>
           </div>
         </div>
         <div class="row row-cols-md-2 row-cols-1 align-items-center mt-md-5 pt-md-5">
           <div class="col"> 
             <div class="col-md-10 ms-md-auto">
-              <h2 class="text-primary" data-aos="fade-up" data-aos-duration="1000"> Filtrado inteligente</h2>
-              <p class="mt-md-4 pt-md-2" data-aos="fade-up" data-aos-duration="1000">  Nuestros algoritmos permiten acelerar el proceso <br class="d-md-block d-none"> de preselección de candidatos de manera <br class="d-md-block d-none"> exponencial.</p>
-              <p>  <b>Tu empresa ahorrará hasta 30x de tiempo</b> en <br class="d-md-block d-none"> identificar candidatos de valor.</p>
+              <h2 class="text-primary multilanguage" data-aos="fade-up" data-aos-duration="1000" data-lang-key="index.section-5.item-4.title"> Filtrado inteligente</h2>
+              <p class="mt-md-4 pt-md-2 multilanguage" data-aos="fade-up" data-aos-duration="1000" data-lang-key="index.section-5.item-4.copy-1">  Nuestros algoritmos permiten acelerar el proceso <br class="d-md-block d-none"> de preselección de candidatos de manera <br class="d-md-block d-none"> exponencial.</p>
+              <p class="multilanguage" data-lang-key="index.section-5.item-4.copy-2">  <b>Tu empresa ahorrará hasta 30x de tiempo</b> en <br class="d-md-block d-none"> identificar candidatos de valor.</p>
             </div>
           </div>
           <div class="col"><img src="image/index-section-5-img-4.png" alt="" srcset="" loading="lazy"></div>
         </div>
-        <div class="justify-content-center d-flex mt-md-5" data-aos="fade-up" data-aos-duration="1000"><a class="btn btn-primary mx-auto">Quiero una demo    </a></div>
+        <div class="justify-content-center d-flex mt-md-5" data-aos="fade-up" data-aos-duration="1000"><a class="btn btn-primary mx-auto multilanguage" data-lang-key="index.section-5.button">Quiero una demo    </a></div>
       </section>
       <section class="mt-md-5 pt-md-5 d-flex justify-content-center" id="index-item-6"><img class="col-md-12 px-md-0 mx-auto d-md-block d-none" src="image/index-elemento-6.svg" alt="" srcset=""><img class="col-md-12 px-md-0 mx-auto d-md-none d-block" src="image/index-elemento-6-m.svg" alt="" srcset="">
         <div class="container position-absolute mx-auto absolute-center mt-md-5 pt-md-5">
-          <h2 class="text-center text-primary mt-md-5 pt-md-2 font-2-5-em-lg" data-aos="flip-up" data-aos-duration="2000">Impactando en la productividad de<br> <strong> +200 compañías</strong></h2>
+          <h2 class="text-center text-primary mt-md-5 pt-md-2 font-2-5-em-lg multilanguage" data-aos="flip-up" data-aos-duration="2000" data-lang-key="index.section-6.title">Impactando en la productividad de<br> <strong> +200 compañías</strong></h2>
           <div class="owl-carousel col-md-8 mx-auto mt-md-5 pt-md-5 mx-md-auto" id="owl-logos" data-aos="flip-up" data-aos-duration="2000"><img class="col" src="image/logos-slider/Logos-01.svg" alt=""><img class="col" src="image/logos-slider/Logos-02.svg" alt=""><img class="col" src="image/logos-slider/Logos-03.svg" alt=""><img class="col" src="image/logos-slider/Logos-04.svg" alt=""><img class="col" src="image/logos-slider/Logos-05.svg" alt=""><img class="col" src="image/logos-slider/Logos-06.svg" alt=""><img class="col" src="image/logos-slider/Logos-07.svg" alt=""><img class="col" src="image/logos-slider/Logos-08.svg" alt=""><img class="col" src="image/logos-slider/Logos-09.svg" alt=""><img class="col" src="image/logos-slider/Logos-10.svg" alt=""><img class="col" src="image/logos-slider/Logos-11.svg" alt=""><img class="col" src="image/logos-slider/Logos-12.svg" alt=""></div>
           <div class="owl-carousel col-md-8 mx-auto my-md-5 py-md-3 mx-md-auto" id="owl-logos-2" data-aos="flip-up" data-aos-duration="2000"> <img class="col" src="image/logos-slider/Logos-13.svg" alt=""><img class="col" src="image/logos-slider/Logos-14.svg" alt=""><img class="col" src="image/logos-slider/Logos-15.svg" alt=""><img class="col" src="image/logos-slider/Logos-16.svg" alt=""><img class="col" src="image/logos-slider/Logos-17.svg" alt=""><img class="col" src="image/logos-slider/Logos-18.svg" alt=""><img class="col" src="image/logos-slider/Logos-19.svg" alt=""><img class="col" src="image/logos-slider/Logos-20.svg" alt=""><img class="col" src="image/logos-slider/Logos-21.svg" alt=""><img class="col" src="image/logos-slider/Logos-22.svg" alt=""><img class="col" src="image/logos-slider/Logos-23.svg" alt=""><img class="col" src="image/logos-slider/Logos-24.svg" alt=""></div><br><br>
           <div class="owl-carousel col-md-10 mx-auto mt-md-5 pt-md-3 background-img pt-md-5 mt-md-5" id="owl-person" data-aos="fade-left" data-aos-duration="2000"> 
@@ -236,11 +236,11 @@
             <div class="col-md-5 d-md-block d-none"></div>
             <div class="col-md ps-md-5">
               <div> 
-                <h2 class="text-primary">El talento superior es hasta <br class="d-md-block d-none"><span class="fw-bold">8X más productivo</span></h2>
-                <p class="text-primary my-md-4 fw-bold">McKinney, 2021</p>
+                <h2 class="text-primary multilanguage" data-lang-key="index.section-7.title">El talento superior es hasta <br class="d-md-block d-none"><span class="fw-bold">8X más productivo</span></h2>
+                <p class="text-primary my-md-4 fw-bold multilanguage" data-lang-key="index.section-7.fecha">McKinney, 2021</p>
               </div>
               <div>
-                <p class="text-white">Publicando tus ofertas de empleo en nuestra plataforma permitirá que <br class="d-md-none d-none"> encuentres <strong class="fw-bold">candidatos de valor en tiempo y forma.  en tiempo y forma.</strong></p><a class="btn btn-primary mt-md-5">   Quiero una demo </a>
+                <p class="text-white multilanguage" data-lang-key="index.section-7.copy">Publicando tus ofertas de empleo en nuestra plataforma permitirá que <br class="d-md-none d-none"> encuentres <strong class="fw-bold">candidatos de valor en tiempo y forma.  en tiempo y forma.</strong></p><a class="btn btn-primary mt-md-5 multilanguage" data-lang-key="index.section-7.button">   Quiero una demo </a>
               </div>
             </div>
           </div>
@@ -249,8 +249,8 @@
       <section class="mt-md-5 pt-md-5 pb-md-5" id="index-item-8">
         <div class="container">
           <div class="pb-md-4">
-            <h2 class="text-primary text-center font-2-3-em-md font-2-18-em">  #iHuntBlog</h2>
-            <p class="text-center md-md-5 mt-md-4">  Todos los meses nuevos artículos sobre las temáticas más <br class="d-md-block d-none"> relevantes del mundo de los RRHH y la atracción de talento.</p>
+            <h2 class="text-primary text-center font-2-3-em-md font-2-18-em multilanguage" data-lang-key="index.section-8.title">  #iHuntBlog</h2>
+            <p class="text-center md-md-5 mt-md-4 multilanguage" data-lang-key="index.section-8.copy">Todos los meses nuevos artículos sobre las temáticas más <br class="d-md-block d-none"> relevantes del mundo de los RRHH y la atracción de talento.</p>
           </div>
           <div class="owl-carousel" id="owl-card-blog"><a class="card card-blog-a" href="./blog-detail.html" target="_blank" rel="noopener noreferrer" data-aos="flip-right" data-aos-duration="1000"><img src="image/example-img-card.png" alt="example-img-card.png">
               <div class="card-body card-body-blog px-md-5 px-xxl-4 pb-md-5"><small class="card-title">30 de Junio de 2022</small>
@@ -276,7 +276,7 @@
             <div class="d-md-none d-block"> <a class="pe-5" href="http://" target="_blank" rel="noopener noreferrer"><img class="icono-social" src="image/icono-linkedin.png" data-src="image/icono-linkedin-hover.png" alt="" srcset=""></a><a class="px-5 mx-5" href="http://" target="_blank" rel="noopener noreferrer"><img class="icono-social" src="image/icono-instagram.png" data-src="image/icono-instagram-hover.png" alt="" srcset=""></a><a class="ps-5" href="http://" target="_blank" rel="noopener noreferrer"><img class="icono-social" src="image/icono-facebook.png" data-src="image/icono-facebook-hover.png" alt="" srcset=""></a></div>
           </div>
           <div class="col-md-4 col-xxl-4 ms-auto justify-content-center d-grid order-1 order-md-2">
-            <h2 class="text-white text-center font-1-7-em-lg">¿Quieres ser parte del mayor equipo de reclutadores independientes del mundo? </h2><a class="btn btn-outline-light mx-md-auto mt-md-5">  ¡Súmate como iHunter ahora!</a>
+            <h2 class="text-white text-center font-1-7-em-lg multilanguage" data-lang-key="footer.title"> ¿Quieres ser parte del mayor equipo de reclutadores independientes del mundo? </h2><a class="btn btn-outline-light mx-md-auto mt-md-5 multilanguage" data-lang-key="footer.button">   ¡Súmate como iHunter ahora!</a>
           </div>
         </div>
       </div>
@@ -286,8 +286,8 @@
         <div class="col-md-3 order-md-1 order-2"><small class="text-white">© 2022 iHunt </small></div>
         <div class="col-md-5 order-md-2 order-1">
           <div class="d-flex justify-content-md-end"><a href="./terms-conditions.html" target="_blank" rel="noopener noreferrer"><small class="text-white">
-                <u>Terminos y Condiciones</u></small></a><a class="ms-md-4 ms-5" href="./privacy-policy.html" target="_blank" rel="noopener noreferrer"><small class="text-white">
-                <u>Política de privacidad</u></small></a></div>
+                <u class="multilanguage" data-lang-key="footer.terms">Terminos y Condiciones</u></small></a><a class="ms-md-4 ms-5" href="./privacy-policy.html" target="_blank" rel="noopener noreferrer"><small class="text-white">
+                <u class="multilanguage" data-lang-key="footer.politic">Política de privacidad</u></small></a></div>
         </div>
       </div>
     </footer>

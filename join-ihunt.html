@@ -29,21 +29,21 @@
         </button>
         <div class="collapse navbar-collapse ps-md-2" id="navbarText">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-md-5 ps-md-4">
-            <li class="nav-item"><a class="nav-link active" aria-current="page" href="/">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="./services.html">Servicios</a></li>
-            <li class="nav-item"><a class="nav-link" href="./platform.html">La Plataforma</a></li>
-            <li class="nav-item"><a class="nav-link" href="/blog.html">Blog </a></li>
-            <li class="nav-item"><a class="nav-link" href="./ihunter.html">Ser iHunter</a></li>
+            <li class="nav-item"><a class="nav-link active multilanguage" aria-current="page" href="/" data-lang-key="menu.home"> Home</a></li>
+            <li class="nav-item"><a class="nav-link multilanguage" href="./services.html" data-lang-key="menu.service"> Servicios</a></li>
+            <li class="nav-item"><a class="nav-link multilanguage" href="./platform.html" data-lang-key="menu.platform">La Plataforma</a></li>
+            <li class="nav-item"><a class="nav-link multilanguage" href="/blog.html" data-lang-key="menu.blog">Blog </a></li>
+            <li class="nav-item"><a class="nav-link multilanguage" href="./ihunter.html" data-lang-key="menu.ihunter">Ser iHunter</a></li>
             <li class="nav-item pt-4 d-md-none pb-5"><a type="button" data-bs-toggle="dropdown" aria-expanded="false" style="z-index:1"><img src="image/icono-globo-m.svg" alt="" srcset=""><span class="ms-3">Español</span></a></li>
-            <li class="nav-item d-md-none border-top border-bottom mt-5 py-5"><a class="btn btn-primary my-5" href="#">Empezar ahora</a></li>
+            <li class="nav-item d-md-none border-top border-bottom mt-5 py-5"><a class="btn btn-primary my-5 multilanguage" href="#" data-lang-key="menu.start">Empezar ahora</a></li>
             <li class="nav-item d-md-none mt-5 py-5"><a class="pe-5" href="http://" target="_blank" rel="noopener noreferrer"><img class="icono-social" src="image/icono-linkedin-c.png" data-src="image/icono-linkedin-hover.png" alt="" srcset=""></a><a class="px-5 mx-5" href="http://" target="_blank" rel="noopener noreferrer"><img class="icono-social" src="image/icono-instagram-c.png" data-src="image/icono-instagram-hover.png" alt="" srcset=""></a><a class="ps-5" href="http://" target="_blank" rel="noopener noreferrer"><img class="icono-social" src="image/icono-facebook-c.png" data-src="image/icono-facebook-hover.png" alt="" srcset=""></a></li>
           </ul><span class="navbar-text d-none d-md-block">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-md-5 align-items-center">
-              <li class="nav-item"><a class="nav-link" aria-current="page" href="#">Iniciar session</a></li>
+              <li class="nav-item"><a class="nav-link multilanguage" aria-current="page" href="./login.html" data-lang-key="menu.login">Iniciar session</a></li>
               <li class="nav-item">
-                <div class="nav-link" href="#">
-                  <form action="">
-                    <button class="btn btn-primary">Empezar ahora</button>
+                <div class="nav-link" href="./register.html">
+                  <form action="./register.html">
+                    <button class="btn btn-primary multilanguage" data-lang-key="menu.start">Empezar ahora</button>
                   </form>
                 </div>
               </li>
@@ -64,24 +64,24 @@
       <section class="d-flex" id="join-ihunt-section-init"><img class="d-md-block d-none" src="image/join-ihunt-section-init-img.svg" alt="">
         <div class="container position-absolute mx-auto absolute-center">
           <div class="card p-md-5 col-md-8 mx-md-auto">
-            <h1 class="text-center text-primary" data-aos="fade-down" data-aos-duration="1000">¡Súmate como iHunter!</h1>
-            <p class="text-center" data-aos="fade-up" data-aos-duration="2000">Por favor te solicitamos completar todos los datos <br class="d-md-block d-none"> y nos podremos en contacto.</p>
+            <h1 class="text-center text-primary multilanguage" data-aos="fade-down" data-aos-duration="1000" data-lang-key="join-ihunter.section-1.title">¡Súmate como iHunter!</h1>
+            <p class="text-center multilanguage" data-aos="fade-up" data-aos-duration="2000" data-lang-key="join-ihunter.section-1.copy">Por favor te solicitamos completar todos los datos <br class="d-md-block d-none"> y nos podremos en contacto.</p>
             <form class="mt-md-5 pt-md-3" action="" id="join-ihunt-form">
               <div data-aos="fade-left" data-aos-duration="2000"> 
                 <div class="justify-content-between d-flex">    
-                  <label class="ps-md-4 ps-3 col-md-6" for=""> <small>EMAIL</small></label>
+                  <label class="ps-md-4 ps-3 col-md-6" for=""> <small class="multilanguage" data-lang-key="join-ihunter.section-1.email">EMAIL</small></label>
                 </div>
                 <input class="form-control" type="email" name="email" placeholder="juanprueba@gmail.com">
               </div>
               <div class="mt-md-5" data-aos="fade-left" data-aos-duration="2000"> 
                 <div class="justify-content-between d-flex"> 
-                  <label class="ps-md-4 ps-3 col-md-6" for=""><small>CONFIRMA TU EMAIL</small></label>
+                  <label class="ps-md-4 ps-3 col-md-6" for=""><small class="multilanguage" data-lang-key="join-ihunter.section-1.email_confirm">CONFIRMA TU EMAIL</small></label>
                 </div>
-                <input class="form-control" type="email" name="email_confirm" placeholder="juanprueba@gmail.com">
+                <input class="form-control multilanguage" type="email" name="email_confirm" placeholder="juanprueba@gmail.com" data-lang-key="join-ihunter.section-1.email_confirm">
               </div>
               <div class="mt-md-5" data-aos="fade-left" data-aos-duration="2000"> 
                 <div class="justify-content-between d-flex"> </div>
-                <input class="form-control" type="text" name="full_name" placeholder="Nombre y apellido">
+                <input class="form-control multilanguage" type="text" name="full_name" placeholder="Nombre y apellido" data-lang-key="join-ihunter.section-1.full-name">
               </div>
               <div class="mt-md-5" data-aos="fade-left" data-aos-duration="2000">
                 <div class="justify-content-between d-flex"> </div>
@@ -89,26 +89,26 @@
               </div>
               <div class="mt-md-5" data-aos="fade-left" data-aos-duration="2000">
                 <div class="justify-content-between d-flex"> </div>
-                <input class="form-control" type="text" name="linkeding" placeholder="Linkedin (URL perfil)">
+                <input class="form-control multilanguage" type="text" name="linkeding" placeholder="Linkedin (URL perfil)" data-lang-key="join-ihunter.section-1.linkeding">
               </div>
               <div class="mt-md-5" data-aos="fade-left" data-aos-duration="2000">
                 <div class="justify-content-between d-flex"> </div>
-                <input class="form-control" type="text" name="country" placeholder="Pais">
+                <input class="form-control multilanguage" type="text" name="country" placeholder="Pais" data-lang-key="join-ihunter.section-1.county">
               </div>
               <div class="mt-md-5 input-password" data-aos="fade-left" data-aos-duration="2000">
                 <div class="justify-content-between d-flex"> </div>
-                <input class="form-control" type="password" name="password" placeholder="Contraseña"><img class="view-password" src="image/eyes-icon.png" alt="">
+                <input class="form-control multilanguage" type="password" name="password" placeholder="Contraseña" data-lang-key="join-ihunter.section-1.password"><img class="view-password" src="image/eyes-icon.png" alt="">
               </div>
               <div class="mt-md-5 input-password" data-aos="fade-left" data-aos-duration="2000"> 
                 <div class="justify-content-between d-flex"></div>
-                <input class="form-control" type="password" name="password_confirm" placeholder="Repetir contraseña"><img class="view-password" src="image/eyes-icon.png" alt="">
+                <input class="form-control multilanguage" type="password" name="password_confirm" placeholder="Repetir contraseña" data-lang-key="join-ihunter.section-1.password_confirm"><img class="view-password" src="image/eyes-icon.png" alt="">
               </div>
               <div class="form-check mt-md-5" data-aos="fade-left" data-aos-duration="2000"> 
                 <input class="form-check-input" id="flexCheckDefault" type="checkbox" value="">
-                <label class="form-check-label" for="flexCheckDefault">Acepto los <a href="./terms-conditions.html">términos y condiciones</a></label>
+                <label class="form-check-label multilanguage" for="flexCheckDefault" data-lang-key="join-ihunter.section-1.terms">Acepto los <a href="./terms-conditions.html">términos y condiciones</a></label>
               </div>
               <div class="mt-md-5" data-aos="fade-left" data-aos-duration="2000"> 
-                <button class="btn btn-primary send" type="submit" disabled>¡Enviar ahora!</button>
+                <button class="btn btn-primary send multilanguage" type="submit" disabled data-lang-key="join-ihunter.section-1.button">¡Enviar ahora!</button>
               </div>
             </form>
           </div>
@@ -116,7 +116,7 @@
       </section>
       <section class="pb-md-5" id="join-ihunt-section-2">
         <div class="container pb-md-5">
-          <h2 class="text-primary text-md-center font-2-2-em-md font-1-8-em">¿Cómo funciona?</h2>
+          <h2 class="text-primary text-md-center font-2-2-em-md font-1-8-em multilanguage" data-lang-key="join-ihunter.section-2.title">¿Cómo funciona?</h2>
           <div class="row row-cols-md-3 row-cols-1 grid-como-funciona pb-md-5"> 
             <div class="col my-md-3">
               <div class="card">
@@ -126,8 +126,8 @@
                     <div class="lozad animation-icon-ser-ihunter-section-3" data-src="image/animaciones/lf20_j6nswavh.json" data-type="lottiefiles"></div>
                   </div>
                   <div class="col-md-7 col-7"> 
-                    <h5>Sign-in</h5>
-                    <p>Te registras en la plataforma de iHunt</p>
+                    <h5 class="multilanguage" data-lang-key="join-ihunter.section-2.item-1.title">Sign-in</h5>
+                    <p class="multilanguage" data-lang-key="join-ihunter.section-2.item-1.copy">Te registras en la plataforma de iHunt</p>
                   </div>
                 </div>
               </div>
@@ -140,8 +140,8 @@
                     <div class="lozad animation-icon-ser-ihunter-section-3" data-src="image/animaciones/lf20_rhvdwf12.json" data-type="lottiefiles"></div>
                   </div>
                   <div class="col-md-7 col-7"> 
-                    <h5>Capacitación</h5>
-                    <p>Participas de una capacitación online sin costo</p>
+                    <h5 class="multilanguage" data-lang-key="join-ihunter.section-2.item-2.title">Capacitación</h5>
+                    <p class="multilanguage" data-lang-key="join-ihunter.section-2.item-2.copy">Participas de una capacitación online sin costo</p>
                   </div>
                 </div>
               </div>
@@ -154,8 +154,8 @@
                     <div class="lozad animation-icon-ser-ihunter-section-3" data-src="image/animaciones/lf20_mr0tq8qh.json" data-type="lottiefiles"></div>
                   </div>
                   <div class="col-md-7 col-7"> 
-                    <h5>Acceso</h5>
-                    <p>Recibes el acceso a nuestra plataforma</p>
+                    <h5 class="multilanguage" data-lang-key="join-ihunter.section-2.item-3.title">Acceso</h5>
+                    <p class="multilanguage" data-lang-key="join-ihunter.section-2.item-3.copy">Recibes el acceso a nuestra plataforma</p>
                   </div>
                 </div>
               </div>
@@ -168,8 +168,8 @@
                     <div class="lozad animation-icon-ser-ihunter-section-3" data-src="image/animaciones/lf20_bbqhtya5.json" data-type="lottiefiles"></div>
                   </div>
                   <div class="col-md-7 col-7"> 
-                    <h5>Activas</h5>
-                    <p>Revisas, compartes y activas las búsquedas de tu interés</p>
+                    <h5 class="multilanguage" data-lang-key="join-ihunter.section-2.item-4.title">Activas</h5>
+                    <p class="multilanguage" data-lang-key="join-ihunter.section-2.item-4.copy">Revisas, compartes y activas las búsquedas de tu interés</p>
                   </div>
                 </div>
               </div>
@@ -182,8 +182,8 @@
                     <div class="lozad animation-icon-ser-ihunter-section-3" data-src="image/animaciones/lf20_wbm4zsdg.json" data-type="lottiefiles"></div>
                   </div>
                   <div class="col-md-7 col-7"> 
-                    <h5>Vinculado</h5>
-                    <p>Cada candidato queda vinculado a tu código en cada búsqueda</p>
+                    <h5 class="multilanguage" data-lang-key="join-ihunter.section-2.item-5.title">Vinculado</h5>
+                    <p class="multilanguage" data-lang-key="join-ihunter.section-2.item-5.copy">Cada candidato queda vinculado a tu código en cada búsqueda</p>
                   </div>
                 </div>
               </div>
@@ -196,8 +196,8 @@
                     <div class="lozad animation-icon-ser-ihunter-section-3" data-src="image/animaciones/lf20_2bznhvsj.json" data-type="lottiefiles"></div>
                   </div>
                   <div class="col-md-7 col-7"> 
-                    <h5>Cobras!</h5>
-                    <p>Recibes ingresos cada vez que el cliente selecciona tu candidato</p>
+                    <h5 class="multilanguage" data-lang-key="join-ihunter.section-2.item-6.title">Cobras!</h5>
+                    <p class="multilanguage" data-lang-key="join-ihunter.section-2.item-6.copy">Recibes ingresos cada vez que el cliente selecciona tu candidato</p>
                   </div>
                 </div>
               </div>
@@ -217,7 +217,7 @@
             <div class="d-md-none d-block"> <a class="pe-5" href="http://" target="_blank" rel="noopener noreferrer"><img class="icono-social" src="image/icono-linkedin.png" data-src="image/icono-linkedin-hover.png" alt="" srcset=""></a><a class="px-5 mx-5" href="http://" target="_blank" rel="noopener noreferrer"><img class="icono-social" src="image/icono-instagram.png" data-src="image/icono-instagram-hover.png" alt="" srcset=""></a><a class="ps-5" href="http://" target="_blank" rel="noopener noreferrer"><img class="icono-social" src="image/icono-facebook.png" data-src="image/icono-facebook-hover.png" alt="" srcset=""></a></div>
           </div>
           <div class="col-md-4 col-xxl-4 ms-auto justify-content-center d-grid order-1 order-md-2">
-            <h2 class="text-white text-center font-1-7-em-lg">¿Quieres ser parte del mayor equipo de reclutadores independientes del mundo? </h2><a class="btn btn-outline-light mx-md-auto mt-md-5">  ¡Súmate como iHunter ahora!</a>
+            <h2 class="text-white text-center font-1-7-em-lg multilanguage" data-lang-key="footer.title"> ¿Quieres ser parte del mayor equipo de reclutadores independientes del mundo? </h2><a class="btn btn-outline-light mx-md-auto mt-md-5 multilanguage" data-lang-key="footer.button">   ¡Súmate como iHunter ahora!</a>
           </div>
         </div>
       </div>
@@ -227,8 +227,8 @@
         <div class="col-md-3 order-md-1 order-2"><small class="text-white">© 2022 iHunt </small></div>
         <div class="col-md-5 order-md-2 order-1">
           <div class="d-flex justify-content-md-end"><a href="./terms-conditions.html" target="_blank" rel="noopener noreferrer"><small class="text-white">
-                <u>Terminos y Condiciones</u></small></a><a class="ms-md-4 ms-5" href="./privacy-policy.html" target="_blank" rel="noopener noreferrer"><small class="text-white">
-                <u>Política de privacidad</u></small></a></div>
+                <u class="multilanguage" data-lang-key="footer.terms">Terminos y Condiciones</u></small></a><a class="ms-md-4 ms-5" href="./privacy-policy.html" target="_blank" rel="noopener noreferrer"><small class="text-white">
+                <u class="multilanguage" data-lang-key="footer.politic">Política de privacidad</u></small></a></div>
         </div>
       </div>
     </footer>

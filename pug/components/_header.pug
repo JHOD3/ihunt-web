@@ -9,21 +9,21 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-white.border-bottom.py-md-3
         #navbarText.collapse.navbar-collapse.ps-md-2
             ul.navbar-nav.me-auto.mb-2.mb-lg-0.ms-md-5.ps-md-4
                 li.nav-item
-                    a.nav-link(aria-current='page' href='/').active Home
+                    a.nav-link(aria-current='page' href='/').active.multilanguage(data-lang-key="menu.home")  Home
                 li.nav-item
-                    a.nav-link(href='./services.html') Servicios
+                    a.nav-link(href='./services.html').multilanguage(data-lang-key="menu.service")  Servicios
                 li.nav-item
-                    a.nav-link(href='./platform.html') La Plataforma
+                    a.nav-link(href='./platform.html').multilanguage(data-lang-key="menu.platform") La Plataforma
                 li.nav-item
-                    a.nav-link(href='/blog.html') Blog 
+                    a.nav-link(href='/blog.html').multilanguage(data-lang-key="menu.blog") Blog 
                 li.nav-item
-                    a.nav-link(href='./ihunter.html') Ser iHunter
+                    a.nav-link(href='./ihunter.html').multilanguage(data-lang-key="menu.ihunter") Ser iHunter
                 li.nav-item.pt-4.d-md-none.pb-5
                     a(type='button' data-bs-toggle='dropdown' aria-expanded='false', style="z-index:1")
                         img(src="image/icono-globo-m.svg", alt="", srcset="")
                         span.ms-3 Español
                 li.nav-item.d-md-none.border-top.border-bottom.mt-5.py-5
-                    a.btn.btn-primary.my-5(href='#') Empezar ahora
+                    a.btn.btn-primary.my-5(href='#').multilanguage(data-lang-key="menu.start") Empezar ahora
                 li.nav-item.d-md-none.mt-5.py-5
                     a(href="http://", target="_blank", rel="noopener noreferrer").pe-5
                         img(src="image/icono-linkedin-c.png", data-src="image/icono-linkedin-hover.png" alt="", srcset="").icono-social
@@ -35,11 +35,11 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-white.border-bottom.py-md-3
             span.navbar-text.d-none.d-md-block
                 ul.navbar-nav.me-auto.mb-2.mb-lg-0.ms-md-5.align-items-center
                     li.nav-item
-                        a.nav-link(aria-current='page' href='#') Iniciar session
+                        a.nav-link(aria-current='page' href='./login.html').multilanguage(data-lang-key="menu.login") Iniciar session
                     li.nav-item
-                        .nav-link(href='#')
-                            form(action="")
-                                button.btn.btn-primary Empezar ahora
+                        .nav-link(href='./register.html')
+                            form(action="./register.html")
+                                button.btn.btn-primary.multilanguage(data-lang-key="menu.start") Empezar ahora
                     li.nav-item
                         .dropdown.align-items-center.d-flex
                             a#dropdownMenuButton1.dropdown-toggle(data-bs-toggle='dropdown' aria-expanded='false', style="z-index:1").position-absolute.after-none

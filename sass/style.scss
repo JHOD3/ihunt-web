@@ -1232,6 +1232,9 @@ small{
         }
     }
     #join-ihunt-section-init{
+        img:first-child{
+            width: 100%;
+        }
         .container{
             margin-top:4rem;
             .form-control{
