@@ -60,7 +60,7 @@
                         translate: function (e) {
                             (this.idioma = localStorage.getItem("idioma")),
                                 (this.idioma = null == this.idioma ? e.default : this.idioma),
-                                fetch("https://lebrain.com.ar/1proyectos/iHunt/lang/" + this.idioma + ".json")
+                                fetch("./lang/" + this.idioma + ".json")
                                     .then((e) => e.json())
                                     .then((t) => {
                                         document.querySelectorAll("." + e.classElements).forEach(function (n, i) {
@@ -76,6 +76,7 @@
                                         });
                                     }),
                                 document.querySelector('a[data-lang="'+this.idioma+'"]')?.parentElement.classList.add("active");
+                                localStorage.setItem("idioma", this.idioma)
                                 document.querySelectorAll("." + e.btnClassChange).forEach(function (e) {
                                     e.addEventListener("click", function (e) {
                                         localStorage.setItem("idioma", this.dataset.lang), location.reload();

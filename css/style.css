@@ -318,6 +318,14 @@ h1, h2 {
     height: 35rem;
   }
 
+  #owl-logos-1 .owl-item img {
+    width: initial !important;
+  }
+
+  #owl-logos-2 .owl-item img {
+    width: initial !important;
+  }
+
   body {
     overflow-x: hidden;
   }
@@ -330,6 +338,7 @@ h1, h2 {
   #index-item {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
+    margin-top: 31rem;
   }
   #index-item .card {
     padding-right: 7.49vw !important;
@@ -419,6 +428,7 @@ h1, h2 {
     font-size: 35px;
     line-height: 50px;
     margin-bottom: 3rem;
+    padding: 0 2rem;
   }
   #index-item-6 .container {
     padding: 0;
@@ -432,7 +442,7 @@ h1, h2 {
   }
 
   #index-item-7 {
-    margin-top: 26rem;
+    margin-top: 30rem;
   }
   #index-item-7 img:nth-child(2) {
     width: 100%;

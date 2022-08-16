@@ -7,6 +7,13 @@ block variables
             keywords: "cuentra, economica, candidatos, efectiva, sistema, revolucionando, atracción, región",
             author: 'iHunt develop team'
         }; 
+        var menu = {
+            home: "active",
+            service: "",
+            platform: "",
+            blog: "",
+            ihunter: ""
+        }
 
 block style
     link(rel="stylesheet", href="css/owl.carousel-dist.css")
@@ -154,14 +161,14 @@ block content
                 .row.align-items-center.justify-content-between.pt-md-4
                     .col-md-4 
                         img(src="image/isidora-valdes.jpeg", alt="", srcset="").img-testimonials
-                    .col-md-7
+                    .col-md-7.col-11.mx-auto
                         div.multilanguage(data-lang-key="index.testimonials.item1.description") 
                             p   Destaco los tiempos de iHunt. #[br]
                             p   Hay muchos cargos para los que uno requiere una búsqueda rápida, y no  
                                 |por ello "mal hecha". Destaco que operan digitalmente, sus tarifas y 
                                 |diversidad de candidatos. Me ha llamado mucho la atención la cantidad 
                                 |de personas idóneas que existen para EOX gracias a iHunt.
-                        div.mt-md-5 
+                        div.mt-md-5.px-0 
                             h5.fw-bold.multilanguage(data-lang-key="index.testimonials.item1.name")  Isidora Valdés
                             p #[i.multilanguage(data-lang-key="index.testimonials.item1.position") CEO - EOX Spa]
     section#index-item-7.mt-md-5.d-flex.justify-content-center.align-items-center(data-aos="flip-up", data-aos-duration="2000")

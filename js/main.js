@@ -85,7 +85,7 @@ if($('#owl-person')){
         margin:10,
         nav:true,
         lazyLoad: true,
-        stageClass:'align-items-center d-flex',
+        stageClass:'align-items-center d-flex mx-auto',
         responsive:{
             0:{
                 items:1
@@ -211,4 +211,21 @@ if($('.view-password')){
             input.attr('type', 'password');
         }
     });
+}
+
+if($('.changeIdioma')){
+    console.log(localStorage.getItem("idioma"))
+    if(localStorage.getItem("idioma") == 'es'){
+        $('.changeIdioma').attr('data-lang','en');
+        $('.changeIdioma').find('span').text('Español');
+    }else{
+        $('.changeIdioma').attr('data-lang','es');
+        $('.changeIdioma').find('span').text('English');
+    }
+    $('.changeIdioma').on('click', function(e){
+        e.preventDefault();
+        let idioma = $(this).data('lang');
+        localStorage.setItem("idioma",idioma);
+        location.reload();
+    })
 }

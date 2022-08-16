@@ -308,8 +308,19 @@ small{
         padding-top: 1.22rem;
         padding-bottom: 1.22rem;
     }
+    
     #top-footer {
         height: 35rem;
+    }
+    #owl-logos-1{
+        .owl-item img {
+            width: initial !important;
+        }
+    }
+    #owl-logos-2{
+        .owl-item img {
+            width: initial !important;
+        }
     }
     body{
         overflow-x: hidden;
@@ -325,6 +336,7 @@ small{
     #index-item {
         padding-left: 2.5rem;
         padding-right: 2.5rem;
+        margin-top: 31rem;
         .card {
             padding-right: 7.49vw !important;
             padding-left: 7.49vw !important;
@@ -421,6 +433,7 @@ small{
             font-size: 35px;
             line-height: 50px;
             margin-bottom: 3rem;
+            padding: 0 2rem;
         }
         .container{
             padding: 0;
@@ -434,7 +447,7 @@ small{
         }
     }
     #index-item-7{
-        margin-top: 26rem;
+        margin-top: 30rem;
         img:nth-child(2){
             width: 100%;
         }
