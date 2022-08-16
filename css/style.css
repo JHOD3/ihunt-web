@@ -319,7 +319,7 @@ h1, h2 {
   }
 
   body {
-    contain: content;
+    overflow-x: hidden;
   }
 
   #index-init .row .col-12.col-md-5.pt-md-5.px-md-0.pt-5 {

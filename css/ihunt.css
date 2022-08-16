@@ -13626,6 +13626,7 @@ nav .container {
   min-width: 95.84px;
   left: -53.6px;
   top: -1.3rem;
+  z-index: 2;
 }
 
 .navbar-expand-lg .navbar-nav .dropdown-menu.lang-list .active a::before {

@@ -312,7 +312,7 @@ small{
         height: 35rem;
     }
     body{
-        contain: content;
+        overflow-x: hidden;
     }
     #index-init{
         .row{
