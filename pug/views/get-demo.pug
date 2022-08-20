@@ -22,54 +22,54 @@ block content
     section#get-demo-section-init.d-flex
         .container.mx-auto.row.p-md-0
             .col-md-4.ps-md-0.pt-md-5
-                h3.text-primary Agenda una demo y descubre rápidamente cómo iHunt puede ayudarte a encontrar el mejor talento para tus ofertas de empleo.
-                p Por favor completa este breve formulario y nuestro equipo hablará contigo sobre las necesidades de tu empresa y responderá a todas tus consultas.
+                h3.text-primary.multilanguage(data-lang-key="get-demo.title") Agenda una demo y descubre rápidamente cómo iHunt puede ayudarte a encontrar el mejor talento para tus ofertas de empleo.
+                p.multilanguage(data-lang-key="get-demo.copy") Por favor completa este breve formulario y nuestro equipo hablará contigo sobre las necesidades de tu empresa y responderá a todas tus consultas.
             .col-md-8
                 .card.p-md-5
-                    h3.text-primary.fw-bold(data-aos="fade-down", data-aos-duration="1000").multilanguage(data-lang-key="get-demo.section-1.title") ¡Comencemos!
-                    form(action="").mt-md-5.pt-md-3#join-ihunt-form
+                    h3.text-primary.fw-bold(data-aos="fade-down", data-aos-duration="1000").multilanguage(data-lang-key="get-demo.form.title") ¡Comencemos!
+                    form(action="").mt-md-5.pt-md-3#get-demo-form
                         .row
                             .col-md-6
                                 div(data-aos="fade-up", data-aos-duration="2000") 
                                     div.justify-content-between.d-flex 
-                                        label(for="").ps-md-4.ps-3.col-md-6  #[small.multilanguage(data-lang-key="get-demo.section-1.phone") NOMBRE] 
-                                    input.form-control(type="text" name="name" placeholder="Nombre").multilanguage(data-lang-key="get-demo.section-1.full-name")
+                                        label(for="").ps-md-4.ps-3.col-md-6  #[small.multilanguage(data-lang-key="get-demo.form.name") NOMBRE] 
+                                    input.form-control(type="text" name="name" placeholder="Nombre").multilanguage(data-lang-key="get-demo.form.placeholder-name")
                             .col-md-6
                                 div(data-aos="fade-up", data-aos-duration="2000") 
                                     div.justify-content-between.d-flex 
-                                        label(for="").ps-md-4.ps-3.col-md-6  #[small.multilanguage(data-lang-key="get-demo.section-1.phone") APELLIDO]
-                                    input.form-control(type="text" name="last_name" placeholder="Apellido").multilanguage(data-lang-key="get-demo.section-1.full-name")
+                                        label(for="").ps-md-4.ps-3.col-md-6  #[small.multilanguage(data-lang-key="get-demo.form.last-name") APELLIDO]
+                                    input.form-control(type="text" name="last_name" placeholder="Apellido").multilanguage(data-lang-key="get-demo.form.placeholder-last-name")
                         .row.mt-md-4    
                             .col-md-6
                                 div(data-aos="fade-up", data-aos-duration="2000") 
                                     div.justify-content-between.d-flex 
-                                        label(for="").ps-md-4.ps-3.col-md-6  #[small.multilanguage(data-lang-key="get-demo.section-1.phone") EMAIL] 
-                                    input.form-control(type="email" name="email" placeholder="Email").multilanguage(data-lang-key="get-demo.section-1.full-name")
+                                        label(for="").ps-md-4.ps-3.col-md-6  #[small.multilanguage(data-lang-key="get-demo.form.email") EMAIL] 
+                                    input.form-control(type="email" name="email" placeholder="Email").multilanguage(data-lang-key="get-demo.form.placeholder-email")
                             .col-md-6
                                 div(data-aos="fade-up", data-aos-duration="2000") 
                                     div.justify-content-between.d-flex 
-                                        label(for="").ps-md-4.ps-3.col-md-6  #[small.multilanguage(data-lang-key="get-demo.section-1.phone") PAIS] 
-                                    input.form-control(type="text" name="country" placeholder="País").multilanguage(data-lang-key="get-demo.section-1.full-name")
+                                        label(for="").ps-md-4.ps-3.col-md-6  #[small.multilanguage(data-lang-key="get-demo.form.country") PAIS] 
+                                    input.form-control(type="text" name="country" placeholder="País").multilanguage(data-lang-key="get-demo.form.placeholder-country")
                         .row.mt-md-4    
                             .col-md-6
                                 div(data-aos="fade-up", data-aos-duration="2000") 
                                     div.justify-content-between.d-flex 
-                                        label(for="").ps-md-4.ps-3.col-md-6  #[small.multilanguage(data-lang-key="get-demo.section-1.phone") TELÉFONO] 
-                                    input.form-control(type="text" name="phone" placeholder="Teléfono").multilanguage(data-lang-key="get-demo.section-1.full-name")
+                                        label(for="").ps-md-4.ps-3.col-md-6  #[small.multilanguage(data-lang-key="get-demo.form.phone") TELÉFONO] 
+                                    input.form-control(type="text" name="phone" placeholder="Teléfono").multilanguage(data-lang-key="get-demo.form.placeholder-phone")
                             .col-md-6
                                 div(data-aos="fade-up", data-aos-duration="2000") 
                                     div.justify-content-between.d-flex 
-                                        label(for="").ps-md-4.ps-3.col-md-6  #[small.multilanguage(data-lang-key="get-demo.section-1.phone") SITIO WEB] 
-                                    input.form-control(type="text" name="country" placeholder="País").multilanguage(data-lang-key="get-demo.section-1.full-name")
+                                        label(for="").ps-md-4.ps-3.col-md-6  #[small.multilanguage(data-lang-key="get-demo.form.website") SITIO WEB] 
+                                    input.form-control(type="text" name="website" placeholder="https://").multilanguage(data-lang-key="get-demo.form.placeholder-website")
                         .row.mt-md-4    
                             .col-md-12
                                 div(data-aos="fade-up", data-aos-duration="2000") 
                                     div.justify-content-between.d-flex 
-                                        label(for="").ps-md-4.ps-3.col-md-6  #[small.multilanguage(data-lang-key="get-demo.section-1.phone") ¿CUÁNTAS PERSONAS TRABAJAN EN TU EMPRESA?] 
-                                    input.form-control(type="text" name="phone" placeholder="Teléfono").multilanguage(data-lang-key="get-demo.section-1.full-name")
+                                        label(for="").ps-md-4.ps-3.col-md-6  #[small.multilanguage(data-lang-key="get-demo.form.persona-acount") ¿CUÁNTAS PERSONAS TRABAJAN EN TU EMPRESA?] 
+                                    input.form-control(type="text" name="persona" placeholder="").multilanguage(data-lang-key="get-demo.form.placeholder-persona-acount")
                         .mt-md-5(data-aos="fade-up", data-aos-duration="2000") 
-                            button(type="submit", disabled).btn.btn-primary.send.multilanguage(data-lang-key="join-ihunter.section-1.button") ¡Agenda una demo!
-                            p.mt-md-5 Respetamos tus datos. Llenando y enviando este formulario estás aceptando automáticamente nuestra #[a(href="./privacy-recovery.html") política de privacidad] de datos.
+                            button(type="submit", disabled).btn.btn-primary.send.multilanguage(data-lang-key="get-demo.form.button") ¡Agenda una demo!
+                            p.mt-md-5.multilanguage(data-lang-key="get-demo.form.copy") Respetamos tus datos. Llenando y enviando este formulario estás aceptando automáticamente nuestra #[a(href="./privacy-recovery.html") política de privacidad] de datos.
                     div 
                         img(src="image/get-form-img-0.svg", alt="", srcset="").get-form-img-0
                         img(src="image/get-form-img-1.svg", alt="", srcset="").get-form-img-1
@@ -79,4 +79,4 @@ block script
     script(src="js/jquery.min-dist.js") 
     script(src="js/owl.carousel.min-dist.js")
     script(src="js/jquery.validate.min-dist.js") 
-    script(src="js/validate-ihunter.js")
+    script(src="js/validate-get-demo.js")

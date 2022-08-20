@@ -292,7 +292,7 @@ h1, h2 {
   background-size: calc(0.75em + 0.613rem) calc(0.75em + 0.613rem);
 }
 
-.card {
+.card-blog-a {
   contain: paint;
 }
 
