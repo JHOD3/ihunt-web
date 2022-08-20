@@ -33,8 +33,8 @@
             <li class="nav-item"><a class="nav-link multilanguage" aria-current="page" href="./index.html" data-lang-key="menu.home"> Home</a></li>
             <li class="nav-item"><a class="nav-link multilanguage" href="./services.html" data-lang-key="menu.service"> Servicios</a></li>
             <li class="nav-item"><a class="nav-link multilanguage" href="./platform.html" data-lang-key="menu.platform">La Plataforma</a></li>
-            <li class="nav-item"><a class="nav-link multilanguage active" href="./blog.html" data-lang-key="menu.blog">Blog </a></li>
-            <li class="nav-item"><a class="nav-link multilanguage" href="./ihunter.html" data-lang-key="menu.ihunter">Ser iHunter</a></li>
+            <li class="nav-item"><a class="nav-link multilanguage" href="./blog.html" data-lang-key="menu.blog">Blog </a></li>
+            <li class="nav-item"><a class="nav-link multilanguage active" href="./ihunter.html" data-lang-key="menu.ihunter">Ser iHunter</a></li>
             <li class="nav-item pt-4 d-md-none pb-5"><a class="changeIdioma" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="z-index:1" data-lang=""><img src="image/icono-globo-m.svg" alt="" srcset=""><span class="ms-3">Español</span></a></li>
             <li class="nav-item d-md-none border-top border-bottom button-start-m"><a class="btn btn-primary my-5 multilanguage" href="./register.html" data-lang-key="menu.start">Empezar ahora</a></li>
             <li class="nav-item d-md-none mt-5 py-5"><a class="pe-5" href="https://cl.linkedin.com/company/ihuntplatform" target="_blank" rel="noopener noreferrer"><img class="icono-social" src="image/icono-linkedin-b.png" data-src="image/icono-linkedin-b-hover.png" alt="" srcset=""></a><a class="px-5 mx-5" href="https://www.instagram.com/ihunt.one/" target="_blank" rel="noopener noreferrer"><img class="icono-social" src="image/icono-instagram-b.png" data-src="image/icono-instagram-b-hover.png" alt="" srcset=""></a><a class="ps-5" href="https://www.facebook.com/ihunt.one" target="_blank" rel="noopener noreferrer"><img class="icono-social" src="image/icono-facebook-b.png" data-src="image/icono-facebook-b-hover.png" alt="" srcset=""></a></li>
@@ -62,55 +62,88 @@
       </div>
     </nav>
     <main class="pb-md-5">
-      <section class="d-flex" id="blog-section-init"><img class="d-md-block d-none position-absolute mx-auto absolute-center" src="image/platform-section-init-img.svg" alt=""><img class="d-md-none d-block position-absolute mx-auto absolute-center" src="image/platform-section-init-img-m.svg" alt="">
-        <div class="container">
-          <div class="blog-header">  
-            <h1 class="text-center text-primary multilanguage" data-lang-key="blog.title">#iHuntBlog</h1>
-            <p class="text-center multilanguage" data-lang-key="blog.copy">Todo lo que necesitas para optimizar tus procesos de Reclutamiento y <br class="d-md-block d-none"> Selección. Aquí te entregamos algunas herramientas prácticas que pueden  <br class="d-md-block d-none">ser útiles para tus desafíos de atracción de talento.</p>
+      <section class="d-flex" id="get-demo-section-init">
+        <div class="container mx-auto row p-md-0">
+          <div class="col-md-4 ps-md-0 pt-md-5">
+            <h3 class="text-primary">Agenda una demo y descubre rápidamente cómo iHunt puede ayudarte a encontrar el mejor talento para tus ofertas de empleo.</h3>
+            <p>Por favor completa este breve formulario y nuestro equipo hablará contigo sobre las necesidades de tu empresa y responderá a todas tus consultas.</p>
           </div>
-          <div class="row row-cols-md-3 row-cols-md-1 mt-md-5 pt-md-5">
-            <div class="col-md-4 col-12 content-card-blog"><a class="card card-blog-a px-md-0" href="./blog-detail.html" rel="noopener noreferrer" data-aos="flip-right" data-aos-duration="1000"><img src="image/example-img-card.png" alt="example-img-card.png">
-                <div class="card-body card-body-blog px-md-5 px-xxl-4 pb-md-5"><small class="card-title">30 de Junio de 2022</small>
-                  <p class="card-text mt-md-3 mt-5">5 formas en que la cultura de una empresa incide en las contrataciones</p>
-                </div></a></div>
-            <div class="col-md-4 col-12 content-card-blog"><a class="card card-blog-a px-md-0" href="./blog-detail.html" rel="noopener noreferrer" data-aos="flip-right" data-aos-duration="2000"><img src="image/example-img-card.png" alt="example-img-card.png">
-                <div class="card-body card-body-blog px-md-5 px-xxl-4 pb-md-5"><small class="card-title">30 de Junio de 2022</small>
-                  <p class="card-text mt-md-3 mt-5">5 formas en que la cultura de una empresa incide en las contrataciones</p>
-                </div></a></div>
-            <div class="col-md-4 col-12 content-card-blog"><a class="card card-blog-a px-md-0" href="./blog-detail.html" rel="noopener noreferrer" data-aos="flip-right" data-aos-duration="3000"><img src="image/example-img-card.png" alt="example-img-card.png">
-                <div class="card-body card-body-blog px-md-5 px-xxl-4 pb-md-5"><small class="card-title">30 de Junio de 2022</small>
-                  <p class="card-text mt-md-3 mt-4">5 formas en que la cultura de una empresa incide en las contrataciones</p>
-                </div></a></div>
+          <div class="col-md-8">
+            <div class="card p-md-5">
+              <h3 class="text-primary fw-bold multilanguage" data-aos="fade-down" data-aos-duration="1000" data-lang-key="get-demo.section-1.title">¡Comencemos!</h3>
+              <form class="mt-md-5 pt-md-3" action="" id="join-ihunt-form">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div data-aos="fade-up" data-aos-duration="2000"> 
+                      <div class="justify-content-between d-flex"> 
+                        <label class="ps-md-4 ps-3 col-md-6" for=""> <small class="multilanguage" data-lang-key="get-demo.section-1.phone">NOMBRE</small> </label>
+                      </div>
+                      <input class="form-control multilanguage" type="text" name="name" placeholder="Nombre" data-lang-key="get-demo.section-1.full-name">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div data-aos="fade-up" data-aos-duration="2000"> 
+                      <div class="justify-content-between d-flex"> 
+                        <label class="ps-md-4 ps-3 col-md-6" for=""> <small class="multilanguage" data-lang-key="get-demo.section-1.phone">APELLIDO</small></label>
+                      </div>
+                      <input class="form-control multilanguage" type="text" name="last_name" placeholder="Apellido" data-lang-key="get-demo.section-1.full-name">
+                    </div>
+                  </div>
+                </div>
+                <div class="row mt-md-4">   
+                  <div class="col-md-6">
+                    <div data-aos="fade-up" data-aos-duration="2000"> 
+                      <div class="justify-content-between d-flex"> 
+                        <label class="ps-md-4 ps-3 col-md-6" for=""> <small class="multilanguage" data-lang-key="get-demo.section-1.phone">EMAIL</small> </label>
+                      </div>
+                      <input class="form-control multilanguage" type="email" name="email" placeholder="Email" data-lang-key="get-demo.section-1.full-name">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div data-aos="fade-up" data-aos-duration="2000"> 
+                      <div class="justify-content-between d-flex"> 
+                        <label class="ps-md-4 ps-3 col-md-6" for=""> <small class="multilanguage" data-lang-key="get-demo.section-1.phone">PAIS</small> </label>
+                      </div>
+                      <input class="form-control multilanguage" type="text" name="country" placeholder="País" data-lang-key="get-demo.section-1.full-name">
+                    </div>
+                  </div>
+                </div>
+                <div class="row mt-md-4">   
+                  <div class="col-md-6">
+                    <div data-aos="fade-up" data-aos-duration="2000"> 
+                      <div class="justify-content-between d-flex"> 
+                        <label class="ps-md-4 ps-3 col-md-6" for=""> <small class="multilanguage" data-lang-key="get-demo.section-1.phone">TELÉFONO</small> </label>
+                      </div>
+                      <input class="form-control multilanguage" type="text" name="phone" placeholder="Teléfono" data-lang-key="get-demo.section-1.full-name">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div data-aos="fade-up" data-aos-duration="2000"> 
+                      <div class="justify-content-between d-flex"> 
+                        <label class="ps-md-4 ps-3 col-md-6" for=""> <small class="multilanguage" data-lang-key="get-demo.section-1.phone">SITIO WEB</small> </label>
+                      </div>
+                      <input class="form-control multilanguage" type="text" name="country" placeholder="País" data-lang-key="get-demo.section-1.full-name">
+                    </div>
+                  </div>
+                </div>
+                <div class="row mt-md-4">   
+                  <div class="col-md-12">
+                    <div data-aos="fade-up" data-aos-duration="2000"> 
+                      <div class="justify-content-between d-flex"> 
+                        <label class="ps-md-4 ps-3 col-md-6" for=""> <small class="multilanguage" data-lang-key="get-demo.section-1.phone">¿CUÁNTAS PERSONAS TRABAJAN EN TU EMPRESA?</small> </label>
+                      </div>
+                      <input class="form-control multilanguage" type="text" name="phone" placeholder="Teléfono" data-lang-key="get-demo.section-1.full-name">
+                    </div>
+                  </div>
+                </div>
+                <div class="mt-md-5" data-aos="fade-up" data-aos-duration="2000"> 
+                  <button class="btn btn-primary send multilanguage" type="submit" disabled data-lang-key="join-ihunter.section-1.button">¡Agenda una demo!</button>
+                  <p class="mt-md-5">Respetamos tus datos. Llenando y enviando este formulario estás aceptando automáticamente nuestra <a href="./privacy-recovery.html">política de privacidad</a> de datos.</p>
+                </div>
+              </form>
+              <div> <img class="get-form-img-0" src="image/get-form-img-0.svg" alt="" srcset=""><img class="get-form-img-1" src="image/get-form-img-1.svg" alt="" srcset=""></div>
+            </div>
           </div>
-          <div class="row row-cols-md-3 row-cols-md-1 mt-md-5">
-            <div class="col-md-4 col-12 content-card-blog"><a class="card card-blog-a px-md-0" href="./blog-detail.html" rel="noopener noreferrer" data-aos="flip-right" data-aos-duration="1000"><img src="image/example-img-card.png" alt="example-img-card.png">
-                <div class="card-body card-body-blog px-md-5 px-xxl-4 pb-md-5"><small class="card-title">30 de Junio de 2022</small>
-                  <p class="card-text mt-md-3 mt-5">5 formas en que la cultura de una empresa incide en las contrataciones</p>
-                </div></a></div>
-            <div class="col-md-4 col-12 content-card-blog"><a class="card card-blog-a px-md-0" href="./blog-detail.html" rel="noopener noreferrer" data-aos="flip-right" data-aos-duration="2000"><img src="image/example-img-card.png" alt="example-img-card.png">
-                <div class="card-body card-body-blog px-md-5 px-xxl-4 pb-md-5"><small class="card-title">30 de Junio de 2022</small>
-                  <p class="card-text mt-md-3 mt-5">5 formas en que la cultura de una empresa incide en las contrataciones</p>
-                </div></a></div>
-            <div class="col-md-4 col-12 content-card-blog"><a class="card card-blog-a px-md-0" href="./blog-detail.html" rel="noopener noreferrer" data-aos="flip-right" data-aos-duration="3000"><img src="image/example-img-card.png" alt="example-img-card.png">
-                <div class="card-body card-body-blog px-md-5 px-xxl-4 pb-md-5"><small class="card-title">30 de Junio de 2022</small>
-                  <p class="card-text mt-md-3 mt-4">5 formas en que la cultura de una empresa incide en las contrataciones</p>
-                </div></a></div>
-          </div>
-          <div class="row row-cols-md-3 row-cols-md-1 mt-md-5">
-            <div class="col-md-4 col-12 content-card-blog"><a class="card card-blog-a px-md-0" href="./blog-detail.html" rel="noopener noreferrer" data-aos="flip-right" data-aos-duration="1000"><img src="image/example-img-card.png" alt="example-img-card.png">
-                <div class="card-body card-body-blog px-md-5 px-xxl-4 pb-md-5"><small class="card-title">30 de Junio de 2022</small>
-                  <p class="card-text mt-md-3 mt-5">5 formas en que la cultura de una empresa incide en las contrataciones</p>
-                </div></a></div>
-            <div class="col-md-4 col-12 content-card-blog"><a class="card card-blog-a px-md-0" href="./blog-detail.html" rel="noopener noreferrer" data-aos="flip-right" data-aos-duration="2000"><img src="image/example-img-card.png" alt="example-img-card.png">
-                <div class="card-body card-body-blog px-md-5 px-xxl-4 pb-md-5"><small class="card-title">30 de Junio de 2022</small>
-                  <p class="card-text mt-md-3 mt-5">5 formas en que la cultura de una empresa incide en las contrataciones</p>
-                </div></a></div>
-            <div class="col-md-4 col-12 content-card-blog"><a class="card card-blog-a px-md-0" href="./blog-detail.html" rel="noopener noreferrer" data-aos="flip-right" data-aos-duration="3000"><img src="image/example-img-card.png" alt="example-img-card.png">
-                <div class="card-body card-body-blog px-md-5 px-xxl-4 pb-md-5"><small class="card-title">30 de Junio de 2022</small>
-                  <p class="card-text mt-md-3 mt-4">5 formas en que la cultura de una empresa incide en las contrataciones</p>
-                </div></a></div>
-          </div>
-          <div class="my-5 py-5 justify-content-center d-flex">   <a class="btn btn-primary mt-md-5 view-more multilanguage" href="" data-lang-key="blog.button"> Mostrar más notas                   </a></div>
         </div>
       </section>
     </main>
@@ -149,6 +182,8 @@
     <script src="js/multilang-dist.js?v=0.3"> </script>
     <script src="js/jquery.min-dist.js"> </script>
     <script src="js/owl.carousel.min-dist.js"></script>
+    <script src="js/jquery.validate.min-dist.js"> </script>
+    <script src="js/validate-ihunter.js"></script>
     <script src="js/main.js?v=0.3">  </script>
   </body>
 </html>

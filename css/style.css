@@ -96,7 +96,7 @@ small {
 }
 
 .footer {
-  background-color: #350A72;
+  background-color: #350A72 !important;
 }
 
 .card-blog-a {
@@ -1033,8 +1033,85 @@ h1, h2 {
     text-decoration: auto;
     font-weight: 600;
   }
+
+  #get-demo-section-init {
+    padding-top: 2rem;
+  }
+  #get-demo-section-init .container .col-md-4:first-child h3 {
+    font-size: 1.2em;
+    line-height: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  #get-demo-section-init .container .col-md-4:first-child p {
+    font-size: 0.9em;
+  }
+  #get-demo-section-init .container .col-md-8 .card {
+    padding-bottom: 3rem !important;
+    padding-top: 2rem;
+    box-shadow: none;
+  }
+  #get-demo-section-init .container .col-md-8 .card form {
+    margin-top: 1rem;
+  }
+  #get-demo-section-init .container .col-md-8 .card form label {
+    padding-left: 1rem !important;
+  }
+  #get-demo-section-init .container .col-md-8 .card form .row div {
+    margin-top: 0.5rem;
+  }
+  #get-demo-section-init .container .col-md-8 .card form button {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: block !important;
+    width: 100%;
+  }
+  #get-demo-section-init .container .col-md-8 .card form p {
+    font-size: 0.8em;
+  }
+  #get-demo-section-init .container .get-form-img-0 {
+    display: none;
+  }
+  #get-demo-section-init .container .get-form-img-1 {
+    display: none;
+  }
 }
 @media (min-width: 768px) {
+  #get-demo-section-init {
+    padding-top: 8rem;
+    padding-bottom: 5rem;
+  }
+  #get-demo-section-init .container .col-md-4:first-child h3 {
+    font-size: 1.34em;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+  }
+  #get-demo-section-init .container .col-md-8 .card {
+    padding-bottom: 3rem !important;
+  }
+  #get-demo-section-init .container .get-form-img-0 {
+    position: absolute;
+    z-index: -1;
+    width: 10rem;
+    left: -5rem;
+    bottom: -2rem;
+  }
+  #get-demo-section-init .container .get-form-img-1 {
+    position: absolute;
+    width: 7rem;
+    bottom: -5rem;
+  }
+
+  .form-img-bottom {
+    position: absolute;
+    width: 12rem !important;
+    right: -5rem;
+    bottom: -4rem;
+  }
+
+  main {
+    padding-top: 5rem;
+  }
+
   .img-login {
     height: 100vh;
     width: 100%;

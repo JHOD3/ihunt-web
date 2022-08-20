@@ -25,47 +25,49 @@ block content
             .card.p-md-5.col-md-8.mx-md-auto
                 h1.text-center.text-primary(data-aos="fade-down", data-aos-duration="1000").multilanguage(data-lang-key="join-ihunter.section-1.title") ¡Súmate como iHunter!
                 p.text-center(data-aos="fade-up", data-aos-duration="2000").multilanguage(data-lang-key="join-ihunter.section-1.copy") Por favor te solicitamos completar todos los datos #[br.d-md-block.d-none] y nos podremos en contacto.
-                form(action="").mt-md-5.pt-md-3#join-ihunt-form
-                    div(data-aos="fade-left", data-aos-duration="2000") 
+                form(action="").mt-md-5.pt-md-3#join-ihunt-form.col-md-10.mx-md-auto
+                    div(data-aos="fade-up", data-aos-duration="2000") 
                         div.justify-content-between.d-flex     
                             label(for="").ps-md-4.ps-3.col-md-6  #[small.multilanguage(data-lang-key="join-ihunter.section-1.email") EMAIL]
                         input.form-control(type="email" name="email" placeholder="juanprueba@gmail.com")
-                    div.mt-md-5(data-aos="fade-left", data-aos-duration="2000") 
+                    div.mt-md-5(data-aos="fade-up", data-aos-duration="2000") 
                         div.justify-content-between.d-flex 
                             label(for="").ps-md-4.ps-3.col-md-6 #[small.multilanguage(data-lang-key="join-ihunter.section-1.email_confirm") CONFIRMA TU EMAIL]
                         input.form-control(type="email" name="email_confirm" placeholder="juanprueba@gmail.com").multilanguage(data-lang-key="join-ihunter.section-1.email_confirm") 
-                    div.mt-md-5(data-aos="fade-left", data-aos-duration="2000") 
+                    div.mt-md-5(data-aos="fade-up", data-aos-duration="2000") 
                         div.justify-content-between.d-flex 
                             //- label(for="").ps-md-4.ps-3.col-md-6  #[small.multilanguage(data-lang-key="join-ihunter.section-1.full-name") Nombre y apellido]
                         input.form-control(type="text" name="full_name" placeholder="Nombre y apellido").multilanguage(data-lang-key="join-ihunter.section-1.full-name")
-                    div.mt-md-5(data-aos="fade-left", data-aos-duration="2000")
+                    div.mt-md-5(data-aos="fade-up", data-aos-duration="2000")
                         div.justify-content-between.d-flex 
                             //- label(for="").ps-md-4.ps-3.col-md-6  #[small.multilanguage(data-lang-key="join-ihunter.section-1.phone") Teléfono] 
                         input.form-control(type="text" name="phone" placeholder="Teléfono con código país")
-                    div.mt-md-5(data-aos="fade-left", data-aos-duration="2000")
+                    div.mt-md-5(data-aos="fade-up", data-aos-duration="2000")
                         div.justify-content-between.d-flex 
                             //-label(for="").ps-md-4.ps-3.col-md-6  #[small.multilanguage(data-lang-key="join-ihunter.section-1.linkeding") Linkedin]  
                         input.form-control(type="text" name="linkeding" placeholder="Linkedin (URL perfil)").multilanguage(data-lang-key="join-ihunter.section-1.linkeding")
-                    div.mt-md-5(data-aos="fade-left", data-aos-duration="2000")
+                    div.mt-md-5(data-aos="fade-up", data-aos-duration="2000")
                         div.justify-content-between.d-flex 
                             //-label(for="").ps-md-4.ps-3.col-md-6  #[small.multilanguage(data-lang-key="join-ihunter.section-1.county") País]  
                         input.form-control(type="text" name="country" placeholder="Pais").multilanguage(data-lang-key="join-ihunter.section-1.county")
-                    div.mt-md-5(data-aos="fade-left", data-aos-duration="2000").input-password
+                    div.mt-md-5(data-aos="fade-up", data-aos-duration="2000").input-password
                         div.justify-content-between.d-flex 
                             //-label(for="").ps-md-4.ps-3.col-md-6  #[small.multilanguage(data-lang-key="join-ihunter.section-1.password") Contraseña]   
                         input.form-control(type="password" name="password" placeholder="Contraseña").multilanguage(data-lang-key="join-ihunter.section-1.password")
                         img(src="image/eyes-icon.png", alt="").view-password
-                    div.mt-md-5(data-aos="fade-left", data-aos-duration="2000").input-password 
+                    div.mt-md-5(data-aos="fade-up", data-aos-duration="2000").input-password 
                         div.justify-content-between.d-flex
                             //-label(for="").ps-md-4.ps-3.col-md-6  #[small.multilanguage(data-lang-key="join-ihunter.section-1.password_confirm") Repetir contraseña] 
                         input.form-control(type="password" name="password_confirm" placeholder="Repetir contraseña").multilanguage(data-lang-key="join-ihunter.section-1.password_confirm")
                         img(src="image/eyes-icon.png", alt="").view-password
-                    .form-check.mt-md-5(data-aos="fade-left", data-aos-duration="2000") 
+                    .form-check.mt-md-5(data-aos="fade-up", data-aos-duration="2000") 
                         input#flexCheckDefault.form-check-input(type='checkbox' value='')
                         label.form-check-label(for='flexCheckDefault').multilanguage(data-lang-key="join-ihunter.section-1.terms")
                             | Acepto los #[a(href="./terms-conditions.html") términos y condiciones]
-                    div.mt-md-5(data-aos="fade-left", data-aos-duration="2000") 
+                    div.mt-md-5(data-aos="fade-up", data-aos-duration="2000") 
                         button(type="submit", disabled).btn.btn-primary.send.multilanguage(data-lang-key="join-ihunter.section-1.button") ¡Enviar ahora!
+                    div
+                        img(src="image/form-bottom.svg", alt="", srcset="").form-img-bottom
 
 
     

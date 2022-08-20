@@ -76,10 +76,15 @@
             "copy":"Todos los meses nuevos artículos sobre las temáticas más <br class=\"d-md-block d-none\"> relevantes del mundo de los RRHH y la atracción de talento."
         },
         "testimonials": {
-            "item1": {
+            "item-1": {
                 "description": "<p> Destaco los tiempos de iHunt. <br></p><p> Hay muchos cargos para los que uno requiere una búsqueda rápida, y no por ello \"mal hecha\". Destaco que operan digitalmente, sus tarifas y diversidad de candidatos. Me ha llamado mucho la atención la cantidad de personas idóneas que existen para EOX gracias a iHunt. </p>",
                 "name": "Isidora Valdés",
                 "position": "CEO - EOX Spa"
+            },
+            "item-2": {
+                "description": "<p> Lo que más valoramos del servicio de iHunt es su cercanía y expertiz técnica sobre los perfiles requeridos. La comunicación es muy fluida y siempre están disponibles cuando se necesitan. Llegan con muchos perfiles y sugerencias gracias a su dominio del mercado TI tanto en Chile como Latam, más que una consultora son un partner estratégico a la hora de reclutar </p>",
+                "name": "Ricardo Lavin",
+                "position": "Talent Acquisition Lead <br> Nisum"
             }
         }
     },

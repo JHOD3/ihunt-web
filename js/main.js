@@ -58,7 +58,7 @@ if($('#owl-logos-2')){
 
 if($('#owl-card-blog')){
     $('#owl-card-blog').owlCarousel({
-        lazyLoad: true,
+        //lazyLoad: true,
         
         itemClass: 'owl-item mx-5 mx-md-4 mx-xxl-3',        
         responsive:{

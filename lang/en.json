@@ -76,10 +76,15 @@
             "copy":"Every month we post new articles dealing with the most relevant<br class=\"d-md-block d-none\"> topics in the world of HRtech and talent attraction."
         },
         "testimonials": {
-            "item1": {
+            "item-1": {
                 "description": "<p> I highlight the response time of iHunt. <br></p><p> There are many positions for which one requires a quick search, and not for that reason \"badly done\". I emphasize that they operate digitally, their rates and diversity of candidates. I have been very struck by the amount of suitable people that exist for EOX thanks to iHunt. </p>",
                 "name": "Isidora Valdés",
                 "position": "CEO - EOX Spa"
+            },
+            "item-2": {
+                "description": "<p>What we value most about iHunt's service is their proximity and technical expertise in the required profiles. Communication is very fluid and they are always available when needed. They come with many profiles and suggestions thanks to their mastery of the IT market both in Chile and Latam, more than a consulting firm, they are a strategic partner when it comes to recruiting.</p>",
+                "name": "Ricardo Lavin",
+                "position": "Talent Acquisition Lead <br> Nisum"
             }
         }
     },
