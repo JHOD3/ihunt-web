@@ -1,0 +1,11 @@
+<svg id="Grupo_285" data-name="Grupo 285" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="42.858" height="42.858" viewBox="0 0 42.858 42.858">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_143" data-name="Rectángulo 143" width="42.858" height="42.858" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_245" data-name="Grupo 245" transform="translate(0 0)" clip-path="url(#clip-path)">
+    <ellipse id="Elipse_24" data-name="Elipse 24" cx="21.128" cy="21.128" rx="21.128" ry="21.128" transform="translate(0.302 0.301)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Trazado_294" data-name="Trazado 294" d="M39.356,23.569a3.184,3.184,0,0,0-2.248-2.248c-1.983-.531-9.934-.531-9.934-.531s-7.95,0-9.933.531a3.184,3.184,0,0,0-2.248,2.248,33.067,33.067,0,0,0-.532,6.119,33.072,33.072,0,0,0,.532,6.12,3.183,3.183,0,0,0,2.248,2.248c1.983.532,9.933.532,9.933.532s7.951,0,9.934-.532a3.183,3.183,0,0,0,2.248-2.248,33.072,33.072,0,0,0,.532-6.12,33.067,33.067,0,0,0-.532-6.119M24.632,33.5V25.875l6.605,3.814Z" transform="translate(-5.745 -8.26)" fill="#fff"/>
+  </g>
+</svg>

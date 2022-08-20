@@ -207,9 +207,9 @@
                 "button":"¡Empezar ahora!"
             },
             "item-2":{
-                "title":"On-demand",
+                "title":"Early",
                 "copy":"Suscripción mensual",
-                "li-1":"2 vacante",
+                "li-1":"3 vacantes",
                 "li-2":"Soporte helpdesk",
                 "li-3":"Onboarding personalizado",
                 "li-4":"Asistencia en publicaciones",
@@ -219,7 +219,7 @@
             "item-3":{
                 "title":"Grow",
                 "copy":"Suscripción mensual",
-                "li-1":"3 vacante",
+                "li-1":"5 vacantes",
                 "li-2":"Soporte helpdesk",
                 "li-3":"Onboarding personalizado",
                 "li-4":"Asistencia en publicaciones",
@@ -229,14 +229,33 @@
             "item-4":{
                 "title":"Scale",
                 "copy":"Suscripción mensual",
-                "li-1":"4 vacante",
+                "li-1":"10 vacantes",
                 "li-2":"Soporte helpdesk",
                 "li-3":"Onboarding personalizado",
                 "li-4":"Asistencia en publicaciones",
                 "li-5":"Junta directiva semanal",
                 "button":"¡Empezar ahora!"
             }                 
-        }   
+        },
+        "faqs":{
+            "title":"Preguntas frecuentes",
+            "item-1":{
+                "title":"¿Qué métodos de pago aceptan?",
+                "copy":"Principales TC en chile, Paypal, transferencia en dólares."
+            },
+            "item-2":{
+                "title":"¿Cómo puedo cambiar de plan?",
+                "copy":"Si has contratado un plan de suscripción mensual, podrás hacer un cambio de plan en cualquier momento desde tu cuenta de usuario y se verá aplicado al finalizar el ciclo de facturación. Aún así, reconocemos nos encantan las áreas de tecnologías de la información, analytics y desarrollo de software, donde tenemos muchísima experiencia.​"
+            },
+            "item-3":{
+                "title":"¿En qué tipo de perfiles se enfocan?​",
+                "copy":"Tenemos un equipo de atracción de talento transversal, que se compone de reclutadores expertos e industry experts provenientes de más de 25 industrias en 20 países. Lo que nos permite reclutar profesionales acuerdo a tus requerimientos."
+            },
+            "item-4":{
+                "title":"¿Cuál es el entregable?",
+                "copy":" <p>En tan sólo 5 días hábiles recibirás una lista corta de candidatos pre-seleccionados para tu vacante, en base a tus criterios de:</p> <br> <ul> <li>Renta</li> <li>Formación</li> <li>Experiencia</li> <li>Idiomas</li> <li>Requisitios excluyentes del cargo</li> </ul> <p>Además, si lo deseas, podemos aplicar evaluaciones psicométricas y validación de identidad a tus candidatos pre-seleccionados.</p><p>Así, facilitamos y aceleramos tu proceso de selección.</p> "
+            }
+        }
     },
     "platform":{
         "section-1":{
@@ -261,7 +280,7 @@
             },
             "item-4":{
                 "title":"Adicionales de la plataforma",
-                "copy-1":"Se puede solicitar adicionalmente al proceso tradicional <br class=\"d-md-block d-none\"> diferentes extras como Tests Psicométricos, validaciones de <br class=\"d-md-block d-none\"> identidad y Public Background Reports.",
+                "copy-1":"Se puede solicitar adicionalmente al proceso tradicional <br class=\"d-md-block d-none\"> el servicio de Tests Psicométricos.",
                 "copy-2":"Además se encuentra disponible una Garantía Extendida, <br class=\"d-md-block d-none\"> donde se reitera el proceso de selección sumando 3 nuevos <br class=\"d-md-block d-none\"> candidatos a la búsqueda que se encontraba activa."
             }
         },

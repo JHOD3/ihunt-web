@@ -3,9 +3,7 @@ if($('#owl-logos')){
         loop:true,
         margin:10,
         autoplay:true,
-        lazyLoad: true,
-       // autoplayTimeout: 3000,
-        autoplaySpeed: 20000,
+        autoplaySpeed: 5000,
         stageClass:'align-items-center d-flex',
         responsive:{
             0:{
@@ -32,9 +30,8 @@ if($('#owl-logos-2')){
         loop:true,
         margin:10,
         autoplay:true,
-        lazyLoad: true,
-       // autoplayTimeout: 3000,
-        autoplaySpeed: 20000,
+        fluidSpeed: true,
+        autoplaySpeed: 5000,
         stageClass:'align-items-center d-flex',
         responsive:{
             0:{
@@ -145,12 +142,20 @@ lozad('.lozad', {
     load: function(element) {
         if (element.dataset.type == 'lottiefiles'){
             let paused = false;
+            let srcElement;
+            
+            if(localStorage.getItem("idioma") == 'en' && element.dataset.srcEn != undefined){
+                srcElement = element.dataset.srcEn
+            }else{
+                srcElement = element.dataset.src;
+            }
+            
             let animation = lottie.loadAnimation({
                 container: element, 
                 renderer: 'svg',
                 loop: false,
                 autoplay: true,
-                path: element.dataset.src,
+                path: srcElement,
                 name: element.dataset.name
             });
             if(element.dataset.loopStart && element.dataset.loopEnd){
@@ -225,10 +230,10 @@ if($('.view-password')){
 if($('.changeIdioma')){
     if(localStorage.getItem("idioma") == 'es'){
         $('.changeIdioma').attr('data-lang','en');
-        $('.changeIdioma').find('span').text('Español');
+        $('.changeIdioma').find('span').text('English');
     }else{
         $('.changeIdioma').attr('data-lang','es');
-        $('.changeIdioma').find('span').text('English');
+        $('.changeIdioma').find('span').text('Español');
     }
     $('.changeIdioma').on('click', function(e){
         e.preventDefault();

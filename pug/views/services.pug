@@ -152,36 +152,36 @@ block content
         section#services-section-2
             .container.pt-md-5.mt-md-5.px-md-0.pt-5.mt-5
                 .pb-md-4
-                    h2.text-primary.text-center.font-2-3-em-md(data-aos="fade-down", data-aos-duration="2000")   Preguntas frecuentes
+                    h2.text-primary.text-center.font-2-3-em-md(data-aos="fade-down", data-aos-duration="2000").multilanguage(data-lang-key="services.faqs.title")   Preguntas frecuentes
                 #preguntas-frecuentes.accordion.pt-md-5.mt-md-2.col-md-10.mx-md-auto.pt-md-5.mt-md-2
                     .accordion-item(data-aos="fade-up", data-aos-duration="2000")
                         h2#headingOne.accordion-header
-                            button.accordion-button(type='button' data-bs-toggle='collapse' data-bs-target='#collapseOne' aria-expanded='true' aria-controls='collapseOne')
+                            button.accordion-button.collapsed(type='button' data-bs-toggle='collapse' data-bs-target='#collapseOne' aria-expanded='false' aria-controls='collapseOne').multilanguage(data-lang-key="services.faqs.item-1.title")
                                 | ¿Qué métodos de pago aceptan?
-                        #collapseOne.accordion-collapse.collapse.show(aria-labelledby='headingOne' data-bs-parent='#preguntas-frecuentes')
-                            .accordion-body
-                                | Aceptamos las principales tarjetas de crédito, PayPal y (en algunos países) débito directo. También admitimos las transacciones en diversas monedas.
+                        #collapseOne.accordion-collapse.collapse(aria-labelledby='headingOne' data-bs-parent='#preguntas-frecuentes')
+                            .accordion-body.multilanguage(data-lang-key="services.faqs.item-1.copy")
+                                | Principales TC en chile, Paypal, transferencia en dólares.
                     .accordion-item(data-aos="fade-up", data-aos-duration="2000")
                         h2#headingTwo.accordion-header
-                            button.accordion-button.collapsed(type='button' data-bs-toggle='collapse' data-bs-target='#collapseTwo' aria-expanded='false' aria-controls='collapseTwo')
+                            button.accordion-button.collapsed(type='button' data-bs-toggle='collapse' data-bs-target='#collapseTwo' aria-expanded='false' aria-controls='collapseTwo').multilanguage(data-lang-key="services.faqs.item-2.title")
                                 | ¿Cómo puedo cambiar de plan?
                         #collapseTwo.accordion-collapse.collapse(aria-labelledby='headingTwo' data-bs-parent='#preguntas-frecuentes')
-                            .accordion-body
+                            .accordion-body.multilanguage(data-lang-key="services.faqs.item-2.copy")
                                 |  Si has contratado un plan de suscripción mensual, podrás hacer un cambio de plan en cualquier momento desde tu cuenta de usuario y se verá aplicado al finalizar el ciclo de facturación.  
                                 |  Aún así, reconocemos nos encantan las áreas de tecnologías de la información, analytics y desarrollo de software, donde tenemos muchísima experiencia.​
-                    .accordion-item(data-aos="fade-rigupht", data-aos-duration="2000")
+                    .accordion-item(data-aos="fade-up", data-aos-duration="2000")
                         h2#headingThree.accordion-header
-                            button.accordion-button.collapsed(type='button' data-bs-toggle='collapse' data-bs-target='#collapseThree' aria-expanded='false' aria-controls='collapseThree')
+                            button.accordion-button.collapsed(type='button' data-bs-toggle='collapse' data-bs-target='#collapseThree' aria-expanded='false' aria-controls='collapseThree').multilanguage(data-lang-key="services.faqs.item-3.title")
                                 | ¿En qué tipo de perfiles se enfocan?​
                         #collapseThree.accordion-collapse.collapse(aria-labelledby='headingThree' data-bs-parent='#preguntas-frecuentes')
-                            .accordion-body
+                            .accordion-body.multilanguage(data-lang-key="services.faqs.item-3.copy")
                                 |  Tenemos un equipo de atracción de talento transversal, que se compone de reclutadores expertos e industry experts provenientes de más de 25 industrias en 20 países. Lo que nos permite reclutar profesionales acuerdo a tus requerimientos. 
                     .accordion-item(data-aos="fade-up", data-aos-duration="2000")
                         h2#headingFour.accordion-header
-                            button.accordion-button.collapsed(type='button' data-bs-toggle='collapse' data-bs-target='#collapseFour' aria-expanded='false' aria-controls='collapseFour')
+                            button.accordion-button.collapsed(type='button' data-bs-toggle='collapse' data-bs-target='#collapseFour' aria-expanded='false' aria-controls='collapseFour').multilanguage(data-lang-key="services.faqs.item-4.title")
                                 | ¿Cuál es el entregable?
                         #collapseFour.accordion-collapse.collapse(aria-labelledby='headingFour' data-bs-parent='#preguntas-frecuentes')
-                            .accordion-body
+                            .accordion-body.multilanguage(data-lang-key="services.faqs.item-4.copy")
                                 |  En tan sólo 5 días hábiles recibirás una lista corta de candidatos pre-seleccionados para tu vacante, en base a tus criterios de:
                                 p   Renta 
                                 p   Formación

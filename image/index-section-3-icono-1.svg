@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="65.464" height="61.236" viewBox="0 0 65.464 61.236">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_123" data-name="Rectángulo 123" width="65.464" height="61.236" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_221" data-name="Grupo 221" transform="translate(3 3)">
+    <g id="Grupo_220" data-name="Grupo 220" transform="translate(-3 -3)" clip-path="url(#clip-path)">
+      <path id="Trazado_252" data-name="Trazado 252" d="M47.052,28.962A26.462,26.462,0,0,1,20.59,55.424L7.615,27.986,20.59,2.5A26.462,26.462,0,0,1,47.052,28.962" transform="translate(-0.372 1.656)" fill="#2acda8"/>
+      <path id="Trazado_253" data-name="Trazado 253" d="M47.052,28.962A26.462,26.462,0,0,1,20.59,55.424L7.615,27.986,20.59,2.5A26.462,26.462,0,0,1,47.052,28.962Z" transform="translate(-0.372 1.656)" fill="none" stroke="#5b3fbd" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="Trazado_254" data-name="Trazado 254" d="M2.621,34.134,5.4,39.817,2.621,45.5a1.186,1.186,0,0,0,1.065,1.706h8.427a4.891,4.891,0,0,0,3.955-2.012l3.914-5.377L16.067,34.44a4.891,4.891,0,0,0-3.955-2.012H3.685a1.185,1.185,0,0,0-1.064,1.706" transform="translate(1.656 -10.209)" fill="#997bde"/>
+      <path id="Trazado_255" data-name="Trazado 255" d="M2.621,34.134,5.4,39.817,2.621,45.5a1.186,1.186,0,0,0,1.065,1.706h8.427a4.891,4.891,0,0,0,3.955-2.012l3.914-5.377L16.067,34.44a4.891,4.891,0,0,0-3.955-2.012H3.685a1.185,1.185,0,0,0-1.064,1.706Z" transform="translate(1.656 -10.209)" fill="none" stroke="#5b3fbd" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="Trazado_256" data-name="Trazado 256" d="M85.108,34.06,92.4,41.353l-7.293,7.294" transform="translate(-31.093 -10.856)" fill="none" stroke="#5b3fbd" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line id="Línea_9" data-name="Línea 9" x2="53.845" y2="1.016" transform="translate(7.463 29.482)" fill="none" stroke="#5b3fbd" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

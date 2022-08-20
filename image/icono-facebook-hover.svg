@@ -1,0 +1,11 @@
+<svg id="Grupo_287" data-name="Grupo 287" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="42.858" height="42.858" viewBox="0 0 42.858 42.858">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_145" data-name="Rectángulo 145" width="42.858" height="42.858" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_249" data-name="Grupo 249" transform="translate(0 0)" clip-path="url(#clip-path)">
+    <ellipse id="Elipse_26" data-name="Elipse 26" cx="21.128" cy="21.128" rx="21.128" ry="21.128" transform="translate(0.302 0.301)" fill="#5b3fc0" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Trazado_298" data-name="Trazado 298" d="M36.67,30.125l.551-3.594H33.773V24.2A1.8,1.8,0,0,1,35.8,22.257h1.568V19.2a19.106,19.106,0,0,0-2.783-.243c-2.839,0-4.7,1.721-4.7,4.837v2.739H26.731v3.594h3.157v8.688a12.544,12.544,0,0,0,3.885,0V30.125Z" transform="translate(-10.62 -7.53)" fill="#fff"/>
+  </g>
+</svg>

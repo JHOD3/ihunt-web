@@ -24,14 +24,14 @@
                 "copy":"Our tool is 10 times cheaper than any consulting service."
             },
             "item-3":{
-                "title":"10x more<b class=\"fw-bold\">effective</b>",
+                "title":"10x more <b class=\"fw-bold\">effective</b>",
                 "copy":"With outreach to more than 31 countries, we ensure a shortlist of talent tailored to your needs."
             }
         },
         "section-3":{
             "item-1": "iHunters",
             "item-2": "Resolved job vacancies",
-            "item-3": "Client",
+            "item-3": "Clients",
             "item-4": "Countries"
         },
         "section-4":{
@@ -48,7 +48,7 @@
             "item-2":{
                 "title":"Active Sourcing",
                 "copy-1":"Multiply the quality of your selection processes through our<br class=\"d-md-block d-none\"> Active Sourcing system.",
-                "copy-2":"We combine  <b>artificial intelligence algorithms and<br class=\"d-md-block d-none\"> collaborative economies</b>, so you can obtain<br class=\"d-md-block d-none\"> a list of valuable candidates up to 10 times faster <br class=\"d-md-block d-none\">effectively than any other solution."
+                "copy-2":"We combine  <b>artificial intelligence algorithms and<br class=\"d-md-block d-none\"> collaborative economies</b>, so you can obtain<br class=\"d-md-block d-none\"> a list of valuable candidates up to 10 times faster <br class=\"d-md-block d-none\">and more effectively than any other solution."
             },
             "item-3":{
                 "title":"Regional Reach",
@@ -57,7 +57,7 @@
             },
             "item-4":{
                 "title":"Smart Filtering",
-                "copy-1":"Our algorithms allow us to speed up the candidates<br class=\"d-md-block d-none\"> pre - selection process exponentially.  ",
+                "copy-1":"Our algorithms allow us to speed up the candidates'<br class=\"d-md-block d-none\"> pre - selection process exponentially.  ",
                 "copy-2":"Your  company will save up to 30x time in identifying<br class=\"d-md-block d-none\"> valuable candidates."
             },
             "button":"I want a demo"
@@ -209,9 +209,9 @@
                 "button":"¡Start now!"
             },
             "item-2":{
-                "title":"On-demand",
+                "title":"Early",
                 "copy":"monthly subscription",
-                "li-1":"2 vacancy",
+                "li-1":"3 vacancies",
                 "li-2":"helpdesk support",
                 "li-3":"Personalized onboarding",
                 "li-4":"Publication assistance",
@@ -221,7 +221,7 @@
             "item-3":{
                 "title":"Grow",
                 "copy":"monthly subscription",
-                "li-1":"3 vacancy",
+                "li-1":"5 vacancies",
                 "li-2":"helpdesk support",
                 "li-3":"Personalized onboarding",
                 "li-4":"Publication assistance",
@@ -231,19 +231,38 @@
             "item-4":{
                 "title":"Scale",
                 "copy":"monthly subscription",
-                "li-1":"4 vacancy",
+                "li-1":"10 vacancies",
                 "li-2":"helpdesk support",
                 "li-3":"Personalized onboarding",
                 "li-4":"Publication assistance",
                 "li-5":"Weekly board meeting",
                 "button":"¡Start now!"
             }                 
+        },
+        "faqs":{
+            "title":"Frequently asked questions",
+            "item-1":{
+                "title":"What payment methods does iHunt accepts?",
+                "copy":"We accept all major credit cards, PayPal and (in some countries) direct debit. We also support transactions in multiple currencies."
+            },
+            "item-2":{
+                "title":"How can I change the plan?",
+                "copy":"If you have contracted a monthly subscription plan, you can change the plan at any time from your user account and it will be applied at the end of the billing cycle.​"
+            },
+            "item-3":{
+                "title":"What kind of profiles do you focus on?​",
+                "copy":"<p>We have a cross-sectional talent attraction team, which is made up of expert recruiters and industry experts drawn from more than 25 industries in 20 countries. This allows us to recruit professionals according to your requirements.</p> <p>Even so, we recognize that we love the areas of information technology, analysis and software development, where we have a lot of experience.</p>"
+            },
+            "item-4":{
+                "title":"How is the output?",
+                "copy":" <p>In just 5 business days you will receive a short list of shortlisted candidates for your vacancy, based on your criteria of:</p> <br> <ul> <li>Rent</li> <li>Training</li> <li>Experience</li> <li>Languages</li> <li>Exclusionary cargo requirements</li> </ul> <p>In addition, if you wish, we can apply psychometric evaluations and identity validation to your shortlisted candidates.</p><p>Thus, we facilitate and accelerate your selection process.</p> "
+            }
         }   
     },
     "platform":{
         "section-1":{
             "title":"The new door to <br class=\"d-md-block d-none\"> <strong class=\"fw-bold\">to talent sourcing</strong>",
-            "copy":"<strong class=\"fw-bold\"> Get to know the tool that can become.</strong> <br class=\"d-md-block d-none\">your best ally for your next search for candidates."
+            "copy":"<strong class=\"fw-bold\"> Get to know the tool that can become </strong> <br class=\"d-md-block d-none\">your best ally for your next search for candidates."
         },
         "section-2":{
             "item-1":{
@@ -263,8 +282,8 @@
             },
             "item-4":{
                 "title":"Adicionales de la plataforma",
-                "copy-1":"Se puede solicitar adicionalmente al proceso tradicional <br class=\"d-md-block d-none\"> diferentes extras como Tests Psicométricos, validaciones de <br class=\"d-md-block d-none\"> identidad y Public Background Reports.",
-                "copy-2":"Además se encuentra disponible una Garantía Extendida, <br class=\"d-md-block d-none\"> donde se reitera el proceso de selección sumando 3 nuevos <br class=\"d-md-block d-none\"> candidatos a la búsqueda que se encontraba activa."
+                "copy-1":"You can request in addition to the traditional process <br class=\"d-md-block d-none\"> the psychometric test service.",
+                "copy-2":"In addition, an Extended Warranty is available, <br class=\"d-md-block d-none\"> where the selection process is reiterated by adding 3 new <br class=\"d-md-block d-none\"> candidates to the search that was active."
             }
         },
         "section-3":{
@@ -295,7 +314,7 @@
     },
     "register":{
         "title":"Register",
-        "copy":"Enter the email with which you registered and we will send you <br class=\"d-md-block d-none\"> an email to recover your password.",
+        "copy":"It must have at least 8 characters, lowercase, uppercase <br class=\"d-md-block d-none\"> and at least one number.",
         "email":"E-mail",
         "password":"Password",
         "password_confirm":"Repeat password",
@@ -304,7 +323,7 @@
     },
     "password-recovery":{
         "title":"Password recovery",
-        "copy":"Enter your email and we will send you an email to recover your password.",
+        "copy":"Enter the email with which you registered and we will send you an email to recover your password",
         "email":"E-mail",
         "send":"Send"
     },
