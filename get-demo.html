@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="css/owl.carousel-dist.css">
   <link rel="stylesheet" href="css/owl.theme.default-dist.css">
   <link rel="stylesheet" href="css/owl.theme.green-dist.css">
+  <link rel="stylesheet" href="css/sweetalert2.min-dist.css">
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom pt-md-3 pb-md-1 fixed-top">
       <div class="container px-md-0"><a class="navbar-brand" href="./index.html">
@@ -76,17 +77,17 @@
                   <div class="col-md-6">
                     <div data-aos="fade-up" data-aos-duration="2000"> 
                       <div class="justify-content-between d-flex"> 
-                        <label class="ps-md-4 ps-3 col-md-6" for=""> <small class="multilanguage" data-lang-key="get-demo.form.name">NOMBRE</small> </label>
+                        <label class="ps-md-4 ps-3 col-md-12" for=""> <small class="multilanguage" data-lang-key="get-demo.form.name">NOMBRE</small></label>
                       </div>
-                      <input class="form-control multilanguage" type="text" name="name" placeholder="Nombre" data-lang-key="get-demo.form.placeholder-name">
+                      <input class="form-control multilanguage" type="text" data-only="text" name="name" placeholder="Nombre" data-lang-key="get-demo.form.placeholder-name">
                     </div>
                   </div>
                   <div class="col-md-6">
                     <div data-aos="fade-up" data-aos-duration="2000"> 
                       <div class="justify-content-between d-flex"> 
-                        <label class="ps-md-4 ps-3 col-md-6" for=""> <small class="multilanguage" data-lang-key="get-demo.form.last-name">APELLIDO</small></label>
+                        <label class="ps-md-4 ps-3 col-md-12" for=""> <small class="multilanguage" data-lang-key="get-demo.form.last-name">APELLIDO</small></label>
                       </div>
-                      <input class="form-control multilanguage" type="text" name="last_name" placeholder="Apellido" data-lang-key="get-demo.form.placeholder-last-name">
+                      <input class="form-control multilanguage" type="text" data-only="text" name="last_name" placeholder="Apellido" data-lang-key="get-demo.form.placeholder-last-name">
                     </div>
                   </div>
                 </div>
@@ -94,7 +95,7 @@
                   <div class="col-md-6">
                     <div data-aos="fade-up" data-aos-duration="2000"> 
                       <div class="justify-content-between d-flex"> 
-                        <label class="ps-md-4 ps-3 col-md-6" for=""> <small class="multilanguage" data-lang-key="get-demo.form.email">EMAIL</small> </label>
+                        <label class="ps-md-4 ps-3 col-md-12" for=""> <small class="multilanguage" data-lang-key="get-demo.form.email">EMAIL</small></label>
                       </div>
                       <input class="form-control multilanguage" type="email" name="email" placeholder="Email" data-lang-key="get-demo.form.placeholder-email">
                     </div>
@@ -102,9 +103,9 @@
                   <div class="col-md-6">
                     <div data-aos="fade-up" data-aos-duration="2000"> 
                       <div class="justify-content-between d-flex"> 
-                        <label class="ps-md-4 ps-3 col-md-6" for=""> <small class="multilanguage" data-lang-key="get-demo.form.country">PAIS</small> </label>
+                        <label class="ps-md-4 ps-3 col-md-12" for=""> <small class="multilanguage" data-lang-key="get-demo.form.country">PAIS</small></label>
                       </div>
-                      <input class="form-control multilanguage" type="text" name="country" placeholder="País" data-lang-key="get-demo.form.placeholder-country">
+                      <input class="form-control multilanguage" type="text" data-only="text" name="country" placeholder="País" data-lang-key="get-demo.form.placeholder-country">
                     </div>
                   </div>
                 </div>
@@ -112,7 +113,7 @@
                   <div class="col-md-6">
                     <div data-aos="fade-up" data-aos-duration="2000"> 
                       <div class="justify-content-between d-flex"> 
-                        <label class="ps-md-4 ps-3 col-md-6" for=""> <small class="multilanguage" data-lang-key="get-demo.form.phone">TELÉFONO</small> </label>
+                        <label class="ps-md-4 ps-3 col-md-12" for=""> <small class="multilanguage" data-lang-key="get-demo.form.phone">TELÉFONO</small></label>
                       </div>
                       <input class="form-control multilanguage" type="text" name="phone" placeholder="Teléfono" data-lang-key="get-demo.form.placeholder-phone">
                     </div>
@@ -120,7 +121,7 @@
                   <div class="col-md-6">
                     <div data-aos="fade-up" data-aos-duration="2000"> 
                       <div class="justify-content-between d-flex"> 
-                        <label class="ps-md-4 ps-3 col-md-6" for=""> <small class="multilanguage" data-lang-key="get-demo.form.website">SITIO WEB</small> </label>
+                        <label class="ps-md-4 ps-3 col-md-12" for=""> <small class="multilanguage" data-lang-key="get-demo.form.website">SITIO WEB</small></label>
                       </div>
                       <input class="form-control multilanguage" type="text" name="website" placeholder="https://" data-lang-key="get-demo.form.placeholder-website">
                     </div>
@@ -130,13 +131,24 @@
                   <div class="col-md-12">
                     <div data-aos="fade-up" data-aos-duration="2000"> 
                       <div class="justify-content-between d-flex"> 
-                        <label class="ps-md-4 ps-3 col-md-6" for=""> <small class="multilanguage" data-lang-key="get-demo.form.persona-acount">¿CUÁNTAS PERSONAS TRABAJAN EN TU EMPRESA?</small> </label>
+                        <label class="ps-md-4 ps-3 col-md-12" for=""> <small class="multilanguage" data-lang-key="get-demo.form.persona-acount">¿CUÁNTAS PERSONAS TRABAJAN EN TU EMPRESA?</small></label>
                       </div>
                       <input class="form-control multilanguage" type="text" name="persona" placeholder="" data-lang-key="get-demo.form.placeholder-persona-acount">
                     </div>
                   </div>
                 </div>
-                <div class="mt-md-5" data-aos="fade-up" data-aos-duration="2000"> 
+                <div class="row mt-md-4">
+                  <div class="col-md-12 d-flex">
+                    <div id="recaptcha"></div><a class="ms-md-3" href="" id="reload-code"><img src="image/reload.svg" width="20" height="20"></a>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="justify-content-between d-flex">
+                      <label class="ps-md-4 ps-3 col-md-12" for=""> <small class="multilanguage" data-lang-key="get-demo.form.captcha"></small></label>
+                    </div>
+                    <input class="form-control multilanguage" type="text" name="codigo" placeholder="" data-lang-key="get-demo.form.placeholder-captcha">
+                  </div>
+                </div>
+                <div class="mt-md-5" data-aos="fade-up" data-aos-duration="2000">
                   <button class="btn btn-primary send multilanguage" type="submit" disabled data-lang-key="get-demo.form.button">¡Agenda una demo!</button>
                   <p class="mt-md-5 multilanguage" data-lang-key="get-demo.form.copy">Respetamos tus datos. Llenando y enviando este formulario estás aceptando automáticamente nuestra <a href="./privacy-recovery.html">política de privacidad</a> de datos.</p>
                 </div>
@@ -173,6 +185,7 @@
         </div>
       </div>
     </footer>
+    <script src="js/config.js"></script>
     <script src="js/popper-dist.js?v=0.3"></script>
     <script src="js/bootstrap.bundle-dist.js?v=0.3"></script>
     <script src="js/lottie-player-dist.js?v=0.3"> </script>
@@ -180,9 +193,10 @@
     <script src="js/lottie.min-dist.js?v=0.3"></script>
     <script src="js/lozad.min-dist.js?v=0.3">   </script>
     <script src="js/multilang-dist.js?v=0.3"> </script>
+    <script src="js/sweetalert2.all.min-dist.js"></script>
     <script src="js/jquery.min-dist.js"> </script>
     <script src="js/owl.carousel.min-dist.js"></script>
-    <script src="js/jquery.validate.min-dist.js"> </script>
+    <script src="js/jquery.validate.min-dist.js"></script>
     <script src="js/validate-get-demo.js"></script>
     <script src="js/main.js?v=0.3">  </script>
   </body>

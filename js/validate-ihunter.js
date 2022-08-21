@@ -1,10 +1,14 @@
+$('input[name="phone"]').keyup(function() {
+    $(this).val($(this).val().replace(/[^ +0-9]/g, ''));
+})
 $("#join-ihunt-form").validate({
     rules: {
         email:{
             required:true
         },
         email_confirm:{
-            required:true
+            required:true,
+            equalTo: "#email"
         },
         full_name:{
             required:true
@@ -22,33 +26,36 @@ $("#join-ihunt-form").validate({
             required:true
         },
         password_confirm:{
-            required:true
+            required:true,
+            equalTo: "#password"
         },
     },
     messages: {
         email:{
-            required:'Este campo es obligatorio'
+            required: lang_script.join_ihunt.form.email_required
         },
         email_confirm:{
-            required:'Este campo es obligatorio'
+            required: lang_script.join_ihunt.form.email_confirm_required,
+            equalTo: lang_script.join_ihunt.form.email_confirm_equalTo
         },
         full_name:{
-            required:'Este campo es obligatorio'
+            required: lang_script.join_ihunt.form.full_name_required
         },
         phone:{
-            required:'Este campo es obligatorio'
+            required: lang_script.join_ihunt.form.phone_required
         },
         linkeding:{
-            required:'Este campo es obligatorio'
+            required: lang_script.join_ihunt.form.linkeding_required
         },
         country:{
-            required:'Este campo es obligatorio'
+            required: lang_script.join_ihunt.form.country_required
         },
         password:{
-            required:'Este campo es obligatorio'
+            required: lang_script.join_ihunt.form.password_required
         },
         password_confirm:{
-            required:'Este campo es obligatorio'
+            required: lang_script.join_ihunt.form.password_confirm_required,
+            equalTo: lang_script.join_ihunt.form.password_confirm_equalTo
         }
     },
     errorElement: "div",

@@ -18,6 +18,7 @@ block style
     link(rel="stylesheet", href="css/owl.carousel-dist.css")
     link(rel="stylesheet", href="css/owl.theme.default-dist.css")
     link(rel="stylesheet", href="css/owl.theme.green-dist.css")
+    link(rel="stylesheet", href="css/sweetalert2.min-dist.css")
 block content 
     section#get-demo-section-init.d-flex
         .container.mx-auto.row.p-md-0
@@ -32,42 +33,51 @@ block content
                             .col-md-6
                                 div(data-aos="fade-up", data-aos-duration="2000") 
                                     div.justify-content-between.d-flex 
-                                        label(for="").ps-md-4.ps-3.col-md-6  #[small.multilanguage(data-lang-key="get-demo.form.name") NOMBRE] 
-                                    input.form-control(type="text" name="name" placeholder="Nombre").multilanguage(data-lang-key="get-demo.form.placeholder-name")
+                                        label(for="").ps-md-4.ps-3.col-md-12  #[small.multilanguage(data-lang-key="get-demo.form.name") NOMBRE]
+                                    input.form-control(type="text" data-only="text" name="name" placeholder="Nombre").multilanguage(data-lang-key="get-demo.form.placeholder-name")
                             .col-md-6
                                 div(data-aos="fade-up", data-aos-duration="2000") 
                                     div.justify-content-between.d-flex 
-                                        label(for="").ps-md-4.ps-3.col-md-6  #[small.multilanguage(data-lang-key="get-demo.form.last-name") APELLIDO]
-                                    input.form-control(type="text" name="last_name" placeholder="Apellido").multilanguage(data-lang-key="get-demo.form.placeholder-last-name")
+                                        label(for="").ps-md-4.ps-3.col-md-12  #[small.multilanguage(data-lang-key="get-demo.form.last-name") APELLIDO]
+                                    input.form-control(type="text" data-only="text" name="last_name" placeholder="Apellido").multilanguage(data-lang-key="get-demo.form.placeholder-last-name")
                         .row.mt-md-4    
                             .col-md-6
                                 div(data-aos="fade-up", data-aos-duration="2000") 
                                     div.justify-content-between.d-flex 
-                                        label(for="").ps-md-4.ps-3.col-md-6  #[small.multilanguage(data-lang-key="get-demo.form.email") EMAIL] 
+                                        label(for="").ps-md-4.ps-3.col-md-12  #[small.multilanguage(data-lang-key="get-demo.form.email") EMAIL]
                                     input.form-control(type="email" name="email" placeholder="Email").multilanguage(data-lang-key="get-demo.form.placeholder-email")
                             .col-md-6
                                 div(data-aos="fade-up", data-aos-duration="2000") 
                                     div.justify-content-between.d-flex 
-                                        label(for="").ps-md-4.ps-3.col-md-6  #[small.multilanguage(data-lang-key="get-demo.form.country") PAIS] 
-                                    input.form-control(type="text" name="country" placeholder="País").multilanguage(data-lang-key="get-demo.form.placeholder-country")
+                                        label(for="").ps-md-4.ps-3.col-md-12  #[small.multilanguage(data-lang-key="get-demo.form.country") PAIS]
+                                    input.form-control(type="text" data-only="text" name="country" placeholder="País").multilanguage(data-lang-key="get-demo.form.placeholder-country")
                         .row.mt-md-4    
                             .col-md-6
                                 div(data-aos="fade-up", data-aos-duration="2000") 
                                     div.justify-content-between.d-flex 
-                                        label(for="").ps-md-4.ps-3.col-md-6  #[small.multilanguage(data-lang-key="get-demo.form.phone") TELÉFONO] 
+                                        label(for="").ps-md-4.ps-3.col-md-12  #[small.multilanguage(data-lang-key="get-demo.form.phone") TELÉFONO]
                                     input.form-control(type="text" name="phone" placeholder="Teléfono").multilanguage(data-lang-key="get-demo.form.placeholder-phone")
                             .col-md-6
                                 div(data-aos="fade-up", data-aos-duration="2000") 
                                     div.justify-content-between.d-flex 
-                                        label(for="").ps-md-4.ps-3.col-md-6  #[small.multilanguage(data-lang-key="get-demo.form.website") SITIO WEB] 
+                                        label(for="").ps-md-4.ps-3.col-md-12  #[small.multilanguage(data-lang-key="get-demo.form.website") SITIO WEB]
                                     input.form-control(type="text" name="website" placeholder="https://").multilanguage(data-lang-key="get-demo.form.placeholder-website")
                         .row.mt-md-4    
                             .col-md-12
                                 div(data-aos="fade-up", data-aos-duration="2000") 
                                     div.justify-content-between.d-flex 
-                                        label(for="").ps-md-4.ps-3.col-md-6  #[small.multilanguage(data-lang-key="get-demo.form.persona-acount") ¿CUÁNTAS PERSONAS TRABAJAN EN TU EMPRESA?] 
+                                        label(for="").ps-md-4.ps-3.col-md-12  #[small.multilanguage(data-lang-key="get-demo.form.persona-acount") ¿CUÁNTAS PERSONAS TRABAJAN EN TU EMPRESA?]
                                     input.form-control(type="text" name="persona" placeholder="").multilanguage(data-lang-key="get-demo.form.placeholder-persona-acount")
-                        .mt-md-5(data-aos="fade-up", data-aos-duration="2000") 
+                        .row.mt-md-4
+                            .col-md-12.d-flex
+                                #recaptcha
+                                a(href="")#reload-code.ms-md-3
+                                    img(src="image/reload.svg", width="20", height="20")
+                            .col-md-4
+                                div.justify-content-between.d-flex
+                                    label(for="").ps-md-4.ps-3.col-md-12  #[small.multilanguage(data-lang-key="get-demo.form.captcha") ]
+                                input.form-control(type="text" name="codigo" placeholder="").multilanguage(data-lang-key="get-demo.form.placeholder-captcha")
+                        .mt-md-5(data-aos="fade-up", data-aos-duration="2000")
                             button(type="submit", disabled).btn.btn-primary.send.multilanguage(data-lang-key="get-demo.form.button") ¡Agenda una demo!
                             p.mt-md-5.multilanguage(data-lang-key="get-demo.form.copy") Respetamos tus datos. Llenando y enviando este formulario estás aceptando automáticamente nuestra #[a(href="./privacy-recovery.html") política de privacidad] de datos.
                     div 
@@ -75,8 +85,8 @@ block content
                         img(src="image/get-form-img-1.svg", alt="", srcset="").get-form-img-1
 
 block script
-
+    script(src="js/sweetalert2.all.min-dist.js")
     script(src="js/jquery.min-dist.js") 
     script(src="js/owl.carousel.min-dist.js")
-    script(src="js/jquery.validate.min-dist.js") 
+    script(src="js/jquery.validate.min-dist.js")
     script(src="js/validate-get-demo.js")

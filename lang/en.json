@@ -347,7 +347,9 @@
             "persona-acount":"How many people work in your company?",
             "placeholder-persona-acount":"",
             "button": "Schedule a demo!",
-            "copy": "We respect your data. By filling out and submitting this form you are automatically accepting our data <a href=\"./privacy-recovery.html\"> privacy policy. </a>"  
+            "copy": "We respect your data. By filling out and submitting this form you are automatically accepting our data <a href=\"./privacy-recovery.html\"> privacy policy. </a>",
+            "captcha": "",
+            "placeholder-captcha":"Enter the code"
         }
     },
     "politics":{

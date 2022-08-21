@@ -1,0 +1,30 @@
+<table>
+    <tr>
+        <td>Nombre</td>
+        <td><?= ($message['name']) ?></td>
+    </tr>
+    <tr>
+        <td>Apellido</td>
+        <td><?= ($message['last_name']) ?></td>
+    </tr>
+    <tr>
+        <td>Email</td>
+        <td><?= ($message['email']) ?></td>
+    </tr>
+    <tr>
+        <td>País</td>
+        <td><?= ($message['country']) ?></td>
+    </tr>
+    <tr>
+        <td>Número de Teléfono</td>
+        <td><?= ($message['phone']) ?></td>
+    </tr>
+    <tr>
+        <td>Sitio Web</td>
+        <td><?= ($message['website']) ?></td>
+    </tr>
+    <tr>
+        <td>¿Cuantas personas trabajan en tu empresa?</td>
+        <td><?= ($message['persona']) ?></td>
+    </tr>
+</table>

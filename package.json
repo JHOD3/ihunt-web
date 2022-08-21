@@ -10,6 +10,7 @@
     "lottie-web": "^5.9.6",
     "lozad": "^1.16.0",
     "npm-multilanguage-web": "^1.0.5",
-    "owl.carousel": "^2.3.4"
+    "owl.carousel": "^2.3.4",
+    "sweetalert2": "^11.4.29"
   }
 }

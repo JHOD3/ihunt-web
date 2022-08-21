@@ -345,7 +345,9 @@
             "persona-acount":"¿CUÁNTAS PERSONAS TRABAJAN EN TU EMPRESA?",
             "placeholder-persona-acount":"",
             "button": "¡Agenda una demo!",
-            "copy": "Respetamos tus datos. Llenando y enviando este formulario estás aceptando automáticamente nuestra <a href=\"./privacy-recovery.html\"> política de privacidad </a> de datos."           
+            "copy": "Respetamos tus datos. Llenando y enviando este formulario estás aceptando automáticamente nuestra <a href=\"./privacy-recovery.html\"> política de privacidad </a> de datos.",
+            "captcha": "",
+            "placeholder-captcha":"Ingresa el código"
         }
 
     },

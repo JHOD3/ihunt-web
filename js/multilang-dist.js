@@ -60,7 +60,7 @@
                         translate: function (e) {
                             (this.idioma = localStorage.getItem("idioma")),
                                 (this.idioma = null == this.idioma ? e.default : this.idioma),
-                                fetch("./lang/" + this.idioma + ".json")
+                                fetch(baseUrl+"/lang/" + this.idioma + ".json")
                                     .then((e) => e.json())
                                     .then((t) => {
                                         document.querySelectorAll("." + e.classElements).forEach(function (n, i) {
