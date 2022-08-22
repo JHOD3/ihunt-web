@@ -314,7 +314,7 @@
     },
     "register":{
         "title":"Register",
-        "copy":"It must have at least 8 characters, lowercase, uppercase <br class=\"d-md-block d-none\"> and at least one number.",
+        "copy":"Enter the email with which you want to register with iHunt. The password <br class=\"d-md-block d-none\">  must have at least 8 characters, lowercase, uppercase <br class=\"d-md-block d-none\"> and at least one number.",
         "email":"E-mail",
         "password":"Password",
         "password_confirm":"Repeat password",

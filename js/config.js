@@ -1,4 +1,4 @@
-let baseUrl = 'http://localhost:8000/ihut-landing-page';
+let baseUrl = 'http://localhost:8000';
 
 let lang_script;
 
