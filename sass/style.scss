@@ -1838,6 +1838,9 @@ small{
 }
 
 @include media-breakpoint-up(lg){
+    #blog-section-init .content-card-blog {
+        margin-bottom: 2rem;
+    }
     .navbar{
         .btn-primary{
             padding: 0.4rem 1.2rem !important;

@@ -1762,6 +1762,10 @@ h1, h2 {
   }
 }
 @media (min-width: 992px) {
+  #blog-section-init .content-card-blog {
+    margin-bottom: 2rem;
+  }
+
   .navbar .btn-primary {
     padding: 0.4rem 1.2rem !important;
   }

@@ -94,8 +94,15 @@ block content
                             small.card-title 30 de Junio de 2022
                             p.card-text.mt-md-3.mt-4
                                 | 5 formas en que la cultura de una empresa incide en las contrataciones
-            .my-5.py-5.justify-content-center.d-flex    
-                a(href="").btn.btn-primary.mt-md-5.view-more.multilanguage(data-lang-key="blog.button")  Mostrar más notas                   
+            .my-5.py-5.justify-content-center.d-flex
+                nav(aria-label='...')
+                    ul.pagination.pagination-lg
+                        li.page-item.active(aria-current='page')
+                            span.page-link 1
+                        li.page-item
+                            a.page-link(href='#') 2
+                        li.page-item
+                            a.page-link(href='#') 3
 block script
 
     script(src="js/jquery.min-dist.js"+version)
