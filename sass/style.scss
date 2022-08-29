@@ -1266,6 +1266,33 @@ small{
     background: #F7F7F9;
 }
 @include media-breakpoint-between(sm, md){
+    #login-all-init{
+        margin-top: 10rem;
+        margin-bottom: 10rem;
+        .login-header{
+            margin-bottom: 2rem;
+        }
+        .card{
+            padding:1rem;
+            margin-bottom: 3rem;
+            h5{
+                font-size: 1.5em;
+                color: $primary;
+            }
+            p{
+                br{
+                    display: none !important;
+                }
+            }
+            .btn{
+                padding: 0.5rem 1rem !important;
+                font-size: 1em !important;
+            }
+            img{
+                width: 90%;
+            }
+        }
+    }
     #term-condition-init{
         margin-top: 10rem;
         margin-bottom: 3rem;
@@ -1519,6 +1546,25 @@ small{
     }
 }
 @include media-breakpoint-between(md, lg){
+    #login-all-init{
+        margin-top: 10rem;
+        margin-bottom: 10rem;
+        .card{
+            padding:1rem;
+            p{
+                br{
+                    display: none !important;
+                }
+            }
+            .btn{
+                padding: 0.5rem 1rem !important;
+                font-size: .5em !important;
+            }
+            img{
+                width: 90%;
+            }
+        }
+    }
     #term-condition-init{
         margin-top: 5rem;
         margin-bottom: 3rem;
@@ -2327,6 +2373,17 @@ small{
     }
 }
 @include media-breakpoint-between(lg, xl){
+    #login-all-init{
+        .card{
+            .btn{
+                padding: 0.5rem 1rem !important;
+                font-size: .8em !important;
+            }
+            img{
+                width: 90%;
+            }
+        }
+    }
     .input-password img {
         position: absolute;
         right: 10px;

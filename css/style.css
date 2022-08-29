@@ -1205,6 +1205,32 @@ h1, h2 {
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
+  #login-all-init {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+  }
+  #login-all-init .login-header {
+    margin-bottom: 2rem;
+  }
+  #login-all-init .card {
+    padding: 1rem;
+    margin-bottom: 3rem;
+  }
+  #login-all-init .card h5 {
+    font-size: 1.5em;
+    color: #430087;
+  }
+  #login-all-init .card p br {
+    display: none !important;
+  }
+  #login-all-init .card .btn {
+    padding: 0.5rem 1rem !important;
+    font-size: 1em !important;
+  }
+  #login-all-init .card img {
+    width: 90%;
+  }
+
   #term-condition-init {
     margin-top: 10rem;
     margin-bottom: 3rem;
@@ -1436,6 +1462,24 @@ h1, h2 {
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
+  #login-all-init {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+  }
+  #login-all-init .card {
+    padding: 1rem;
+  }
+  #login-all-init .card p br {
+    display: none !important;
+  }
+  #login-all-init .card .btn {
+    padding: 0.5rem 1rem !important;
+    font-size: 0.5em !important;
+  }
+  #login-all-init .card img {
+    width: 90%;
+  }
+
   #term-condition-init {
     margin-top: 5rem;
     margin-bottom: 3rem;
@@ -2243,6 +2287,14 @@ h1, h2 {
   }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
+  #login-all-init .card .btn {
+    padding: 0.5rem 1rem !important;
+    font-size: 0.8em !important;
+  }
+  #login-all-init .card img {
+    width: 90%;
+  }
+
   .input-password img {
     position: absolute;
     right: 10px;
