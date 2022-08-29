@@ -1307,13 +1307,13 @@ small{
                 padding: 0 !important;
                 form{
                     padding-top: 1rem;
-                    div{
+                    .input-password{
+                        margin-top: .9rem;
                         margin-bottom: .9rem;
                     }
                     .input-password img {
                         position: absolute;
                         right: 10px;
-                        top: 22px;
                     }
                 }
             }
@@ -1360,13 +1360,13 @@ small{
                 padding: 0 !important;
                 form{
                     padding-top: 1rem;
-                    div{
+                    .input-password{
+                        margin-top: .9rem;
                         margin-bottom: .9rem;
                     }
                     .input-password img {
                         position: absolute;
                         right: 10px;
-                        top: 22px;
                     }
                 }
             }
@@ -2082,90 +2082,7 @@ small{
             padding: 0.4rem 1.2rem !important;
         }
     }
-    #login-businnes-init{
-        background:#877BCC;
-        position:absolute;
-        height:100vh;
-        width: 100vw;
-        align-items: center;
-        display:flex;
-        justify-content: center;
-        .card-login{
-            background:#ffffff;
-            border-radius:20px;
-            max-width: 35rem;
-            padding: 2rem 4rem;
-            margin: auto;
-            .login-header{
-                .row{
-                    padding-bottom: 1rem;
-                    div:nth-child(1){
-                        width: auto;
-                        img{
-                            width:100px;
-                        }
-                    }
-                    div:last-child{
-                        width: auto;
-                        padding-top: 2.5rem;
-                        img{
-                            width:80px;
-                        }
-                        h3{
-                            margin-top: .5rem;
-                            font-size:1.2em;
-                            color: $primary;
-                        }
-                    }
-                }
-            }
-            .login-body{
-                padding: 0 !important;
-            }
-        }
-    }
-    #login-ihunter-init{
-        background:#2ABB96;
-        position:absolute;
-        height:100vh;
-        width: 100vw;
-        align-items: center;
-        display:flex;
-        justify-content: center;
-        .card-login{
-            background:#ffffff;
-            border-radius:20px;
-            max-width: 35rem;
-            padding: 2rem 4rem;
-            margin: auto;
-            .login-header{
-                .row{
-                    padding-bottom: 1rem;
-                    div:nth-child(1){
-                        width: auto;
-                        img{
-                            width:100px;
-                        }
-                    }
-                    div:last-child{
-                        width: auto;
-                        padding-top: 2.5rem;
-                        img{
-                            width:80px;
-                        }
-                        h3{
-                            margin-top: .5rem;
-                            font-size:1.2em;
-                            color: $primary;
-                        }
-                    }
-                }
-            }
-            .login-body{
-                padding: 0 !important;
-            }
-        }
-    }
+
     #login-all-init{
         padding-top: 6rem;
     }
@@ -2668,6 +2585,7 @@ small{
     }
 }
 @include media-breakpoint-between(xl, xxl){
+
     #ser-ihunter-init {
         .ser-ihunter-section-1-img-md {
             transform: scale(0.9)!important;
@@ -2692,6 +2610,112 @@ small{
 }
 
 @include media-breakpoint-up(lg){
+    #login-businnes-init{
+        background:#877BCC;
+        position:absolute;
+        height:100vh;
+        width: 100vw;
+        align-items: center;
+        display:flex;
+        justify-content: center;
+        .card-login{
+            background:#ffffff;
+            border-radius:20px;
+            max-width: 35rem;
+            padding: 2rem 4rem;
+            margin: auto;
+            .login-header{
+                .row{
+                    padding-bottom: 1rem;
+                    div:nth-child(1){
+                        width: auto;
+                        img{
+                            width:100px;
+                        }
+                    }
+                    div:last-child{
+                        width: auto;
+                        padding-top: 2.5rem;
+                        img{
+                            width:80px;
+                        }
+                        h3{
+                            margin-top: .5rem;
+                            font-size:1.2em;
+                            color: $primary;
+                        }
+                    }
+                }
+            }
+            .login-body{
+                padding: 0 !important;
+                form{
+                    padding-top: 0rem !important;
+                    .input-password{
+                        margin-top: 1.5rem !important;
+                        margin-bottom: 0rem !important;
+                    }
+                    .input-password img {
+                        position: absolute;
+                        right: 10px;
+                    }
+                }
+            }
+        }
+    }
+    #login-ihunter-init{
+        background:#2ABB96;
+        position:absolute;
+        height:100vh;
+        width: 100vw;
+        align-items: center;
+        display:flex;
+        justify-content: center;
+        .card-login{
+            background:#ffffff;
+            border-radius:20px;
+            max-width: 35rem;
+            padding: 2rem 4rem;
+            margin: auto;
+            .login-header{
+                .row{
+                    padding-bottom: 1rem;
+                    div:nth-child(1){
+                        width: auto;
+                        img{
+                            width:100px;
+                        }
+                    }
+                    div:last-child{
+                        width: auto;
+                        padding-top: 2.5rem;
+                        img{
+                            width:80px;
+                        }
+                        h3{
+                            margin-top: .5rem;
+                            font-size:1.2em;
+                            color: $primary;
+                        }
+                    }
+                }
+            }
+            .login-body{
+                padding: 0 !important;
+                form{
+                    padding-top: 0rem !important;
+                    .input-password{
+                        margin-top: 1.5rem !important;
+                        margin-bottom: 0rem !important;
+                    }
+                    .input-password img {
+                        position: absolute;
+                        right: 10px;
+                    }
+                }
+            }
+        }
+    }
     #index-item{
         margin-top: 15rem;
     }

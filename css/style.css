@@ -1248,13 +1248,13 @@ h1, h2 {
   #login-ihunter-init .card-login .login-body form {
     padding-top: 1rem;
   }
-  #login-ihunter-init .card-login .login-body form div {
+  #login-ihunter-init .card-login .login-body form .input-password {
+    margin-top: 0.9rem;
     margin-bottom: 0.9rem;
   }
   #login-ihunter-init .card-login .login-body form .input-password img {
     position: absolute;
     right: 10px;
-    top: 22px;
   }
 
   #login-businnes-init {
@@ -1300,13 +1300,13 @@ h1, h2 {
   #login-businnes-init .card-login .login-body form {
     padding-top: 1rem;
   }
-  #login-businnes-init .card-login .login-body form div {
+  #login-businnes-init .card-login .login-body form .input-password {
+    margin-top: 0.9rem;
     margin-bottom: 0.9rem;
   }
   #login-businnes-init .card-login .login-body form .input-password img {
     position: absolute;
     right: 10px;
-    top: 22px;
   }
 
   #login-all-init {
@@ -2000,88 +2000,6 @@ h1, h2 {
     padding: 0.4rem 1.2rem !important;
   }
 
-  #login-businnes-init {
-    background: #877BCC;
-    position: absolute;
-    height: 100vh;
-    width: 100vw;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-  }
-  #login-businnes-init .card-login {
-    background: #ffffff;
-    border-radius: 20px;
-    max-width: 35rem;
-    padding: 2rem 4rem;
-    margin: auto;
-  }
-  #login-businnes-init .card-login .login-header .row {
-    padding-bottom: 1rem;
-  }
-  #login-businnes-init .card-login .login-header .row div:nth-child(1) {
-    width: auto;
-  }
-  #login-businnes-init .card-login .login-header .row div:nth-child(1) img {
-    width: 100px;
-  }
-  #login-businnes-init .card-login .login-header .row div:last-child {
-    width: auto;
-    padding-top: 2.5rem;
-  }
-  #login-businnes-init .card-login .login-header .row div:last-child img {
-    width: 80px;
-  }
-  #login-businnes-init .card-login .login-header .row div:last-child h3 {
-    margin-top: 0.5rem;
-    font-size: 1.2em;
-    color: #430087;
-  }
-  #login-businnes-init .card-login .login-body {
-    padding: 0 !important;
-  }
-
-  #login-ihunter-init {
-    background: #2ABB96;
-    position: absolute;
-    height: 100vh;
-    width: 100vw;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-  }
-  #login-ihunter-init .card-login {
-    background: #ffffff;
-    border-radius: 20px;
-    max-width: 35rem;
-    padding: 2rem 4rem;
-    margin: auto;
-  }
-  #login-ihunter-init .card-login .login-header .row {
-    padding-bottom: 1rem;
-  }
-  #login-ihunter-init .card-login .login-header .row div:nth-child(1) {
-    width: auto;
-  }
-  #login-ihunter-init .card-login .login-header .row div:nth-child(1) img {
-    width: 100px;
-  }
-  #login-ihunter-init .card-login .login-header .row div:last-child {
-    width: auto;
-    padding-top: 2.5rem;
-  }
-  #login-ihunter-init .card-login .login-header .row div:last-child img {
-    width: 80px;
-  }
-  #login-ihunter-init .card-login .login-header .row div:last-child h3 {
-    margin-top: 0.5rem;
-    font-size: 1.2em;
-    color: #430087;
-  }
-  #login-ihunter-init .card-login .login-body {
-    padding: 0 !important;
-  }
-
   #login-all-init {
     padding-top: 6rem;
   }
@@ -2589,6 +2507,110 @@ h1, h2 {
   }
 }
 @media (min-width: 992px) {
+  #login-businnes-init {
+    background: #877BCC;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  #login-businnes-init .card-login {
+    background: #ffffff;
+    border-radius: 20px;
+    max-width: 35rem;
+    padding: 2rem 4rem;
+    margin: auto;
+  }
+  #login-businnes-init .card-login .login-header .row {
+    padding-bottom: 1rem;
+  }
+  #login-businnes-init .card-login .login-header .row div:nth-child(1) {
+    width: auto;
+  }
+  #login-businnes-init .card-login .login-header .row div:nth-child(1) img {
+    width: 100px;
+  }
+  #login-businnes-init .card-login .login-header .row div:last-child {
+    width: auto;
+    padding-top: 2.5rem;
+  }
+  #login-businnes-init .card-login .login-header .row div:last-child img {
+    width: 80px;
+  }
+  #login-businnes-init .card-login .login-header .row div:last-child h3 {
+    margin-top: 0.5rem;
+    font-size: 1.2em;
+    color: #430087;
+  }
+  #login-businnes-init .card-login .login-body {
+    padding: 0 !important;
+  }
+  #login-businnes-init .card-login .login-body form {
+    padding-top: 0rem !important;
+  }
+  #login-businnes-init .card-login .login-body form .input-password {
+    margin-top: 1.5rem !important;
+    margin-bottom: 0rem !important;
+  }
+  #login-businnes-init .card-login .login-body form .input-password img {
+    position: absolute;
+    right: 10px;
+  }
+
+  #login-ihunter-init {
+    background: #2ABB96;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  #login-ihunter-init .card-login {
+    background: #ffffff;
+    border-radius: 20px;
+    max-width: 35rem;
+    padding: 2rem 4rem;
+    margin: auto;
+  }
+  #login-ihunter-init .card-login .login-header .row {
+    padding-bottom: 1rem;
+  }
+  #login-ihunter-init .card-login .login-header .row div:nth-child(1) {
+    width: auto;
+  }
+  #login-ihunter-init .card-login .login-header .row div:nth-child(1) img {
+    width: 100px;
+  }
+  #login-ihunter-init .card-login .login-header .row div:last-child {
+    width: auto;
+    padding-top: 2.5rem;
+  }
+  #login-ihunter-init .card-login .login-header .row div:last-child img {
+    width: 80px;
+  }
+  #login-ihunter-init .card-login .login-header .row div:last-child h3 {
+    margin-top: 0.5rem;
+    font-size: 1.2em;
+    color: #430087;
+  }
+  #login-ihunter-init .card-login .login-body {
+    padding: 0 !important;
+  }
+  #login-ihunter-init .card-login .login-body form {
+    padding-top: 0rem !important;
+  }
+  #login-ihunter-init .card-login .login-body form .input-password {
+    margin-top: 1.5rem !important;
+    margin-bottom: 0rem !important;
+  }
+  #login-ihunter-init .card-login .login-body form .input-password img {
+    position: absolute;
+    right: 10px;
+  }
+
   #index-item {
     margin-top: 15rem;
   }
