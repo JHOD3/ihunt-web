@@ -18,39 +18,32 @@
   <link rel="stylesheet" href="css/owl.theme.green-dist.css?v=0.6">
   <body style="overflow-y:hidden">
     <main class="pb-md-5 pt-0">
-      <section id="login-init">
-        <div class="row"> 
-          <div class="col-md-6 px-md-0 mx-md-0 d-none d-md-block"> <img class="img-login" src="image/register-img.png" alt="" srcset=""></div>
-          <div class="col-md-6 px-md-0 mx-md-0 col-12"> 
+      <section id="login-businnes-init">
+        <div class="row">
+          <div class="col-12 card-login">
             <div class="login-header">
-              <div class="col-md-10 mx-md-auto">
-                <div class="border-bottom py-md-5"><img src="image/logo.svg"></div>
+              <div class="row border-bottom">
+                <div class="col-6"><img class="lozad" data-src="image/login-all-login-empresa.svg" data-type="image"></div>
+                <div class="col-6"><img src="image/logo.svg">
+                  <h3> Ingreso como empleador</h3>
+                </div>
               </div>
             </div>
             <div class="login-body">
-              <div class="col-md-10 mx-md-auto">
-                <h4 class="text-primary mt-md-5 pt-md-3 multilanguage" data-lang-key="register.title">Registrarme</h4>
-                <p class="multilanguage" data-lang-key="register.copy">Ingresa el email con el que quieres registrarte y la contraseña. <br class="d-md-block d-none">La misma debe tener al menos 8 caracteres, minúscula, mayúscula y al<br class="d-md-block d-none"> menos un número.</p>
+              <div class="col-md-12 mx-md-auto">
                 <form class="mt-md-5 pt-md-3" action="">
                   <div>
-                    <div class="justify-content-between d-flex">    
-                      <label class="ps-md-4 ps-3 col-md-6" for=""> <small class="multilanguage" data-lang-key="register.email">EMAIL</small></label>
+                    <div class="justify-content-between d-flex">
+                      <label class="ps-md-4 ps-3 col-md-6" for=""> <small class="multilanguage" data-lang-key="login.email">EMAIL</small></label>
                     </div>
                     <input class="form-control" type="email" name="email" placeholder="juanprueba@gmail.com">
                   </div>
-                  <div class="mt-md-4 input-password">
-                    <div class="justify-content-between d-flex"> </div>
-                    <input class="form-control multilanguage" type="password" name="password" placeholder="Contraseña" data-lang-key="register.password"><img class="view-password" src="image/eyes-icon.png" alt="">
-                  </div>
-                  <div class="mt-md-4 input-password"> 
+                  <div class="mt-md-5 input-password" data-aos="fade-left" data-aos-duration="2000">
                     <div class="justify-content-between d-flex"></div>
-                    <input class="form-control multilanguage" type="password" name="password_confirm" placeholder="Repetir contraseña" data-lang-key="register.password_confirm"><img class="view-password" src="image/eyes-icon.png" alt="">
+                    <input class="form-control multilanguage" type="password" name="password" placeholder="Contraseña" data-lang-key="login.password"><img class="view-password" src="image/eyes-icon.png" alt="">
                   </div>
-                  <div class="form-check mt-md-5">
-                    <input class="form-check-input" id="flexCheckDefault" type="checkbox" value="">
-                    <label class="form-check-label multilanguage" for="flexCheckDefault" data-lang-key="register.terms">Acepto los <a href="./terms-conditions.html" target="_blank" rel="noopener noreferrer">términos y condiciones</a></label>
-                  </div>
-                  <button class="btn btn-primary mt-md-5 multilanguage" type="submit" data-lang-key="register.register">Registrarme</button>
+                  <button class="btn btn-primary mt-md-5" type="submit">Ingresar</button>
+                  <div class="mt-md-4"><a class="multilanguage" href="" data-lang-key="login.recovery"> Recuperar contraseña</a></div>
                 </form>
               </div>
             </div>

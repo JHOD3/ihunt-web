@@ -17,24 +17,22 @@ block variables
         }
 
 block style
-    link(rel="stylesheet", href="css/owl.carousel-dist.css")
-    link(rel="stylesheet", href="css/owl.theme.default-dist.css")
-    link(rel="stylesheet", href="css/owl.theme.green-dist.css")
+    link(rel="stylesheet", href="css/owl.carousel-dist.css"+version)
+    link(rel="stylesheet", href="css/owl.theme.default-dist.css"+version)
+    link(rel="stylesheet", href="css/owl.theme.green-dist.css"+version)
 block content 
     section#ser-ihunter-init.container
         .row.d-md-flex.d-block
             div.col-12.col-md-5.pt-md-5.px-md-0.pt-5.order-md-1.order-2.pb-5.mb-5
                 h1(data-aos="fade-down", data-aos-duration="1000").text-primary.font-2-5-em-lg.font-2-5-em-xxl.font-1-75-em.pt-md-4.mt-md-5.pt-5.mt-5.py-5.pb-md-0.text-md-start.text-center.multilanguage(data-lang-key="ihunter.section-1.title")  Genera ingresos como  #[br] #[strong.fw-bold reclutador independiente ] 
                 p(data-aos="fade-up", data-aos-duration="3000").py-md-4.py-xxl-0.pb-5.pt-5.font-1-1-em-md.text-md-start.text-center.multilanguage(data-lang-key="ihunter.section-1.copy")  En iHunt puedes ser parte de la mayor red de reclutamiento  #[br.d-md-none.d-none] colaborativo, junto a más de 2500 reclutadores independientes  #[br.d-md-none.d-none] que día a día están cambiando el paradigma del sourcing y el  #[br.d-md-none.d-none] futuro de los Recursos Humanos.
-                .mt-4.mt-md-5.input-suscribe(data-aos="flip-up", data-aos-duration="3000")
-                    label(for="suscribe") #[h2.text-primary.multilanguage(data-lang-key="ihunter.section-1.subtitle") ¡Súmate como #[strong.fw-bold iHunter!] ]
-                    input(type="text", name="suscribe" ,  placeholder="Tu email")#suscribe.form-control.mt-md-2
-                    button.btn.btn-primary.px-5.px-md-4.multilanguage(data-lang-key="ihunter.section-1.button")  Empezar ahora 
+                .mt-4.mt-md-5(data-aos="flip-up", data-aos-duration="3000")
+                    a.btn.btn-primary.px-5.px-md-4.multilanguage(data-lang-key="ihunter.section-1.button")  Empezar ahora
             div.col-12.col-md-7.pt-md-5.pt-5.px-md-0.justify-content-end.d-flex.position-absolute-xs.order-md-2.order-1
                 img(src="image/ser-ihunter-section-1-img.svg").d-md-flex.d-block.img.ser-ihunter-section-1-img-md
     section#ser-ihunter-section-2.mt-md-n5.pt-md-0.pt-5.mt-5
         .container.mt-md-5.pt-md-5.pt-5
-            .row.row-cols-md-2.row-cols-1 
+            .row.row-cols-md-2.row-cols-1
                 .col.d-md-block.d-none
                     img(data-src="image/ser-ihunter-section-2-img.svg", data-type="image" alt="", srcset="").ms-md-5.lozad
                 .col.pt-md-3
@@ -50,7 +48,7 @@ block content
     section#ser-ihunter-section-3.pb-md-5
         .container.pb-md-5
             h2.text-primary.text-md-center.font-2-2-em-md.font-1-8-em.multilanguage(data-lang-key="ihunter.section-3.title") ¿Cómo funciona?
-            .row.row-cols-md-3.row-cols-1.grid-como-funciona.pb-md-5 
+            .row.row-cols-lg-3.row-cols-md-2.row-cols-1.grid-como-funciona.pb-md-5
                 .col.my-md-3
                     .card
                         h3.fw-bold.text-primary 01
@@ -146,6 +144,6 @@ block content
                         p #[i.multilanguage(data-lang-key="ihunter.testimonials.item2.position") CEO - EOX Spa]
 block script
 
-    script(src="js/jquery.min-dist.js") 
-    script(src="js/owl.carousel.min-dist.js") 
+    script(src="js/jquery.min-dist.js"+version)
+    script(src="js/owl.carousel.min-dist.js"+version)
         

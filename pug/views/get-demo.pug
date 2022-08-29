@@ -15,17 +15,17 @@ block variables
             ihunter: "active"
         }
 block style
-    link(rel="stylesheet", href="css/owl.carousel-dist.css")
-    link(rel="stylesheet", href="css/owl.theme.default-dist.css")
-    link(rel="stylesheet", href="css/owl.theme.green-dist.css")
-    link(rel="stylesheet", href="css/sweetalert2.min-dist.css")
+    link(rel="stylesheet", href="css/owl.carousel-dist.css"+version)
+    link(rel="stylesheet", href="css/owl.theme.default-dist.css"+version)
+    link(rel="stylesheet", href="css/owl.theme.green-dist.css"+version)
+    link(rel="stylesheet", href="css/sweetalert2.min-dist.css"+version)
 block content 
     section#get-demo-section-init.d-flex
         .container.mx-auto.row.p-md-0
-            .col-md-4.ps-md-0.pt-md-5
+            .col-lg-4.col-md-12.ps-md-0.pt-md-5
                 h3.text-primary.multilanguage(data-lang-key="get-demo.title") Agenda una demo y descubre rápidamente cómo iHunt puede ayudarte a encontrar el mejor talento para tus ofertas de empleo.
                 p.multilanguage(data-lang-key="get-demo.copy") Por favor completa este breve formulario y nuestro equipo hablará contigo sobre las necesidades de tu empresa y responderá a todas tus consultas.
-            .col-md-8
+            .col-lg-8.col-md-12
                 .card.p-md-5
                     h3.text-primary.fw-bold(data-aos="fade-down", data-aos-duration="1000").multilanguage(data-lang-key="get-demo.form.title") ¡Comencemos!
                     form(action="").mt-md-5.pt-md-3#get-demo-form
@@ -85,8 +85,8 @@ block content
                         img(src="image/get-form-img-1.svg", alt="", srcset="").get-form-img-1
 
 block script
-    script(src="js/sweetalert2.all.min-dist.js")
-    script(src="js/jquery.min-dist.js") 
-    script(src="js/owl.carousel.min-dist.js")
-    script(src="js/jquery.validate.min-dist.js")
-    script(src="js/validate-get-demo.js")
+    script(src="js/sweetalert2.all.min-dist.js"+version)
+    script(src="js/jquery.min-dist.js"+version)
+    script(src="js/owl.carousel.min-dist.js"+version)
+    script(src="js/jquery.validate.min-dist.js"+version)
+    script(src="js/validate-get-demo.js"+version)

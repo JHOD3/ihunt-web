@@ -1,0 +1,52 @@
+extends ../layouts/_main
+block variables
+    -
+        var page = {
+            title: 'iHunt - Login',
+            description: 'En iHunt puedes ser parte de la mayor red de reclutamiento colaborativo, junto a más de 2500 reclutadores independientes que día a día están cambiando el paradigma del sourcing y el futuro de los Recursos Humanos.',
+            keywords: "cuentra, economica, candidatos, efectiva, sistema, revolucionando, atracción, región",
+            author: 'iHunt develop team'
+        };
+
+        var menu = {
+            home: "",
+            service: "",
+            platform: "",
+            blog: "",
+            ihunter: ""
+        }
+
+block style
+    link(rel="stylesheet", href="css/owl.carousel-dist.css"+version)
+    link(rel="stylesheet", href="css/owl.theme.default-dist.css"+version)
+    link(rel="stylesheet", href="css/owl.theme.green-dist.css"+version)
+block content
+    section#login-all-init.d-flex
+        .container
+            .login-header
+                h1.text-center.text-primary.multilanguage(data-lang-key="login-all.title") Inicio de sesión
+                p.text-center.multilanguage(data-lang-key="login-all.copy") Selecciona como ingresar a la plataforma:
+            .login-body.row.row-cols-md-2.row-cols-1.grid-como-funciona.pb-md-5.col-md-10.mx-md-auto
+                .col.my-md-3
+                    .card.align-items-center.d-grid
+                        .row.mt-md-4
+                            .col-md-5.col-5
+                                img.lozad(data-src="image/login-all-login-empresa.svg" data-type="image")
+                            .col-md-7.col-7
+                                h5.multilanguage(data-lang-key="ihunter.section-3.item-1.title") Empresa
+                                p.multilanguage(data-lang-key="ihunter.section-3.item-1.copy") Si estás registrado como #[br.d-md-block.d-none] empresa, ingresa aquí
+                                a.btn.btn-primary Entrar como empresa
+                .col.my-md-3
+                    .card.align-items-center.d-grid
+                        .row.mt-md-4
+                            .col-md-5.col-5
+                                img.lozad(data-src="image/login-all-login-ihunter.svg" data-type="image")
+                            .col-md-7.col-7
+                                h5.multilanguage(data-lang-key="ihunter.section-3.item-2.title") iHunter
+                                p.multilanguage(data-lang-key="ihunter.section-3.item-2.copy") Si estás registrado como #[br.d-md-block.d-none] iHunter, ingresa aquí
+                                a.btn.btn-primary Entrar como iHunter
+
+block script
+
+    script(src="js/jquery.min-dist.js"+version)
+    script(src="js/owl.carousel.min-dist.js"+version)

@@ -15,29 +15,28 @@ block variables
             ihunter: ""
         }
 block style
-    link(rel="stylesheet", href="css/owl.carousel-dist.css")
-    link(rel="stylesheet", href="css/owl.theme.default-dist.css")
-    link(rel="stylesheet", href="css/owl.theme.green-dist.css")
+    link(rel="stylesheet", href="css/owl.carousel-dist.css"+version)
+    link(rel="stylesheet", href="css/owl.theme.default-dist.css"+version)
+    link(rel="stylesheet", href="css/owl.theme.green-dist.css"+version)
 block content 
-    section#platform-section-init.d-flex
-        img(src="image/platform-section-init-img.svg", alt="").d-md-block.d-none
-        img(src="image/platform-section-init-img-m.svg", alt="").d-md-none.d-block.platform-img-background-m
-        .container.position-absolute.mx-auto.absolute-center
+    section#platform-section-init
+        .container.mx-auto.col-md-12
             div.lottie-player.mt-md-5(data-animation-path="image/animaciones/animacion-iman-perfiles/data.json" data-loop-start="473" data-loop-end="625").d-md-block.d-none
-            img(src="image/animacion-iman-perfiles-m.svg", alt="").animacion-iman-perfiles-img.d-md-none
+            img(src="image/animacion-iman-perfiles-m.png", alt="").animacion-iman-perfiles-img.d-md-none
             div   
                 h1.text-center.text-primary.multilanguage(data-lang-key="platform.section-1.title") La puerta hacia un
-                    | #[br.d-md-block.d-none] #[strong.fw-bold nuevo sourcing de talento]
-                p.text-center.multilanguage(data-lang-key="platform.section-1.copy") #[strong.fw-bold  El mundo cambió y así la identificación de talento.] #[br.d-md-block.d-none]
-                    | Conoce la herramienta que puede convertirse en tu mejor aliado para tu  #[br.d-md-block.d-none]
+                    | #[br.d-lg-block.d-none] #[strong.fw-bold nuevo sourcing de talento]
+                p.text-center.multilanguage.mt-5(data-lang-key="platform.section-1.copy") #[strong.fw-bold  El mundo cambió y así la identificación de talento.] #[br.d-lg-block.d-none]
+                    | Conoce la herramienta que puede convertirse en tu mejor aliado para tu  #[br.d-lg-block.d-none]
                     | próxima búsqueda de candidatos.
-    section#platform-section-3.mt-md-5.pt-md-5.container.contain-layout.content-placa
+        img(src="image/platform-section-init-img-test.svg")
+    section#platform-section-3.mt-md-5.pt-md-5.container-lg.contain-layout.content-placa
         .row.row-cols-md-2.row-cols-1.align-items-center
             .col(data-aos="fade-up", data-aos-duration="2000", data-aos-delay="500").order-md-1.order-2
                 .col-md-10.ms-md-auto
-                    h2.text-primary.font-1-55-em.multilanguage(data-lang-key="platform.section-2.item-1.title")   Carga veloz y control total #[br.d-md-block.d-none] sobre todas tus búsquedas
-                    p.mt-md-4.pt-md-2.text-primary.multilanguage(data-lang-key="platform.section-2.item-1.copy-1")   Con iHunt publicas tus ofertas de empleo de forma simple #[br.d-md-block.d-none] desde la plataforma. Tienes el control de todas tus búsquedas #[br.d-md-block.d-none] y el estado en que se encuentran. 
-                    p.multilanguage(data-lang-key="platform.section-2.item-1.copy-2")    Además puedes dejar ofertas en borrador, y duplicar las #[br.d-md-block.d-none] mismas en caso de búsquedas similares para ahorrarte #[br.d-md-block.d-none] tiempo en la descripción de los perfiles.
+                    h2.text-primary.font-1-55-em.multilanguage(data-lang-key="platform.section-2.item-1.title")   Carga veloz y control total #[br.d-lg-block.d-none] sobre todas tus búsquedas
+                    p.mt-md-4.pt-md-2.text-primary.multilanguage(data-lang-key="platform.section-2.item-1.copy-1")   Con iHunt publicas tus ofertas de empleo de forma simple #[br.d-lg-block.d-none] desde la plataforma. Tienes el control de todas tus búsquedas #[br.d-lg-block.d-none] y el estado en que se encuentran.
+                    p.multilanguage(data-lang-key="platform.section-2.item-1.copy-2")    Además puedes dejar ofertas en borrador, y duplicar las #[br.d-lg-block.d-none] mismas en caso de búsquedas similares para ahorrarte #[br.d-lg-block.d-none] tiempo en la descripción de los perfiles.
             .col.order-md-2.order-1
                 .col-md-10.ms-md-auto.ps-md-5
                     .lozad.platform-animacion-1(data-src="image/animaciones/lf20_en8v4njq.json", data-src-en="image/animations/placa-1/data.json" data-type="lottiefiles", data-name="placa1")
@@ -47,16 +46,16 @@ block content
                 .lozad.platform-animacion-2(data-src="image/animaciones/placa-2.json", data-type="lottiefiles", data-name="placa2", data-loop-start="324", data-loop-end="625")
             .col-md-1.d-md-flex.d-none.order-md-2.order-2 
             .col-md-6.col.order-3.order-md-3(data-aos="fade-up", data-aos-duration="2000", data-aos-delay="500")
-                h2.text-primary.multilanguage(data-lang-key="platform.section-2.item-2.title")  Pasa de una oferta a una shortlist #[br.d-md-block.d-none] de candidatos valiosos en 1 semana.
-                p.mt-md-4.pt-md-2.text-primary.multilanguage(data-lang-key="platform.section-2.item-2.copy-1")  Cuando activas una búsqueda de vacante de tu empresa a  #[br.d-md-block.d-none] través de nuestra plataforma, inmediatamente comienza un  #[br.d-md-block.d-none]proceso de sourcing activo donde +2500 iHunters trabajan en  #[br.d-md-block.d-none] pos de encontrar los mejores candidatos para cada vacante.
-                p.multilanguage(data-lang-key="platform.section-2.item-2.copy-2")   En simultáneo se activa el proceso de filtrado inteligente con #[br.d-md-block.d-none] nuestros algoritmos de Inteligencia Artificial para lograr el #[br.d-md-block.d-none] mejor match con tu búsqueda.
+                h2.text-primary.multilanguage(data-lang-key="platform.section-2.item-2.title")  Pasa de una oferta a una shortlist #[br.d-lg-block.d-none] de candidatos valiosos en 1 semana.
+                p.mt-md-4.pt-md-2.text-primary.multilanguage(data-lang-key="platform.section-2.item-2.copy-1")  Cuando activas una búsqueda de vacante de tu empresa a  #[br.d-lg-block.d-none] través de nuestra plataforma, inmediatamente comienza un  #[br.d-lg-block.d-none]proceso de sourcing activo donde +2500 iHunters trabajan en  #[br.d-lg-block.d-none] pos de encontrar los mejores candidatos para cada vacante.
+                p.multilanguage(data-lang-key="platform.section-2.item-2.copy-2")   En simultáneo se activa el proceso de filtrado inteligente con #[br.d-lg-block.d-none] nuestros algoritmos de Inteligencia Artificial para lograr el #[br.d-lg-block.d-none] mejor match con tu búsqueda.
         embed(src="image/linea-2.svg", alt="", srcset="").img-linea-2.d-md-block.d-none
         .row.row-cols-md-2.row-cols-1.align-items-center
             .col(data-aos="fade-up", data-aos-duration="2000", data-aos-delay="500").order-md-1.order-2
                 .col-md-10.ms-md-auto
                     h2.text-primary.multilanguage(data-lang-key="platform.section-2.item-3.title")  Proceso transparente y efectivo
-                    p.mt-md-4.pt-md-2.text-primary.multilanguage(data-lang-key="platform.section-2.item-3.copy-1")   En un tiempo medio por proceso de 5 días hábiles descubrirás #[br.d-md-block.d-none] un antes y un después en la adquisición de talento. 
-                    p.multilanguage(data-lang-key="platform.section-2.item-3.copy-2")   Se te notificará cuando se activa la lista larga de candidatos.#[br.d-md-block.d-none] En ese momento ya podrás ir seleccionando tus candidatos #[br.d-md-block.d-none] de valor. Finalmente te encontrarás desplegada la lista corta #[br.d-md-block.d-none] en tu plataforma con los candidatos idóneos para tu #[br.d-md-block.d-none] búsqueda.
+                    p.mt-md-4.pt-md-2.text-primary.multilanguage(data-lang-key="platform.section-2.item-3.copy-1")   En un tiempo medio por proceso de 5 días hábiles descubrirás #[br.d-lg-block.d-none] un antes y un después en la adquisición de talento.
+                    p.multilanguage(data-lang-key="platform.section-2.item-3.copy-2")   Se te notificará cuando se activa la lista larga de candidatos.#[br.d-lg-block.d-none] En ese momento ya podrás ir seleccionando tus candidatos #[br.d-lg-block.d-none] de valor. Finalmente te encontrarás desplegada la lista corta #[br.d-lg-block.d-none] en tu plataforma con los candidatos idóneos para tu #[br.d-lg-block.d-none] búsqueda.
             .col.order-md-2.order-1
                 .col-md-10.ms-md-auto.ps-md-5
                      .lozad.platform-animacion-3(data-src="image/animaciones/placa-3.json", data-type="lottiefiles", data-name="placa3")
@@ -67,8 +66,8 @@ block content
             .col-md-1.d-md-flex.d-none.order-md-2.order-2 
             .col-md-6.col.order-3.order-md-3(data-aos="fade-up", data-aos-duration="2000", data-aos-delay="500")
                 h2.text-primary.multilanguage(data-lang-key="platform.section-2.item-4.title")  Adicionales de la plataforma
-                p.mt-md-4.pt-md-2.text-primary.multilanguage(data-lang-key="platform.section-2.item-4.copy-1")  Se puede solicitar adicionalmente al proceso tradicional #[br.d-md-block.d-none] diferentes extras como Tests Psicométricos, validaciones de #[br.d-md-block.d-none] identidad y Public Background Reports.
-                p.multilanguage(data-lang-key="platform.section-2.item-4.copy-2")   Además se encuentra disponible una Garantía Extendida, #[br.d-md-block.d-none] donde se reitera el proceso de selección sumando 3 nuevos #[br.d-md-block.d-none] candidatos a la búsqueda que se encontraba activa.
+                p.mt-md-4.pt-md-2.text-primary.multilanguage(data-lang-key="platform.section-2.item-4.copy-1")  Se puede solicitar adicionalmente al proceso tradicional #[br.d-lg-block.d-none] diferentes extras como Tests Psicométricos, validaciones de #[br.d-lg-block.d-none] identidad y Public Background Reports.
+                p.multilanguage(data-lang-key="platform.section-2.item-4.copy-2")   Además se encuentra disponible una Garantía Extendida, #[br.d-lg-block.d-none] donde se reitera el proceso de selección sumando 3 nuevos #[br.d-lg-block.d-none] candidatos a la búsqueda que se encontraba activa.
         
 
     
@@ -77,11 +76,11 @@ block content
             img(src="image/platform-section-2-img.png", alt="", srcset="")
         .container.position-absolute.mx-auto.absolute-center
             div(data-aos="fade-up", data-aos-duration="2000", data-aos-delay="500")
-                h2.text-primary.text-center.font-2-2-em-md.font-1-8-em.pb-5.multilanguage(data-lang-key="platform.section-3.title") Revolucionemos la industria de la #[br.d-md-block.d-none] atracción de talento, juntos.
+                h2.text-primary.text-center.font-2-2-em-md.font-1-8-em.pb-5.multilanguage(data-lang-key="platform.section-3.title") Revolucionemos la industria de la #[br.d-lg-block.d-none] atracción de talento, juntos.
                 a(href="http://").btn.btn-primary.mx-auto.d-table.mt-md-5.mt-5.multilanguage(data-lang-key="platform.section-3.button") Quiero una demo          
 
 block script
 
-    script(src="js/jquery.min-dist.js") 
-    script(src="js/owl.carousel.min-dist.js")        
+    script(src="js/jquery.min-dist.js"+version)
+    script(src="js/owl.carousel.min-dist.js"+version)
         

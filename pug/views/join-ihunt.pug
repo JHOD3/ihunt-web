@@ -15,9 +15,9 @@ block variables
             ihunter: ""
         }    
 block style
-    link(rel="stylesheet", href="css/owl.carousel-dist.css")
-    link(rel="stylesheet", href="css/owl.theme.default-dist.css")
-    link(rel="stylesheet", href="css/owl.theme.green-dist.css")
+    link(rel="stylesheet", href="css/owl.carousel-dist.css"+version)
+    link(rel="stylesheet", href="css/owl.theme.default-dist.css"+version)
+    link(rel="stylesheet", href="css/owl.theme.green-dist.css"+version)
 block content 
     section#join-ihunt-section-init.d-flex
         img(src="image/join-ihunt-section-init-img.svg", alt="").d-md-block.d-none
@@ -74,7 +74,7 @@ block content
     section#join-ihunt-section-2.pb-md-5
         .container.pb-md-5
             h2.text-primary.text-md-center.font-2-2-em-md.font-1-8-em.multilanguage(data-lang-key="join-ihunter.section-2.title") ¿Cómo funciona?
-            .row.row-cols-md-3.row-cols-1.grid-como-funciona.pb-md-5 
+            .row.row-cols-lg-3.row-cols-md-2.row-cols-1.grid-como-funciona.pb-md-5
                 .col.my-md-3
                     .card
                         h3.fw-bold.text-primary 01
@@ -136,7 +136,7 @@ block content
   
 block script
 
-    script(src="js/jquery.min-dist.js") 
-    script(src="js/owl.carousel.min-dist.js")
-    script(src="js/jquery.validate.min-dist.js") 
-    script(src="js/validate-ihunter.js")
+    script(src="js/jquery.min-dist.js"+version)
+    script(src="js/owl.carousel.min-dist.js"+version)
+    script(src="js/jquery.validate.min-dist.js"+version)
+    script(src="js/validate-ihunter.js"+version)

@@ -14,7 +14,7 @@ if($('#owl-logos')){
                 nav:false
             },
             600:{
-                items:3,
+                items:5,
                 nav:false
             },
             1000:{
@@ -41,11 +41,11 @@ if($('#owl-logos-2')){
                 margin:10,
                 nav:false
             },
-            600:{
-                items:3,
+            768:{
+                items:5,
                 nav:false
             },
-            1000:{
+            992:{
                 items:6,
                 nav:false
             }
@@ -55,9 +55,7 @@ if($('#owl-logos-2')){
 
 if($('#owl-card-blog')){
     $('#owl-card-blog').owlCarousel({
-        //lazyLoad: true,
-        
-        itemClass: 'owl-item mx-5 mx-md-4 mx-xxl-3',        
+        itemClass: 'owl-item mx-5 mx-md-4 mx-xxl-3',
         responsive:{
             0:{
                 stageClass:'align-items-center d-flex p-5',
@@ -70,6 +68,14 @@ if($('#owl-card-blog')){
                 autoWidth: true
             },
             768:{
+                stageClass:'align-items-center d-flex mx-md-auto p-4',
+                items:2,
+                center:false,
+                loop:false,
+                nav:false,
+                margin:50,
+            },
+            992:{
                 stageClass:'align-items-center d-flex mx-md-auto p-4',
                 items:3,
                 center:false,

@@ -1,13 +1,14 @@
-nav.navbar.navbar-expand-lg.navbar-light.bg-white.border-bottom.pt-md-3.pb-md-1.fixed-top
-    .container.px-md-0
+nav.navbar.navbar-light.bg-white.border-bottom.pt-md-1.pb-md-1.fixed-top.navbar-expand-lg
+    .container-lg.px-md-0
         a.navbar-brand(href='./index.html') #[image(src="image/logo.svg")]
-        a(href="./login.html", rel="noopener noreferrer").multilanguage(data-lang-key="menu.login").start-session-m.d-block.d-md-none
-            | Iniciar Sesión
-        button.menu.navbar-toggler.border-0.button-toggle(onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))" aria-label='Main Menu' type='button' data-bs-toggle='collapse' data-bs-target='#navbarText').d-md-none.d-block
-            svg(width='35' height='35' viewBox='0 0 100 100')
-                path.line.line1(d='M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058')
-                path.line.line2(d='M 20,50 H 80')
-                path.line.line3(d='M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942')
+        div.d-flex.align-items-center
+            a(href="./login.html", rel="noopener noreferrer").multilanguage(data-lang-key="menu.login").start-session-m.d-block.d-lg-none.me-5
+                | Iniciar Sesión
+            button.menu.navbar-toggler.border-0.button-toggle(onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))" aria-label='Main Menu' type='button' data-bs-toggle='collapse' data-bs-target='#navbarText').d-lg-none.d-block
+                svg(width='35' height='35' viewBox='0 0 100 100')
+                    path.line.line1(d='M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058')
+                    path.line.line2(d='M 20,50 H 80')
+                    path.line.line3(d='M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942')
         #navbarText.collapse.navbar-collapse.ps-md-2
             ul.navbar-nav.me-auto.mb-2.mb-lg-0.ms-md-5.ps-md-4
                 li.nav-item
@@ -20,13 +21,13 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-white.border-bottom.pt-md-3.pb-md-1.
                     a.nav-link(href='./blog.html').multilanguage(data-lang-key="menu.blog")(class=menu.blog) Blog 
                 li.nav-item
                     a.nav-link(href='./ihunter.html').multilanguage(data-lang-key="menu.ihunter")(class=menu.ihunter) Ser iHunter
-                li.nav-item.pt-4.d-md-none.pb-5
+                li.nav-item.pt-4.d-lg-none.pb-5
                     a(type='button' data-bs-toggle='dropdown' aria-expanded='false', style="z-index:1", data-lang="").changeIdioma
                         img(src="image/icono-globo-m.svg", alt="", srcset="") 
                         span.ms-3 Español
-                li.nav-item.d-md-none.border-top.border-bottom.button-start-m
+                li.nav-item.d-lg-none.border-top.border-bottom.button-start-m
                     a.btn.btn-primary.my-5(href='./register.html').multilanguage(data-lang-key="menu.start") Empezar ahora
-                li.nav-item.d-md-none.mt-5.py-5
+                li.nav-item.d-lg-none.mt-5.py-5
                     a(href="https://cl.linkedin.com/company/ihuntplatform", target="_blank", rel="noopener noreferrer").pe-5
                         img(src="image/icono-linkedin-b.png", data-src="image/icono-linkedin-b-hover.png" alt="", srcset="").icono-social
                     a(href="https://www.instagram.com/ihunt.one/", target="_blank", rel="noopener noreferrer").px-5.mx-5
@@ -34,7 +35,7 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-white.border-bottom.pt-md-3.pb-md-1.
                     a(href="https://www.facebook.com/ihunt.one", target="_blank", rel="noopener noreferrer").ps-5
                         img(src="image/icono-facebook-b.png", data-src="image/icono-facebook-b-hover.png" alt="", srcset="").icono-social
  
-            span.navbar-text.d-none.d-md-block
+            span.navbar-text.d-none.d-lg-block.d-md-none
                 ul.navbar-nav.me-auto.mb-2.mb-lg-0.ms-md-5.align-items-center
                     li.nav-item
                         a.nav-link(aria-current='page' href='./login.html').multilanguage(data-lang-key="menu.login") Iniciar session

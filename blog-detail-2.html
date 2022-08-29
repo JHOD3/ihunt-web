@@ -8,25 +8,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>iHunt - Ser ihunter</title>
-    <link rel="stylesheet" href="css/ihunt.css?v=0.9">
-    <link rel="stylesheet" href="css/aos-dist.css?v=0.9">
-    <link rel="stylesheet" href="css/toggle-menu.css?v=0.9">
-    <link rel="stylesheet" href="css/style.css?v=0.9">
+    <link rel="stylesheet" href="css/ihunt.css?v=0.6">
+    <link rel="stylesheet" href="css/aos-dist.css?v=0.6">
+    <link rel="stylesheet" href="css/toggle-menu.css?v=0.6">
+    <link rel="stylesheet" href="css/style.css?v=0.6">
   </head>
-  <link rel="stylesheet" href="css/owl.carousel-dist.css">
-  <link rel="stylesheet" href="css/owl.theme.default-dist.css">
-  <link rel="stylesheet" href="css/owl.theme.green-dist.css">
+  <link rel="stylesheet" href="css/owl.carousel-dist.css?v=0.6">
+  <link rel="stylesheet" href="css/owl.theme.default-dist.css?v=0.6">
+  <link rel="stylesheet" href="css/owl.theme.green-dist.css?v=0.6">
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom pt-md-3 pb-md-1 fixed-top">
-      <div class="container px-md-0"><a class="navbar-brand" href="./index.html">
-          <image src="image/logo.svg"></image></a><a class="multilanguage start-session-m d-block d-md-none" href="./login.html" rel="noopener noreferrer" data-lang-key="menu.login">Iniciar Sesión</a>
-        <button class="menu navbar-toggler border-0 button-toggle d-md-none d-block" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))" aria-label="Main Menu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText">
-          <svg width="35" height="35" viewBox="0 0 100 100">
-            <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"></path>
-            <path class="line line2" d="M 20,50 H 80"></path>
-            <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942"></path>
-          </svg>
-        </button>
+    <nav class="navbar navbar-light bg-white border-bottom pt-md-1 pb-md-1 fixed-top navbar-expand-lg">
+      <div class="container-lg px-md-0"><a class="navbar-brand" href="./index.html">
+          <image src="image/logo.svg"></image></a>
+        <div class="d-flex align-items-center"><a class="multilanguage start-session-m d-block d-lg-none me-5" href="./login.html" rel="noopener noreferrer" data-lang-key="menu.login">Iniciar Sesión</a>
+          <button class="menu navbar-toggler border-0 button-toggle d-lg-none d-block" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))" aria-label="Main Menu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText">
+            <svg width="35" height="35" viewBox="0 0 100 100">
+              <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"></path>
+              <path class="line line2" d="M 20,50 H 80"></path>
+              <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942"></path>
+            </svg>
+          </button>
+        </div>
         <div class="collapse navbar-collapse ps-md-2" id="navbarText">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-md-5 ps-md-4">
             <li class="nav-item"><a class="nav-link multilanguage" aria-current="page" href="./index.html" data-lang-key="menu.home"> Home</a></li>
@@ -34,10 +36,10 @@
             <li class="nav-item"><a class="nav-link multilanguage" href="./platform.html" data-lang-key="menu.platform">La Plataforma</a></li>
             <li class="nav-item"><a class="nav-link multilanguage active" href="./blog.html" data-lang-key="menu.blog">Blog </a></li>
             <li class="nav-item"><a class="nav-link multilanguage" href="./ihunter.html" data-lang-key="menu.ihunter">Ser iHunter</a></li>
-            <li class="nav-item pt-4 d-md-none pb-5"><a class="changeIdioma" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="z-index:1" data-lang=""><img src="image/icono-globo-m.svg" alt="" srcset=""><span class="ms-3">Español</span></a></li>
-            <li class="nav-item d-md-none border-top border-bottom button-start-m"><a class="btn btn-primary my-5 multilanguage" href="./register.html" data-lang-key="menu.start">Empezar ahora</a></li>
-            <li class="nav-item d-md-none mt-5 py-5"><a class="pe-5" href="https://cl.linkedin.com/company/ihuntplatform" target="_blank" rel="noopener noreferrer"><img class="icono-social" src="image/icono-linkedin-b.png" data-src="image/icono-linkedin-b-hover.png" alt="" srcset=""></a><a class="px-5 mx-5" href="https://www.instagram.com/ihunt.one/" target="_blank" rel="noopener noreferrer"><img class="icono-social" src="image/icono-instagram-b.png" data-src="image/icono-instagram-b-hover.png" alt="" srcset=""></a><a class="ps-5" href="https://www.facebook.com/ihunt.one" target="_blank" rel="noopener noreferrer"><img class="icono-social" src="image/icono-facebook-b.png" data-src="image/icono-facebook-b-hover.png" alt="" srcset=""></a></li>
-          </ul><span class="navbar-text d-none d-md-block">
+            <li class="nav-item pt-4 d-lg-none pb-5"><a class="changeIdioma" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="z-index:1" data-lang=""><img src="image/icono-globo-m.svg" alt="" srcset=""><span class="ms-3">Español</span></a></li>
+            <li class="nav-item d-lg-none border-top border-bottom button-start-m"><a class="btn btn-primary my-5 multilanguage" href="./register.html" data-lang-key="menu.start">Empezar ahora</a></li>
+            <li class="nav-item d-lg-none mt-5 py-5"><a class="pe-5" href="https://cl.linkedin.com/company/ihuntplatform" target="_blank" rel="noopener noreferrer"><img class="icono-social" src="image/icono-linkedin-b.png" data-src="image/icono-linkedin-b-hover.png" alt="" srcset=""></a><a class="px-5 mx-5" href="https://www.instagram.com/ihunt.one/" target="_blank" rel="noopener noreferrer"><img class="icono-social" src="image/icono-instagram-b.png" data-src="image/icono-instagram-b-hover.png" alt="" srcset=""></a><a class="ps-5" href="https://www.facebook.com/ihunt.one" target="_blank" rel="noopener noreferrer"><img class="icono-social" src="image/icono-facebook-b.png" data-src="image/icono-facebook-b-hover.png" alt="" srcset=""></a></li>
+          </ul><span class="navbar-text d-none d-lg-block d-md-none">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-md-5 align-items-center">
               <li class="nav-item"><a class="nav-link multilanguage" aria-current="page" href="./login.html" data-lang-key="menu.login">Iniciar session</a></li>
               <li class="nav-item">
@@ -138,16 +140,16 @@
         </div>
       </div>
     </footer>
-    <script src="js/config.js?v=0.9"></script>
-    <script src="js/popper-dist.js?v=0.9"></script>
-    <script src="js/bootstrap.bundle-dist.js?v=0.9"></script>
-    <script src="js/lottie-player-dist.js?v=0.9"></script>
-    <script src="js/aos-dist.js?v=0.9"></script>
-    <script src="js/lottie.min-dist.js?v=0.9"></script>
-    <script src="js/lozad.min-dist.js?v=0.9"></script>
-    <script src="js/multilang-dist.js?v=0.9"></script>
-    <script src="js/jquery.min-dist.js"> </script>
-    <script src="js/owl.carousel.min-dist.js"></script>
-    <script src="js/main.js?v=0.9"></script>
+    <script src="js/config.js?v=0.6"></script>
+    <script src="js/popper-dist.js?v=0.6"></script>
+    <script src="js/bootstrap.bundle-dist.js?v=0.6"></script>
+    <script src="js/lottie-player-dist.js?v=0.6"></script>
+    <script src="js/aos-dist.js?v=0.6"></script>
+    <script src="js/lottie.min-dist.js?v=0.6"></script>
+    <script src="js/lozad.min-dist.js?v=0.6"></script>
+    <script src="js/multilang-dist.js?v=0.6"></script>
+    <script src="js/jquery.min-dist.js?v=0.6"></script>
+    <script src="js/owl.carousel.min-dist.js?v=0.6"></script>
+    <script src="js/main.js?v=0.6"></script>
   </body>
 </html>

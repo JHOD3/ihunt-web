@@ -1,42 +1,42 @@
-extends ../layouts/_login 
-block variables 
-    - 
+extends ../layouts/_login
+block variables
+    -
         var page = {
             title: 'iHunt - Login',
             description: 'En cuentra candidatos de valor de forma simple, economica y efectiva. Conoce el sistema que esta revolucionando la atracción de talento en toda la región.',
             keywords: "cuentra, economica, candidatos, efectiva, sistema, revolucionando, atracción, región",
             author: 'iHunt develop team'
-        }; 
+        };
 
 block style
     link(rel="stylesheet", href="css/owl.carousel-dist.css"+version)
     link(rel="stylesheet", href="css/owl.theme.default-dist.css"+version)
     link(rel="stylesheet", href="css/owl.theme.green-dist.css"+version)
-block content 
-    section#login-init
+block content
+    section#login-businnes-init
         .row
-            .col-md-6.px-md-0.mx-md-0.d-none.d-md-block  
-                img(src="image/login-img.png", alt="", srcset="").img-login
-            .col-md-6.px-md-0.mx-md-0.col-12 
+            .col-12.card-login
                 .login-header
-                    .col-md-10.mx-md-auto
-                        .border-bottom.py-md-5
+                    .row.border-bottom
+                        .col-6
+                            img.lozad(data-src="image/login-all-login-empresa.svg" data-type="image")
+                        .col-6
                             img(src="image/logo.svg")
+                            h3  Ingreso como empleador
                 .login-body
-                    .col-md-10.mx-md-auto
-                        h4.text-primary.mt-md-5.pt-md-.multilanguage(data-lang-key="login.title") Iniciar sesión
+                    .col-md-12.mx-md-auto
                         form(action="").mt-md-5.pt-md-3
                             div
-                                div.justify-content-between.d-flex     
+                                div.justify-content-between.d-flex
                                     label(for="").ps-md-4.ps-3.col-md-6  #[small.multilanguage(data-lang-key="login.email") EMAIL]
                                 input.form-control(type="email" name="email" placeholder="juanprueba@gmail.com")
                             div.mt-md-5(data-aos="fade-left", data-aos-duration="2000").input-password
-                                div.justify-content-between.d-flex 
-                                    //-label(for="").ps-md-4.ps-3.col-md-6  #[small Contraseña]   
+                                div.justify-content-between.d-flex
+                                    //-label(for="").ps-md-4.ps-3.col-md-6  #[small Contraseña]
                                 input.form-control(type="password" name="password" placeholder="Contraseña").multilanguage(data-lang-key="login.password")
-                                img(src="image/eyes-icon.png", alt="").view-password 
+                                img(src="image/eyes-icon.png", alt="").view-password
                             button(type="submit").btn.btn-primary.mt-md-5 Ingresar
-                            div.mt-md-4 
+                            div.mt-md-4
                                 a(href="").multilanguage(data-lang-key="login.recovery")  Recuperar contraseña
 
 

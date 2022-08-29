@@ -11,7 +11,7 @@
     "index": {
         "section-1":{
             "title":"Find <strong class=\"fw-bold\">valuable candidates</strong> in a simple, economic and effective way.",
-            "copy":"Learn about the system that is revolutionizing talent <br class=\"d-md-block d-none\"> attraction throughout the region.",
+            "copy":"Learn about the system that is revolutionizing talent <br class=\"d-lg-block d-none\"> attraction throughout the region.",
             "button":"I want a demo"
         },
         "section-2":{
@@ -35,7 +35,7 @@
             "item-4": "Countries"
         },
         "section-4":{
-            "title":"The best ally for Human<br class=\"d-md-block d-none\"> Resources and Talent<br class=\"d-md-block d-none\">  Attraction needs.",
+            "title":"The best ally for Human<br class=\"d-lg-block d-none\"> Resources and Talent<br class=\"d-lg-block d-none\">  Attraction needs.",
             "copi-1":"Meet your personnel selection objectives in a timely manner.",
             "copi-2":"iHunt helps you match high – potential candidates for your job openings.",
             "button":"I want a demo"
@@ -43,12 +43,12 @@
         "section-5":{
             "item-1":{
                 "title":"We solve the most important",
-                "copy":" We take care of <b>sourcing:</b> the most difficult and at the <br class=\"d-md-block d-none\">same time the most important aspect of talent attraction. "
+                "copy":" We take care of <b>sourcing:</b> the most difficult and at the <br class=\"d-lg-block d-none\">same time the most important aspect of talent attraction. "
             },
             "item-2":{
                 "title":"Active Sourcing",
-                "copy-1":"Multiply the quality of your selection processes through our<br class=\"d-md-block d-none\"> Active Sourcing system.",
-                "copy-2":"We combine  <b>artificial intelligence algorithms and<br class=\"d-md-block d-none\"> collaborative economies</b>, so you can obtain<br class=\"d-md-block d-none\"> a list of valuable candidates up to 10 times faster <br class=\"d-md-block d-none\">and more effectively than any other solution."
+                "copy-1":"Multiply the quality of your selection processes through our<br class=\"d-lg-block d-none\"> Active Sourcing system.",
+                "copy-2":"We combine  <b>artificial intelligence algorithms and<br class=\"d-lg-block d-none\"> collaborative economies</b>, so you can obtain<br class=\"d-lg-block d-none\"> a list of valuable candidates up to 10 times faster <br class=\"d-lg-block d-none\">and more effectively than any other solution."
             },
             "item-3":{
                 "title":"Regional Reach",
@@ -57,8 +57,8 @@
             },
             "item-4":{
                 "title":"Smart Filtering",
-                "copy-1":"Our algorithms allow us to speed up the candidates'<br class=\"d-md-block d-none\"> pre - selection process exponentially.  ",
-                "copy-2":"Your  company will save up to 30x time in identifying<br class=\"d-md-block d-none\"> valuable candidates."
+                "copy-1":"Our algorithms allow us to speed up the candidates'<br class=\"d-lg-block d-none\"> pre - selection process exponentially.  ",
+                "copy-2":"Your  company will save up to 30x time in identifying<br class=\"d-lg-block d-none\"> valuable candidates."
             },
             "button":"I want a demo"
         },
@@ -66,14 +66,14 @@
             "title": "Impacting the productivity of<br> <strong>+200 companies</strong>"
         },
         "section-7":{
-            "title":"Top talent is <br class=\"d-md-block d-none\"><span class=\"fw-bold\">8X times more productive.</span>",
+            "title":"Top talent is <br class=\"d-lg-block d-none\"><span class=\"fw-bold\">8X times more productive.</span>",
             "fecha":"McKinney, 2021",
             "copy":"Publishing your job offers on our platform will allow you<br class=\"d-md-none d-none\"> to find valuable <strong class=\"fw-bold\">candidates in a timely manner.</strong>",
             "button":"I want a demo"
         },
         "section-8":{
             "title":"#iHuntBlog",
-            "copy":"Every month we post new articles dealing with the most relevant<br class=\"d-md-block d-none\"> topics in the world of HRtech and talent attraction."
+            "copy":"Every month we post new articles dealing with the most relevant<br class=\"d-lg-block d-none\"> topics in the world of HRtech and talent attraction."
         },
         "testimonials": {
             "item-1": {
@@ -132,7 +132,7 @@
             }            
         },
         "section-4":{
-            "title":"At iHunt we are<br class=\"d-md-block d-none\"> committed <br class=\"d-md-block d-block\"> with quality",
+            "title":"At iHunt we are<br class=\"d-lg-block d-none\"> committed <br class=\"d-lg-block d-block\"> with quality",
             "copy-1":"That is why our iHunters get paid only when one of their candidates is selected by the client.",
             "copy-2":"<strong class=\"fw bold\">Each search lasts only 5 days,</strong> so very quickly, you will have the notification of how much you earned. That will be paid to you via bank transfer, Payoneer or Paypal, depending on your location."
         },
@@ -154,7 +154,7 @@
     "join-ihunter":{
         "section-1":{
             "title":"Join as iHunter!",
-            "copy":"Please, we ask you to complete all the data.<br class=\"d-md-block d-none\"> and we will contact you.",
+            "copy":"Please, we ask you to complete all the data.<br class=\"d-lg-block d-none\"> and we will contact you.",
             "email":"E-MAIL",
             "email_confirm":"CONFIRM YOUR EMAIL",
             "full-name":"Name and surname",
@@ -197,7 +197,7 @@
     "services":{
         "section-1":{
             "title":"Services",
-            "copy":"We are the most cost-effective alternative to attract talent.<br class=\"d-md-block d-none\">Choose the plan that best suits your needs:            ",
+            "copy":"We are the most cost-effective alternative to attract talent.<br class=\"d-lg-block d-none\">Choose the plan that best suits your needs:            ",
             "item-1":{
                 "title":"On-demand",
                 "copy":"For one job position",
@@ -261,17 +261,17 @@
     },
     "platform":{
         "section-1":{
-            "title":"The new door to <br class=\"d-md-block d-none\"> <strong class=\"fw-bold\">to talent sourcing</strong>",
-            "copy":"<strong class=\"fw-bold\"> Get to know the tool that can become </strong> <br class=\"d-md-block d-none\">your best ally for your next search for candidates."
+            "title":"The new door to <br class=\"d-lg-block d-none\"> <strong class=\"fw-bold\">to talent sourcing</strong>",
+            "copy":"<strong class=\"fw-bold\"> Get to know the tool that can become </strong> <br class=\"d-lg-block d-none\">your best ally for your next search for candidates."
         },
         "section-2":{
             "item-1":{
-                "title":"Fast loading and full <br class=\"d-md-block d-none\"> scontrol over all your searches.",
-                "copy-1":"With iHunt you publish your job offers on the platform in a very simple way. You have control of all your searches <br class=\"d-md-block d-none\">and the state in which they are..",
+                "title":"Fast loading and full <br class=\"d-lg-block d-none\"> scontrol over all your searches.",
+                "copy-1":"With iHunt you publish your job offers on the platform in a very simple way. You have control of all your searches <br class=\"d-lg-block d-none\">and the state in which they are..",
                 "copy-2":"You can also leave draft offers, and duplicate them in case of similar searches to save time in the description of the profiles."
             },
             "item-2":{
-                "title":"Go from a vacancy to a shortlist <br class=\"d-md-block d-none\"> of candidates in just 1 week.",
+                "title":"Go from a vacancy to a shortlist <br class=\"d-lg-block d-none\"> of candidates in just 1 week.",
                 "copy-1":"When you activate a search for your company through our platform, an active sourcing process immediately begins where +2,700 iHunters work to find the best candidates for each vacancy.",
                 "copy-2":"Simultaneously, the intelligent filtering process is activated enabling the best match between candidates and your search profile."
             },
@@ -282,18 +282,18 @@
             },
             "item-4":{
                 "title":"Adicionales de la plataforma",
-                "copy-1":"You can request in addition to the traditional process <br class=\"d-md-block d-none\"> the psychometric test service.",
-                "copy-2":"In addition, an Extended Warranty is available, <br class=\"d-md-block d-none\"> where the selection process is reiterated by adding 3 new <br class=\"d-md-block d-none\"> candidates to the search that was active."
+                "copy-1":"You can request in addition to the traditional process <br class=\"d-lg-block d-none\"> the psychometric test service.",
+                "copy-2":"In addition, an Extended Warranty is available, <br class=\"d-lg-block d-none\"> where the selection process is reiterated by adding 3 new <br class=\"d-lg-block d-none\"> candidates to the search that was active."
             }
         },
         "section-3":{
-            "title":"Let's revolutionize the <br class=\"d-md-block d-none\">talent attraction industry, together.",
+            "title":"Let's revolutionize the <br class=\"d-lg-block d-none\">talent attraction industry, together.",
             "button":"I want a demo"
         }
     },
     "blog":{
         "title":"#iHuntBlog",
-        "copy":"Everything you need to optimize your Recruitment and Selection processes.<br class=\"d-md-block d-none\"> Here we give you some practical tools that can be useful for your talent attraction challenges.",
+        "copy":"Everything you need to optimize your Recruitment and Selection processes.<br class=\"d-lg-block d-none\"> Here we give you some practical tools that can be useful for your talent attraction challenges.",
         "button":"Show me more notes"
     },
     "footer":{
@@ -314,7 +314,7 @@
     },
     "register":{
         "title":"Register",
-        "copy":"Enter the email with which you want to register with iHunt. The password <br class=\"d-md-block d-none\">  must have at least 8 characters, lowercase, uppercase <br class=\"d-md-block d-none\"> and at least one number.",
+        "copy":"Enter the email with which you want to register with iHunt. The password <br class=\"d-lg-block d-none\">  must have at least 8 characters, lowercase, uppercase <br class=\"d-lg-block d-none\"> and at least one number.",
         "email":"E-mail",
         "password":"Password",
         "password_confirm":"Repeat password",

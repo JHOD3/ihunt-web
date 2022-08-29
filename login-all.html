@@ -7,7 +7,7 @@
     <meta name="author" content="iHunt develop team">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>iHunt - Ser ihunter</title>
+    <title>iHunt - Login</title>
     <link rel="stylesheet" href="css/ihunt.css?v=0.6">
     <link rel="stylesheet" href="css/aos-dist.css?v=0.6">
     <link rel="stylesheet" href="css/toggle-menu.css?v=0.6">
@@ -33,7 +33,7 @@
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-md-5 ps-md-4">
             <li class="nav-item"><a class="nav-link multilanguage" aria-current="page" href="./index.html" data-lang-key="menu.home"> Home</a></li>
             <li class="nav-item"><a class="nav-link multilanguage" href="./services.html" data-lang-key="menu.service"> Servicios</a></li>
-            <li class="nav-item"><a class="nav-link multilanguage active" href="./platform.html" data-lang-key="menu.platform">La Plataforma</a></li>
+            <li class="nav-item"><a class="nav-link multilanguage" href="./platform.html" data-lang-key="menu.platform">La Plataforma</a></li>
             <li class="nav-item"><a class="nav-link multilanguage" href="./blog.html" data-lang-key="menu.blog">Blog </a></li>
             <li class="nav-item"><a class="nav-link multilanguage" href="./ihunter.html" data-lang-key="menu.ihunter">Ser iHunter</a></li>
             <li class="nav-item pt-4 d-lg-none pb-5"><a class="changeIdioma" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="z-index:1" data-lang=""><img src="image/icono-globo-m.svg" alt="" srcset=""><span class="ms-3">Español</span></a></li>
@@ -63,78 +63,35 @@
       </div>
     </nav>
     <main>
-      <section id="platform-section-init">
-        <div class="container mx-auto col-md-12">
-          <div class="lottie-player mt-md-5 d-md-block d-none" data-animation-path="image/animaciones/animacion-iman-perfiles/data.json" data-loop-start="473" data-loop-end="625"></div><img class="animacion-iman-perfiles-img d-md-none" src="image/animacion-iman-perfiles-m.png" alt="">
-          <div>  
-            <h1 class="text-center text-primary multilanguage" data-lang-key="platform.section-1.title">
-              La puerta hacia un<br class="d-lg-block d-none"> <strong class="fw-bold">nuevo sourcing de talento</strong></h1>
-            <p class="text-center multilanguage mt-5" data-lang-key="platform.section-1.copy"><strong class="fw-bold"> El mundo cambió y así la identificación de talento.</strong> <br class="d-lg-block d-none">Conoce la herramienta que puede convertirse en tu mejor aliado para tu  <br class="d-lg-block d-none">
-              próxima búsqueda de candidatos.
-            </p>
+      <section class="d-flex" id="login-all-init">
+        <div class="container">
+          <div class="login-header">
+            <h1 class="text-center text-primary multilanguage" data-lang-key="login-all.title">Inicio de sesión</h1>
+            <p class="text-center multilanguage" data-lang-key="login-all.copy">Selecciona como ingresar a la plataforma:</p>
           </div>
-        </div><img src="image/platform-section-init-img-test.svg">
-      </section>
-      <section class="mt-md-5 pt-md-5 container-lg contain-layout content-placa" id="platform-section-3">
-        <div class="row row-cols-md-2 row-cols-1 align-items-center">
-          <div class="col order-md-1 order-2" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">
-            <div class="col-md-10 ms-md-auto">
-              <h2 class="text-primary font-1-55-em multilanguage" data-lang-key="platform.section-2.item-1.title">  Carga veloz y control total <br class="d-lg-block d-none"> sobre todas tus búsquedas</h2>
-              <p class="mt-md-4 pt-md-2 text-primary multilanguage" data-lang-key="platform.section-2.item-1.copy-1">  Con iHunt publicas tus ofertas de empleo de forma simple <br class="d-lg-block d-none"> desde la plataforma. Tienes el control de todas tus búsquedas <br class="d-lg-block d-none"> y el estado en que se encuentran.</p>
-              <p class="multilanguage" data-lang-key="platform.section-2.item-1.copy-2">   Además puedes dejar ofertas en borrador, y duplicar las <br class="d-lg-block d-none"> mismas en caso de búsquedas similares para ahorrarte <br class="d-lg-block d-none"> tiempo en la descripción de los perfiles.</p>
+          <div class="login-body row row-cols-md-2 row-cols-1 grid-como-funciona pb-md-5 col-md-10 mx-md-auto">
+            <div class="col my-md-3">
+              <div class="card align-items-center d-grid">
+                <div class="row mt-md-4">
+                  <div class="col-md-5 col-5"><img class="lozad" data-src="image/login-all-login-empresa.svg" data-type="image"></div>
+                  <div class="col-md-7 col-7">
+                    <h5 class="multilanguage" data-lang-key="ihunter.section-3.item-1.title">Empresa</h5>
+                    <p class="multilanguage" data-lang-key="ihunter.section-3.item-1.copy">Si estás registrado como <br class="d-md-block d-none"> empresa, ingresa aquí</p><a class="btn btn-primary">Entrar como empresa</a>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="col order-md-2 order-1">
-            <div class="col-md-10 ms-md-auto ps-md-5">
-              <div class="lozad platform-animacion-1" data-src="image/animaciones/lf20_en8v4njq.json" data-src-en="image/animations/placa-1/data.json" data-type="lottiefiles" data-name="placa1"></div>
+            <div class="col my-md-3">
+              <div class="card align-items-center d-grid">
+                <div class="row mt-md-4">
+                  <div class="col-md-5 col-5"><img class="lozad" data-src="image/login-all-login-ihunter.svg" data-type="image"></div>
+                  <div class="col-md-7 col-7">
+                    <h5 class="multilanguage" data-lang-key="ihunter.section-3.item-2.title">iHunter</h5>
+                    <p class="multilanguage" data-lang-key="ihunter.section-3.item-2.copy">Si estás registrado como <br class="d-md-block d-none"> iHunter, ingresa aquí</p><a class="btn btn-primary">Entrar como iHunter</a>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <embed class="img-linea-1 d-md-block d-none" src="image/linea-1.svg" alt="" srcset="">
-        <div class="row row-cols-md-2 row-cols-1 align-items-center order-md-1 order-1">
-          <div class="col-md-5 col order-3 order-md-1">
-            <div class="lozad platform-animacion-2" data-src="image/animaciones/placa-2.json" data-type="lottiefiles" data-name="placa2" data-loop-start="324" data-loop-end="625"></div>
-          </div>
-          <div class="col-md-1 d-md-flex d-none order-md-2 order-2"> </div>
-          <div class="col-md-6 col order-3 order-md-3" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">
-            <h2 class="text-primary multilanguage" data-lang-key="platform.section-2.item-2.title"> Pasa de una oferta a una shortlist <br class="d-lg-block d-none"> de candidatos valiosos en 1 semana.</h2>
-            <p class="mt-md-4 pt-md-2 text-primary multilanguage" data-lang-key="platform.section-2.item-2.copy-1"> Cuando activas una búsqueda de vacante de tu empresa a  <br class="d-lg-block d-none"> través de nuestra plataforma, inmediatamente comienza un  <br class="d-lg-block d-none">proceso de sourcing activo donde +2500 iHunters trabajan en  <br class="d-lg-block d-none"> pos de encontrar los mejores candidatos para cada vacante.</p>
-            <p class="multilanguage" data-lang-key="platform.section-2.item-2.copy-2">  En simultáneo se activa el proceso de filtrado inteligente con <br class="d-lg-block d-none"> nuestros algoritmos de Inteligencia Artificial para lograr el <br class="d-lg-block d-none"> mejor match con tu búsqueda.</p>
-          </div>
-        </div>
-        <embed class="img-linea-2 d-md-block d-none" src="image/linea-2.svg" alt="" srcset="">
-        <div class="row row-cols-md-2 row-cols-1 align-items-center">
-          <div class="col order-md-1 order-2" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">
-            <div class="col-md-10 ms-md-auto">
-              <h2 class="text-primary multilanguage" data-lang-key="platform.section-2.item-3.title"> Proceso transparente y efectivo</h2>
-              <p class="mt-md-4 pt-md-2 text-primary multilanguage" data-lang-key="platform.section-2.item-3.copy-1">  En un tiempo medio por proceso de 5 días hábiles descubrirás <br class="d-lg-block d-none"> un antes y un después en la adquisición de talento.</p>
-              <p class="multilanguage" data-lang-key="platform.section-2.item-3.copy-2">  Se te notificará cuando se activa la lista larga de candidatos.<br class="d-lg-block d-none"> En ese momento ya podrás ir seleccionando tus candidatos <br class="d-lg-block d-none"> de valor. Finalmente te encontrarás desplegada la lista corta <br class="d-lg-block d-none"> en tu plataforma con los candidatos idóneos para tu <br class="d-lg-block d-none"> búsqueda.</p>
-            </div>
-          </div>
-          <div class="col order-md-2 order-1">
-            <div class="col-md-10 ms-md-auto ps-md-5">
-              <div class="lozad platform-animacion-3" data-src="image/animaciones/placa-3.json" data-type="lottiefiles" data-name="placa3"></div>
-            </div>
-          </div>
-        </div>
-        <embed class="img-linea-3 d-md-block d-none" src="image/linea-1.svg" alt="" srcset="">
-        <div class="row row-cols-md-2 row-cols-1 align-items-center">
-          <div class="col-md-5 col order-1 order-md-1">
-            <div class="lozad platform-animacion-4" data-src="image/animaciones/placa-4.json" data-type="lottiefiles" data-name="placa4"></div>
-          </div>
-          <div class="col-md-1 d-md-flex d-none order-md-2 order-2"> </div>
-          <div class="col-md-6 col order-3 order-md-3" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">
-            <h2 class="text-primary multilanguage" data-lang-key="platform.section-2.item-4.title"> Adicionales de la plataforma</h2>
-            <p class="mt-md-4 pt-md-2 text-primary multilanguage" data-lang-key="platform.section-2.item-4.copy-1"> Se puede solicitar adicionalmente al proceso tradicional <br class="d-lg-block d-none"> diferentes extras como Tests Psicométricos, validaciones de <br class="d-lg-block d-none"> identidad y Public Background Reports.</p>
-            <p class="multilanguage" data-lang-key="platform.section-2.item-4.copy-2">  Además se encuentra disponible una Garantía Extendida, <br class="d-lg-block d-none"> donde se reitera el proceso de selección sumando 3 nuevos <br class="d-lg-block d-none"> candidatos a la búsqueda que se encontraba activa.</p>
-          </div>
-        </div>
-      </section>
-      <section class="pb-md-5 d-md-flex justify-content-center align-items-center d-none" id="platform-section-2">
-        <div class="container px-md-0 mt-md-n3 px-0"><img src="image/platform-section-2-img.png" alt="" srcset=""></div>
-        <div class="container position-absolute mx-auto absolute-center">
-          <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">
-            <h2 class="text-primary text-center font-2-2-em-md font-1-8-em pb-5 multilanguage" data-lang-key="platform.section-3.title">Revolucionemos la industria de la <br class="d-lg-block d-none"> atracción de talento, juntos.</h2><a class="btn btn-primary mx-auto d-table mt-md-5 mt-5 multilanguage" href="http://" data-lang-key="platform.section-3.button">Quiero una demo          </a>
           </div>
         </div>
       </section>

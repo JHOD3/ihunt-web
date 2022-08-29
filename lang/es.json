@@ -11,7 +11,7 @@
     "index": {
         "section-1":{
             "title":"Encuentra <strong class=\"fw-bold\">candidatos de <br>valor </strong> de forma simple,<br> económica y efectiva",
-            "copy":"Conoce el sistema que esta revolucionando la <br class=\"d-md-block d-none\"> atracción de talento en toda la región.",
+            "copy":"Conoce el sistema que esta revolucionando la <br class=\"d-lg-block d-none\"> atracción de talento en toda la región.",
             "button":"Quiero una demo"
         },
         "section-2":{
@@ -35,7 +35,7 @@
             "item-4": "Países"
         },
         "section-4":{
-            "title":"El mejor aliado de los<br class=\"d-md-block d-none\"> departamentos de <br class=\"d-md-block d-none\"> Recursos Humanos",
+            "title":"El mejor aliado de los<br class=\"d-lg-block d-none\"> departamentos de <br class=\"d-lg-block d-none\"> Recursos Humanos",
             "copi-1":"Cumple con tus objetivos de selección de personal en tiempo y forma.",
             "copi-2":"iHunt te ayuda a hacer match con candidatos de alto potencial para tus vacantes.",
             "button":"Quiero una demo"
@@ -43,22 +43,22 @@
         "section-5":{
             "item-1":{
                 "title":"Resolvemos lo más importante",
-                "copy":" Nos hacemos cargo del <b>sourcing:</b> lo mas difícil y a la vez lo <br class=\"d-md-block d-none\"> mas importante de la atracción de talento."
+                "copy":" Nos hacemos cargo del <b>sourcing:</b> lo mas difícil y a la vez lo <br class=\"d-lg-block d-none\"> mas importante de la atracción de talento."
             },
             "item-2":{
                 "title":"Sourcing Activo",
-                "copy-1":"Multiplica la calidad de tus procesos de selección a <br class=\"d-md-block d-none\"> través de nuestro sistema de Sourcing Activo.",
-                "copy-2":"Combinamos algoritmos de <b>Inteligencia Artificial y<br class=\"d-md-block d-none\"> Economías Colaborativas,</b> para que puedas obtener <br class=\"d-md-block d-none\"> una lista de candidatos de valor hasta 10 veces más <br class=\"d-md-block d-none\"> rápida y efectiva."
+                "copy-1":"Multiplica la calidad de tus procesos de selección a <br class=\"d-lg-block d-none\"> través de nuestro sistema de Sourcing Activo.",
+                "copy-2":"Combinamos algoritmos de <b>Inteligencia Artificial y<br class=\"d-lg-block d-none\"> Economías Colaborativas,</b> para que puedas obtener <br class=\"d-lg-block d-none\"> una lista de candidatos de valor hasta 10 veces más <br class=\"d-lg-block d-none\"> rápida y efectiva."
             },
             "item-3":{
                 "title":"Alcance regional",
-                "copy-1":"Encuentra el mejor talento para tus ofertas de empleo <br class=\"d-md-block d-none\"> <b>sin importar</b> dónde.",
+                "copy-1":"Encuentra el mejor talento para tus ofertas de empleo <br class=\"d-lg-block d-none\"> <b>sin importar</b> dónde.",
                 "copy-2":"Tenemos cobertura efectiva en toda la región."
             },
             "item-4":{
                 "title":"Filtrado inteligente",
-                "copy-1":"Nuestros algoritmos permiten acelerar el proceso <br class=\"d-md-block d-none\"> de preselección de candidatos de manera <br class=\"d-md-block d-none\"> exponencial.",
-                "copy-2":"<b>Tu empresa ahorrará hasta 30x de tiempo</b> en <br class=\"d-md-block d-none\"> identificar candidatos de valor."
+                "copy-1":"Nuestros algoritmos permiten acelerar el proceso <br class=\"d-lg-block d-none\"> de preselección de candidatos de manera <br class=\"d-lg-block d-none\"> exponencial.",
+                "copy-2":"<b>Tu empresa ahorrará hasta 30x de tiempo</b> en <br class=\"d-lg-block d-none\"> identificar candidatos de valor."
             },
             "button":"Quiero una demo"
         },
@@ -66,14 +66,14 @@
             "title": "Impactando en la productividad de<br> <strong> +200 compañías</strong>"
         },
         "section-7":{
-            "title":"El talento superior es hasta <br class=\"d-md-block d-none\"><span class=\"fw-bold\">8X más productivo</span>",
+            "title":"El talento superior es hasta <br class=\"d-lg-block d-none\"><span class=\"fw-bold\">8X más productivo</span>",
             "fecha":"McKinney, 2021",
             "copy":"Publicando tus ofertas de empleo en nuestra plataforma permitirá que <br class=\"d-md-none d-none\"> encuentres <strong class=\"fw-bold\">candidatos de valor en tiempo y forma.  en tiempo y forma.</strong>",
             "button":"Quiero una demo"
         },
         "section-8":{
             "title":"#iHuntBlog",
-            "copy":"Todos los meses nuevos artículos sobre las temáticas más <br class=\"d-md-block d-none\"> relevantes del mundo de los RRHH y la atracción de talento."
+            "copy":"Todos los meses nuevos artículos sobre las temáticas más <br class=\"d-lg-block d-none\"> relevantes del mundo de los RRHH y la atracción de talento."
         },
         "testimonials": {
             "item-1": {
@@ -132,7 +132,7 @@
             }            
         },
         "section-4":{
-            "title":"En iHunt nos <br class=\"d-md-block d-none\"> comprometemos <br class=\"d-md-block d-block\"> con la calidad",
+            "title":"En iHunt nos <br class=\"d-lg-block d-none\"> comprometemos <br class=\"d-lg-block d-block\"> con la calidad",
             "copy-1":"Es por ello, que nuestros iHunters reciben el pago sólo cuando uno de sus candidatos es pre-seleccionado y presentado al cliente.",
             "copy-2":"<strong class=\"fw bold\">Los procesos duran sólo 5 días,</strong> por lo que de manera muy rápida, tendrás la notificación de cuánto ganaste. Lo que te será pagado vía transferencia bancaria, Payoneer o Paypal, dependiendo de tu ubicación."
         },
@@ -152,7 +152,7 @@
     "join-ihunter":{
             "section-1":{
                 "title":"¡Súmate como iHunter!",
-                "copy":"Por favor te solicitamos completar todos los datos <br class=\"d-md-block d-none\"> y nos podremos en contacto.",
+                "copy":"Por favor te solicitamos completar todos los datos <br class=\"d-lg-block d-none\"> y nos podremos en contacto.",
                 "email":"EMAIL",
                 "email_confirm":"CONFIRMA TU EMAIL",
                 "full-name":"Nombre y apellido",
@@ -195,7 +195,7 @@
     "services":{
         "section-1":{
             "title":"Servicios",
-            "copy":"Somos la alternativa más costo-efectiva para atraer talento​. <br class=\"d-md-block d-none\">Escoge el plan que mejor se adapte a tus necesidades:",
+            "copy":"Somos la alternativa más costo-efectiva para atraer talento​. <br class=\"d-lg-block d-none\">Escoge el plan que mejor se adapte a tus necesidades:",
             "item-1":{
                 "title":"On-demand",
                 "copy":"Por cada búsqueda",
@@ -259,39 +259,39 @@
     },
     "platform":{
         "section-1":{
-            "title":"La puerta hacia un<br class=\"d-md-block d-none\"> <strong class=\"fw-bold\">nuevo<br class=\"d-md-none d-block\"> sourcing de talento</strong>",
-            "copy":"<strong class=\"fw-bold\"> El mundo cambió y así la identificación de talento.</strong> <br class=\"d-md-block d-none\">Conoce la herramienta que puede convertirse en tu mejor aliado para tu  <br class=\"d-md-block d-none\"> próxima búsqueda de candidatos."
+            "title":"La puerta hacia un<br class=\"d-lg-block d-none\"> <strong class=\"fw-bold\">nuevo<br class=\"d-md-none d-block\"> sourcing de talento</strong>",
+            "copy":"<strong class=\"fw-bold\"> El mundo cambió y así la identificación de talento.</strong> <br class=\"d-lg-block d-none\">Conoce la herramienta que puede convertirse en tu mejor aliado para tu  <br class=\"d-lg-block d-none\"> próxima búsqueda de candidatos."
         },
         "section-2":{
             "item-1":{
-                "title":"Carga veloz y control total <br class=\"d-md-block d-none\"> sobre todas tus búsquedas",
-                "copy-1":"Con iHunt publicas tus ofertas de empleo de forma simple <br class=\"d-md-block d-none\"> desde la plataforma. Tienes el control de todas tus búsquedas <br class=\"d-md-block d-none\"> y el estado en que se encuentran.",
-                "copy-2":"Además puedes dejar ofertas en borrador, y duplicar las <br class=\"d-md-block d-none\"> mismas en caso de búsquedas similares para ahorrarte <br class=\"d-md-block d-none\"> tiempo en la descripción de los perfiles."
+                "title":"Carga veloz y control total <br class=\"d-lg-block d-none\"> sobre todas tus búsquedas",
+                "copy-1":"Con iHunt publicas tus ofertas de empleo de forma simple <br class=\"d-lg-block d-none\"> desde la plataforma. Tienes el control de todas tus búsquedas <br class=\"d-lg-block d-none\"> y el estado en que se encuentran.",
+                "copy-2":"Además puedes dejar ofertas en borrador, y duplicar las <br class=\"d-lg-block d-none\"> mismas en caso de búsquedas similares para ahorrarte <br class=\"d-lg-block d-none\"> tiempo en la descripción de los perfiles."
             },
             "item-2":{
-                "title":"Pasa de una oferta a una shortlist <br class=\"d-md-block d-none\"> de candidatos valiosos en 1 semana.",
-                "copy-1":"Cuando activas una búsqueda de vacante de tu empresa a  <br class=\"d-md-block d-none\"> través de nuestra plataforma, inmediatamente comienza un  <br class=\"d-md-block d-none\">proceso de sourcing activo donde +2500 iHunters trabajan en  <br class=\"d-md-block d-none\"> pos de encontrar los mejores candidatos para cada vacante.",
-                "copy-2":"En simultáneo se activa el proceso de filtrado inteligente con <br class=\"d-md-block d-none\"> nuestros algoritmos de Inteligencia Artificial para lograr el <br class=\"d-md-block d-none\"> mejor match con tu búsqueda."
+                "title":"Pasa de una oferta a una shortlist <br class=\"d-lg-block d-none\"> de candidatos valiosos en 1 semana.",
+                "copy-1":"Cuando activas una búsqueda de vacante de tu empresa a  <br class=\"d-lg-block d-none\"> través de nuestra plataforma, inmediatamente comienza un  <br class=\"d-lg-block d-none\">proceso de sourcing activo donde +2500 iHunters trabajan en  <br class=\"d-lg-block d-none\"> pos de encontrar los mejores candidatos para cada vacante.",
+                "copy-2":"En simultáneo se activa el proceso de filtrado inteligente con <br class=\"d-lg-block d-none\"> nuestros algoritmos de Inteligencia Artificial para lograr el <br class=\"d-lg-block d-none\"> mejor match con tu búsqueda."
             },
             "item-3":{
                 "title":"Proceso transparente y efectivo",
-                "copy-1":"En un tiempo medio por proceso de 5 días hábiles descubrirás <br class=\"d-md-block d-none\"> un antes y un después en la adquisición de talento.",
-                "copy-2":"Se te notificará cuando se activa la lista larga de candidatos.<br class=\"d-md-block d-none\"> En ese momento ya podrás ir seleccionando tus candidatos <br class=\"d-md-block d-none\"> de valor. Finalmente te encontrarás desplegada la lista corta <br class=\"d-md-block d-none\"> en tu plataforma con los candidatos idóneos para tu <br class=\"d-md-block d-none\"> búsqueda."
+                "copy-1":"En un tiempo medio por proceso de 5 días hábiles descubrirás <br class=\"d-lg-block d-none\"> un antes y un después en la adquisición de talento.",
+                "copy-2":"Se te notificará cuando se activa la lista larga de candidatos.<br class=\"d-lg-block d-none\"> En ese momento ya podrás ir seleccionando tus candidatos <br class=\"d-lg-block d-none\"> de valor. Finalmente te encontrarás desplegada la lista corta <br class=\"d-lg-block d-none\"> en tu plataforma con los candidatos idóneos para tu <br class=\"d-lg-block d-none\"> búsqueda."
             },
             "item-4":{
                 "title":"Adicionales de la plataforma",
-                "copy-1":"Se puede solicitar adicionalmente al proceso tradicional <br class=\"d-md-block d-none\"> el servicio de Tests Psicométricos.",
-                "copy-2":"Además se encuentra disponible una Garantía Extendida, <br class=\"d-md-block d-none\"> donde se reitera el proceso de selección sumando 3 nuevos <br class=\"d-md-block d-none\"> candidatos a la búsqueda que se encontraba activa."
+                "copy-1":"Se puede solicitar adicionalmente al proceso tradicional <br class=\"d-lg-block d-none\"> el servicio de Tests Psicométricos.",
+                "copy-2":"Además se encuentra disponible una Garantía Extendida, <br class=\"d-lg-block d-none\"> donde se reitera el proceso de selección sumando 3 nuevos <br class=\"d-lg-block d-none\"> candidatos a la búsqueda que se encontraba activa."
             }
         },
         "section-3":{
-            "title":"Revolucionemos la industria de la <br class=\"d-md-block d-none\"> atracción de talento, juntos.",
+            "title":"Revolucionemos la industria de la <br class=\"d-lg-block d-none\"> atracción de talento, juntos.",
             "button":"Quiero una demo"
         }
     },
     "blog":{
         "title":"#iHuntBlog",
-        "copy":"Todo lo que necesitas para optimizar tus procesos de Reclutamiento y <br class=\"d-md-block d-none\"> Selección. Aquí te entregamos algunas herramientas prácticas que pueden  <br class=\"d-md-block d-none\">ser útiles para tus desafíos de atracción de talento.",
+        "copy":"Todo lo que necesitas para optimizar tus procesos de Reclutamiento y <br class=\"d-lg-block d-none\"> Selección. Aquí te entregamos algunas herramientas prácticas que pueden  <br class=\"d-lg-block d-none\">ser útiles para tus desafíos de atracción de talento.",
         "button":"Mostrar más notas"
     },
     "footer":{
@@ -312,7 +312,7 @@
     },
     "register":{
         "title":"Registrarme",
-        "copy":"Ingresa el email con el que quieres registrarte y la contraseña. <br class=\"d-md-block d-none\">La misma debe tener al menos 8 caracteres, minúscula, mayúscula y al<br class=\"d-md-block d-none\"> menos un número.",
+        "copy":"Ingresa el email con el que quieres registrarte y la contraseña. <br class=\"d-lg-block d-none\">La misma debe tener al menos 8 caracteres, minúscula, mayúscula y al<br class=\"d-lg-block d-none\"> menos un número.",
         "email":"EMAIL",
         "password":"Contraseña",
         "password_confirm":"Repetir contraseña",
